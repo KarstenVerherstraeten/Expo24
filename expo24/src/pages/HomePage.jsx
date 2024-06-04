@@ -1,14 +1,13 @@
 import Timer from "../components/Timer";
 
-function Activities() {
+function HomePage() {
 	return (
 		<div>
 			<h2>Navigation</h2>
-			<p>Activiteiten</p>
-
+			<p>Home</p>
 			<Timer></Timer>
 		</div>
 	);
 }
 
-export default Activities;
+export default HomePage;

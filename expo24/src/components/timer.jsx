@@ -5,7 +5,7 @@
 
 const Timer = () => {
 
-var countDownDate = new Date("jun 21, 2024 15:37:25").getTime();
+var countDownDate = new Date("jun 21, 2024 17:00:00").getTime();
 
 var x = setInterval(function() {
     var now = new Date().getTime();
@@ -20,7 +20,7 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "Event over ";
+    document.getElementById("timer").innerHTML = "Event over";
   }
 }, 1000);
 

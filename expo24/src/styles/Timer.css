@@ -53,19 +53,22 @@
 @media screen and (max-width: 650px) {
 	.thin-line {
 		padding: 0; /* Aanpassing van de padding voor kleinere schermen */
-		font-size: 2em;
+		font-size: 3em;
+		margin-top: 50px;
 	}
 	.Time h2 {
 		font-size: 5px;
 	}
 	.bold-text {
-		font-size: 60px; /* Grootte van de cijfers */
+		font-size: 50px; /* Grootte van de cijfers */
 	}
 	.time-block {
 		margin: 0;
+		padding: 0;
+		width: 80px;
 	}
 	#timer {
-		font-size: 12px;
+		font-size: 10px;
 	}
 }
 
@@ -81,8 +84,7 @@
 	}
 	.thin-line {
 		font-size: 3em;
-		vertical-align: middle;
-		margin-bottom: 90px;
+		margin-top: 50px;
 	}
 	.time-block {
 		margin: 0;

@@ -1,52 +1,60 @@
+body {
+    color: white;
+    background-image: url('../assets/BackgroundImage.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .form-title {
-    font-family: "objektiv-mk1", sans-serif;
-    font-weight: 700;
-    font-style: bold;
+	font-family: "objektiv-mk1", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	text-align: center;
 }
 
 .form-group select {
 	font-family: "objektiv-mk1", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .name-forname .form-group:nth-child(2) {
-    margin-left: 20px; 
+	margin-left: 20px;
 }
 
 .email-numberofpeople .form-group:nth-child(2) {
-    margin-left: 20px; 
+	margin-left: 20px;
 }
 
 .form-container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #2a2121;
+    transform: scale(0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2); 
 }
 
 .name-forname,
 .email-numberofpeople {
-    display: flex;
-    gap: 10px; 
+	display: flex;
+	gap: 10px;
 }
 
 form {
-    padding: 0;
+	padding: 0;
 }
 
 .form-group {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    font-family: "objektiv-mk1", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+	display: block;
+	font-weight: bold;
+	font-family: "objektiv-mk1", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 input[type="text"],
@@ -54,28 +62,31 @@ input[type="email"],
 input[type="number"],
 select,
 button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
 }
 
 button {
     display: block;
     border: none;
     background-color: #ed1c24;
-    color: #fff;
+    color: white;
     cursor: pointer;
     font-family: "objektiv-mk1", sans-serif;
     font-weight: 700;
     font-style: bold;
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 button:hover {
-    background-color: #c31016;
+    background-color: #c31016; 
+    transform: scale(1.02); 
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.1); 
 }
-
-

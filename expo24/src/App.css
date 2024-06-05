@@ -71,6 +71,12 @@ body{
 	
   }
 
+#timer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
   .information{
 	display: flex;
 	justify-content: space-evenly;

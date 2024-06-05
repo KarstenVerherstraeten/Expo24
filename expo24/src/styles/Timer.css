@@ -1,35 +1,76 @@
 .bold-text {
 	font-weight: bold;
 	line-height: 1;
+	font-size: 100px; /* Grootte van de cijfers */
+}
+
+#time-blocks {
+	display: flex;
+	justify-content: space-around; /* Verdelen van de tijdvakken over de beschikbare ruimte */
+	margin-top: 20px; /* Ruimte boven de tijdvakken */
+	align-items: center;
+}
+
+.time-block {
+	text-align: center;
+	margin: 20px;
 }
 
 .thin-line {
 	font-weight: lighter;
-	font-size: 0.5em;
+	font-size: 3em;
 	vertical-align: middle;
 	line-height: 1;
-	padding: 40px;
+	padding: 0 20px; /* Aanpassing van de padding voor de streepjes */
+	margin-left: 30px;
+	margin-bottom: 90px;
 }
 
 #timer {
-	font-size: 100px;
+	font-size: 20px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
-@media screen and (max-width: 500px) {
-	#timer {
-		font-size: 40px;
-	}
+
+@media screen and (max-width: 600px) {
 	.thin-line {
-		padding: 20px;
+		padding: 0; /* Aanpassing van de padding voor kleinere schermen */
+		font-size: 1em;
+	}
+	.Time h2 {
+		font-size: 5px;
+	}
+	.bold-text {
+		font-size: 60px; /* Grootte van de cijfers */
+	}
+	.time-block {
+		margin: 0;
+	}
+	#timer {
+		font-size: 12px;
 	}
 }
 
-@media screen and (min-width: 501px) and (max-width: 800px) {
-	#timer {
-		font-size: 60px;
+@media screen and (min-width: 601px) and (max-width: 800px) {
+	.thin-line {
+		padding: 0; /* Aanpassing van de padding voor schermen tussen 501px en 800px */
+	}
+	.Time h2 {
+		font-size: 15px;
+	}
+	.bold-text {
+		font-size: 70px; /* Grootte van de cijfers */
 	}
 	.thin-line {
-		padding: 30px;
+		font-size: 1em;
+		vertical-align: middle;
+		line-height: 1;
+		padding: 0 20px; /* Aanpassing van de padding voor de streepjes */
+		margin-left: 30px;
+		margin-bottom: 90px;
+	}
+	.time-block {
+		margin: 0;
 	}
 }

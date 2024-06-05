@@ -4,7 +4,7 @@ import "../styles/Inschrijving.css";
 function Inschrijving() {
 	return (
 		<div className="form-container">
-			<h2 className="form-title">Inschrijving EXPO.24</h2>
+			<h2 className="form-title">Inschrijving</h2>
 			<form>
 				<div className="name-forname">
 					<div className="form-group">
@@ -23,7 +23,7 @@ function Inschrijving() {
 						<input type="email" id="email" name="email" />
 					</div>
 					<div className="form-group">
-						<label htmlFor="numberOfPeople">Aantal Personen:</label>
+						<label htmlFor="numberOfPeople">Personen:</label>
 						<input type="number" id="numberOfPeople" name="numberOfPeople" />
 					</div>
 				</div>

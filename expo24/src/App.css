@@ -44,7 +44,7 @@ body {
 
 /* Homepage content */
 
-.date{
+.date {
 	font-family: "Gotham Bold";
 	font-weight: 100;
 }
@@ -115,7 +115,7 @@ body {
 .basicInfo {
 	margin-top: 50px;
 	text-align: center;
-	font-family: "Gotham Bold";
+	font-family: "Gotham Black";
 }
 
 .information p {
@@ -131,6 +131,13 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	.information {
+		flex-direction: column;
+	}
+	.leftSide,
+	.rightside {
+		align-content: center;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -140,5 +147,11 @@ body {
 	.leftSide,
 	.rightside {
 		align-content: center;
+	}
+	.basicInfo {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 350px;
 	}
 }

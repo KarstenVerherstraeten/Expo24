@@ -1,3 +1,18 @@
+@font-face {
+	font-family: "Gotham Black";
+	src: url(./assets/fonts/Gotham-Black.otf);
+}
+
+@font-face {
+	font-family: "Gotham Bold";
+	src: url(./assets/fonts/GothamBold.ttf);
+}
+
+@font-face {
+	font-family: "Gotham Light";
+	src: url(./assets/fonts/Gotham-Light.otf);
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -28,6 +43,11 @@ body {
 }
 
 /* Homepage content */
+
+.date{
+	font-family: "Gotham Bold";
+	font-weight: 100;
+}
 
 .container {
 	height: 130vh;
@@ -74,8 +94,11 @@ body {
 }
 
 #SignIn {
-	width: 100px;
+	padding: 15px 20px;
+	width: 150px;
 	border-radius: 0;
+	font-family: "Gotham Black";
+	font-size: 20px;
 }
 
 .information {
@@ -91,6 +114,7 @@ body {
 
 .basicInfo {
 	text-align: center;
+	font-family: "Gotham Bold";
 }
 
 .information p {

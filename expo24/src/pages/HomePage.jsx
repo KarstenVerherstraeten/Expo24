@@ -38,7 +38,7 @@ function HomePage() {
       </div>
       <div className="content">
 
-			<p>21 | 06 | 24</p>
+			<p className='date'>21 | 06 | 24</p>
 
         <Timer />
 

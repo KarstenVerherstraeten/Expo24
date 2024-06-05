@@ -80,7 +80,7 @@ function Inschrijving() {
 								id="name"
 								name="lastName"
 								value={formData.lastName}
-								onChange={handleChange}
+								onChange={handleChange} required
 							/>
 						</div>
 						<div className="form-group">
@@ -91,6 +91,7 @@ function Inschrijving() {
 								name="firstName"
 								value={formData.firstName}
 								onChange={handleChange}
+                required
 							/>
 						</div>
 					</div>
@@ -104,11 +105,12 @@ function Inschrijving() {
 								name="email"
 								value={formData.email}
 								onChange={handleChange}
+                required
 							/>
 						</div>
 						<div className="form-group">
 							<label htmlFor="numberOfPeople">Personen:</label>
-							<input type="number" id="numberOfPeople" name="numberOfPeople" />
+							<input type="number" id="numberOfPeople" name="numberOfPeople" required/>
 						</div>
 					</div>
 
@@ -118,7 +120,7 @@ function Inschrijving() {
 							id="occupation"
 							name="occupation"
 							value={formData.occupation}
-							onChange={handleChange}
+							onChange={handleChange} required
 						>
 							<option value="">Selecteer...</option>
 							<option value="student">Student</option>

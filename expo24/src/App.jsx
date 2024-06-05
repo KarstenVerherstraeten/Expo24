@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
 import Navigation from "./components/Navigation.jsx";
 import Accessebiltity from "./pages/Accessibility.jsx";
 import Activities from "./pages/Activities.jsx";

@@ -1,4 +1,18 @@
-#timer{
+.bold-text {
+	font-weight: bold; /* Maakt de cijfers vet */
+	line-height: 1;
+}
 
-    color: red;
+.thin-line {
+	font-weight: lighter;
+	font-size: 0.5em;
+	vertical-align: middle;
+	line-height: 1;
+	padding: 40px;
+}
+
+#timer {
+	font-size: 100px;
+	display: flex;
+	align-items: center;
 }

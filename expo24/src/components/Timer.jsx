@@ -28,7 +28,7 @@ const Timer = () => {
 		return () => {
 			clearInterval(x);
 		};
-	}, []); // Empty array means this effect runs once when the component is mounted
+	}, []); 
 
 	return (
 		<div>

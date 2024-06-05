@@ -1,33 +1,46 @@
 .form-title {
     font-family: "objektiv-mk1", sans-serif;
-	font-weight: 700;
-	font-style: bold;
-
+    font-weight: 700;
+    font-style: bold;
 }
+
+.name-forname .form-group:nth-child(2) {
+    margin-left: 20px; 
+}
+
+.email-numberofpeople .form-group:nth-child(2) {
+    margin-left: 20px; 
+}
+
 .form-container {
-	max-width: 400px;
-	margin: 0 auto;
-	padding: 20px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.name-forname,
+.email-numberofpeople {
+    display: flex;
+    gap: 10px; 
 }
 
 form {
-	padding: 0; 
+    padding: 0;
 }
 
 .form-group {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 label {
-	display: block;
-	font-weight: bold;
-
-	font-family: "objektiv-mk1", sans-serif;
-	font-weight: 400;
-	font-style: normal;
+    display: block;
+    font-weight: bold;
+    font-family: "objektiv-mk1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 input[type="text"],
@@ -35,28 +48,27 @@ input[type="email"],
 input[type="number"],
 select,
 button {
-	width: calc(
-		100% - 22px
-	);
-	padding: 10px;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	box-sizing: border-box; 
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 button {
-	display: block;
-	border: none;
-	background-color:#ED1C24;
-	color: #fff;
-	cursor: pointer;
+    display: block;
+    border: none;
+    background-color: #ed1c24;
+    color: #fff;
+    cursor: pointer;
     font-family: "objektiv-mk1", sans-serif;
-	font-weight: 700;
-	font-style: bold;
+    font-weight: 700;
+    font-style: bold;
 }
 
 button:hover {
-	background-color: #c31016;
+    background-color: #c31016;
 }
+

@@ -1,7 +1,23 @@
+@font-face {
+	font-family: "Gotham Black";
+	src: url(./assets/fonts/Gotham-Black.otf);
+}
+
+@font-face {
+	font-family: "Gotham Bold";
+	src: url(./assets/fonts/GothamBold.ttf);
+}
+
+@font-face {
+	font-family: "Gotham Light";
+	src: url(./assets/fonts/Gotham-Light.otf);
+}
+
 .bold-text {
 	font-weight: bold;
 	line-height: 1;
 	font-size: 100px; /* Grootte van de cijfers */
+	font-family: "Gotham Black";
 }
 
 #time-blocks {
@@ -13,7 +29,8 @@
 
 .time-block {
 	text-align: center;
-	margin: 20px;
+	margin: -6%;
+	width: 130px;
 }
 
 .thin-line {
@@ -22,7 +39,6 @@
 	vertical-align: middle;
 	line-height: 1;
 	padding: 0 20px; /* Aanpassing van de padding voor de streepjes */
-	margin-left: 30px;
 	margin-bottom: 90px;
 }
 
@@ -31,12 +47,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: "Gotham Light";
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	.thin-line {
 		padding: 0; /* Aanpassing van de padding voor kleinere schermen */
-		font-size: 1em;
+		font-size: 2em;
 	}
 	.Time h2 {
 		font-size: 5px;
@@ -52,25 +69,24 @@
 	}
 }
 
-@media screen and (min-width: 601px) and (max-width: 800px) {
+@media screen and (min-width: 651px) and (max-width: 800px) {
 	.thin-line {
 		padding: 0; /* Aanpassing van de padding voor schermen tussen 501px en 800px */
 	}
-	.Time h2 {
-		font-size: 15px;
+	#timer {
+		font-size: 12px;
 	}
 	.bold-text {
-		font-size: 70px; /* Grootte van de cijfers */
+		font-size: 80px; /* Grootte van de cijfers */
 	}
 	.thin-line {
-		font-size: 1em;
+		font-size: 3em;
 		vertical-align: middle;
-		line-height: 1;
-		padding: 0 20px; /* Aanpassing van de padding voor de streepjes */
-		margin-left: 30px;
 		margin-bottom: 90px;
 	}
 	.time-block {
 		margin: 0;
+		margin: 20px;
+		width: 100px;
 	}
 }

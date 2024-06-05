@@ -44,7 +44,7 @@ function HomePage() {
 
 		<div className='basicInfo'>
 		<p>Located at Erasmushogeschool Brussel campus kaai</p>
-		<p>Qua l'industrie 170, 1070 Anderlecht</p>
+		<p>Quae l'industrie 170, 1070 Anderlecht</p>
 		</div>
 		
         <button id="SignIn">Sign in</button>

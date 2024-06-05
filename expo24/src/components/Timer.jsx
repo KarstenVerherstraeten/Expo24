@@ -3,6 +3,7 @@
 // and Github Copilot
 
 import { useEffect } from "react";
+import "../styles/Timer.css";
 
 const Timer = () => {
 	useEffect(() => {
@@ -16,7 +17,7 @@ const Timer = () => {
 			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-			document.getElementById("timer").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds + " ";
+			document.getElementById("timer").innerHTML = days + "  |  " + hours + "  |  " + minutes + "  |  " + seconds + " ";
 
 			if (distance < 0) {
 				clearInterval(x);

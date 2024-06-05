@@ -42,14 +42,14 @@ function HomePage() {
 
         <Timer />
 
-		<div>
+		<div className='basicInfo'>
 		<p>Located at Erasmushogeschool Brussel campus kaai</p>
 		<p>Qua l'industrie 170, 1070 Anderlecht</p>
 		</div>
 		
         <button id="SignIn">Sign in</button>
         <div className="information">
-          <div className="left side">
+          <div className="leftSide">
             <div className="What">
               <p>What is Expo.24?</p>
               <ul>

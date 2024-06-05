@@ -1,5 +1,5 @@
 .bold-text {
-	font-weight: bold; /* Maakt de cijfers vet */
+	font-weight: bold;
 	line-height: 1;
 }
 
@@ -15,4 +15,21 @@
 	font-size: 100px;
 	display: flex;
 	align-items: center;
+}
+@media screen and (max-width: 500px) {
+	#timer {
+		font-size: 40px;
+	}
+	.thin-line {
+		padding: 20px;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+	#timer {
+		font-size: 60px;
+	}
+	.thin-line {
+		padding: 30px;
+	}
 }

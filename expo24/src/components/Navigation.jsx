@@ -24,6 +24,7 @@ function Navigation() {
 					</ul>
 				</div>
 			</nav>
+			<Outlet />
 		</>
 	);
 }

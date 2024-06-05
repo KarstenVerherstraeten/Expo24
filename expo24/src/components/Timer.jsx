@@ -17,11 +17,20 @@ const Timer = () => {
 			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-			document.getElementById("timer").innerHTML = days + "  |  " + hours + "  |  " + minutes + "  |  " + seconds + " ";
+			const timerElement = document.getElementById("timer");
+			if (timerElement) {
+				timerElement.innerHTML = `
+					<span class="bold-text">${days}</span> <span class="thin-line">|</span> 
+					<span class="bold-text">${hours}</span> <span class="thin-line">|</span> 
+					<span class="bold-text">${minutes}</span> <span class="thin-line">|</span> 
+					<span class="bold-text">${seconds}</span>
+				`;
 
-			if (distance < 0) {
-				clearInterval(x);
-				document.getElementById("timer").innerHTML = "Event over";
+				if (distance < 0) {
+					clearInterval(x);
+					timerElement.innerHTML = "Event over";
+					timerElement.classList.add("bold-text", "underline");
+				}
 			}
 		}, 1000);
 
@@ -29,11 +38,10 @@ const Timer = () => {
 		return () => {
 			clearInterval(x);
 		};
-	}, []); 
+	}, []);
 
 	return (
 		<div>
-			<h1>Countdown Timer</h1>
 			<p id="timer"></p>
 		</div>
 	);

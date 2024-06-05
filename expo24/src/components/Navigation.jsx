@@ -3,9 +3,9 @@ import { Outlet, Link } from "react-router-dom";
 function Navigation() {
 	return (
 		<>
-			<nav>
+			<nav className="NavContainer">
 				<div>
-					<ul>
+					<ul className="Nav">
 						<li>
 							<Link to="/">Home</Link>
 						</li>

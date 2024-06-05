@@ -20,10 +20,28 @@ const Timer = () => {
 			const timerElement = document.getElementById("timer");
 			if (timerElement) {
 				timerElement.innerHTML = `
-					<span class="bold-text">${days}</span> <span class="thin-line">|</span> 
-					<span class="bold-text">${hours}</span> <span class="thin-line">|</span> 
-					<span class="bold-text">${minutes}</span> <span class="thin-line">|</span> 
+				<div id="time-blocks">
+				<div class="time-block">
+					<span class="bold-text">${days} </span>
+					<h2>Dagen</h2>
+				</div>
+				<span class="thin-line">|</span>
+				<div class="time-block">
+					<span class="bold-text">${hours}</span>
+					<h2>Uren</h2>
+				</div>
+				<span class="thin-line">|</span>
+				<div class="time-block">
+					<span class="bold-text">${minutes}</span>
+					<h2>Minuten</h2>
+				</div>
+				<span class="thin-line">|</span>
+				<div class="time-block">
 					<span class="bold-text">${seconds}</span>
+					<h2>Seconden</h2>
+				</div>
+			</div>
+
 				`;
 
 				if (distance < 0) {

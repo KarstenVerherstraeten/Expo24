@@ -46,9 +46,9 @@ app.post("/postInvite", async (req, res) => {
             lastName: req.body.lastName,
             firstName: req.body.firstName,
             email: req.body.email,
-            amountOfPeople: req.body.amountOfPeople,
-            favoredActivities: req.body.favoredActivities,
-            role: req.body.role
+            numberOfPeople: req.body.numberOfPeople,
+            preferences: req.body.preferences,
+            occupation: req.body.occupation
         };
 
         const collection = client.db("FP4").collection("Full-Projects-Expo")

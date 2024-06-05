@@ -38,18 +38,18 @@ function HomePage() {
       </div>
       <div className="content">
 
-			<p>21 | 06 | 24</p>
+			<p className='date'>21 | 06 | 24</p>
 
         <Timer />
 
-		<div>
+		<div className='basicInfo'>
 		<p>Located at Erasmushogeschool Brussel campus kaai</p>
-		<p>Qua l'industrie 170, 1070 Anderlecht</p>
+		<p>Quai de l'industrie 170, 1070 Anderlecht</p>
 		</div>
 		
         <button id="SignIn">Sign in</button>
         <div className="information">
-          <div className="left side">
+          <div className="leftSide">
             <div className="What">
               <p>What is Expo.24?</p>
               <ul>

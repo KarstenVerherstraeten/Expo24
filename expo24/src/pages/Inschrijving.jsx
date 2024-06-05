@@ -60,7 +60,7 @@ function Inschrijving() {
 	return (
 		<div className="form-container">
 			<h2 className="form-title">Inschrijving</h2>
-			<form>
+			<form onSubmit={handleSubmit}>
 				<div className="name-forname">
 					<div className="form-group">
 						<label htmlFor="name">Naam:</label>

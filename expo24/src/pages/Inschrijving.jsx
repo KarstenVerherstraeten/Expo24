@@ -56,8 +56,8 @@ function Inschrijving() {
 	};
 
 	return (
-		<div className="container">
-			<div className="glass-panel">
+		<div className="container-2">
+			<div className="glass-panel-2">
 				<div className="glass"></div>
 				<div className="glass"></div>
 				<div className="glass"></div>

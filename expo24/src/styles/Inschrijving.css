@@ -3,7 +3,9 @@ body {
     background-image: url('../assets/BackgroundImage.png'); 
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
+
 
 .form-title {
 	font-family: "objektiv-mk1", sans-serif;
@@ -26,7 +28,36 @@ body {
 	margin-left: 20px;
 }
 
+.container {
+	height: 130vh;
+	width: 100%;
+	background: url("./assets/BackgroundImage.png") no-repeat center center fixed;
+	background-size: cover;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.glass-panel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 130vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.glass {
+	width: 10%;
+	height: 100%;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(to right, rgba(64, 64, 73, 0.1) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(14, 14, 17, 0.6) 100%);
+}
+
 .form-container {
+	height: 700px;
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;

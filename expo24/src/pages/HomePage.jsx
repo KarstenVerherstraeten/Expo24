@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Timer from "../components/Timer";
 import { useNavigate } from "react-router-dom";
+import LogoW from "../assets/LogoW.svg";
+import Nav from "../components/Navigation";
 
 function HomePage() {
 	// code helped by ChatGPT
@@ -34,8 +36,23 @@ function HomePage() {
 				<div className="glass"></div>
 				<div className="glass"></div>
 				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
 			</div>
+
 			<div className="content">
+				<img src={LogoW} alt="Het logo werkt niet🥲" />
 				<p className="date">21 | 06 | 24</p>
 
 				<Timer />

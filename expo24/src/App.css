@@ -127,6 +127,27 @@ body {
 .leftSide {
 	width: 300px;
 }
+button {
+	display: block;
+	border: none;
+	background-color: white;
+	color: blue;
+	cursor: pointer;
+	font-family: "objektiv-mk1", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover {
+	background-color: blue;
+	color: white;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 15px blue;
+	border: none;
+}
 
 @media screen and (max-width: 768px) {
 	.information {

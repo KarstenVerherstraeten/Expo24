@@ -1,3 +1,7 @@
+body {
+	background: url("../assets/BlueBackground.png") no-repeat center center fixed;
+}
+
 .ConfigTitle {
 	font-size: 100px;
 	z-index: 3;

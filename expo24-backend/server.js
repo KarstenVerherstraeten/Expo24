@@ -7,6 +7,11 @@ require('dotenv').config()
 const port = 3000;
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = process.env.MONGODB_URI
+
+if (!uri) {
+    throw new Error('MONGODB_URI environment variable is not defined');
+  }
+
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 app.use(express.json());

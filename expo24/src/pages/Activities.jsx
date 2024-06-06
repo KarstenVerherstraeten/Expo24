@@ -1,12 +1,24 @@
-import Timer from "../components/Timer";
+import Activity from "../components/Activity";
+import "../styles/Activities.css";
 
 function Activities() {
 	return (
 		<div>
-			<h2>Navigation</h2>
-			<p>Activiteiten</p>
-
-			<Timer></Timer>
+			<div className="glass-panel">
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+			</div>
+			<div className="ActivitiesContent">
+				<Activity />
+			</div>
 		</div>
 	);
 }

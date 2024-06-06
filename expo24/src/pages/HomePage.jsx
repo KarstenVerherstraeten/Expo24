@@ -12,7 +12,7 @@ function HomePage() {
 		const signInButton = document.getElementById("SignIn");
 		if (signInButton) {
 			const handleSignInClick = () => {
-				navigate("/Inschrijving");
+				navigate("/InschrijvingForum");
 			};
 
 			signInButton.addEventListener("click", handleSignInClick);

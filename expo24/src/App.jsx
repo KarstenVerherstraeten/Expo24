@@ -18,7 +18,7 @@ function App() {
 					<Route path="/" element={<Navigation />}>
 						<Route index element={<HomePage />} />
 						<Route path="Accessibility" element={<Accessebiltity />} />
-						<Route path="Acivities" element={<Activities />} />
+						<Route path="Activities" element={<Activities />} />
 						<Route path="Practical" element={<Practical />} />
 						<Route path="Timetable" element={<Timetable />} />
 						<Route path="Inschrijving" element={<Inschrijving />} />

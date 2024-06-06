@@ -3,11 +3,14 @@ import { Outlet, Link } from "react-router-dom";
 
 function Activity() {
 	return (
-		<div className="ActivityComponent">
-			<h1>Naam:</h1>
-			<h2>Category:</h2>
-			<img src="#" alt="Foto Activiteit" />
-			<h2>Beschrijving</h2>
+		<div className="ActivityContext">
+			<div className="ActivityComponent">
+				<h1>Naam:</h1>
+				<h2>Category:</h2>
+				<img src="#" alt="Foto Activiteit" />
+				<h2>Beschrijving</h2>
+			</div>
+
 			<div className="ActivityInfo">
 				<div>
 					<h2>Uur:</h2>

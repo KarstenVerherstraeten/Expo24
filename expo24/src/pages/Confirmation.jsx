@@ -78,7 +78,7 @@ function Confirmation() {
 				<div className="ConfigBottom">
 					<p>
 						U werd succesvol ingeschreven voor EXPO24. <br />U zou binnenkort
-						een email moeten krijgen met alle praktische info.
+						een email moeten krijgen met alle praktische info. <br /> Indien u geen mail krijgt, <span style={{fontWeight: "700"}}>kijk zeker in uw spam folder</span>.
 					</p>
 				</div>
 				<div className="ConfigInfo">

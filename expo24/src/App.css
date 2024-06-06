@@ -13,11 +13,13 @@
 	src: url(./assets/fonts/Gotham-Light.otf);
 }
 
-
 ::-webkit-scrollbar {
 	display: none;
 }
-
+.content img {
+	margin: 150px 0px;
+	width: 600px;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -27,15 +29,28 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0;
-	padding: 30px;
-	display: none;
+	padding: 20px;
+	z-index: 2;
+	font-family: "Gotham Black";
+	background-color: white;
+	width: 100%;
+	color: blue;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
-
+.NavContainer img {
+	width: 200px;
+	margin-left: 100px;
+}
 .Nav {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	display: flex;
+	justify-content: flex-end;
+	display: none;
 }
 
 .Nav li {
@@ -52,10 +67,13 @@ body {
 .date {
 	font-family: "Gotham Bold";
 	font-weight: 100;
+	font-size: 20px;
+	margin-bottom: 130px;
+	margin-top: -80px;
 }
 
 .container {
-	height: 130vh;
+	height: 140vh;
 	width: 100%;
 	background: url("./assets/BlueBackground.png") no-repeat center center fixed;
 	background-size: cover;
@@ -68,7 +86,7 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 130vh;
+	height: 140vh;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;

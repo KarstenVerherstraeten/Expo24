@@ -1,9 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
+import LogoB from "../assets/LogoB.svg";
 
 function Navigation() {
 	return (
 		<>
 			<nav className="NavContainer">
+				<img src={LogoB} alt="" />
 				<div>
 					<ul className="Nav">
 						<li>

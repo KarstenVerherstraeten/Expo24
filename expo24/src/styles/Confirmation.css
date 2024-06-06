@@ -1,0 +1,17 @@
+.ConfigTitle {
+	font-size: 100px;
+	z-index: 3;
+	font-family: "Gotham Black";
+	text-align: center;
+}
+
+.ConfigContent {
+	transform: scale(0.9);
+}
+.ConfigInfo {
+	display: flex;
+	justify-content: center;
+}
+.ConfigInfo div {
+	margin: 90px;
+}

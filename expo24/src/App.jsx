@@ -8,6 +8,7 @@ import Practical from "./pages/Practical.jsx";
 import Timetable from "./pages/Timetable.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import Inschrijving from "./pages/Inschrijving.jsx";
+import Confirmation from "./pages/Confirmation.jsx";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 						<Route path="Practical" element={<Practical />} />
 						<Route path="Timetable" element={<Timetable />} />
 						<Route path="Inschrijving" element={<Inschrijving />} />
+						<Route path="Confirmation" element={<Confirmation />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>

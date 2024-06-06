@@ -50,7 +50,7 @@ function Confirmation() {
 								{formData?.lastName} {formData?.firstName}
 							</p>
 							<p>{formData?.email}</p>
-							<p>{formData?.numberOfPeople}</p>
+							<p>Hoeveelheid personen: {formData?.numberOfPeople}</p>
 							<p>
 								Voorkeursprojecten
 								<ul>

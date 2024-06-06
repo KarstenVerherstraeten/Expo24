@@ -92,13 +92,38 @@ body {
 	align-items: center;
 }
 
+
+/* https://chatgpt.com/c/66caf465-c201-40a6-9c7b-509368cb2582 */
 #SignIn {
-	padding: 15px 20px;
-	width: 150px;
-	border-radius: 0;
-	font-family: "Gotham Black";
-	font-size: 20px;
-}
+    position: relative;
+    padding: 15px 20px;
+    width: 150px;
+    border-radius: 0;
+    font-family: "Gotham Black";
+    font-size: 20px;
+    background: white; /* White background for the button */
+    overflow: hidden; /* Ensure pseudo-element stays within button bounds */
+    color: transparent; /* Make the text transparent */
+  }
+
+  #SignIn::before {
+    content: "Sign In"; /* Same text as the button */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./assets/BlueBackground.png") no-repeat center center fixed; /* Same background as body */
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Transparent text to reveal background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    pointer-events: none; /* Prevent pseudo-element from blocking button interactions */
+  }
 
 .information {
 	display: flex;

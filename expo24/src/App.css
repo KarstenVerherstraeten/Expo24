@@ -171,7 +171,7 @@ button:hover {
 	border: none;
 }
 
-button::before {
+#SignIn::before {
     content: "Sign In"; /* Same text as the button */
     position: absolute;
     top: 0;

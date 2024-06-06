@@ -4,9 +4,13 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
+  - [Frontend](#frontend)
+  - [Backend](#backend)
 - [Usage](#usage)
 - [Contact](#contact)
 - [Sources](#sources)
+- [Services](#services)
+- [Framework](#framework)
 
 ## Introduction
 
@@ -16,12 +20,12 @@ Expo.24 is a web application for showcasing the final year projects of the third
 
 Follow these steps to set up the project locally:
 
-### Frontend:
+### Frontend
 
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/EHB-MCT/fp4-info-onlineinfoteam.git
-    cd expo24
+    cd fp4-info-onlineinfoteam
     ```
 
 2. **Install dependencies**:
@@ -37,7 +41,7 @@ Follow these steps to set up the project locally:
 4. **Open the application**:
     Open your browser and go to `http://localhost:5173/`.
 
-### Backend:
+### Backend
 
 1. **Navigate to the Backend**:
     ```sh
@@ -66,11 +70,20 @@ After setting up the project, you can explore the various features by navigating
 For any questions or suggestions, feel free to open an issue or contact us via Teams.
 
 ## Sources
-- [W3Schools](https://www.w3schools.com/) For the Timer and other relevant frontend styling/scripting help.
-- [ChatGPT](https://chatgpt.com/) Used when errors occured or for components where we had no clue how to do them.
-- [Github Copilot](https://github.com/features/copilot) code hinting/suggestions
+
+- [ChatGPT](https://chatgpt.com/) - Used for troubleshooting errors and guidance on component implementation.
+- [GitHub Copilot](https://github.com/features/copilot) - Code hinting and suggestions.
 - Other Students
-- Exercises/lessons
+- Exercises/Lessons
+
+## Services
+
+- [Email.js](https://www.emailjs.com/) - Email sending service.
+- [Render.com](https://render.com/) - Hosting service.
+
+## Framework
+
+- [React](https://react.dev/) - JavaScript library for building user interfaces.
 
 ---
 

@@ -173,17 +173,7 @@ body {
 .leftSide {
 	width: 400px;
 }
-button {
-	position: relative;
-	padding: 15px 20px;
-	width: 150px;
-	border-radius: 0;
-	font-family: "Gotham Black";
-	font-size: 20px;
-	background: white; /* White background for the button */
-	overflow: hidden; /* Ensure pseudo-element stays within button bounds */
-	color: transparent; /* Make the text transparent */
-}
+
 button:hover {
 	background-color: blue;
 	color: white;

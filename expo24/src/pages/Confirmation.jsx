@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import emailjs from 'emailjs-com';
 import "../styles/Confirmation.css";
 
 function Confirmation() {
@@ -7,9 +8,58 @@ function Confirmation() {
 	const navigate = useNavigate();
 	const { formData } = location.state || {};
 
+	// Parameters
+	const templateParams = {
+		name: formData?.name, //name receiver
+		message: "Bedankt voor uw inschrijving.", //message
+		to_email: formData?.email, //email receiver
+	};
+
+	useEffect(() => {
+		const emailConfig = {
+			publicKey: "up5kafMM7CQN8KRal",
+			blockHeadless: true,
+			limitRate: {
+				id: "app",
+				throttle: 10000,
+			},
+		};
+
+		function initEmailJS(config) {
+			emailjs.init(config.publicKey);
+		}
+
+		function sendEmail() {
+			emailjs
+				.send("service_paoixuy", "template_6jxu27g", templateParams)
+				.then((response) => {
+					console.log("SUCCESS!", response.status, response.text);
+				})
+				.catch((error) => {
+					console.log("FAILED...", error);
+				});
+		}
+
+		initEmailJS(emailConfig);
+		sendEmail();
+	}, []);
+
 	return (
 		<div>
 			<div className="glass-panel">
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
 				<div className="glass"></div>
 				<div className="glass"></div>
 				<div className="glass"></div>
@@ -27,7 +77,8 @@ function Confirmation() {
 				</h2>
 				<div className="ConfigBottom">
 					<p>
-						U werd succesvol ingeschreven voor EXPO24. <br />U zou binnenkort een email moeten krijgen met alle praktische info.
+						U werd succesvol ingeschreven voor EXPO24. <br />U zou binnenkort
+						een email moeten krijgen met alle praktische info.
 					</p>
 				</div>
 				<div className="ConfigInfo">
@@ -57,8 +108,12 @@ function Confirmation() {
 									{formData?.preferences?.vrGame && <li>VR-game</li>}
 									{formData?.preferences?.threeDGame && <li>3D-game</li>}
 									{formData?.preferences?.liveCoding && <li>Live coderen</li>}
-									{formData?.preferences?.demo3DPrints && <li>Demo 3D-prints</li>}
-									{formData?.preferences?.demoLasercut && <li>Demo lasersnijden</li>}
+									{formData?.preferences?.demo3DPrints && (
+										<li>Demo 3D-prints</li>
+									)}
+									{formData?.preferences?.demoLasercut && (
+										<li>Demo lasersnijden</li>
+									)}
 								</ul>
 							</p>
 						</ul>

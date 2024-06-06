@@ -153,18 +153,15 @@ body {
 	width: 300px;
 }
 button {
-	display: block;
-	border: none;
-	background-color: white;
-	color: blue;
-	cursor: pointer;
-	font-family: "objektiv-mk1", sans-serif;
-	font-weight: 700;
-	font-style: bold;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	padding: 10px 20px;
-	transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+	position: relative;
+    padding: 15px 20px;
+    width: 150px;
+    border-radius: 0;
+    font-family: "Gotham Black";
+    font-size: 20px;
+    background: white; /* White background for the button */
+    overflow: hidden; /* Ensure pseudo-element stays within button bounds */
+    color: transparent; /* Make the text transparent */
 }
 button:hover {
 	background-color: blue;
@@ -173,6 +170,25 @@ button:hover {
 	box-shadow: 2px 2px 15px blue;
 	border: none;
 }
+
+button::before {
+    content: "Sign In"; /* Same text as the button */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./assets/BlueBackground.png") no-repeat center center fixed; /* Same background as body */
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Transparent text to reveal background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    pointer-events: none; /* Prevent pseudo-element from blocking button interactions */
+  }
 
 @media screen and (max-width: 768px) {
 	.information {

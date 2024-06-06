@@ -51,6 +51,14 @@ function Confirmation() {
 						</ul>
 					</div>
 				</div>
+				<div className="ConfigBottom">
+					<p>
+						U werd succesvol ingeschreven voor EXPO24. <br />U zou binnenkort een email moeten krijgen met alle praktische info.
+					</p>
+				</div>
+				<div className="ConfigButton">
+					<button>Ga terug naar homepage</button>
+				</div>
 			</div>
 		</div>
 	);

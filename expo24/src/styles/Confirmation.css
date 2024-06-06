@@ -11,7 +11,29 @@
 .ConfigInfo {
 	display: flex;
 	justify-content: center;
+	font-family: "objektiv-mk1", sans-serif;
 }
 .ConfigInfo div {
-	margin: 90px;
+	margin: 40px 90px;
+}
+.ConfigInfo p {
+	font-size: 20px;
+	text-decoration: underline;
+}
+.ConfigBottom {
+	text-align: center;
+	font-size: 20px;
+	font-family: "objektiv-mk1", sans-serif;
+}
+.ConfigButton {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 90px;
+}
+
+.ConfigButton button {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
 }

@@ -9,6 +9,7 @@ import Timetable from "./pages/Timetable.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import Inschrijving from "./pages/Inschrijving.jsx";
 import Inschrijvingforum from "./pages/Inschrijvingforum.jsx";
+import Confirmation from "./pages/Confirmation.jsx";
 
 function App() {
 	return (
@@ -18,11 +19,12 @@ function App() {
 					<Route path="/" element={<Navigation />}>
 						<Route index element={<HomePage />} />
 						<Route path="Accessibility" element={<Accessebiltity />} />
-						<Route path="Acivities" element={<Activities />} />
+						<Route path="Activities" element={<Activities />} />
 						<Route path="Practical" element={<Practical />} />
 						<Route path="Timetable" element={<Timetable />} />
 						<Route path="Inschrijving" element={<Inschrijving />} />
 						<Route path="Inschrijvingforum" element={<Inschrijvingforum />} />
+						<Route path="Confirmation" element={<Confirmation />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>

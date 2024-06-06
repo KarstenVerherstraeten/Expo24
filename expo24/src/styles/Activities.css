@@ -1,0 +1,17 @@
+.ActivityImage {
+	background-color: black;
+}
+.ActivitiesContent {
+	transform: scale(0.9);
+}
+.ActivityInfo {
+	display: flex;
+	justify-content: space-between;
+}
+.ActivityComponent {
+	width: 500px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

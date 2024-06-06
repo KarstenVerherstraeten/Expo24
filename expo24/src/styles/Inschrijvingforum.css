@@ -75,7 +75,7 @@ body {
 	}
 }
 
-h2 {
+.projectTitle {
 	font-family: "Gotham Black";
 	margin-bottom: 30px;
 }

@@ -103,7 +103,7 @@ function Inschrijvingforum() {
 							</div>
 						</div>
 
-						<h2>PROJECTS</h2>
+						<h2 className="projectTitle">PROJECTS</h2>
 
 						{/* 1 grote div project-checkbox-container */}
 

@@ -66,7 +66,7 @@ After setting up the project, you can explore the various features by navigating
 For any questions or suggestions, feel free to open an issue or contact us via Teams.
 
 ## Sources
-
+- [W3Schools](https://www.w3schools.com/) For the Timer and other relevant frontend styling/scripting help.
 - [ChatGPT](https://chatgpt.com/) Used when errors occured or for components where we had no clue how to do them.
 - [Github Copilot](https://github.com/features/copilot) code hinting/suggestions
 - Other Students

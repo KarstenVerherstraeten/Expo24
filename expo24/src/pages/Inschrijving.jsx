@@ -39,7 +39,7 @@ function Inschrijving() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		console.log(formData);
-		const response = await fetch("http://localhost:3000/postInvite", {
+		const response = await fetch("https://fp4-info-onlineinfoteam.onrender.com/postInvite", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

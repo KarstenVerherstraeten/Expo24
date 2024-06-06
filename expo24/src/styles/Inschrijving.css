@@ -125,7 +125,7 @@ button {
 	animation: spin 1s linear infinite;
   }
 
-  .spinner p{
+  .loading-screen p{
 	font-family: "Gotham Black";
   }
   

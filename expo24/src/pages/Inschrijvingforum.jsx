@@ -6,16 +6,29 @@ function Inschrijvingforum() {
 		<>
 			<div className="container-3">
 				<div className="glass-panel-3">
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
 				</div>
 				<div className="content-3">
 					<svg

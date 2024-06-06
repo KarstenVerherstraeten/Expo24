@@ -36,6 +36,19 @@ function HomePage() {
 				<div className="glass"></div>
 				<div className="glass"></div>
 				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
+				<div className="glass"></div>
 			</div>
 
 			<div className="content">

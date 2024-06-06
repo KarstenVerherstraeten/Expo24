@@ -124,6 +124,10 @@ button {
 	height: 40px;
 	animation: spin 1s linear infinite;
   }
+
+  .spinner p{
+	font-family: "Gotham Black";
+  }
   
   @keyframes spin {
 	0% {

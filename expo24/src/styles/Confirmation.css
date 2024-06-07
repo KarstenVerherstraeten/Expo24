@@ -45,7 +45,6 @@ body {
 	justify-content: center;
 	margin-bottom: 20px;
 	margin-top: 90px;
-	width: 400px;
 }
 
 .ConfigContent {
@@ -65,6 +64,7 @@ body {
 	border: none;
 	outline: none;
 	color: transparent;
+	width: 250px;
 }
 
 .ConfigButton button::before {

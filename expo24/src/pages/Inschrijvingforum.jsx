@@ -163,7 +163,7 @@ function Inschrijvingforum() {
 										type="text"
 										id="bedrijf"
 										name="bedrijf"
-										placeholder="Enkel voor bedrijven"
+										placeholder="Bedrijfsnaam"
 										value={formData.bedrijf}
 										onChange={handleChange}
 										required={formData.occupation === "bedrijf"}

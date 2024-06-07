@@ -132,6 +132,7 @@ body {
 	background: white; /* White background for the button */
 	overflow: hidden; /* Ensure pseudo-element stays within button bounds */
 	color: transparent; /* Make the text transparent */
+	margin-top: 30px;
 }
 
 #SignIn::before {
@@ -160,8 +161,11 @@ body {
 	margin-top: 100px;
 	width: 100%;
 	font-family: "objektiv-mk1", sans-serif;
-	font-weight: 700;
+	font-weight: 100;
 	font-style: normal;
+}
+.information p {
+	font-weight: 700;
 }
 
 .basicInfo {

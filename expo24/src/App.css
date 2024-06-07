@@ -39,6 +39,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	position: fixed;
 }
 .NavContainer img {
 	width: 200px;
@@ -180,6 +181,7 @@ body {
 }
 .BBQ {
 	width: 400px;
+	margin-bottom: 200px;
 }
 button:hover {
 	background-color: blue;

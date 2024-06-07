@@ -53,7 +53,10 @@ function HomePage() {
 
 			<div className="content">
 				<img src={LogoW} alt="Het logo werkt niet🥲" />
-				<p className="date">21 | 06 | 24</p>
+				<div className="date">
+					<p>21 | 06 | 24</p>
+					<p>17:00</p>
+				</div>
 
 				<Timer />
 
@@ -66,7 +69,7 @@ function HomePage() {
 				<div className="information">
 					<div className="leftSide">
 						<div className="What">
-							<p>What is Expo.24?</p>
+							<p>What is EXPO24?</p>
 							<ul>
 								<li>During Expo24 the third-year students of Erasmushogeschool present their final exam</li>
 							</ul>

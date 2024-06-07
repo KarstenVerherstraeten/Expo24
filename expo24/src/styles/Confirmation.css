@@ -68,7 +68,7 @@ body {
 }
 
 .ConfigButton button::before {
-	content: "Ga terug naar homepage";
+	content: "Ga terug naar Home";
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -104,11 +104,17 @@ body {
 
 @media screen and (max-width: 480px) {
 	.ConfigTitle {
-		font-size: 60px;
+		font-size: 50px;
 	}
 	.ConfigInfo p {
 		font-size: 16px;
 		display: flex;
+        flex-direction: column;
+	}
+
+	.ConfigInfo ul p{
+		font-size: 12px;
+		
 	}
 	.ConfigButton {
 		width: 200px;
@@ -119,5 +125,27 @@ body {
 	.ConfigButton button {
 		padding: 10px 20px;
 		font-size: 16px;
+	}
+
+	
+	
+	.glass-panel {
+		min-height: 100vh;
+	}
+
+	.container {
+		min-height: 100vh;
+
+	}
+	.ConfigContent {
+		margin: 0px 30px;
+	}
+
+
+	.ConfigInfo{
+		width: 350px;
+		display: flex;
+		align-items: center;
+	
 	}
 }

@@ -10,7 +10,7 @@ function Confirmation() {
 
 	// Parameters
 	const templateParams = {
-		name: formData?.name, //name receiver
+		to_name: formData?.firstName, //name receiver
 		message: "Bedankt voor uw inschrijving.", //message
 		to_email: formData?.email, //email receiver
 	};
@@ -73,17 +73,17 @@ function Confirmation() {
 			</div>
 			<div className="ConfigContent">
 				<h2 className="ConfigTitle">
-					Bedankt voor uw <br /> inschrijving!{" "}
+					Bedankt voor <br /> uw inschrijving!{" "}
 				</h2>
 				<div className="ConfigBottom">
 					<p>
-						U werd succesvol ingeschreven voor EXPO24. <br />U zou binnenkort
-						een email moeten krijgen met alle praktische info. <br /> Indien u geen mail krijgt, <span style={{fontWeight: "700"}}>kijk zeker in uw spam folder</span>.
+						U bent succesvol ingeschreven. <br />Er zou binnenkort een e-mail in uw inbox moeten zijn.
+						<br /> Mocht u deze niet ontvangen hebben, <span style={{fontWeight: "700"}}>Controleer uw spammap</span>.
 					</p>
 				</div>
 				<div className="ConfigInfo">
 					<div>
-						<p>Praktische info:</p>
+						<p>Praktische informatie:</p>
 						<ul>
 							<p>EXPO24</p>
 							<p>Erasmushogeschool Brussel</p>
@@ -95,15 +95,15 @@ function Confirmation() {
 						</ul>
 					</div>
 					<div>
-						<p>Persoonlijke gegevens:</p>
+						<p>Persoonlijke Informatie:</p>
 						<ul>
 							<p>
 								{formData?.lastName} {formData?.firstName}
 							</p>
 							<p>{formData?.email}</p>
-							<p>Hoeveelheid personen: {formData?.numberOfPeople}</p>
+							<p>Aantal Personen: {formData?.numberOfPeople}</p>
 							<p>
-								Voorkeursprojecten
+								Voorkeuren:
 								<ul>
 									{formData?.preferences?.vrGame && <li>VR-game</li>}
 									{formData?.preferences?.threeDGame && <li>3D-game</li>}
@@ -112,7 +112,7 @@ function Confirmation() {
 										<li>Demo 3D-prints</li>
 									)}
 									{formData?.preferences?.demoLasercut && (
-										<li>Demo lasersnijden</li>
+										<li>Demo LaserSnijden</li>
 									)}
 								</ul>
 							</p>
@@ -120,7 +120,7 @@ function Confirmation() {
 					</div>
 				</div>
 				<div className="ConfigButton">
-					<button onClick={() => navigate("/")}>Ga terug naar homepage</button>
+					<button onClick={() => navigate("/")}>Ga terug naar Home</button>
 				</div>
 			</div>
 		</div>

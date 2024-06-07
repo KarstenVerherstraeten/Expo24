@@ -97,11 +97,9 @@ function HomePage() {
 						</div>
 						<div className="BBQ">
 							<p>Barbecue</p>
-							<ul>
-								<li>Tijdens het evenement organiseert Enigma, de studentenvereniging van de EHB school, een barbecue van 12u30 tot 20u30. Als je wilt deelnemen, schrijf je dan in via de knop hieronder:</li>
-							</ul>
+							Tijdens het evenement organiseert Enigma, de studentenvereniging van de EHB school, een barbecue van 12u30 tot 20u30. Als je wilt deelnemen, schrijf je dan in via de knop hieronder:
 							<a className="buttonBBQ" href="https://docs.google.com/forms/d/e/1FAIpQLSfzePgKhlMeJRjyRnlr-gOlAmdLpUHmD7mprBsdGJmGeBcg4Q/viewform">
-								Barbecue!
+								Ik wil naar de barbecue!
 							</a>
 						</div>
 					</div>

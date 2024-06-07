@@ -124,7 +124,7 @@ body {
 /* https://chatgpt.com/c/66caf465-c201-40a6-9c7b-509368cb2582 */
 #SignIn {
 	position: relative;
-	padding: 15px 20px;
+	padding: 19px 40px;
 	width: 150px;
 	border-radius: 0;
 	font-family: "Gotham Black";
@@ -180,31 +180,27 @@ body {
 	width: 400px;
 }
 .BBQ {
-	width: 400px;
-	margin-bottom: 200px;
+	width: 300px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.BBQ a {
+	margin-top: 20px;
 }
 button:hover {
 	background-color: blue;
 	color: white;
-	transform: scale(1.02);
-	box-shadow: 2px 2px 15px blue;
-	border: none;
-}
-.buttonBBQ:hover {
-	transform: scale(1.02);
 	box-shadow: 2px 2px 15px blue;
 	border: none;
 }
 .buttonBBQ {
-	transform: scale(1.02);
 	border: none;
 	text-decoration: none;
-	padding: 10px 30px;
-	background-color: white;
-	color: rgb(58, 58, 190);
-	margin-left: 40px;
+	color: white;
 	font-family: "Gotham Black";
 	font-size: 20px;
+	margin-left: 0;
 }
 
 #SignIn::before {

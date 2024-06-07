@@ -54,46 +54,55 @@ function HomePage() {
 			<div className="content">
 				<img src={LogoW} alt="Het logo werkt niet🥲" />
 				<div className="date">
-					<p>21 | 06 | 24</p>
-					<p>17:00</p>
+					<p>21 juni 2024</p>
+					<p>Vanaf: 17:00</p>
 				</div>
 
 				<Timer />
 
 				<div className="basicInfo">
-					<p>Located at Erasmushogeschool Brussel campus kaai</p>
+					<p>Erasmushogeschool Brussel campus Kaai</p>
 					<p>Quai de l'industrie 170, 1070 Anderlecht</p>
 				</div>
 
-				<button id="SignIn">Sign in</button>
+				<button id="SignIn">Schrijf je in!</button>
 				<div className="information">
 					<div className="leftSide">
 						<div className="What">
-							<p>What is EXPO24?</p>
+							<p>Wat is EXPO24?</p>
 							<ul>
-								<li>During Expo24 the third-year students of Erasmushogeschool present their final exam</li>
+								<li>Tijdens Expo24 presenteren de derdejaarsstudenten van de Erasmushogeschool hun eindexamen.</li>
 							</ul>
 						</div>
 						<div className="General">
-							<p>General Information</p>
+							<p>Praktische Info</p>
 							<ul>
-								<li>Where: Erasmushogeschool Brussel campus kaai</li>
-								<li>When: 21 June 2024</li>
-								<li>Price: Free</li>
+								<li>Waar: Erasmushogeschool Brussel campus Kaai</li>
+								<li>Wanneer: 21 juni 2024</li>
+								<li>Prijs: Gratis!</li>
 							</ul>
 						</div>
 					</div>
 					<div className="right side">
 						<div className="Why">
-							<p>Why come?</p>
+							<p>Waarom komen?</p>
 							<ul>
-								<li>Interactive activities</li>
-								<li>Learn about the MCT programme</li>
-								<li>Find potential employees</li>
-								<li>Free drinks</li>
-								<li>Barbeque</li>
-								<li>Family and friends</li>
+								<li>Interactieve activiteiten</li>
+								<li>Leer over het MCT-programma</li>
+								<li>Vind potentiële medewerkers</li>
+								<li>Gratis drankjes</li>
+								<li>Barbecue</li>
+								<li>Familie en vrienden</li>
 							</ul>
+						</div>
+						<div className="BBQ">
+							<p>Barbecue</p>
+							<ul>
+								<li>Tijdens het evenement organiseert Enigma, de studentenvereniging van de EHB school, een barbecue van 12u30 tot 20u30. Als je wilt deelnemen, schrijf je dan in via de knop hieronder:</li>
+							</ul>
+							<a className="buttonBBQ" href="https://docs.google.com/forms/d/e/1FAIpQLSfzePgKhlMeJRjyRnlr-gOlAmdLpUHmD7mprBsdGJmGeBcg4Q/viewform">
+								Ik kom naar de BBQ!
+							</a>
 						</div>
 					</div>
 				</div>

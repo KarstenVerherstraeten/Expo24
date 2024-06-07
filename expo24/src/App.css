@@ -178,13 +178,33 @@ body {
 .leftSide {
 	width: 400px;
 }
-
+.BBQ {
+	width: 400px;
+}
 button:hover {
 	background-color: blue;
 	color: white;
 	transform: scale(1.02);
 	box-shadow: 2px 2px 15px blue;
 	border: none;
+}
+.buttonBBQ:hover {
+	background-color: blue;
+	color: white;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 15px blue;
+	border: none;
+}
+.buttonBBQ {
+	transform: scale(1.02);
+	border: none;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: white;
+	color: rgb(58, 58, 190);
+	margin-left: 40px;
+	font-family: "Gotham Black";
+	font-size: 16px;
 }
 
 #SignIn::before {
@@ -229,5 +249,38 @@ button:hover {
 		flex-wrap: wrap;
 		justify-content: center;
 		width: 350px;
+	}
+	.content img {
+		width: 300px;
+		margin-bottom: 40px;
+	}
+	.date {
+		margin: 0px;
+	}
+	.basicInfo {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.basicInfo p {
+		margin: 5px;
+	}
+	.NavContainer img {
+		width: 100px;
+		margin-left: 50px;
+	}
+	.leftSide {
+		margin-left: 0px;
+		width: auto;
+	}
+	.right.side {
+		margin-left: 0px;
+		width: auto;
+	}
+	.BBQ {
+		margin-left: 0px;
+		width: auto;
+	}
+	.information {
+		margin: 20px;
 	}
 }

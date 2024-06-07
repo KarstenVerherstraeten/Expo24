@@ -62,7 +62,7 @@ function HomePage() {
 
 				<div className="basicInfo">
 					<p>Erasmushogeschool Brussel campus Kaai</p>
-					<p>Quai de l'industrie 170, 1070 Anderlecht</p>
+					<p>Nijverheidskaai 170, 1070 Anderlecht</p>
 				</div>
 
 				<button id="SignIn">Schrijf je in!</button>
@@ -70,9 +70,7 @@ function HomePage() {
 					<div className="leftSide">
 						<div className="What">
 							<p>Wat is EXPO24?</p>
-							<ul>
-								<li>Tijdens Expo24 presenteren de derdejaarsstudenten van de Erasmushogeschool hun eindexamen.</li>
-							</ul>
+							Tijdens Expo24 presenteren de derdejaarsstudenten van de Erasmushogeschool hun eindexamen.
 						</div>
 						<div className="General">
 							<p>Praktische Info</p>

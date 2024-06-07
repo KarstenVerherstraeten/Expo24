@@ -5,7 +5,9 @@ function Navigation() {
 	return (
 		<>
 			<nav className="NavContainer">
-				<img src={LogoB} alt="" />
+				<Link to="/">
+					<img src={LogoB} alt="Logo" />
+				</Link>
 				<div>
 					<ul className="Nav">
 						<li>

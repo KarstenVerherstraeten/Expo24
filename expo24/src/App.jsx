@@ -7,7 +7,6 @@ import Activities from "./pages/Activities.jsx";
 import Practical from "./pages/Practical.jsx";
 import Timetable from "./pages/Timetable.jsx";
 import HomePage from "./pages/HomePage.jsx";
-import Inschrijving from "./pages/Inschrijving.jsx";
 import Inschrijvingforum from "./pages/Inschrijvingforum.jsx";
 import Confirmation from "./pages/Confirmation.jsx";
 
@@ -22,7 +21,6 @@ function App() {
 						<Route path="Activities" element={<Activities />} />
 						<Route path="Practical" element={<Practical />} />
 						<Route path="Timetable" element={<Timetable />} />
-						<Route path="Inschrijving" element={<Inschrijving />} />
 						<Route path="Inschrijvingforum" element={<Inschrijvingforum />} />
 						<Route path="Confirmation" element={<Confirmation />} />
 					</Route>

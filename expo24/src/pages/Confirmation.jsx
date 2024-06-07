@@ -10,7 +10,7 @@ function Confirmation() {
 
 	// Parameters
 	const templateParams = {
-		name: formData?.name, //name receiver
+		to_name: formData?.firstName, //name receiver
 		message: "Bedankt voor uw inschrijving.", //message
 		to_email: formData?.email, //email receiver
 	};

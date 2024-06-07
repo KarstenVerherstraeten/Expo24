@@ -130,12 +130,13 @@ body {
 	
 	
 	.glass-panel {
-	
-		height: 135vh;
-	
+		min-height: 100vh;
 	}
 
+	.container {
+		min-height: 100vh;
 
+	}
 	.ConfigContent {
 		margin: 0px 30px;
 	}

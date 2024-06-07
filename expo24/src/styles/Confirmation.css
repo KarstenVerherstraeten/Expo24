@@ -87,11 +87,16 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	.ConfigTitle {
+		font-size: 50px;
+	}
 	.ConfigInfo {
-		flex-direction: column;
+		justify-content: space-around;
+		width: 600px;
 	}
 	.ConfigInfo div {
 		margin: 20px 0;
+		
 	}
 	.ConfigButton {
 		width: 300px;
@@ -99,6 +104,17 @@ body {
 	.ConfigButton button {
 		padding: 10px 20px;
 		font-size: 16px;
+	}
+
+	.ConfigInfo p {
+		font-size: 16px;
+		display: flex;
+        flex-direction: column;
+	}
+
+	.ConfigInfo ul p{
+		font-size: 12px;
+		
 	}
 }
 
@@ -110,6 +126,10 @@ body {
 		font-size: 16px;
 		display: flex;
         flex-direction: column;
+	}
+
+	.ConfigInfo {
+		flex-direction: column;
 	}
 
 	.ConfigInfo ul p{

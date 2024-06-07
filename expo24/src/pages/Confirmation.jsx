@@ -73,17 +73,17 @@ function Confirmation() {
 			</div>
 			<div className="ConfigContent">
 				<h2 className="ConfigTitle">
-					Bedankt voor uw <br /> inschrijving!{" "}
+					Thank you for <br /> Signing up!{" "}
 				</h2>
 				<div className="ConfigBottom">
 					<p>
-						U werd succesvol ingeschreven voor EXPO24. <br />U zou binnenkort
-						een email moeten krijgen met alle praktische info. <br /> Indien u geen mail krijgt, <span style={{fontWeight: "700"}}>kijk zeker in uw spam folder</span>.
+						U have been succesfully signed up. <br />An email should be in your inbox soon.
+						<br /> In case u didn't recieve it, <span style={{fontWeight: "700"}}>Check your spam folder</span>.
 					</p>
 				</div>
 				<div className="ConfigInfo">
 					<div>
-						<p>Praktische info:</p>
+						<p>Practical info:</p>
 						<ul>
 							<p>EXPO24</p>
 							<p>Erasmushogeschool Brussel</p>
@@ -95,24 +95,24 @@ function Confirmation() {
 						</ul>
 					</div>
 					<div>
-						<p>Persoonlijke gegevens:</p>
+						<p>Personal Information:</p>
 						<ul>
 							<p>
 								{formData?.lastName} {formData?.firstName}
 							</p>
 							<p>{formData?.email}</p>
-							<p>Hoeveelheid personen: {formData?.numberOfPeople}</p>
+							<p>How many People: {formData?.numberOfPeople}</p>
 							<p>
-								Voorkeursprojecten
+								Preferences:
 								<ul>
 									{formData?.preferences?.vrGame && <li>VR-game</li>}
 									{formData?.preferences?.threeDGame && <li>3D-game</li>}
-									{formData?.preferences?.liveCoding && <li>Live coderen</li>}
+									{formData?.preferences?.liveCoding && <li>Live code</li>}
 									{formData?.preferences?.demo3DPrints && (
 										<li>Demo 3D-prints</li>
 									)}
 									{formData?.preferences?.demoLasercut && (
-										<li>Demo lasersnijden</li>
+										<li>Demo LaserCutting</li>
 									)}
 								</ul>
 							</p>
@@ -120,7 +120,7 @@ function Confirmation() {
 					</div>
 				</div>
 				<div className="ConfigButton">
-					<button onClick={() => navigate("/")}>Ga terug naar homepage</button>
+					<button onClick={() => navigate("/")}>Back to Home</button>
 				</div>
 			</div>
 		</div>

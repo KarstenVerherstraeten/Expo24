@@ -114,6 +114,9 @@ function Confirmation() {
 									{formData?.preferences?.demoLasercut && (
 										<li>Demo LaserSnijden</li>
 									)}
+									{formData?.preferences?.geenIdee && (
+										<li>Geen idee</li>
+									)}
 								</ul>
 							</p>
 						</ul>

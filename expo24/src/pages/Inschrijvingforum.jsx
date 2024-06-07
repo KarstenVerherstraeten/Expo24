@@ -15,6 +15,7 @@ function Inschrijvingforum() {
 			liveCoding: false,
 			demo3DPrints: false,
 			demoLasercut: false,
+			geenIdee: false,
 		},
 	});
 
@@ -86,7 +87,6 @@ function Inschrijvingforum() {
 					<div className="glass"></div>
 					<div className="glass"></div>
 					<div className="glass"></div>
-					<div className="glass"></div>
 				</div>
 				<div className="content-3">
 					<div className="title-h1">
@@ -96,7 +96,7 @@ function Inschrijvingforum() {
 					<form className="form-3" onSubmit={handleSubmit}>
 						<div className="form-section-1">
 							<div className="section-1">
-              <input
+								<input
 									type="text"
 									id="firstName"
 									name="firstName"
@@ -115,7 +115,6 @@ function Inschrijvingforum() {
 									onChange={handleChange}
 									required
 								/>
-								
 							</div>
 
 							<div className="section-2">
@@ -174,7 +173,13 @@ function Inschrijvingforum() {
 						</div>
 
 						<div className="project-text">
-							<p className="text-p">Om een schatting te kunnen maken van het aantal deelnemers,<br/>vragen we je om aan te duiden welke workshops je graag volgt<br/>op EXPO24. </p>
+							<p className="text-p">
+								Om een schatting te kunnen maken van het aantal deelnemers,
+								<br />
+								vragen we je om aan te duiden welke workshops je graag volgt
+								<br />
+								op EXPO24.
+							</p>
 						</div>
 
 						<div className="project-checkbox-container">
@@ -209,9 +214,7 @@ function Inschrijvingforum() {
 										checked={formData.preferences.demoLasercut}
 										onChange={handleChange}
 									/>
-									<label htmlFor="project-new-checkbox">
-										Demo Lasercut
-									</label>
+									<label htmlFor="project-new-checkbox">Demo Lasercut</label>
 								</div>
 							</div>
 
@@ -238,21 +241,20 @@ function Inschrijvingforum() {
 									<label htmlFor="project-3d-printen">Demo 3D-Printen</label>
 								</div>
 
-                <div className="project-checkbox">
+								<div className="project-checkbox">
 									<input
 										type="checkbox"
 										id="geen-idee"
-										name="Geen-idee"
-										checked={formData.preferences.demo3DPrints}
+										name="geenIdee"
+										checked={formData.preferences.geenIdee}
 										onChange={handleChange}
 									/>
 									<label htmlFor="geen-idee">Geen idee</label>
 								</div>
-
 							</div>
 						</div>
 						<button type="submit" id="Continue">
-						Inschrijven
+							Inschrijven
 						</button>
 					</form>
 				</div>

@@ -110,7 +110,7 @@ body {
 	width: 70%;
 	height: 100vh;
 	color: white;
-	margin-top: 83px;
+	margin-top: 7%;
 }
 
 .svg-form-container {
@@ -159,7 +159,17 @@ body {
 	.project-checkbox-container {
 		flex-direction: row;
 	}
+
+	
 }
+
+@media only screen and (max-width: 767px) {
+	.content-3 {
+		margin-top: 30%;
+	}
+	
+  }
+  
 
 .occupation-3 select {
 	width: 250px;

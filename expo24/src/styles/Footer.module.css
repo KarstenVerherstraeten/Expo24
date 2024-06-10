@@ -1,0 +1,19 @@
+.FooterContainer {
+	transform: scale(1);
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 10px 100px;
+}
+.FooterContainer img {
+	width: 90%;
+}
+.Footer a {
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+}
+.Footer {
+	display: flex;
+	list-style-type: none;
+}

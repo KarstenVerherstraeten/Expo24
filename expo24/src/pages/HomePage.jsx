@@ -3,6 +3,7 @@ import Timer from "../components/Timer";
 import { useNavigate } from "react-router-dom";
 import LogoW from "../assets/LogoW.svg";
 import Nav from "../components/Navigation";
+import Footer from "../components/Footer";
 
 function HomePage() {
 	// code helped by ChatGPT
@@ -103,6 +104,7 @@ function HomePage() {
 					</div>
 				</div>
 			</div>
+			<div></div>
 		</div>
 	);
 }

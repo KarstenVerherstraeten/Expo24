@@ -3,35 +3,67 @@ import { useNavigate } from "react-router-dom";
 import "../styles/Inschrijvingforum.css";
 
 function Inschrijvingforum() {
-const handleSubmit = async (e) => {
-	e.preventDefault();
-	setLoading(true);
-	try {
-		const response = await fetch("https://fp4-info-onlineinfoteam.onrender.com/postInvite", {
+	const [formData, setFormData] = useState({
+		lastName: "",
+		firstName: "",
+		email: "",
+		numberOfPeople: "",
+		occupation: "",
+		preferences: {
+		  vrGame: false,
+		  threeDGame: false,
+		  liveCoding: false,
+		  demo3DPrints: false,
+		  demoLasercut: false,
+		},
+	  });
+	
+	  const [loading, setLoading] = useState(false);
+	  const navigate = useNavigate();
+	
+	  const handleChange = (e) => {
+		const { name, value, type, checked } = e.target;
+		if (type === "checkbox") {
+		  setFormData((prevState) => ({
+			...prevState,
+			preferences: {
+			  ...prevState.preferences,
+			  [name]: checked,
+			},
+		  }));
+		} else {
+		  setFormData((prevState) => ({
+			...prevState,
+			[name]: value,
+		  }));
+		}
+	  };
+	
+	  const handleSubmit = async (e) => {
+		e.preventDefault();
+		setLoading(true);
+		try {
+		  const response = await fetch("https://fp4-info-onlineinfoteam.onrender.com/postInvite", {
 			method: "POST",
 			headers: {
-				"Content-Type": "application/json",
+			  "Content-Type": "application/json",
 			},
 			body: JSON.stringify(formData),
-		});
-
-		// Check if the response is ok
-		if (!response.ok) {
-			const result = await response.json();
-			alert(`Fout bij inschrijving: ${result.error}`);
-		} else {
-			// Handle JSON response
-			const result = await response.json();
-			console.log("Form submission successful:", result);
+		  });
+	
+		  const result = await response.json();
+		  if (response.ok) {
 			navigate("/confirmation", { state: { formData } });
+		  } else {
+			alert(`Fout bij inschrijving: ${result.error}`);
+		  }
+		} catch (error) {
+		  console.error("Error submitting form:", error);
+		  alert("Er is een fout opgetreden bij het verzenden van de inschrijving.");
+		} finally {
+		  setLoading(false);
 		}
-	} catch (error) {
-		console.error("Error submitting form:", error);
-		alert("Er is een fout opgetreden bij het verzenden van de inschrijving.");
-	} finally {
-		setLoading(false);
-	}
-};
+	  };
 
 	return (
 		<>

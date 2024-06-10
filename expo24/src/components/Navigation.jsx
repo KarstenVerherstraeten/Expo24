@@ -36,7 +36,12 @@ function Navigation() {
 						<li>
 							<Link to="/Practical">Bereikbaarheid</Link>
 						</li>
+						<li className={styles.btn}>
+						<Link to="/InschrijvingForum">Schrijf je in!</Link>
+						</li>
 					</ul>
+
+					
 				</div>
 			</nav>
 			<Outlet />

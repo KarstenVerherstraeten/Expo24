@@ -28,6 +28,7 @@
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
+	filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
 }
 
 .NavContainer img {
@@ -47,6 +48,19 @@
 .Nav li {
 	margin-left: 70px;
 	position: relative; /* Important for the dropdown */
+}
+
+/* Adding vertical line between links: https://chatgpt.com/c/77230ba8-d567-4e48-9a29-c98706a916e6 */
+.Nav li::after {
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height: 20px;
+	background-color: black;
+	position: absolute;
+	right: -35px; /* Half of margin-left to center the line */
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .Nav a {
@@ -93,4 +107,13 @@
 .dropdownMenu li a:hover {
 	background-color: #f0f0f0;
 	color: rgb(0, 0, 0);
+}
+
+.btn{
+	background-color: #FF0000;
+	color: white;
+	padding: 6px 12px;
+	border-radius: 5px;
+	font-family: "Gotham Medium";
+	letter-spacing: 3px;
 }

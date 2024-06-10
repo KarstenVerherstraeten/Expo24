@@ -82,9 +82,14 @@ app.post("/postInvite", async (req, res) => {
 app.get("/health", async (req, res) => {
     try {
         // Perform a simple operation to check server health
-        const collection = client.db("FP4").collection("EmptyCollection");
-        const document = await collection.findOne({});
-        res.status(200).send({ status: "OK" });
+        const database = client.db("FP4"); // Use any existing database
+        const adminCommand = { ping: 1 };
+        const result = await database.command(adminCommand);
+        if (result.ok === 1) {
+            res.status(200).send({ status: "OK" });
+        } else {
+            throw new Error("Health check failed");
+        }
     } catch (error) {
         console.error("Health check failed:", error);
         res.status(500).send({ error: "Health check failed" });

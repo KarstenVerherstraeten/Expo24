@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import emailjs from 'emailjs-com';
-import "../styles/Confirmation.css";
+import ConfirmationCss from "../styles/Confirmation.module.css";
 
 function Confirmation() {
 	const location = useLocation();
@@ -46,42 +46,42 @@ function Confirmation() {
 
 	return (
 		<div>
-			<div className="glass-panel">
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
+			<div className={ConfirmationCss.glassPanel}>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
+				<div className={ConfirmationCss.glass}></div>
 			</div>
-			<div className="ConfigContent">
-				<h2 className="ConfigTitle">
+			<div className={ConfirmationCss.ConfigContent}>
+				<h2 className={ConfirmationCss.ConfigTitle}>
 					Bedankt voor <br /> uw inschrijving!{" "}
 				</h2>
-				<div className="ConfigBottom">
+				<div className={ConfirmationCss.ConfigBottom}>
 					<p>
 						U bent succesvol ingeschreven. <br />Er zou binnenkort een e-mail in uw inbox moeten zijn.
 						<br /> Mocht u deze niet ontvangen hebben, <span style={{fontWeight: "700"}}>Controleer uw spammap</span>.
 					</p>
 				</div>
-				<div className="ConfigInfo">
+				<div className={ConfirmationCss.ConfigInfo}>
 					<div>
 						<p>Praktische informatie:</p>
 						<ul>
@@ -122,7 +122,7 @@ function Confirmation() {
 						</ul>
 					</div>
 				</div>
-				<div className="ConfigButton">
+				<div className={ConfirmationCss.ConfigButton}>
 					<button onClick={() => navigate("/")}>Ga terug naar Home</button>
 				</div>
 			</div>

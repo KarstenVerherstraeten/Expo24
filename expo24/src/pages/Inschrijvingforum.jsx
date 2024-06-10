@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/Inschrijvingforum.css";
+import InschrijvingCss from "../styles/Inschrijvingforum.module.css";
 
 function Inschrijvingforum() {
 	const [formData, setFormData] = useState({
@@ -67,45 +67,45 @@ function Inschrijvingforum() {
 
 	return (
 		<>
-			<div className="container-3">
+			<div className={InschrijvingCss.container}>
 				{loading && (
-					<div className="loading-screen">
-						<div className="spinner"></div>
+					<div className={InschrijvingCss.loadingScreen}>
+						<div className={InschrijvingCss.spinner}></div>
 						<p>Bezig met Inschrijven ...</p>
 					</div>
 				)}
-				<div className="glass-panel-3">
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
-					<div className="glass"></div>
+				<div className={InschrijvingCss.glassPanel}>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
 				</div>
-				<div className="content-3">
-					<div className="title-h1">
+				<div className={InschrijvingCss.content}>
+					<div className={InschrijvingCss.title}>
 						<h1>Schrijf je in</h1>
 					</div>
 
-					<form className="form-3" onSubmit={handleSubmit}>
-						<div className="form-section-1">
-							<div className="section-1">
+					<form className={InschrijvingCss["form-3"]} onSubmit={handleSubmit}>
+						<div className={InschrijvingCss["form-section-1"]}>
+							<div className={InschrijvingCss["section-1"]}>
 								<input
 									type="text"
 									id="firstName"
@@ -127,7 +127,7 @@ function Inschrijvingforum() {
 								/>
 							</div>
 
-							<div className="section-2">
+							<div className={InschrijvingCss["section-2"]}>
 								<input
 									type="email"
 									id="email"
@@ -149,9 +149,9 @@ function Inschrijvingforum() {
 								/>
 							</div>
 
-							<div className="occupation-3">
+							<div className={InschrijvingCss["occupation-3"]}>
 								<select
-									className="select-2"
+									className={InschrijvingCss["select-2"]}
 									id="occupation-3"
 									name="occupation"
 									value={formData.occupation}
@@ -162,7 +162,7 @@ function Inschrijvingforum() {
 									<option value="student">Student</option>
 									<option value="geen-student">Geen student</option>
 									<option value="ouder">Ouder</option>
-									<option value="docent">Leerkracht</option>
+									<option value="docent">Docent</option>
 									<option value="ehb-staff">EHB Staff</option>
 									<option value="bedrijf">Bedrijf</option>
 									<option value="alumni">Alumni</option>
@@ -174,6 +174,7 @@ function Inschrijvingforum() {
 										id="bedrijf"
 										name="bedrijf"
 										placeholder="Bedrijfsnaam"
+										className={InschrijvingCss.bedrijf}
 										value={formData.bedrijf}
 										onChange={handleChange}
 										required={formData.occupation === "bedrijf"}
@@ -182,8 +183,8 @@ function Inschrijvingforum() {
 							</div>
 						</div>
 
-						<div className="project-text">
-							<p className="text-p">
+						<div className={InschrijvingCss["project-text"]}>
+							<p className={InschrijvingCss["text-p"]}>
 								Om een schatting te kunnen maken van het aantal deelnemers,
 								<br />
 								vragen we je om aan te duiden welke workshops je graag volgt
@@ -192,9 +193,9 @@ function Inschrijvingforum() {
 							</p>
 						</div>
 
-						<div className="project-checkbox-container">
-							<div className="project-checkbox-container-1">
-								<div className="project-checkbox">
+						<div className={InschrijvingCss["project-checkbox-container"]}>
+							<div className={InschrijvingCss["project-checkbox-container-1"]}>
+								<div className={InschrijvingCss["project-checkbox"]}>
 									<input
 										type="checkbox"
 										id="project-3d-games"
@@ -205,7 +206,7 @@ function Inschrijvingforum() {
 									<label htmlFor="project-3d-games">3D-Games</label>
 								</div>
 
-								<div className="project-checkbox">
+								<div className={InschrijvingCss["project-checkbox"]}>
 									<input
 										type="checkbox"
 										id="project-vr-games"
@@ -216,7 +217,7 @@ function Inschrijvingforum() {
 									<label htmlFor="project-vr-games">VR-Games</label>
 								</div>
 
-								<div className="project-checkbox">
+								<div className={InschrijvingCss["project-checkbox"]}>
 									<input
 										type="checkbox"
 										id="project-new-checkbox"
@@ -228,8 +229,8 @@ function Inschrijvingforum() {
 								</div>
 							</div>
 
-							<div className="project-checkbox-container-2">
-								<div className="project-checkbox">
+							<div className={InschrijvingCss["project-checkbox-container-2"]}>
+								<div className={InschrijvingCss["project-checkbox"]}>
 									<input
 										type="checkbox"
 										id="project-live-coderen"
@@ -240,7 +241,7 @@ function Inschrijvingforum() {
 									<label htmlFor="project-live-coderen">Live coderen</label>
 								</div>
 
-								<div className="project-checkbox">
+								<div className={InschrijvingCss["project-checkbox"]}>
 									<input
 										type="checkbox"
 										id="project-3d-printen"
@@ -251,7 +252,7 @@ function Inschrijvingforum() {
 									<label htmlFor="project-3d-printen">Demo 3D-Printen</label>
 								</div>
 
-								<div className="project-checkbox">
+								<div className={InschrijvingCss["project-checkbox"]}>
 									<input
 										type="checkbox"
 										id="geen-idee"
@@ -263,7 +264,7 @@ function Inschrijvingforum() {
 								</div>
 							</div>
 						</div>
-						<button type="submit" id="Continue">
+						<button type="submit" id="Continue" className={InschrijvingCss.continue}>
 							Inschrijven
 						</button>
 					</form>

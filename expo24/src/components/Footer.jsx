@@ -24,7 +24,13 @@ function Footer() {
 							<Link to="/Practical">FAQ</Link>
 						</li>
 						<li>
-							<Link to="/">Showcase</Link>
+							<Link to="/">Portfolio</Link>
+						</li>
+						<li>
+							<Link to="/">Awards</Link>
+						</li>
+						<li>
+							<Link to="/">Projecten</Link>
 						</li>
 					</ul>
 				</div>

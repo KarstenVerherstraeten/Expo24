@@ -252,6 +252,7 @@ button:hover {
 	align-items: center;
 	justify-content: center;
 	z-index: 1000;
+	font-family: "Gotham Black";
 }
 
 .spinner {

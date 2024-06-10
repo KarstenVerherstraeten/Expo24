@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import LogoW from "../assets/LogoW.svg";
 import Nav from "../components/Navigation";
 import Footer from "../components/Footer";
+import HomepageCss from "../styles/Homepage.module.css";
 
 function HomePage() {
 	// code helped by ChatGPT
@@ -25,55 +26,55 @@ function HomePage() {
 	}, [navigate]);
 
 	return (
-		<div className="container">
-			<div className="glass-panel">
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
-				<div className="glass"></div>
+		<div className={HomepageCss.container}>
+			<div className={HomepageCss.glassPanel}>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
+			<div className={HomepageCss.glass}></div>
 			</div>
 
-			<div className="content">
-				<img src={LogoW} alt="Het logo werkt niet🥲" />
-				<div className="date">
+			<div className={HomepageCss.content}>
+				<img src={LogoW} alt="logo"/>
+				<div className={HomepageCss.date}>
 					<p>21 juni 2024</p>
 					<p>Vanaf: 17:00</p>
 				</div>
 
 				<Timer />
 
-				<div className="basicInfo">
+				<div className={HomepageCss.basicInfo}>
 					<p>Erasmushogeschool Brussel campus Kaai</p>
 					<p>Nijverheidskaai 170, 1070 Anderlecht</p>
 				</div>
 
 				<button id="SignIn">Schrijf je in!</button>
-				<div className="information">
-					<div className="leftSide">
-						<div className="What">
+				<div className={HomepageCss.information}>
+					<div className={HomepageCss.leftSide}>
+						<div className={HomepageCss.What}>
 							<p>Wat is EXPO24?</p>
 							Tijdens Expo24 presenteren de derdejaarsstudenten van de Erasmushogeschool hun eindexamen.
 						</div>
-						<div className="General">
+						<div className={HomepageCss.General}>
 							<p>Praktische Info</p>
 							<ul>
 								<li>Waar: Erasmushogeschool Brussel campus Kaai</li>
@@ -82,8 +83,8 @@ function HomePage() {
 							</ul>
 						</div>
 					</div>
-					<div className="right side">
-						<div className="Why">
+					<div className={`${HomepageCss.right} ${HomepageCss.side}`}>
+						<div className={HomepageCss.Why}>
 							<p>Waarom komen?</p>
 							<ul>
 								<li>Interactieve activiteiten</li>
@@ -94,10 +95,10 @@ function HomePage() {
 								<li>Familie en vrienden</li>
 							</ul>
 						</div>
-						<div className="BBQ">
+						<div className={HomepageCss.BBQ}>
 							<p>Barbecue</p>
 							Tijdens het evenement organiseert Enigma, de studentenvereniging van de EHB school, een barbecue van 12u30 tot 20u30. Als je wilt deelnemen, schrijf je dan in via de knop hieronder:
-							<a className="buttonBBQ" href="https://docs.google.com/forms/d/e/1FAIpQLSfzePgKhlMeJRjyRnlr-gOlAmdLpUHmD7mprBsdGJmGeBcg4Q/viewform">
+							<a className={HomepageCss.buttonBBQ} href="https://docs.google.com/forms/d/e/1FAIpQLSfzePgKhlMeJRjyRnlr-gOlAmdLpUHmD7mprBsdGJmGeBcg4Q/viewform">
 								Ik wil naar de barbecue!
 							</a>
 						</div>

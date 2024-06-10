@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import LogoB from "../assets/LogoB.svg";
-import styles from "../styles/Navigation.module.css"; // Ensure the correct path to your CSS module
+import styles from "../styles/Navigation.module.css"; 
 
 function Navigation() {
 	return (

@@ -13,12 +13,7 @@
 	src: url(../assets/fonts/Gotham-Light.otf);
 }
 
-body {
-	margin: 0;
-	padding: 0;
-}
-
-.container-3 {
+.container {
 	height: 100vh;
 	width: 100%;
 	background: url("./assets/BlueBackgrond.png") no-repeat center center fixed;
@@ -28,7 +23,7 @@ body {
 	justify-content: center;
 }
 
-.glass-panel-3 {
+.glassPanel {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -39,7 +34,7 @@ body {
 	align-items: center;
 }
 
-.glass-3 {
+.glass {
 	width: 10%;
 	height: 100%;
 	backdrop-filter: blur(30px);
@@ -51,8 +46,7 @@ body {
 	);
 }
 
-.title-h1,
-h1 {
+.title h1 {
 	font-family: "Gotham Black";
 	font-size: 30px;
 	color: #ffffff;
@@ -77,7 +71,7 @@ h1 {
 	margin-bottom: 16px;
 }
 
-.content-3 {
+.content {
 	position: absolute;
 	display: flex;
 	flex-direction: column;
@@ -177,13 +171,13 @@ h1 {
 	gap: 10px;
 }
 
-#bedrijf::placeholder {
+.bedrijf::placeholder {
 	color: black;
 	font-family: "Gotham Light";
 	font-weight: 400;
 }
 
-#Continue,
+.continue,
 button {
 	position: relative;
 	padding: 15px 20px;
@@ -195,14 +189,14 @@ button {
 	overflow: hidden;
 	color: transparent;
 }
-#Continue,
+.continue,
 button:hover {
 	background-color: rgb(255, 255, 255);
 	color: #7b201e;
 	border: none;
 }
 
-#Continue::before {
+.continue::before {
 	content: "Continue";
 	position: absolute;
 	top: 0;
@@ -275,7 +269,7 @@ button:hover {
 }
 
 @media (max-width: 450px) {
-	#Continue,
+	.continue,
 	button {
 		margin-bottom: 50px;
 	}

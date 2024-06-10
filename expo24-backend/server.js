@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 require('dotenv').config();
-const port = 3000;
+const port = process.env.PORT || 3000;  // Use environment variable for port
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = process.env.MONGODB_URI || "mongodb+srv://remygistelinck:LuWvvCl6qW8AP6bp@web2.lqrloxg.mongodb.net/?retryWrites=true&w=majority";
 
@@ -78,21 +78,30 @@ app.post("/postInvite", async (req, res) => {
     }
 });
 
+// Health check endpoint
+app.get("/health", async (req, res) => {
+    try {
+        // Perform a simple operation to check server health
+        const collection = client.db("FP4").collection("EmptyCollection");
+        const document = await collection.findOne({});
+        res.status(200).send({ status: "OK" });
+    } catch (error) {
+        console.error("Health check failed:", error);
+        res.status(500).send({ error: "Health check failed" });
+    }
+});
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 
     setInterval(async () => {
         try {
             const fetch = await import('node-fetch');
-            const response = await fetch.default(`http://localhost:${port}/ping`);
+            const response = await fetch.default(`http://localhost:${port}/health`);
             const body = await response.text();
-            console.log(`Ping response: ${body}`);
+            console.log(`Health check response: ${body}`);
         } catch (err) {
-            console.error('Error pinging server:', err);
+            console.error('Error checking server health:', err);
         }
     }, 840000); // 14 minutes
-});
-
-app.get("/ping", (req, res) => {
-    res.send("Server is alive");
 });

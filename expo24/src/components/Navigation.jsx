@@ -22,9 +22,6 @@ keyboard_arrow_down
                             </span>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link to="/Item1">Portfolio</Link>
-                                </li>
-                                <li>
                                     <Link to="/Item2">Awards</Link>
                                 </li>
                                 <li>

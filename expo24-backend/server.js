@@ -3,7 +3,6 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const fetch = require("node-fetch");
 require('dotenv').config();
 const port = 3000;
 const { MongoClient, ServerApiVersion } = require('mongodb');
@@ -79,11 +78,16 @@ app.post("/postInvite", async (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
     // Ping the server every 14 minutes (840,000 milliseconds)
-    setInterval(() => {
-        fetch(`http://localhost:${port}/ping`)
-            .then(res => res.text())
-            .then(body => console.log(body))
-            .catch(err => console.error('Error pinging server:', err));
+    setInterval(async () => {
+        try {
+            const fetch = await import('node-fetch');
+            fetch.default(`http://localhost:${port}/ping`)
+                .then(res => res.text())
+                .then(body => console.log(body))
+                .catch(err => console.error('Error pinging server:', err));
+        } catch (err) {
+            console.error('Error loading node-fetch:', err);
+        }
     }, 840000); // 14 minutes
 });
 

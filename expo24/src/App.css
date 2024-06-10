@@ -19,7 +19,7 @@
 }
 
 .content img {
-	margin: 150px 0px;
+	margin: 12% 0px 10% 0px;
 	width: 600px;
 }
 
@@ -28,14 +28,12 @@ body {
 	padding: 0;
 }
 
-
-
 /* Homepage content */
 .date {
 	font-family: "Gotham Black";
 	font-weight: 100;
 	font-size: 20px;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	margin-top: -50px;
 	display: flex;
 	align-items: center;
@@ -143,7 +141,6 @@ body {
 }
 
 .basicInfo {
-	margin-top: 50px;
 	text-align: center;
 	font-family: "Gotham Black";
 }

@@ -3,20 +3,20 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-require('dotenv').config()
+const fetch = require("node-fetch");
+require('dotenv').config();
 const port = 3000;
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://remygistelinck:LuWvvCl6qW8AP6bp@web2.lqrloxg.mongodb.net/?retryWrites=true&w=majority"
+const uri = "mongodb+srv://remygistelinck:LuWvvCl6qW8AP6bp@web2.lqrloxg.mongodb.net/?retryWrites=true&w=majority";
 
 if (!uri) {
     throw new Error('MONGODB_URI environment variable is not defined');
-  }
+}
 
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 app.use(express.json());
 
-//code from cloud.mongodb.com
 // Create a MongoClient 
 const client = new MongoClient(uri, {
     serverApi: {
@@ -32,14 +32,14 @@ app.get("/getInvites", async (req, res) => {
         await client.connect();
 
         //retrieve data
-        const collection = client.db("FP4").collection("Full-Projects-Expo")
+        const collection = client.db("FP4").collection("Full-Projects-Expo");
         const invites = await collection.find({}).toArray();
 
         res.status(200).send(invites);
     } finally {
         await client.close();
     }
-})
+});
 
 app.post("/postInvite", async (req, res) => {
     //TODO: check for empty fields
@@ -56,9 +56,9 @@ app.post("/postInvite", async (req, res) => {
             occupation: req.body.occupation
         };
 
-        const collection = client.db("FP4").collection("Full-Projects-Expo")
+        const collection = client.db("FP4").collection("Full-Projects-Expo");
         const insertInvite = await collection.insertOne(invite);
-        //Send back the data with the respone
+        //Send back the data with the response
         res.status(201).send({
             status: "Saved",
             message: "User has been saved!",
@@ -74,8 +74,20 @@ app.post("/postInvite", async (req, res) => {
         // Ensures that the client will close when you finish/error
         await client.close();
     }
-})
+});
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
+    // Ping the server every 14 minutes (840,000 milliseconds)
+    setInterval(() => {
+        fetch(`http://localhost:${port}/ping`)
+            .then(res => res.text())
+            .then(body => console.log(body))
+            .catch(err => console.error('Error pinging server:', err));
+    }, 840000); // 14 minutes
+});
+
+// Endpoint to respond to the ping
+app.get("/ping", (req, res) => {
+    res.send("Server is alive");
 });

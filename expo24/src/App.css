@@ -1,3 +1,4 @@
+/* Existing styles from the user */
 @font-face {
 	font-family: "Gotham Black";
 	src: url(./assets/fonts/Gotham-Black.otf);
@@ -16,10 +17,12 @@
 ::-webkit-scrollbar {
 	display: none;
 }
+
 .content img {
 	margin: 150px 0px;
 	width: 600px;
 }
+
 body {
 	margin: 0;
 	padding: 0;
@@ -34,28 +37,31 @@ body {
 	font-family: "Gotham Black";
 	background-color: white;
 	width: 100%;
-	color: blue;
+	color: rgb(0, 0, 0);
 	height: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
 }
+
 .NavContainer img {
 	width: 200px;
 	margin-left: 100px;
 }
+
 .Nav {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	display: flex;
 	justify-content: flex-end;
-	display: none;
+	align-items: center
 }
 
 .Nav li {
 	margin-left: 70px;
+	position: relative; /* Important for the dropdown */
 }
 
 .Nav a {
@@ -63,8 +69,50 @@ body {
 	color: inherit;
 }
 
-/* Homepage content */
+/* Dropdown Menu */
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
 
+.dropdown-toggle {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: white;
+	border: 1px solid #ccc;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	min-width: 160px;
+	z-index: 1000;
+}
+
+.dropdown-menu li {
+	margin: 0;
+}
+
+.dropdown-menu li a {
+	padding: 8px 16px;
+	display: block;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+	background-color: #f0f0f0;
+	color: rgb(0, 0, 0);
+}
+
+/* Other existing styles from the user */
+
+/* Homepage content */
 .date {
 	font-family: "Gotham Black";
 	font-weight: 100;
@@ -75,9 +123,11 @@ body {
 	align-items: center;
 	flex-direction: column;
 }
+
 .date p {
 	margin: 5px;
 }
+
 .container {
 	height: 100%;
 	width: 100%;
@@ -121,7 +171,7 @@ body {
 	align-items: center;
 }
 
-/* https://chatgpt.com/c/66caf465-c201-40a6-9c7b-509368cb2582 */
+/* SignIn button styles */
 #SignIn {
 	position: relative;
 	padding: 19px 40px;
@@ -129,33 +179,33 @@ body {
 	border-radius: 0;
 	font-family: "Gotham Black";
 	font-size: 20px;
-	background: white; /* White background for the button */
-	overflow: hidden; /* Ensure pseudo-element stays within button bounds */
-	color: transparent; /* Make the text transparent */
+	background: white;
+	overflow: hidden;
+	color: transparent;
 	margin-top: 30px;
 	border: none;
 }
 
 #SignIn::before {
-	content: "Schrijf je in!"; /* Same text as the button */
+	content: "Schrijf je in!";
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url("./assets/bg-01.webp") no-repeat center center fixed; /* Same background as body */
+	background: url("./assets/bg-01.webp") no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-clip: text;
 	background-clip: text;
-	color: transparent; /* Transparent text to reveal background */
+	color: transparent;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	z-index: 1;
-	pointer-events: none; /* Prevent pseudo-element from blocking button interactions */
+	pointer-events: none;
 }
 
-#SignIn:hover{
+#SignIn:hover {
 	cursor: pointer;
 }
 
@@ -169,6 +219,7 @@ body {
 	font-weight: 100;
 	font-style: normal;
 }
+
 .information p {
 	font-weight: 700;
 }
@@ -188,19 +239,23 @@ body {
 .leftSide {
 	width: 400px;
 }
+
 .BBQ {
 	width: 300px;
 	margin-bottom: 100px;
 	display: flex;
 	flex-direction: column;
 }
+
 .BBQ a {
 	margin-top: 20px;
 }
+
 button:hover {
 	background-color: blue;
 	color: white;
 }
+
 .buttonBBQ {
 	border: none;
 	text-decoration: none;
@@ -209,8 +264,6 @@ button:hover {
 	font-size: 20px;
 	margin-left: 0;
 }
-
-
 
 @media screen and (max-width: 768px) {
 	.information {

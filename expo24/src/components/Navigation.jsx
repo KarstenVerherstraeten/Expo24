@@ -1,36 +1,50 @@
-import { Outlet, Link } from "react-router-dom";
-import LogoB from "../assets/LogoB.svg";
+import { Outlet, Link } from 'react-router-dom';
+import LogoB from '../assets/LogoB.svg';
+
 
 function Navigation() {
-	return (
-		<>
-			<nav className="NavContainer">
-				<Link to="/">
-					<img src={LogoB} alt="Logo" />
-				</Link>
-				<div>
-					<ul className="Nav">
-						<li>
-							<Link to="/">Home</Link>
-						</li>
-						<li>
-							<Link to="/Activities">Activiteiten</Link>
-						</li>
-						<li>
-							<Link to="/Timetable">Timetable</Link>
-						</li>
-						<li>
-							<Link to="/Accessibility">Bereikbaarheid</Link>
-						</li>
-						<li>
-							<Link to="/Practical">Praktische info</Link>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<Outlet />
-		</>
-	);
+    return (
+        <>
+            <nav className="NavContainer">
+                <Link to="/">
+                    <img src={LogoB} alt="Logo" />
+                </Link>
+                <div>
+                    <ul className="Nav">
+                        <li>
+                            <Link to="/Activities">Programma</Link>
+                        </li>
+						<li className="dropdown">
+                            <span className="dropdown-toggle">
+                                Showcase<span class="material-symbols-outlined">
+keyboard_arrow_down
+</span>
+                            </span>
+                            <ul className="dropdown-menu">
+                                <li>
+                                    <Link to="/Item1">Portfolio</Link>
+                                </li>
+                                <li>
+                                    <Link to="/Item2">Awards</Link>
+                                </li>
+                                <li>
+                                    <Link to="/Item3">Projecten</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <Link to="/Accessibility">FAQ</Link>
+                        </li>
+                        <li>
+                            <Link to="/Practical">Bereikbaarheid</Link>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+            <Outlet />
+        </>
+    );
 }
 
 export default Navigation;

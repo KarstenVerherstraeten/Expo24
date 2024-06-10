@@ -43,38 +43,18 @@ body {
 	width: 10%;
 	height: 100%;
 	backdrop-filter: blur(30px);
-	background: linear-gradient(to right, rgba(64, 64, 73, 0.1) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(14, 14, 17, 0.6) 100%);
-}
-
-.svg-1 {
-	width: 80vw;
-	max-width: 430px;
-	margin-bottom: 30px;
-	filter: drop-shadow(0 0 40px rgba(0, 0, 0, 0.3));
-	margin-top: 55px;
-
-	path {
-		cursor: pointer;
-		transition: transform 1s ease, fill 0.5s ease;
-		transform-origin: 50% 50%;
-		animation: wobble 2s infinite linear;
-	}
-
-	path:hover {
-		fill: #fafafa;
-		transform: rotate(-5deg);
-	}
-
-	text {
-		font-size: 45px;
-	}
+	background: linear-gradient(
+		to right,
+		rgba(64, 64, 73, 0.1) 0%,
+		rgba(0, 0, 0, 0.4) 80%,
+		rgba(14, 14, 17, 0.6) 100%
+	);
 }
 
 .title-h1,
 h1 {
 	font-family: "Gotham Black";
 	font-size: 30px;
-
 	color: #ffffff;
 }
 
@@ -84,6 +64,7 @@ h1 {
 }
 
 .form-section-1 input {
+	width: 230px;
 	height: 30px;
 	padding: 0.5em;
 	margin-bottom: 16px;
@@ -138,6 +119,8 @@ h1 {
 .section-1 input,
 .section-2 input {
 	flex: 1;
+	font-family: "Gotham Light";
+	font-size: 14px;
 }
 
 .occupation-3,
@@ -155,16 +138,13 @@ h1 {
 	}
 }
 
-@media only screen and (max-width: 767px) {
-	.content-3 {
-		margin-top: 30%;
-	}
-}
-
 .occupation-3 select {
+	width: 248px;
 	height: 49px;
 	padding: 0.5em;
 	margin-bottom: 16px;
+	font-family: "Gotham Light";
+	font-size: 14px;
 }
 
 .project-checkbox {
@@ -173,6 +153,7 @@ h1 {
 	align-items: center;
 	margin-bottom: 10px;
 	padding: 10px;
+	width: 228px;
 	height: 30px;
 }
 
@@ -190,15 +171,16 @@ h1 {
 	color: #333333;
 }
 
-#bedrijf::placeholder {
-	color: black;
-	font-family: "Gotham Light";
-	font-weight: 400;
-}
 .project-checkbox-container {
 	display: flex;
 
 	gap: 10px;
+}
+
+#bedrijf::placeholder {
+	color: black;
+	font-family: "Gotham Light";
+	font-weight: 400;
 }
 
 #Continue,
@@ -217,7 +199,6 @@ button {
 button:hover {
 	background-color: rgb(255, 255, 255);
 	color: #7b201e;
-
 	border: none;
 }
 
@@ -252,7 +233,6 @@ button:hover {
 	align-items: center;
 	justify-content: center;
 	z-index: 1000;
-	font-family: "Gotham Black";
 }
 
 .spinner {
@@ -283,29 +263,28 @@ button:hover {
 	font-family: "Gotham light";
 	font-weight: 400;
 }
-body {
-	background-color: #333;
+
+@media (max-width: 768px) {
+	.container-3 {
+		margin-top: 20%;
+	}
+
+	.content-3 {
+		width: 59%;
+	}
 }
-@media only screen and (max-width: 480px) {
-	.section-1 input {
-		height: 80px;
-	}
-	.project-checkbox-container {
-		gap: 0px;
-	}
-	.occupation-3 .project-checkbox-container {
-		gap: 0px;
-	}
-	.section-1 input,
-	.section-2 input {
-		flex: 0;
-	}
-	.section-1,
-	.section-2 {
-		gap: 0px;
-	}
+
+@media (max-width: 450px) {
 	#Continue,
 	button {
-		margin-bottom: 150px;
+		margin-bottom: 50px;
+	}
+
+	.section-1,
+	.section-2 {
+		height: 130px;
+	}
+	.container-3 {
+		margin-top: 20%;
 	}
 }

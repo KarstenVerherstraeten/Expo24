@@ -86,6 +86,7 @@ app.get("/health", async (req, res) => {
         const adminCommand = { ping: 1 };
         const result = await database.command(adminCommand);
         if (result.ok === 1) {
+            console.log('Status ok');
             res.status(200).send({ status: "OK" });
         } else {
             throw new Error("Health check failed");

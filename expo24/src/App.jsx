@@ -10,6 +10,7 @@ import HomePage from "./pages/HomePage.jsx";
 import Inschrijvingforum from "./pages/Inschrijvingforum.jsx";
 import Confirmation from "./pages/Confirmation.jsx";
 import Programma from "./pages/Programma.jsx";
+import Home from "../src/pages/Home.jsx";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 					<Route path="/" element={<Navigation />}>
 						<Route index element={<HomePage />} />
 						<Route path="Accessibility" element={<Accessebiltity />} />
+						<Route path="Home" element={<Home />} />
 						<Route path="Activities" element={<Activities />} />
 						<Route path="Practical" element={<Practical />} />
 						<Route path="Timetable" element={<Timetable />} />

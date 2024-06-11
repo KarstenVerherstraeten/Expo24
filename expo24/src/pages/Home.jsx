@@ -1,9 +1,11 @@
 import homeCss from "../styles/Home.module.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import React, { useEffect } from "react";
 import logoB from "../assets/LogoB.svg";
 import Timer2 from "../components/Timer2";
 import Voorbeeld from "../assets/react.svg";
+import Slideshow from "../components/SlideShow";
+import Footer from "../components/Footer";
 
 function Home() {
 	return (
@@ -13,7 +15,7 @@ function Home() {
 					<h1>21 I 06 I 24</h1>
 					<div className={homeCss.homeButton}>
 						<img src={logoB} alt="" />
-						<button>Schrijf je in!</button>
+						<Link to="/InschrijvingForum">Schrijf je in!</Link>
 					</div>
 				</div>
 				<div className={homeCss.rightHeader}>
@@ -55,24 +57,63 @@ function Home() {
 			<div className={homeCss.content1}>
 				<h1>Ontdek het evenemnt</h1>
 			</div>
-			<div className="scroll-container">
-				<div>
-					<h2>naam:</h2>
-					<img src={Voorbeeld} alt="Cinque Terre"></img>
+			<div>
+				<Slideshow></Slideshow>
+			</div>
+			<div className={homeCss.content2}>
+				<div className={homeCss.basicInfo}>
+					<h3>21 I 06 I 24</h3>
+					<h3>START VANAF: 17:00</h3>
+					<h3>Erasmushogeschool Brussel, Campus Kaai</h3>
 				</div>
-				<div>
-					<h2>naam:</h2>
-					<img src={Voorbeeld} alt="Cinque Terre"></img>
+				<div className={homeCss.button}>
+					<a>
+						<Link to="/InschrijvingForum">Schrijf je in!</Link>
+					</a>
 				</div>
-				<div>
-					<h2>naam:</h2>
-					<img src={Voorbeeld} alt="Cinque Terre"></img>
-				</div>
-				<div>
-					<h2>naam:</h2>
-					<img src={Voorbeeld} alt="Cinque Terre"></img>
+
+				<div className={homeCss.Containers}>
+					<div className={homeCss.items}>
+						<h4>Awards</h4>
+						<div className={homeCss.picture}>
+							<img src="#" alt="foto" />
+							<a className={homeCss.button2}>
+								<Link to="/">Info</Link>
+							</a>
+						</div>
+					</div>
+					<div className={homeCss.items}>
+						<h4>Activiteiten</h4>
+						<div className={homeCss.picture}>
+							<img src="#" alt="foto" />
+							<a className={homeCss.button2}>
+								<Link to="/Activities">Info</Link>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
+			<div className={homeCss.content3}>
+				<h1>PRAKTISCHE INFO</h1>
+				<div className={homeCss.PracticalInfo}>
+					<div>
+						<h4>Adress: Nijverheidskaai 70</h4>
+						<h4>1070 Anderlecht</h4>
+					</div>
+					<div>
+						<h4>Data: 21 juni 2024</h4>
+						<h4>Uur: vanaf 17u tot 21u</h4>
+						<h4>Gebouw: Erasmushogeschool Brussel</h4>
+						<h4>Campus Kaai</h4>
+					</div>
+				</div>
+				<div className={homeCss.button3}>
+					<a>
+						<Link to="/Accessibility">Bereikbaarheid</Link>
+					</a>
+				</div>
+			</div>
+			<Footer></Footer>
 		</>
 	);
 }

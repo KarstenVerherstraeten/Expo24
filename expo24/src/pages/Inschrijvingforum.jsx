@@ -97,6 +97,7 @@ function Inschrijvingforum() {
 					<div className={InschrijvingCss.glass}></div>
 					<div className={InschrijvingCss.glass}></div>
 					<div className={InschrijvingCss.glass}></div>
+					<div className={InschrijvingCss.glass}></div>
 				</div>
 				<div className={InschrijvingCss.content}>
 					<div className={InschrijvingCss.title}>

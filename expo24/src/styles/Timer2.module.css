@@ -27,21 +27,22 @@
 	align-items: center;
 	font-size: 70px;
 	margin: 0px 20px;
-	font-family: "Gotham Light";
+	font-family: "Gotham light";
 }
 .time-block h2 {
 	margin: 0;
 	display: flex;
 	align-items: flex-end;
 	margin-bottom: 10px;
-	margin-left: 10px;
-	font-family: "Gotham Light";
+	margin-left: 5px;
+	font-size: 30px;
+	font-family: "Gotham light";
 }
 .time-block {
 	text-align: center;
-	margin-left: 10px;
 	display: flex;
 	flex-direction: row;
+	margin-right: 30px;
 }
 #timer {
 	font-size: 20px;

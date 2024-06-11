@@ -37,6 +37,7 @@
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	background: url("../assets/bg-01.webp") center center fixed;
 }
 
 .glass {

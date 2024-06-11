@@ -92,7 +92,7 @@
 .form-3 {
 	flex-direction: column;
 	margin-bottom: 30px;
-	margin-top: 5px;
+	margin-top: 2%;
 	gap: 20px;
 }
 
@@ -263,8 +263,14 @@ button:hover {
 		margin-top: 20%;
 	}
 
-	.content-3 {
+	
+	.content {
+		margin-top: 12vh;
 		width: 59%;
+	}
+
+	.form-3 {
+		margin-top: 10%;
 	}
 }
 
@@ -279,6 +285,13 @@ button:hover {
 		height: 130px;
 	}
 	.container-3 {
-		margin-top: 20%;
+		margin-top: 25%;
 	}
+
+	.content {
+		margin-top: 15vh;
+		width: 59%;
+	}
+
+	
 }

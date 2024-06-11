@@ -1,0 +1,46 @@
+body {
+	background-image: none;
+}
+h1 {
+	margin: 0px;
+}
+.header {
+	margin-top: 100px;
+	color: black;
+	margin: 200px 100px 0px 100px;
+	display: flex;
+}
+.header h1 {
+	margin-left: 40px;
+	margin-bottom: -15px;
+	font-size: 50px;
+	font-family: "Gotham Light";
+}
+.header img {
+	width: 500px;
+}
+.leftHeader {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+.leftHeader button {
+	width: 140px;
+	font-family: "Gotham Light";
+	font-size: 15px;
+	color: white;
+	padding: 8px 20px;
+	border-radius: 8px;
+	background-color: red;
+	border: none;
+	margin-right: 35px;
+}
+.homeButton {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+.rightHeader {
+	display: flex;
+	margin-left: 20%;
+}

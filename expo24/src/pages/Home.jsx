@@ -16,7 +16,7 @@ function Home() {
 					</div>
 				</div>
 				<div className={homeCss.rightHeader}>
-					<div>
+					<div className={homeCss.timer}>
 						<Timer2></Timer2>
 					</div>
 				</div>

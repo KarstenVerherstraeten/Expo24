@@ -13,42 +13,42 @@
 	src: url(./assets/fonts/Gotham-Light.otf);
 }
 
+/* Timer2.module.css */
 .bold-text {
 	font-weight: bold;
-	line-height: 1;
-	font-size: 100px; /* Grootte van de cijfers */
+	font-size: 70px; /* Grootte van de cijfers */
 	font-family: "Gotham Black";
 }
-
-#time-blocks {
+.time-blocks {
 	display: flex;
-	justify-content: space-around; /* Verdelen van de tijdvakken over de beschikbare ruimte */
-	margin-top: 20px; /* Ruimte boven de tijdvakken */
-	align-items: center;
 }
-
-.time-block {
-	text-align: center;
-	margin: -6%;
-	width: 130px;
-}
-
-.thin-line {
-	font-weight: lighter;
-	font-size: 3em;
-	vertical-align: middle;
-	line-height: 1;
-	padding: 0 20px; /* Aanpassing van de padding voor de streepjes */
-	margin-bottom: 90px;
-}
-
-#timer {
-	font-size: 20px;
+.time-block h1 {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	font-size: 70px;
+	margin: 0px 20px;
 	font-family: "Gotham Light";
 }
+.time-block h2 {
+	margin: 0;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-family: "Gotham Light";
+}
+.time-block {
+	text-align: center;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
+}
+#timer {
+	font-size: 20px;
+	font-family: "Gotham Light";
+}
+
+/* Add other styles as needed */
 
 @media screen and (max-width: 650px) {
 	.thin-line {

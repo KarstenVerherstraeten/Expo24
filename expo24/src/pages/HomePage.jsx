@@ -28,33 +28,33 @@ function HomePage() {
 	return (
 		<div className={HomepageCss.container}>
 			<div className={HomepageCss.glassPanel}>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
-			<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
+				<div className={HomepageCss.glass}></div>
 			</div>
 
 			<div className={HomepageCss.content}>
-				<img src={LogoW} alt="logo"/>
+				<img src={LogoW} alt="logo" />
 				<div className={HomepageCss.date}>
 					<p>21 juni 2024</p>
 					<p>Vanaf: 17:00</p>
@@ -72,7 +72,9 @@ function HomePage() {
 					<div className={HomepageCss.leftSide}>
 						<div className={HomepageCss.What}>
 							<p>Wat is EXPO24?</p>
-							Tijdens Expo24 presenteren de derdejaarsstudenten van de Erasmushogeschool hun eindexamen.
+							Ervaar een inspirerende en innovatieve avond tijdens ons event,
+							EXPO24, aan de Erasmushogeschool! Ontdek de creatieve projecten
+							van de derdejaarsstudenten van Multimedia & Creatieve Technologie.
 						</div>
 						<div className={HomepageCss.General}>
 							<p>Praktische Info</p>
@@ -87,18 +89,25 @@ function HomePage() {
 						<div className={HomepageCss.Why}>
 							<p>Waarom komen?</p>
 							<ul>
-								<li>Interactieve activiteiten</li>
-								<li>Leer over het MCT-programma</li>
-								<li>Vind potentiële medewerkers</li>
-								<li>Gratis drankjes</li>
+								<li>Tentoonstellingen</li>
+								<li>Live demo's</li>
+								<li>Mini-workshops</li>
+								<li>Welkomsdrankje</li>
 								<li>Barbecue</li>
-								<li>Familie en vrienden</li>
+								<li>Rondetafelgesprekken</li>
+								<li>Prijsuitreiking</li>
+								<li>Netwerkmogelijkheden</li>
 							</ul>
 						</div>
 						<div className={HomepageCss.BBQ}>
 							<p>Barbecue</p>
-							Tijdens het evenement organiseert Enigma, de studentenvereniging van de EHB school, een barbecue van 12u30 tot 20u30. Als je wilt deelnemen, schrijf je dan in via de knop hieronder:
-							<a className={HomepageCss.buttonBBQ} href="https://docs.google.com/forms/d/e/1FAIpQLSfzePgKhlMeJRjyRnlr-gOlAmdLpUHmD7mprBsdGJmGeBcg4Q/viewform">
+							Tijdens het evenement organiseert Enigma, de studentenvereniging
+							van de EHB school, een barbecue van 12u30 tot 20u30. Als je wilt
+							deelnemen, schrijf je dan in via de knop hieronder:
+							<a
+								className={HomepageCss.buttonBBQ}
+								href="https://docs.google.com/forms/d/e/1FAIpQLSfzePgKhlMeJRjyRnlr-gOlAmdLpUHmD7mprBsdGJmGeBcg4Q/viewform"
+							>
 								Ik wil naar de barbecue!
 							</a>
 						</div>

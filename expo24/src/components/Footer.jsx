@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
-import LogoB from "../assets/LogoB.svg";
+import LogoW from "../assets/LogoW.svg";
+import LogoEHB from "../assets/LogoEHB.svg";
 import css from "../styles/Footer.module.css";
 
 function Footer() {
@@ -7,10 +8,10 @@ function Footer() {
 		<>
 			<nav className={css.FooterContainer}>
 				<Link to="/">
-					<img src={LogoB} alt="Logo" />
+					<img src={LogoW} className={css.whiteLogo} alt="Logo" />
 				</Link>
 				<div>
-					<ul className={css.Footer}>
+					<ul className={css.links}>
 						<li>
 							<Link to="/">Home</Link>
 						</li>
@@ -33,7 +34,11 @@ function Footer() {
 							<Link to="/">Projecten</Link>
 						</li>
 					</ul>
+					<div className={css.ehbLogo}>
+					<img className={css.logoEhb} src={LogoEHB}></img>
 				</div>
+				</div>
+				
 			</nav>
 			<Outlet />
 		</>

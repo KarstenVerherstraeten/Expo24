@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import React, { useEffect } from "react";
 import logoB from "../assets/LogoB.svg";
 import Timer2 from "../components/Timer2";
+import Voorbeeld from "../assets/react.svg";
 
 function Home() {
 	return (
@@ -16,9 +17,60 @@ function Home() {
 					</div>
 				</div>
 				<div className={homeCss.rightHeader}>
-					<div>
+					<div className={homeCss.timer}>
 						<Timer2></Timer2>
 					</div>
+					<div>
+						<h2>Erasmushogeschool Brussel campus Kaai</h2>
+						<h2>Nijverheidskaai 170, 1070 Anderlecht </h2>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div className={homeCss.glassPanel}>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+					<div className={homeCss.glass}></div>
+				</div>
+			</div>
+			<div className={homeCss.content1}>
+				<h1>Ontdek het evenemnt</h1>
+			</div>
+			<div className="scroll-container">
+				<div>
+					<h2>naam:</h2>
+					<img src={Voorbeeld} alt="Cinque Terre"></img>
+				</div>
+				<div>
+					<h2>naam:</h2>
+					<img src={Voorbeeld} alt="Cinque Terre"></img>
+				</div>
+				<div>
+					<h2>naam:</h2>
+					<img src={Voorbeeld} alt="Cinque Terre"></img>
+				</div>
+				<div>
+					<h2>naam:</h2>
+					<img src={Voorbeeld} alt="Cinque Terre"></img>
 				</div>
 			</div>
 		</>

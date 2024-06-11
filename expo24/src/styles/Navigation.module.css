@@ -1,25 +1,11 @@
-@font-face {
-	font-family: "Gotham Black";
-	src: url(../assets/fonts/Gotham-Black.otf);
-}
-
-@font-face {
-	font-family: "Gotham Bold";
-	src: url(../assets/fonts/GothamBold.ttf);
-}
-
-@font-face {
-	font-family: "Gotham Light";
-	src: url(../assets/fonts/Gotham-Light.otf);
-}
-
 .NavContainer {
 	position: absolute;
 	top: 0;
 	right: 0;
 	padding: 20px;
 	z-index: 2;
-	font-family: "Gotham Black";
+	font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+	font-weight: 900;
 	background-color: white;
 	width: 100%;
 	color: rgb(0, 0, 0);
@@ -61,6 +47,11 @@
 	right: -35px; /* Half of margin-left to center the line */
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+ 
+.Nav .dropdownMenu li::after {
+	content: none;
 }
 
 .Nav a {
@@ -114,7 +105,7 @@
 	color: white;
 	padding: 6px 12px;
 	border-radius: 5px;
-	font-family: "Gotham Medium";
+	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
 	letter-spacing: 3px;
 }
 @media screen and (max-width: 480px) {

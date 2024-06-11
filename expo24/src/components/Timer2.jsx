@@ -2,65 +2,61 @@
 // and https://www.w3schools.com/js/js_date_methods.asp
 // and Github Copilot
 
-import { useEffect } from "react";
-import "../styles/Timer2.css";
+import React, { useEffect, useState } from "react";
+import TimerCss from "../styles/Timer2.module.css";
 
 const Timer2 = () => {
+	const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+
 	useEffect(() => {
-		var countDownDate = new Date("jun 21, 2024 17:00:00").getTime();
+		const countDownDate = new Date("Jun 21, 2024 17:00:00").getTime();
 
-		var x = setInterval(function () {
-			var now = new Date().getTime();
-			var distance = countDownDate - now;
-			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+		const updateTimer = () => {
+			const now = new Date().getTime();
+			const distance = countDownDate - now;
 
-			const timerElement = document.getElementById("timer");
-			if (timerElement) {
-				timerElement.innerHTML = `
-				<div id="time-blocks">
-				<div class="time-block">
-					<span class="bold-text">${days} </span>
-					<h2>Dagen</h2>
-				</div>
-				<span class="thin-line">|</span>
-				<div class="time-block">
-					<span class="bold-text">${hours}</span>
-					<h2>Uren</h2>
-				</div>
-				<span class="thin-line">|</span>
-				<div class="time-block">
-					<span class="bold-text">${minutes}</span>
-					<h2>Minuten</h2>
-				</div>
-				<span class="thin-line">|</span>
-				<div class="time-block">
-					<span class="bold-text">${seconds}</span>
-					<h2>Seconden</h2>
-				</div>
-			</div>
-
-				`;
-
-				if (distance < 0) {
-					clearInterval(x);
-					timerElement.innerHTML = "Event over";
-					timerElement.classList.add("bold-text", "underline");
-				}
+			if (distance < 0) {
+				setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+				clearInterval(intervalId);
+				return;
 			}
-		}, 1000);
 
-		// This function will be run when the component is unmounted
-		return () => {
-			clearInterval(x);
+			const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			setTimeLeft({ days, hours, minutes, seconds });
 		};
+
+		const intervalId = setInterval(updateTimer, 1000);
+
+		updateTimer(); // Initial call to update right away
+
+		return () => clearInterval(intervalId);
 	}, []);
 
 	return (
-		<div>
-			<p id="timer"></p>
+		<div className={TimerCss["time-blocks"]}>
+			<div className={TimerCss["time-block"]}>
+				<span className={TimerCss["bold-text"]}>{timeLeft.days}</span>
+				<h2>D</h2>
+				<h1>I</h1>
+			</div>
+			<div className={TimerCss["time-block"]}>
+				<span className={TimerCss["bold-text"]}>{timeLeft.hours}</span>
+				<h2>U</h2>
+				<h1>I</h1>
+			</div>
+			<div className={TimerCss["time-block"]}>
+				<span className={TimerCss["bold-text"]}>{timeLeft.minutes}</span>
+				<h2>M</h2>
+				<h1>I</h1>
+			</div>
+			<div className={TimerCss["time-block"]}>
+				<span className={TimerCss["bold-text"]}>{timeLeft.seconds}</span>
+				<h2>S</h2>
+			</div>
 		</div>
 	);
 };

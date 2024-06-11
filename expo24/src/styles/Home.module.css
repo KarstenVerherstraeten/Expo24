@@ -49,8 +49,12 @@ h1 {
 	font-size: 16px;
 }
 /* glass effect  */
+
+
 .glassPanel {
 	background-color: white;
+	background-image: url(../assets/testeffect.gif);
+	background-size: cover;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -87,7 +91,7 @@ h1 {
 
 .item {
 	padding: 10px;
-	min-width: 400px;
+	min-width: 382px;
 	height: 500px;
 	text-align: center;
 	display: inline-block;

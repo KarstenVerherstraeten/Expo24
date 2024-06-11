@@ -49,7 +49,6 @@
 	transform: translateY(-50%);
 }
 
- 
 .Nav .dropdownMenu li::after {
 	content: none;
 }
@@ -113,6 +112,9 @@
 		margin-left: 30px;
 		width: 150px;
 	}
+}
+
+@media screen and (max-width: 1200px) {
 	.Nav {
 		display: none;
 	}

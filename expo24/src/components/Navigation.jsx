@@ -1,6 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import LogoB from "../assets/LogoB.svg";
-import styles from "../styles/Navigation.module.css"; 
+import styles from "../styles/Navigation.module.css";
+import HamburgerMenu from "../components/HamburgerMenu";
 
 function Navigation() {
 	return (
@@ -16,10 +17,8 @@ function Navigation() {
 						</li>
 						<li className={styles.dropdown}>
 							<span className={styles.dropdownToggle}>
-								Showcase
-								<span className="material-symbols-outlined">
-									keyboard_arrow_down
-								</span>
+								Eindwerken
+								<span className="material-symbols-outlined">keyboard_arrow_down</span>
 							</span>
 							<ul className={styles.dropdownMenu}>
 								<li>
@@ -37,11 +36,10 @@ function Navigation() {
 							<Link to="/Practical">Bereikbaarheid</Link>
 						</li>
 						<li className={styles.btn}>
-						<Link to="/InschrijvingForum">Schrijf je in!</Link>
+							<Link to="/InschrijvingForum">Schrijf je in!</Link>
 						</li>
 					</ul>
-
-					
+					<HamburgerMenu></HamburgerMenu>
 				</div>
 			</nav>
 			<Outlet />

@@ -31,7 +31,7 @@ function Navigation() {
 							</ul>
 						</li>
 						<li>
-							<Link to="/Accessibility">FAQ</Link>
+							<Link to="/Faq">FAQ</Link>
 						</li>
 						<li>
 							<Link to="/Practical">Bereikbaarheid</Link>

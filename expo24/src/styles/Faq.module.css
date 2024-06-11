@@ -1,0 +1,120 @@
+/* ------------------ Fonts -------------------- */
+@font-face {
+	font-family: "Gotham Black";
+	src: url(../assets/fonts/Gotham-Black.otf);
+}
+
+@font-face {
+	font-family: "Gotham Bold";
+	src: url(../assets/fonts/GothamBold.ttf);
+}
+
+@font-face {
+	font-family: "Gotham Light";
+	src: url(../assets/fonts/Gotham-Light.otf);
+}
+
+/* ------------------ Desktop -------------------- */
+.faqContainer {
+    margin-top: 25vh;
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.faqContainer h1 {
+    font-size: 5vh;
+    font-family: "Gotham Black";
+}
+
+.activities {
+    margin-top: 20vh;
+}
+
+/* ------------------ Accordion -------------------- */
+.accordion {
+    margin-top: 20vh;
+}
+
+.accordionItem {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    /* border-radius: 5px; */
+    overflow: hidden;
+}
+
+.accordionTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #f7f7f7;
+    cursor: pointer;
+    font-family: "Gotham Bold";
+    font-size: 2.5vh;
+}
+
+.questionText {
+    font-family: "Gotham Black";
+}
+
+.accordionContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 15px;
+    background: #fff;
+}
+
+.accordionContent.active {
+    max-height: 200px; 
+    padding: 15px;
+}
+
+
+
+/* ------------------ tablet -------------------- */
+@media (max-width: 768px) {
+    .faqContainer {
+        margin-top: 20vh;
+        padding: 0 20px;
+    }
+
+    .faqContainer h1 {
+        font-size: 4vh;
+    }
+
+    .accordion {
+        margin-top: 12vh;
+    }
+
+    .accordionTitle {
+        font-size: 2vh;
+    }
+
+    .arrow svg {
+        width: 30px; 
+        height: 30px; 
+    }
+}
+
+/* ------------------ Smartphone -------------------- */
+@media (max-width: 450px) {
+    .faqContainer {
+        margin-top: 20vh;
+        padding: 0 10px;
+    }
+
+    .faqContainer h1 {
+        font-size: 3.5vh;
+    }
+
+    .accordionTitle {
+        font-size: 1.8vh;
+    }
+
+    .arrow svg {
+        width: 20px; 
+        height: 20px; 
+    }
+}

@@ -16,6 +16,7 @@ function Inschrijvingforum() {
 		  demo3DPrints: false,
 		  demoLasercut: false,
 		},
+		companyTitle: ""
 	  });
 	
 	  const [loading, setLoading] = useState(false);
@@ -176,7 +177,7 @@ function Inschrijvingforum() {
 										name="bedrijf"
 										placeholder="Bedrijfsnaam"
 										className={InschrijvingCss.bedrijf}
-										value={formData.bedrijf}
+										value={formData.companyTitle}
 										onChange={handleChange}
 										required={formData.occupation === "bedrijf"}
 									/>

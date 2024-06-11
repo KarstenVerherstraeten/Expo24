@@ -39,7 +39,11 @@ h1 {
 }
 .rightHeader {
 	display: flex;
-	margin-left: 20%;
+	margin-left: 10%;
+	margin-top: 50px;
+	flex-direction: column;
 }
-.timer {
+.rightHeader h2 {
+	font-family: "Gotham Light";
+	font-size: 16px;
 }

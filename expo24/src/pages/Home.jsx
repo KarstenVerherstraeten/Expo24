@@ -16,8 +16,12 @@ function Home() {
 					</div>
 				</div>
 				<div className={homeCss.rightHeader}>
-					<div>
+					<div className={homeCss.timer}>
 						<Timer2></Timer2>
+					</div>
+					<div>
+						<h2>Erasmushogeschool Brussel campus Kaai</h2>
+						<h2>Nijverheidskaai 170, 1070 Anderlecht </h2>
 					</div>
 				</div>
 			</div>

@@ -1,4 +1,4 @@
-.container-3 {
+.container{
 	height: 100vh;
 	width: 100%;
 	background: url("./assets/BackgroundImage.png") no-repeat center center fixed;
@@ -7,7 +7,7 @@
 
 }
 
-.glass-panel-3 {
+.glassPanel {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -18,7 +18,7 @@
 	align-items: center;
 }
 
-.glass-3 {
+.glass{
 	width: 10%;
 	height: 100%;
 	backdrop-filter: blur(30px);
@@ -27,25 +27,26 @@
 
 
 
-.ActivityImage {
+/* .activityImage {
 	background-color: black;
-}
-.ActivitiesContent {
+} */
+.activitiesContent {
 	transform: scale(0.9);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-top: 80px;
 }
-.ActivityInfo {
+.activityInfo {
 	display: flex;
 	justify-content: space-between;
 }
-.ActivityComponent {
+.activityComponent {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.ActivityContext {
+.activityContext {
 	margin-top: 20px;
 	background-color: black;
 	width: 500px;

@@ -50,7 +50,6 @@ h1 {
 }
 /* glass effect  */
 
-
 .glassPanel {
 	background-color: white;
 	background-image: url(../assets/testeffect.gif);
@@ -202,4 +201,62 @@ h1 {
 	border: none;
 	text-decoration: none;
 	border-radius: 8px;
+}
+@media screen and (max-width: 480px) {
+	.leftHeader h1 {
+		font-size: 20px;
+		margin: 0;
+	}
+	.leftHeader img {
+		width: 300px;
+	}
+	.header {
+		margin: 100px 50px 0px 50px;
+		flex-direction: column;
+	}
+	.leftHeader {
+		align-items: center;
+		width: auto;
+	}
+	.homeButton {
+		align-items: center;
+	}
+	.leftHeader a {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+	.bold-text {
+		font-size: 20px;
+	}
+	.rightHeader {
+		margin: 0px;
+		margin-top: 30px;
+		align-items: center;
+	}
+	.rightHeader h2 {
+		font-size: 12px;
+	}
+	.glassPanel {
+		height: 30vh;
+		margin-top: 30px;
+	}
+	.content1 h1 {
+		font-size: 20px;
+	}
+	.content1 {
+		margin: 100px 50px 0px 50px;
+		flex-direction: column;
+	}
+	.scrollContainer {
+		height: 300px;
+		width: 200px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.picture {
+		width: auto;
+	}
+	.Containers {
+		flex-direction: column;
+	}
 }

@@ -112,8 +112,8 @@ function Home() {
 						<Link to="/Accessibility">Bereikbaarheid</Link>
 					</a>
 				</div>
+				<Footer></Footer>
 			</div>
-			<Footer></Footer>
 		</>
 	);
 }

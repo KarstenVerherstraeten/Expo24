@@ -51,45 +51,19 @@
 
 /* Add other styles as needed */
 
-@media screen and (max-width: 650px) {
-	.thin-line {
-		padding: 0; /* Aanpassing van de padding voor kleinere schermen */
-		font-size: 3em;
-		margin-top: 50px;
-	}
-	.Time h2 {
-		font-size: 5px;
+@media screen and (max-width: 480px) {
+	.time-block h2 {
+		font-size: 17px;
 	}
 	.bold-text {
-		font-size: 50px; /* Grootte van de cijfers */
+		font-size: 40px; /* Grootte van de cijfers */
 	}
 	.time-block {
 		margin: 0;
 		padding: 0;
-		width: 80px;
 	}
-	#timer {
-		font-size: 10px;
-	}
-}
-
-@media screen and (min-width: 651px) and (max-width: 800px) {
-	.thin-line {
-		padding: 0; /* Aanpassing van de padding voor schermen tussen 501px en 800px */
-	}
-	#timer {
-		font-size: 12px;
-	}
-	.bold-text {
-		font-size: 80px; /* Grootte van de cijfers */
-	}
-	.thin-line {
-		font-size: 3em;
-		margin-top: 50px;
-	}
-	.time-block {
-		margin: 0;
-		margin: 20px;
-		width: 100px;
+	.time-block h1 {
+		font-size: 20px;
+		margin: 0px 10px;
 	}
 }

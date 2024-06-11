@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Timer from "../components/Timer";
-import { useNavigate } from "react-router-dom";
+import {Link,useNavigate } from "react-router-dom";
 import LogoW from "../assets/LogoW.svg";
 import Nav from "../components/Navigation";
 import Footer from "../components/Footer";
@@ -14,6 +14,7 @@ function HomePage() {
 		const signInButton = document.getElementById("SignIn");
 		if (signInButton) {
 			const handleSignInClick = () => {
+				console.log('clicked');
 				navigate("/InschrijvingForum");
 			};
 
@@ -67,7 +68,7 @@ function HomePage() {
 					<p>Nijverheidskaai 170, 1070 Anderlecht</p>
 				</div>
 
-				<button id="SignIn">Schrijf je in!</button>
+				<Link id="SignIn" to="/InschrijvingForum">Schrijf je in!</Link>
 				<div className={HomepageCss.information}>
 					<div className={HomepageCss.leftSide}>
 						<div className={HomepageCss.What}>

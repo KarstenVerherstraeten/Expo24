@@ -187,11 +187,8 @@ function Inschrijvingforum() {
 
 						<div className={InschrijvingCss["project-text"]}>
 							<p className={InschrijvingCss["text-p"]}>
-								Om een schatting te kunnen maken van het aantal deelnemers,
+							Het is niet verplicht, maar als je graag wilt deelnemen aan <br></br> een workshop, gelieve je voorkeuren te selecteren.
 								<br />
-								vragen we je om aan te duiden welke workshops je graag volgt
-								<br />
-								op EXPO24.
 							</p>
 						</div>
 

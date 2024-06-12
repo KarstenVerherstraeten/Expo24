@@ -16,7 +16,7 @@ function Navigation() {
 							<Link to="/Activities">Programma</Link>
 						</li>
 
-						<li className={styles.dropdown}>
+						{/* <li className={styles.dropdown}>
 							<span className={styles.dropdownToggle}>
 								Eindwerken
 								<span className="material-symbols-outlined">keyboard_arrow_down</span>
@@ -29,7 +29,8 @@ function Navigation() {
 									<Link to="/Item3">Projecten</Link>
 								</li>
 							</ul>
-						</li>
+						</li> */}
+
 						<li>
 							<Link to="/Faq">FAQ</Link>
 						</li>

@@ -4,7 +4,7 @@
 	right: 0;
 	padding: 20px;
 	z-index: 2;
-	font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+	font-family: "Gotham bold", Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	background-color: white;
 	width: 100%;
@@ -34,6 +34,9 @@
 .Nav li {
 	margin-left: 70px;
 	position: relative; /* Important for the dropdown */
+}
+.Nav a {
+	font-size: 16px;
 }
 
 /* Adding vertical line between links: https://chatgpt.com/c/77230ba8-d567-4e48-9a29-c98706a916e6 */
@@ -100,12 +103,10 @@
 }
 
 .btn {
-	background-color: #ff0000;
+	background-color: #e30613;
 	color: white;
-	padding: 6px 12px;
-	border-radius: 5px;
-	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
-	letter-spacing: 3px;
+	padding: 10px 15px;
+	font-family: "Gotham bold", Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width: 480px) {
 	.NavContainer img {

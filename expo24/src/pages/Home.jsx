@@ -16,7 +16,7 @@ function Home() {
 					<h3>Vanaf 17u - 21u</h3>
 					<div className={homeCss.homeButton}>
 						<img src={logoB} alt="" />
-						<Link to="/InschrijvingForum">Schrijf je in!</Link>
+						<Link to="/InschrijvingForum">SCHRIJF JE IN!</Link>
 					</div>
 				</div>
 				<div className={homeCss.rightHeader}>
@@ -63,35 +63,26 @@ function Home() {
 				<Slideshow></Slideshow>
 			</div>
 			<div className={homeCss.content2}>
-				<div className={homeCss.basicInfo}>
-					<h3>21 I 06 I 24</h3>
-					<h3>START VANAF: 17:00</h3>
-					<h3>Erasmushogeschool Brussel, Campus Kaai</h3>
-				</div>
-				<div className={homeCss.button}>
-					<a>
-						<Link to="/InschrijvingForum">Schrijf je in!</Link>
-					</a>
-				</div>
-
 				<div className={homeCss.Containers}>
 					<div className={homeCss.items}>
 						<h4>Awards</h4>
 						<div className={homeCss.picture}>
 							<img src="#" alt="foto" />
-							<a className={homeCss.button2}>
-								<Link to="/">Info</Link>
-							</a>
 						</div>
+						<h3>De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden drie awards uitgereikt voor de beste projecten. </h3>
+						<a className={homeCss.button2}>
+							<Link to="/">AWARDS</Link>
+						</a>
 					</div>
 					<div className={homeCss.items}>
 						<h4>Activiteiten</h4>
 						<div className={homeCss.picture}>
 							<img src="#" alt="foto" />
-							<a className={homeCss.button2}>
-								<Link to="/Activities">Info</Link>
-							</a>
 						</div>
+						<h3>Tijdens expo24 worden er doorheen de avond met verschillende activiteiten aangeboden.  </h3>
+						<a className={homeCss.button2}>
+							<Link to="/Activities">ACTIVITEITEN</Link>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -108,10 +99,19 @@ function Home() {
 						<h4>Gebouw: Erasmushogeschool Brussel</h4>
 						<h4>Campus Kaai</h4>
 					</div>
+					<div>
+						<h4>Op de expo tonen de 3de jaars hun beste werken. Om 20u is er een award show met een prijs uitreiking. Stem hier op jou favoriet.</h4>
+					</div>
 				</div>
-				<div className={homeCss.button3}>
-					<a>
-						<Link to="/Accessibility">Bereikbaarheid</Link>
+				<div className={homeCss.buttonsHome}>
+					<a className={homeCss.redbutton}>
+						<Link to="/Accessibility">BEREIKBAARHEID</Link>
+					</a>
+					<a className={homeCss.redbutton}>
+						<Link to="/Activities">ACTIVITEITEN</Link>
+					</a>
+					<a className={homeCss.redbutton}>
+						<Link to="/">AWARDS</Link>
 					</a>
 				</div>
 			</div>

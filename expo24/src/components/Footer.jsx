@@ -24,7 +24,7 @@ function Footer() {
 						<li>
 							<Link to="/Practical">FAQ</Link>
 						</li>
-						<li>
+						{/* <li>
 							<Link to="/">Portfolio</Link>
 						</li>
 						<li>
@@ -32,7 +32,7 @@ function Footer() {
 						</li>
 						<li>
 							<Link to="/">Projecten</Link>
-						</li>
+						</li> */}
 					</ul>
 					<div className={css.ehbLogo}>
 					<img className={css.logoEhb} src={LogoEHB}></img>

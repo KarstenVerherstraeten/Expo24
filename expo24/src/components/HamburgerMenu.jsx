@@ -14,8 +14,7 @@ const HamburgerMenu = () => {
 		<div className={`${hamburgerCSS.hamburgerMenu} ${isOpen ? hamburgerCSS.open : ""}`}>
 			<div className={hamburgerCSS.hamburgerIcon} onClick={toggleMenu}>
 				<div className={hamburgerCSS.line}></div>
-				<div className={hamburgerCSS.line}></div>
-				<div className={hamburgerCSS.line}></div>
+				<div className={hamburgerCSS.halfLine}></div>
 			</div>
 			<div className={hamburgerCSS.menuItems}>
 				<img className={hamburgerCSS.HamburgerImg} src={LogoB} alt="Logo" />

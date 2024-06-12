@@ -15,7 +15,7 @@
 	position: absolute;
 	right: 0;
 	top: 0;
-	margin: 10px;
+	margin: -10px 5px;
 	z-index: 30; /* Ensure the icon is above the menu */
 }
 
@@ -54,16 +54,19 @@
 
 /* Styles for each link in the menu */
 .menuItems a {
-	padding: 12px;
+	margin: 25px 0px;
+	padding: 10px 20px;
 	color: #2c2c2c;
 	text-decoration: none;
 	display: block;
+	font-size: 20px;
 }
 
 
 .menuItems img{
 	margin-left: 0;
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .menuItems a:hover {
 	background-color: #575757;
@@ -79,19 +82,25 @@
 	transform: rotate(45deg) translate(5px, 5px);
 }
 
-.hamburgerMenu.open .hamburgerIcon .line:nth-child(2) {
-	opacity: 0;
+
+.hamburgerMenu.open .hamburgerIcon .halfLine:nth-child(2) {
+	transform: rotate(-45deg) translate( 3px, -3px) ;
+	width: 100%;
 }
 
-.hamburgerMenu.open .hamburgerIcon .line:nth-child(3) {
-	transform: rotate(-45deg) translate(5px, -5px);
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
 	.hamburgerMenu {
 		display: none;
 	}
+
+
 }
+
+@media screen and (max-width: 1200px) {
+	/* Any specific styles for medium screens can go here */
+	
+}
+
 
 @media screen and (max-width: 480px) {
 	/* Any specific styles for very small screens can go here */

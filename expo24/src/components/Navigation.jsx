@@ -41,8 +41,9 @@ function Navigation() {
 							<Link to="/InschrijvingForum">Schrijf je in!</Link>
 						</li>
 					</ul>
-					<HamburgerMenu></HamburgerMenu>
+					
 				</div>
+				<HamburgerMenu></HamburgerMenu>
 			</nav>
 			<Outlet />
 		</>

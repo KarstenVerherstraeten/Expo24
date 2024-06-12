@@ -34,7 +34,7 @@ function Accessibility() {
 					<div className={AccessibilityCSS.glass}></div>
 
 					<h1 className={AccessibilityCSS.titleAccessibility}>
-						Bereikbaarheid
+						BEREIKBAARHEID
 					</h1>
 				</div>
 

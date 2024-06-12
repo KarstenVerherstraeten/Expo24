@@ -5,7 +5,8 @@ import Footer from "../components/Footer.jsx";
 function Activities() {
 	return (
 		<>
-			<div className={ActivitiesCss.container}>
+			
+			<div className={ActivitiesCss.ActivitiesContainer}>
 				<div className={ActivitiesCss.glassPanel}>
 					<div className={ActivitiesCss.glass}></div>
 					<div className={ActivitiesCss.glass}></div>
@@ -17,14 +18,31 @@ function Activities() {
 					<div className={ActivitiesCss.glass}></div>
 					<div className={ActivitiesCss.glass}></div>
 					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<div className={ActivitiesCss.glass}></div>
+					<h1 className={ActivitiesCss.titleActivities}>PROGRAMMA</h1>
 				</div>
-				<div className={ActivitiesCss.activitiesContent}>
-					<Activity />
-					<Activity />
-					<Activity /> {/* Assuming you have three activities */}
+				
+				<div className={ActivitiesCss.activitiesWrapper}>
+				<Activity />
+				<Activity />
+				<Activity />
+				<Activity />
 				</div>
+				
+
+
+
 			</div>
-			<Footer></Footer>
+			<Footer />
 		</>
 	);
 }

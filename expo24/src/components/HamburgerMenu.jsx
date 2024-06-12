@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Outlet, Link } from "react-router-dom";
-import "../styles/HamburgerMenu.css";
+import { Link } from "react-router-dom";
+import hamburgerCSS from "../styles/HamburgerMenu.module.css";
+import LogoB from "../assets/LogoB.svg";
 
 const HamburgerMenu = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -10,13 +11,14 @@ const HamburgerMenu = () => {
 	};
 
 	return (
-		<div className={`hamburger-menu ${isOpen ? "open" : ""}`}>
-			<div className="hamburger-icon" onClick={toggleMenu}>
-				<div className="line"></div>
-				<div className="line"></div>
-				<div className="line"></div>
+		<div className={`${hamburgerCSS.hamburgerMenu} ${isOpen ? hamburgerCSS.open : ""}`}>
+			<div className={hamburgerCSS.hamburgerIcon} onClick={toggleMenu}>
+				<div className={hamburgerCSS.line}></div>
+				<div className={hamburgerCSS.line}></div>
+				<div className={hamburgerCSS.line}></div>
 			</div>
-			<div className={`menu-items ${isOpen ? "open" : ""}`}>
+			<div className={hamburgerCSS.menuItems}>
+				<img className={hamburgerCSS.HamburgerImg} src={LogoB} alt="Logo" />
 				<Link to="/">Home</Link>
 				<Link to="/Activities">Activiteiten</Link>
 				<Link to="/Timetable">Timetable</Link>

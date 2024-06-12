@@ -53,7 +53,7 @@ const Slideshow = () => {
 			</div>
 
 			<div className={slideCSS.tile}>
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfzePgKhlMeJRjyRnlr-gOlAmdLpUHmD7mprBsdGJmGeBcg4Q/viewform">
+				<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfzePgKhlMeJRjyRnlr-gOlAmdLpUHmD7mprBsdGJmGeBcg4Q/viewform">
 				<div className={slideCSS.imageContainer}>
 					<img
 						src={Voorbeeld}
@@ -145,7 +145,7 @@ const Slideshow = () => {
 			</div>
 
 			<div className={slideCSS.tile}>
-				<a href="https://www.erasmushogeschool.be/nl/opleidingen/multimedia-creatieve-technologie">
+				<a target="_blank" href="https://www.erasmushogeschool.be/nl/opleidingen/multimedia-creatieve-technologie">
 				<div className={slideCSS.imageContainer}>
 					<img
 						src={Voorbeeld}

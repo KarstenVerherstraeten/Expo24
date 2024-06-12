@@ -32,7 +32,8 @@ h1 {
 }
 .leftHeader h3 {
 	font-family: "Gotham Medium";
-	margin-left: 40px;
+	margin-left: 10px;
+	font-size: 20px;
 }
 .leftHeader a {
 	font-family: "Gotham Medium";

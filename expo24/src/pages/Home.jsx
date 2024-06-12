@@ -24,8 +24,9 @@ function Home() {
 						<Timer2></Timer2>
 					</div>
 					<div>
-						<h2>Erasmushogeschool Brussel</h2>
-						<h2>Nijverheidskaai 170, 1070 Anderlecht </h2>
+						<h2>Erasmushogeschool Brussel I Multimedia & Creatieve Technologie</h2>
+						<h2 className={homeCss.text}>Nijverheidskaai 170, 1070 Anderlecht </h2>
+						<h2>Tijdens Expo24 presenteren de derdejaarsstudenten van Erasmushogeschool hun eindproeven en worden er verschillende workshops aangeboden.</h2>
 					</div>
 				</div>
 			</div>

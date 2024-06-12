@@ -15,6 +15,7 @@ function Navigation() {
 						<li>
 							<Link to="/Activities">Programma</Link>
 						</li>
+
 						<li className={styles.dropdown}>
 							<span className={styles.dropdownToggle}>
 								Eindwerken
@@ -33,7 +34,7 @@ function Navigation() {
 							<Link to="/Faq">FAQ</Link>
 						</li>
 						<li>
-							<Link to="/Practical">Bereikbaarheid</Link>
+							<Link to="/Accessibility">Bereikbaarheid</Link>
 						</li>
 						<li className={styles.btn}>
 							<Link to="/InschrijvingForum">Schrijf je in!</Link>

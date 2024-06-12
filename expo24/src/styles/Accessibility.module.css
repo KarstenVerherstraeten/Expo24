@@ -101,7 +101,16 @@
 
 .section {
 	border-bottom: 1px solid #ccc;
-	padding: 10px 0;
+}
+
+.sectionContent{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.7s ease;
+}
+
+.sectionContent.open {
+    max-height: 200px; 
 }
 
 .sectionHeader {

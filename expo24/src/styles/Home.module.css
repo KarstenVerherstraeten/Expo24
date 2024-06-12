@@ -292,4 +292,14 @@ h1 {
 	.PracticalInfo div {
 		width: auto;
 	}
+	.buttonsHome {
+		align-items: center;
+		flex-direction: column;
+	}
+	.items {
+		width: auto;
+	}
+	.rightHeader div {
+		width: auto;
+	}
 }

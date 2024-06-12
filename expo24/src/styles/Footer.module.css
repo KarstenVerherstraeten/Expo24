@@ -72,4 +72,7 @@
 	.whiteLogo {
 		margin-left: 50px;
 	}
+	.links li::after {
+		display: none;
+	}
 }

@@ -12,6 +12,7 @@ import Confirmation from "./pages/Confirmation.jsx";
 import Programma from "./pages/Programma.jsx";
 import Home from "../src/pages/Home.jsx";
 import Faq from "./pages/Faq.jsx";
+import PageNotFound from "./pages/PageNotFound.jsx";
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 						<Route path="Confirmation" element={<Confirmation />} />
 						<Route path="Programma" element={<Programma />} />
 						<Route path="Faq" element={<Faq />} />
+						<Route path="*" element={<PageNotFound />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>

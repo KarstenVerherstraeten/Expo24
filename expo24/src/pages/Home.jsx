@@ -55,7 +55,7 @@ function Home() {
 				</div>
 			</div>
 			<div className={homeCss.content1}>
-				<h1>Ontdek het evenemnt</h1>
+				<h1>Ontdek het evenement</h1>
 			</div>
 			<div>
 				<Slideshow></Slideshow>
@@ -112,7 +112,6 @@ function Home() {
 						<Link to="/Accessibility">Bereikbaarheid</Link>
 					</a>
 				</div>
-				<Footer></Footer>
 			</div>
 		</>
 	);

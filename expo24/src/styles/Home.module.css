@@ -248,15 +248,48 @@ h1 {
 		flex-direction: column;
 	}
 	.scrollContainer {
-		height: 300px;
-		width: 200px;
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+	.item {
+		height: 200px;
+		width: 100px;
+		min-width: 200px;
+	}
+	.item img {
+		width: 100px;
+		margin: 0;
+	}
+	.item h2,
+	.item p {
+		margin: 70px 0;
+		font-size: 22px;
+	}
 	.picture {
-		width: auto;
+		width: 300px;
 	}
 	.Containers {
 		flex-direction: column;
+	}
+	.basicInfo {
+		flex-direction: column;
+		font-size: 13px;
+	}
+	.basicInfo h3 {
+		margin: 5px 0px;
+	}
+	.content2 {
+		margin: 50px 50px 0px 50px;
+		height: auto;
+	}
+	.content3 h1 {
+		font-size: 20px;
+	}
+	.content3 {
+		margin: 50px 50px 0px 50px;
+	}
+	.PracticalInfo {
+		flex-direction: column;
+		width: auto;
 	}
 }

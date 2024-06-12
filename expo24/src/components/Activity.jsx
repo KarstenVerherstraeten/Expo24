@@ -1,27 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import ActivitiesCss from "../styles/Activities.module.css";
+import ActivityCss from "../styles/Activity.module.css";
+import vrImage from "../assets/vrGames.jpg";
 
 function Activity() {
 	return (
-		<div className={ActivitiesCss.activityContext}>
-			<div className={ActivitiesCss.activityComponent}>
-				<h1>Naam:</h1>
-				<h2>Category:</h2>
-				<img src="#" alt="Foto Activiteit" />
-				<h2>Beschrijving</h2>
+		<div className={ActivityCss.activityContext}>
+			<div className={ActivityCss.location}>
+				<img
+					src={vrImage}
+					alt="Foto Activiteit"
+					className={ActivityCss.image}
+				/>
+				<h3 className={ActivityCss.text}>Zaal 1</h3>
 			</div>
-
-			<div className={ActivitiesCss.activityInfo}>
-				<div>
-					<h2>Uur:</h2>
-					<h2>Locatie:</h2>
-				</div>
-				<div>
-					<h2>Inschrijven</h2>
-				</div>
+			<div className={ActivityCss.info}>
+				<p>VR GAMES</p> <p>17u</p>
 			</div>
 		</div>
 	);
 }
+
 export default Activity;

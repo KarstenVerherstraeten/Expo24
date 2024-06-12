@@ -16,14 +16,20 @@
 
 /* ------------------ Desktop -------------------- */
 .faqContainer {
-	margin-top: 25vh;
+	margin-top: 70vh;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.faqContainer h1 {
-	font-size: 5vh;
+.faqContainer .titleFaq {
+	font-size: 7vh;
+	font-family: "Gotham Black";
+	position: absolute;
+	color: white;
+}
+
+h1 {
 	font-family: "Gotham Black";
 }
 
@@ -31,8 +37,9 @@
 	margin-top: 20vh;
 	display: flex;
 	align-items: center;
-	gap: 500px;
+	justify-content: space-between;
 	padding-bottom: 20vh;
+	
 }
 
 .textActivities,
@@ -78,11 +85,37 @@ p {
 	transform: scale(1.1);
 }
 
-/* ------------------ Accordion -------------------- */
-.accordion {
-	margin-top: 20vh;
+/* ------------------ Glass effect -------------------- */
+
+.glassPanel {
+	background-color: white;
+	background-image: url(../assets/testeffect.gif);
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 80px;
+	transform: scale(1);
+	position: absolute;
 }
 
+.glass {
+	width: 10%;
+	height: 100%;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(
+		to right,
+		rgba(64, 64, 73, 0.1) 0%,
+		rgba(0, 0, 0, 0.4) 80%,
+		rgba(14, 14, 17, 0.6) 100%
+	);
+}
+
+/* ------------------ Accordion -------------------- */
 .accordionItem {
 	margin-bottom: 10px;
 	/* border-radius: 5px; */
@@ -111,6 +144,7 @@ p {
 	padding: 0 15px;
 	background: #fff;
 	font-family: "Gotham Light";
+	line-height: 25px;
 }
 
 .accordionContent.active {
@@ -121,7 +155,7 @@ p {
 /* ------------------ Tablet -------------------- */
 @media (max-width: 768px) {
 	.faqContainer {
-		margin-top: 20vh;
+		margin-top: 50vh;
 		padding: 0 20px;
 	}
 
@@ -129,8 +163,15 @@ p {
 		font-size: 4vh;
 	}
 
-	.accordion {
-		margin-top: 12vh;
+	.faqContainer .titleFaq {
+		font-size: 4vh;
+		font-family: "Gotham Black";
+		position: absolute;
+		color: white;
+	}
+
+	.glassPanel {
+		height: 30vh;
 	}
 
 	.accordionTitle {
@@ -161,12 +202,21 @@ p {
 /* ------------------ Smartphone -------------------- */
 @media (max-width: 450px) {
 	.faqContainer {
-		margin-top: 20vh;
+		margin-top: 45h;
 		padding: 0 10px;
 	}
 
 	.faqContainer h1 {
 		font-size: 3.5vh;
+	}
+
+	.faqContainer .titleFaq {
+		font-size: 4vh;
+		font-family: "Gotham Black";
+		position: absolute;
+		color: white;
+		padding: 0px 10px 0px 10px;
+		text-align: center;
 	}
 
 	.accordionTitle {

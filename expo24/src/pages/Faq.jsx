@@ -42,7 +42,30 @@ function Faq() {
 
 	return (
 		<div className={FaqCSS.faqContainer}>
-			<h1>FAQ - VEELGESTELDE VRAGEN</h1>
+			<div className={FaqCSS.glassPanel}>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				<div className={FaqCSS.glass}></div>
+				
+				<h1 className={FaqCSS.titleFaq}>FAQ - VEELGESTELDE VRAGEN</h1>
+			</div>
 
 			{/* Accordion - Meest voorkomende vragen */}
 			<div className={FaqCSS.accordion}>
@@ -90,7 +113,7 @@ function Faq() {
 				<div className={FaqCSS.textActivities}>
 					<h1>BEKIJK HET PROGRAMMA</h1>
 					<p>
-						Ontdek VR-games, 3D-games, live coderen, 3D-printen en
+						Ontdek VR-games, 3D-games, live coderen, 3D-printen en <br />
 						lasercut-demo's op onze expo!
 					</p>
 				</div>

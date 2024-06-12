@@ -28,15 +28,19 @@
 }
 
 .glassPanel {
-	position: fixed;
+	background-color: white;
+	background-image: url(../assets/testeffect.gif);
+	background-size: cover;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 105vh;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	background: url("../assets/bg-01.webp") center center fixed;
+	margin-top: 80px;
+	transform: scale(1);
+	position: absolute;
 }
 
 .glass {

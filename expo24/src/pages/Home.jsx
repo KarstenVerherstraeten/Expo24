@@ -13,6 +13,7 @@ function Home() {
 			<div className={homeCss.header}>
 				<div className={homeCss.leftHeader}>
 					<h1>21 I 06 I 24</h1>
+					<h3>Vanaf 17u - 21u</h3>
 					<div className={homeCss.homeButton}>
 						<img src={logoB} alt="" />
 						<Link to="/InschrijvingForum">Schrijf je in!</Link>
@@ -23,7 +24,7 @@ function Home() {
 						<Timer2></Timer2>
 					</div>
 					<div>
-						<h2>Erasmushogeschool Brussel campus Kaai</h2>
+						<h2>Erasmushogeschool Brussel</h2>
 						<h2>Nijverheidskaai 170, 1070 Anderlecht </h2>
 					</div>
 				</div>

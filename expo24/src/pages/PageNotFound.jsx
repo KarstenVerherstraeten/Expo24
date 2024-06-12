@@ -9,7 +9,7 @@ const PageNotFound = () => {
       <p className={NotFound.paragraph}>
       Oeps! De pagina die je zoekt, bestaat niet. Het kan zijn verplaatst of verwijderd.
       </p>
-      <a href="/" className={NotFound.link}>Go Back Home</a>
+      <a href="/" className={NotFound.link}>Terug naar home</a>
     </div>
   );
 };

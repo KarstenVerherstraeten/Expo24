@@ -2,7 +2,7 @@
 	transform: scale(1);
 	display: flex;
 	justify-content: space-between;
-	background-color: #2C2C2C;
+	background-color: #2c2c2c;
 	height: auto;
 	position: absolute;
 	width: 100%;
@@ -29,12 +29,11 @@
 	position: relative;
 }
 
-.links li{
+.links li {
 	position: relative;
 	margin-left: 40px;
-	font-family: 'Gotham Medium';
+	font-family: "Gotham Medium";
 }
-
 
 .links li::after {
 	content: "";
@@ -52,7 +51,7 @@
 	content: none;
 }
 
-.logoEhb{
+.logoEhb {
 	width: 300px;
 	float: right;
 	margin-top: 50px;
@@ -60,5 +59,17 @@
 }
 
 @media screen and (max-width: 480px) {
-	
+	.links {
+		flex-direction: column;
+	}
+	.FooterContainer {
+		flex-direction: column;
+	}
+	.logoEhb {
+		margin: 0;
+		width: 100px;
+	}
+	.whiteLogo {
+		margin-left: 50px;
+	}
 }

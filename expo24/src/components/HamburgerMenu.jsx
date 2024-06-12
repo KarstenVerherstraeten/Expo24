@@ -22,7 +22,6 @@ const HamburgerMenu = () => {
 				<Link to="/Timetable">Timetable</Link>
 				<Link to="/Accessibility">Bereikbaarheid</Link>
 				<Link to="/Practical">Praktische info</Link>
-				<Outlet />
 			</div>
 		</div>
 	);

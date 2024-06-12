@@ -22,6 +22,10 @@ h1 {
 	flex-direction: column;
 	width: 500px;
 }
+.leftHeader h3 {
+	font-family: "Gotham Medium";
+	margin-left: 40px;
+}
 .leftHeader a {
 	font-family: "Gotham Medium";
 	font-size: 15px;
@@ -290,6 +294,8 @@ h1 {
 	}
 	.PracticalInfo {
 		flex-direction: column;
+	}
+	.PracticalInfo div {
 		width: auto;
 	}
 }

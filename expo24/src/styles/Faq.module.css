@@ -131,6 +131,7 @@ p {
 	cursor: pointer;
 	font-family: "Gotham Black";
 	font-size: 2.5vh;
+	
 }
 
 .questionText {
@@ -142,9 +143,9 @@ p {
 	overflow: hidden;
 	transition: max-height 0.3s ease, padding 0.3s ease;
 	padding: 0 15px;
-	background: #fff;
 	font-family: "Gotham Light";
 	line-height: 25px;
+	border-bottom: 5px solid black;
 }
 
 .accordionContent.active {

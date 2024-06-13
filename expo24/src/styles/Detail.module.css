@@ -1,5 +1,64 @@
+.header {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 80px;
+}
+
 .header img {
 	width: 100%;
-	height: 600px;
-	background-size: cover;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1; /* Achtergrond */
+}
+
+.header h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white; /* Zorg ervoor dat de tekst zichtbaar is boven de afbeelding */
+	z-index: 2; /* Bovenop de afbeelding */
+	margin: 0; /* Verwijder standaardmarge */
+	font-size: 100px;
+}
+.buttonBack {
+	background-color: black;
+	width: 150px;
+	padding: 10px 15px;
+	display: flex;
+	justify-content: center;
+}
+.buttonBack a {
+	color: white;
+	font-family: "Gotham bold";
+}
+.Containers {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.Containers div {
+	width: 500px;
+}
+.Containers h2 {
+	font-family: "Gotham light";
+	font-size: 16px;
+}
+.hours {
+	display: flex;
+	justify-content: space-between;
+}
+.hours {
+	justify-content: space-around;
+}
+.hours h2 {
+	width: 120px;
+}
+.Containers h1 {
+	margin-bottom: 50px;
 }

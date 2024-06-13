@@ -1,23 +1,20 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ActivityCss from "../styles/Activity.module.css";
 import vrImage from "../assets/vrGames.jpg";
 
-function Activity() {
+function Activity({ activity }) {
 	return (
-		<div className={ActivityCss.activityContext}>
+		<Link to={`/activity/${activity.title}`} className={ActivityCss.activityContext}>
 			<div className={ActivityCss.location}>
-				<img
-					src={vrImage}
-					alt="Foto Activiteit"
-					className={ActivityCss.image}
-				/>
-				<h3 className={ActivityCss.text}>Makerspace</h3>
+				<img src={vrImage} alt="Foto Activiteit" className={ActivityCss.image} />
+				<h3 className={ActivityCss.text}>{activity.locatie}</h3>
 			</div>
 			<div className={ActivityCss.info}>
-				<p>Apple Vision</p> <p>17u</p>
+				<p>{activity.title}</p>
+				<p>17u</p>
 			</div>
-		</div>
+		</Link>
 	);
 }
 

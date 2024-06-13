@@ -1,42 +1,40 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navigation from "./components/Navigation.jsx";
-import Accessebiltity from "./pages/Accessibility.jsx";
-import Activities from "./pages/Activities.jsx";
-import Practical from "./pages/Practical.jsx";
-import Timetable from "./pages/Timetable.jsx";
-import HomePage from "./pages/HomePage.jsx";
-import Inschrijvingforum from "./pages/Inschrijvingforum.jsx";
-import Confirmation from "./pages/Confirmation.jsx";
-import Programma from "./pages/Programma.jsx";
-import Home from "../src/pages/Home.jsx";
-import Faq from "./pages/Faq.jsx";
-import PageNotFound from "./pages/PageNotFound.jsx";
-import Detail from "../src/pages/Detail.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import Accessebiltity from "./pages/Accessibility";
+import Activities from "./pages/Activities";
+import Practical from "./pages/Practical";
+import Timetable from "./pages/Timetable";
+import HomePage from "./pages/HomePage";
+import Inschrijvingforum from "./pages/Inschrijvingforum";
+import Confirmation from "./pages/Confirmation";
+import Programma from "./pages/Programma";
+import Home from "./pages/Home";
+import Faq from "./pages/Faq";
+import PageNotFound from "./pages/PageNotFound";
+import Detail from "./pages/Detail";
 
 function App() {
 	return (
-		<>
-			<BrowserRouter>
-				<Routes classname="Nav">
-					<Route path="/" element={<Navigation />}>
-						<Route index element={<HomePage />} />
-						<Route path="Accessibility" element={<Accessebiltity />} />
-						<Route path="Home" element={<Home />} />
-						<Route path="Activities" element={<Activities />} />
-						<Route path="Practical" element={<Practical />} />
-						<Route path="Timetable" element={<Timetable />} />
-						<Route path="Inschrijvingforum" element={<Inschrijvingforum />} />
-						<Route path="Confirmation" element={<Confirmation />} />
-						<Route path="Programma" element={<Programma />} />
-						<Route path="Faq" element={<Faq />} />
-						<Route path="*" element={<PageNotFound />} />
-						<Route path="Detail" element={<Detail />} />
-					</Route>
-				</Routes>
-			</BrowserRouter>
-		</>
+		<Router>
+			<Routes>
+				<Route path="/" element={<Navigation />}>
+					<Route index element={<HomePage />} />
+					<Route path="Accessibility" element={<Accessebiltity />} />
+					<Route path="Home" element={<Home />} />
+					<Route path="Activities" element={<Activities />} />
+					<Route path="Practical" element={<Practical />} />
+					<Route path="Timetable" element={<Timetable />} />
+					<Route path="Inschrijvingforum" element={<Inschrijvingforum />} />
+					<Route path="Confirmation" element={<Confirmation />} />
+					<Route path="Programma" element={<Programma />} />
+					<Route path="Faq" element={<Faq />} />
+					<Route path="*" element={<PageNotFound />} />
+					<Route path="activity/:title" element={<Detail />} />
+				</Route>
+			</Routes>
+		</Router>
 	);
 }
 

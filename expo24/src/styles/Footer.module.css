@@ -10,7 +10,16 @@
 }
 .whiteLogo {
 	width: 280px;
-	margin-left: 100px;
+	margin-left: 20px;
+}
+
+.topRow{
+	width: 100%;
+}
+
+.urlElements{
+	display: flex;
+	flex-direction: row;
 }
 
 .ehbLogo{
@@ -30,6 +39,8 @@
 .links {
 	display: flex;
 	list-style-type: none;
+	justify-content: space-between;
+	align-items: center;
 	padding: 0;
 	margin: 0;
 	margin-right: 100px;
@@ -72,9 +83,22 @@
 	margin-right: 30px;
 }
 
+.ehbLogo{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
 
 @media screen and (max-width: 1050px){
 	.links {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.urlElements{
 		flex-direction: column;
 	}
 	.FooterContainer {
@@ -84,9 +108,7 @@
 		margin: 0;
 		width: 200px;
 	}
-	.whiteLogo {
-		margin-left: 50px;
-	}
+	
 	.links li::after {
 		display: none;
 	}
@@ -107,9 +129,6 @@
 	.logoEhb {
 		margin: 0;
 		width: 100px;
-	}
-	.whiteLogo {
-		margin-left: 50px;
 	}
 	.links li::after {
 		display: none;

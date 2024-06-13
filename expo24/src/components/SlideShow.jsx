@@ -2,10 +2,39 @@ import React from "react";
 import slideCSS from "../styles/SlideShow.module.css";
 import Voorbeeld from "../assets/react.svg";
 import { Link } from "react-router-dom";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 const Slideshow = () => {
   return (
-    <div className={slideCSS.scrollContainer}>
+    <>
+    <Splide 
+        aria-label="Activities" 
+        options={{
+          type: 'loop',
+          perPage: 4,
+          perMove: 1,
+          pagination: false,
+          swipe: true,
+          drag: true,
+          focus: 'left',
+          breakpoints: {
+            640: {
+              perPage: 1,
+            },
+            925: {
+              perPage: 2,
+            },
+            1024: {
+              perPage: 3,
+            },
+            1200: {
+              perPage: 4,
+            },
+          },
+        }}
+      >
+    <SplideSlide>
       <div className={slideCSS.tile}>
         <Link to="/Activities">
           <div className={slideCSS.imageContainer}>
@@ -29,7 +58,9 @@ const Slideshow = () => {
           </div>
         </Link>
       </div>
+      </SplideSlide>
 
+      <SplideSlide>
       <div className={slideCSS.tile}>
         <div className={slideCSS.imageContainer}>
           <img
@@ -51,7 +82,9 @@ const Slideshow = () => {
           <p className={slideCSS.infoText}>ETEN EN DRINKEN</p>
         </div>
       </div>
+      </SplideSlide>
 
+      <SplideSlide>
       <div className={slideCSS.tile}>
         <a
           target="_blank"
@@ -78,7 +111,9 @@ const Slideshow = () => {
           </div>
         </a>
       </div>
+      </SplideSlide>
 
+      <SplideSlide>
       <div className={slideCSS.tile}>
         <div className={slideCSS.imageContainer}>
           <img
@@ -100,7 +135,9 @@ const Slideshow = () => {
           <p className={slideCSS.infoText}>AWARD SHOW</p>
         </div>
       </div>
+      </SplideSlide>
 
+      <SplideSlide>
       <div className={slideCSS.tile}>
         <Link to="/Activities">
           <div className={slideCSS.imageContainer}>
@@ -124,7 +161,9 @@ const Slideshow = () => {
           </div>
         </Link>
       </div>
+      </SplideSlide>
 
+      <SplideSlide>
       <div className={slideCSS.tile}>
         <div className={slideCSS.imageContainer}>
           <img
@@ -146,7 +185,9 @@ const Slideshow = () => {
           <p className={slideCSS.infoText}>CONTACTEN LEGGEN</p>
         </div>
       </div>
+      </SplideSlide>
 
+      <SplideSlide>
       <div className={slideCSS.tile}>
         <a
           target="_blank"
@@ -173,7 +214,9 @@ const Slideshow = () => {
           </div>
         </a>
       </div>
-    </div>
+      </SplideSlide>
+      </Splide>
+      </>
   );
 };
 

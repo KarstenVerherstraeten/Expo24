@@ -153,20 +153,26 @@
 
 @media screen and (max-width: 768px) {
 	.glassPanel {
-		height: 100vh;
+		height: 50vh;
 	}
 	.AccessibilityContainer {
-		margin-top: 100vh;
+		margin-top: 75vh;
+	}
+
+	.AccessibilityContainer .titleAccessibility {
+		font-size: 30px;
 	}
 	.info {
 		flex-direction: column;
 	}
 	.infoWrapper{
-		margin-top: 0px;
+		margin-top: 40px;
 	}
 	.route{
-		width: 200px;
+		width: auto;
 		height: 40px;
+		display: flex;
+		align-items: center;
 	}
 	.transport {
 		margin: 0px 20px;
@@ -175,7 +181,7 @@
 	.GroundPlan{
 		font-family: "Gotham Black", Arial, Helvetica, sans-serif;
 		text-align: center;
-		font-size: 20px;
+		font-size: 40px;
 		margin-bottom: 50px;
 	}
 	

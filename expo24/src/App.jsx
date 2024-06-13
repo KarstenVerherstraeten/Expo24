@@ -8,6 +8,7 @@ import Practical from "./pages/Practical";
 import Timetable from "./pages/Timetable";
 import HomePage from "./pages/HomePage";
 import Inschrijvingforum from "./pages/Inschrijvingforum";
+import Inschrijving from "./pages/Inschrijving";
 import Confirmation from "./pages/Confirmation";
 import Programma from "./pages/Programma";
 import Home from "./pages/Home";
@@ -32,6 +33,7 @@ function App() {
 					<Route path="Faq" element={<Faq />} />
 					<Route path="*" element={<PageNotFound />} />
 					<Route path="activity/:title" element={<Detail />} />
+					<Route path="inschrijving" element={<Inschrijving />} />
 				</Route>
 			</Routes>
 		</Router>

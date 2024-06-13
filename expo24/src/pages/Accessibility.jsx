@@ -39,15 +39,17 @@ function Accessibility() {
 						BEREIKBAARHEID
 					</h1>
 				</div>
-
+                <h2 className={AccessibilityCSS.GroundPlan}>Plattegrond Campus</h2>
 				<div className={AccessibilityCSS.red}>
-					<img src="" alt="Plattegrond" />
+                
+
+					<img  src="" alt="Plattegrond" />
 					<p>Plattegrond Campus</p>
 				</div>
 
 				<div className={AccessibilityCSS.infoWrapper}>
 					<div className={AccessibilityCSS.info}>
-						<img src={Location} alt="" />
+						<img id={AccessibilityCSS.marker} src={Location} alt="" />
 						<p>
 							Erasmushogeschool Brussel <br /> Campus Kaai <br />{" "}
 							Nijverheidskaai70, <br />

@@ -95,6 +95,13 @@
     color: #f8f8f8;
 }
 
+.GroundPlan{
+	font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
 
 
 /* Transport section */
@@ -164,15 +171,28 @@
 	.transport {
 		margin: 0px 20px;
 	}
+
+	.GroundPlan{
+		font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 50px;
+	}
 	
 }
 
 @media screen and (max-width: 480px) {
+	.GroundPlan{
+		font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 50px;
+	}
 	.glassPanel {
-		height: 50vh;
+		height: 25vh;
 	}
 	.AccessibilityContainer {
-		margin-top: 100vh;
+		margin-top: 50vh;
 	}
 
 	.AccessibilityContainer .titleAccessibility {
@@ -193,11 +213,19 @@
 		align-items: center;
 	}
 	.transport {
-		margin: 0px 20px;
+		margin: 40px 20px;
 	}
 
 	#marker{
 		margin-right: 0;
+	}
+
+	.sectionContent{
+		padding: 0px 0px;
+	}
+
+	.sectionHeader{
+		margin: 10px 0px
 	}
 	
 }

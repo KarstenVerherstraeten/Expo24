@@ -37,9 +37,11 @@ function Navigation() {
 						<li>
 							<Link to="/Accessibility">Bereikbaarheid</Link>
 						</li>
-						<li className={styles.btn}>
-							<Link to="/InschrijvingForum">Schrijf je in!</Link>
-						</li>
+						<button className={styles.btn}>
+						<Link to="/InschrijvingForum">Schrijf je in!</Link>
+						</button> 
+							
+						
 					</ul>
 					
 				</div>

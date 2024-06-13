@@ -13,6 +13,7 @@ import Programma from "./pages/Programma.jsx";
 import Home from "../src/pages/Home.jsx";
 import Faq from "./pages/Faq.jsx";
 import PageNotFound from "./pages/PageNotFound.jsx";
+import Detail from "../src/pages/Detail.jsx";
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 						<Route path="Programma" element={<Programma />} />
 						<Route path="Faq" element={<Faq />} />
 						<Route path="*" element={<PageNotFound />} />
+						<Route path="Detail" element={<Detail />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>

@@ -20,13 +20,40 @@ function Detail() {
 	}
 
 	const randomActivities = getRandomActivities(title, 3);
-
+	const glassPanelStyles = {
+		backgroundImage: `url(${foto})`,
+	};
 	return (
 		<>
-			<div className={detailCss.header} style={{ backgroundColor: activity.backgroundColor }}>
-				<img src={foto} alt="Header" />
-				<h1>{activity.title}</h1>
+			<div className={detailCss.AccessibilityContainer}>
+				<div className={detailCss.glassPanel} style={glassPanelStyles}>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+					<div className={detailCss.glass}></div>
+
+					<h1 className={detailCss.titleAccessibility}>
+						<h1>{activity.title}</h1>
+					</h1>
+				</div>
 			</div>
+			<div className={detailCss.header} style={{ backgroundColor: activity.backgroundColor }}></div>
 			<div className={detailCss.buttonBack}>
 				<Link to="/Activities">Ga terug</Link>
 			</div>

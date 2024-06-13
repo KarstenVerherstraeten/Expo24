@@ -42,6 +42,7 @@ function Faq() {
 	}));
 
 	return (
+		<>
 		<div className={FaqCSS.faqContainer}>
 			<div className={FaqCSS.glassPanel}>
 				<div className={FaqCSS.glass}></div>
@@ -198,8 +199,12 @@ function Faq() {
 					</a>
 				</div>
 			</div>
-			<Footer />
 		</div>
+		<Footer />
+
+		
+		
+		</>
 		
 	);
 }

@@ -1,0 +1,177 @@
+[
+    {
+        "locatie": "makerspace",
+        "title": "live coding",
+        "backgroundColor": "#1281AE",
+        "uren": [
+            {
+                "start": "17u30",
+                "einde": "17u45"
+            },
+            {
+                "start": "18u",
+                "einde": "18u15"
+            },
+            {
+                "start": "18u30",
+                "einde": "18u45"
+            },
+            {
+                "start": "19u",
+                "einde": "19u15"
+            },
+            {
+                "start": "19u30",
+                "einde": "19u45"
+            }
+        ]
+    },
+    {
+        "locatie": "makerspace",
+        "title": "3D-printing",
+        "backgroundColor": "#1281AE",
+        "uren": [
+            {
+                "start": "17u30",
+                "einde": "17u45"
+            },
+            {
+                "start": "18u",
+                "einde": "18u15"
+            },
+            {
+                "start": "18u30",
+                "einde": "18u45"
+            },
+            {
+                "start": "19u",
+                "einde": "19u15"
+            },
+            {
+                "start": "19u30",
+                "einde": "19u45"
+            }
+        ]
+    },
+    {
+        "locatie": "makerspace",
+        "title": "apple vision pro",
+        "backgroundColor": "#1281AE",
+        "uren": [
+            {
+                "start": "17u30",
+                "einde": "20u"
+            }
+        ]
+    },
+    {
+        "locatie": "makerspace",
+        "title": "3D-games",
+        "backgroundColor": "#1281AE",
+        "uren": [
+            {
+                "start": "17u30",
+                "einde": "20u"
+            }
+        ]
+    },
+    {
+        "locatie": "makerspace",
+        "title": "frontend",
+        "backgroundColor": "#1281AE",
+        "uren": [
+            {
+                "start": "17u30",
+                "einde": "20u"
+            }
+        ]
+    },
+    {
+        "locatie": "makerspace",
+        "title": "backend",
+        "backgroundColor": "#1281AE",
+        "uren": [
+            {
+                "start": "17u30",
+                "einde": "20u"
+            }
+        ]
+    },
+    {
+        "locatie": "makerspace",
+        "title": "lasercut",
+        "backgroundColor": "#1281AE",
+        "uren": [
+            {
+                "start": "17u30",
+                "einde": "20u"
+            }
+        ]
+    },
+    {
+        "locatie": "meetup",
+        "title": "meetup",
+        "backgroundColor": "#539B24",
+        "uren": [
+            {
+                "start": "17u",
+                "einde": "20u"
+            }
+        ]
+    },
+    {
+        "locatie": "gallery",
+        "title": "eindwerken 3e jaars",
+        "backgroundColor": "#A70B0B",
+        "uren": [
+            {
+                "start": "17u",
+                "einde": "20u"
+            }
+        ]
+    },
+    {
+        "locatie": "gallery",
+        "title": "rondleiding",
+        "backgroundColor": "#A70B0B",
+        "uren": [
+            {
+                "start": "17u",
+                "einde": "20u"
+            }
+        ]
+    },
+    {
+        "locatie": "tuin",
+        "title": "BBQ",
+        "backgroundColor": "#924AA2",
+        "uren": [
+            {
+                "start": "17u",
+                "einde": "21u"
+            }
+        ]
+    },
+    {
+        "locatie": "tuin",
+        "title": "drankje & musiek",
+        "backgroundColor": "#924AA2",
+        "uren": [
+            {
+                "start": "17u",
+                "einde": "21u"
+            }
+        ]
+    },
+    {
+        "locatie": "tuin",
+        "title": "slotshow",
+        "backgroundColor": "#924AA2",
+        "uren": [
+            {
+                "start": "20u",
+                "einde": "20u30"
+            }
+        ]
+    }
+]

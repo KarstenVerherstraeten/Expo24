@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import AccessibilityCSS from "../styles/Accessibility.module.css";
 import Footer from "../components/Footer";
+import Location from "../assets/LocationLogo.svg"
 
 function Accessibility() {
 	const [openSection, setOpenSection] = useState(null);
@@ -46,7 +47,7 @@ function Accessibility() {
 
 				<div className={AccessibilityCSS.infoWrapper}>
 					<div className={AccessibilityCSS.info}>
-						<span class="material-symbols-outlined" id={AccessibilityCSS.marker}>location_on</span>
+						<img src={Location} alt="" />
 						<p>
 							Erasmushogeschool Brussel <br /> Campus Kaai <br />{" "}
 							Nijverheidskaai70, <br />

@@ -46,7 +46,7 @@ function Activities() {
 					<Activity />
 				</div>
 			</div>
-			<Footer />
+			 <Footer /> 
 		</>
 	);
 }

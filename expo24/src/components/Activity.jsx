@@ -12,10 +12,10 @@ function Activity() {
 					alt="Foto Activiteit"
 					className={ActivityCss.image}
 				/>
-				<h3 className={ActivityCss.text}>Zaal 1</h3>
+				<h3 className={ActivityCss.text}>Makerspace</h3>
 			</div>
 			<div className={ActivityCss.info}>
-				<p>VR GAMES</p> <p>17u</p>
+				<p>Apple Vision</p> <p>17u</p>
 			</div>
 		</div>
 	);

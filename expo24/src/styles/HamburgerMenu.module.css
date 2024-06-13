@@ -17,6 +17,7 @@
 	top: 0;
 	margin: -10px 5px;
 	z-index: 30; /* Ensure the icon is above the menu */
+	margin-right: 50px;
 }
 
 /* Styles for each line of the hamburger icon */
@@ -61,8 +62,7 @@
 	font-size: 20px;
 }
 
-
-.menuItems img{
+.menuItems img {
 	margin-left: 0;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -81,9 +81,8 @@
 	transform: rotate(45deg) translate(5px, 5px);
 }
 
-
 .hamburgerMenu.open .hamburgerIcon .halfLine:nth-child(2) {
-	transform: rotate(-45deg) translate( 3px, -3px) ;
+	transform: rotate(-45deg) translate(3px, -3px);
 	width: 100%;
 }
 
@@ -91,15 +90,11 @@
 	.hamburgerMenu {
 		display: none;
 	}
-
-
 }
 
 @media screen and (max-width: 1200px) {
 	/* Any specific styles for medium screens can go here */
-	
 }
-
 
 @media screen and (max-width: 480px) {
 	/* Any specific styles for very small screens can go here */

@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import LogoB from "../assets/LogoB.svg";
 import styles from "../styles/Navigation.module.css";
-// import HamburgerMenu from "../components/HamburgerMenu";
+import HamburgerMenu from "../components/HamburgerMenu";
 
 function Navigation() {
 	return (
@@ -41,8 +41,9 @@ function Navigation() {
 							<Link to="/InschrijvingForum">Schrijf je in!</Link>
 						</li>
 					</ul>
-					{/* <HamburgerMenu></HamburgerMenu> */}
+					
 				</div>
+				<HamburgerMenu></HamburgerMenu>
 			</nav>
 			<Outlet />
 		</>

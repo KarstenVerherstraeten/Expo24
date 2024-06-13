@@ -12,8 +12,10 @@ function Home() {
 		<>
 			<div className={homeCss.header}>
 				<div className={homeCss.leftHeader}>
-					<h1>21 I 06 I 24</h1>
-					<h3>Vanaf 17u - 21u</h3>
+					<div className={homeCss.headerDate}>
+						<h1>21 I 06 I 24</h1>
+						<h3>Vanaf 17u </h3>
+					</div>
 					<div className={homeCss.homeButton}>
 						<img src={logoB} alt="" />
 						<Link to="/InschrijvingForum">SCHRIJF JE IN!</Link>
@@ -65,13 +67,13 @@ function Home() {
 			<div className={homeCss.content2}>
 				<div className={homeCss.Containers}>
 					<div className={homeCss.items}>
-						<h4>Awards</h4>
+						<h4>EINDWERKEN</h4>
 						<div className={homeCss.picture}>
 							<img src="#" alt="foto" />
 						</div>
 						<h3>De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden drie awards uitgereikt voor de beste projecten. </h3>
 						<a className={homeCss.button2}>
-							<Link to="/">AWARDS</Link>
+							<Link to="/">EINDWERKEN</Link>
 						</a>
 					</div>
 					<div className={homeCss.items}>
@@ -79,7 +81,7 @@ function Home() {
 						<div className={homeCss.picture}>
 							<img src="#" alt="foto" />
 						</div>
-						<h3>Tijdens expo24 worden er doorheen de avond met verschillende activiteiten aangeboden.  </h3>
+						<h3>Tijdens expo24 worden er doorheen de avond met verschillende activiteiten aangeboden. </h3>
 						<a className={homeCss.button2}>
 							<Link to="/Activities">ACTIVITEITEN</Link>
 						</a>
@@ -90,16 +92,25 @@ function Home() {
 				<h1>PRAKTISCHE INFO</h1>
 				<div className={homeCss.PracticalInfo}>
 					<div>
+						<div className={homeCss.picture1}>
+							<img src="#" alt="foto" />
+						</div>
 						<h4>Adress: Nijverheidskaai 70</h4>
 						<h4>1070 Anderlecht</h4>
 					</div>
 					<div>
+						<div className={homeCss.picture1}>
+							<img src="#" alt="foto" />
+						</div>
 						<h4>Data: 21 juni 2024</h4>
 						<h4>Uur: vanaf 17u tot 21u</h4>
 						<h4>Gebouw: Erasmushogeschool Brussel</h4>
 						<h4>Campus Kaai</h4>
 					</div>
 					<div>
+						<div className={homeCss.picture1}>
+							<img src="#" alt="foto" />
+						</div>
 						<h4>Op de expo tonen de 3de jaars hun beste werken. Om 20u is er een award show met een prijs uitreiking. Stem hier op jou favoriet.</h4>
 					</div>
 				</div>
@@ -108,13 +119,14 @@ function Home() {
 						<Link to="/Accessibility">BEREIKBAARHEID</Link>
 					</a>
 					<a className={homeCss.redbutton}>
-						<Link to="/Activities">ACTIVITEITEN</Link>
+						<Link to="/Activities">PROGRAMMA</Link>
 					</a>
 					<a className={homeCss.redbutton}>
-						<Link to="/">AWARDS</Link>
+						<Link to="/">FAQ</Link>
 					</a>
 				</div>
 			</div>
+			<Footer></Footer>
 		</>
 	);
 }

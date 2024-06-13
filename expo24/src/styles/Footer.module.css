@@ -13,6 +13,20 @@
 	margin-left: 100px;
 }
 
+.ehbLogo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.socials{
+	margin-left: 50px;
+}
+
+.socials img{
+	margin: 0px 20px;
+	width: 30px;
+}
 .links {
 	display: flex;
 	list-style-type: none;
@@ -58,6 +72,31 @@
 	margin-right: 30px;
 }
 
+
+@media screen and (max-width: 1050px){
+	.links {
+		flex-direction: column;
+	}
+	.FooterContainer {
+		flex-direction: column;
+	}
+	.logoEhb {
+		margin: 0;
+		width: 200px;
+	}
+	.whiteLogo {
+		margin-left: 50px;
+	}
+	.links li::after {
+		display: none;
+	}
+
+
+
+}
+
+
+
 @media screen and (max-width: 480px) {
 	.links {
 		flex-direction: column;
@@ -74,5 +113,10 @@
 	}
 	.links li::after {
 		display: none;
+	}
+
+	.socials img{
+		margin: 0px 20px;
+		width: 20px;
 	}
 }

@@ -33,7 +33,6 @@
 	display: flex;
 	margin-top: -90px;
 	justify-content: center;
-	margin-bottom: 90px;
 }
 .buttonBack a {
 	color: white;
@@ -82,6 +81,7 @@
 .Containers {
 	margin-bottom: 150px;
 }
+
 /* Top part */
 
 .glassPanel {
@@ -119,4 +119,29 @@
 	font-family: "Gotham Black", Arial, Helvetica, sans-serif;
 	position: absolute;
 	color: #f8f8f8;
+}
+@media screen and (max-width: 768px) {
+	.Containers {
+		flex-direction: column;
+		margin: 0px 30px;
+	}
+	.Containers div {
+		width: auto;
+	}
+	.Containers h1 {
+		margin-bottom: 20px;
+		margin-top: 50px;
+	}
+	.Containers h2 {
+		font-size: 12px;
+	}
+	.randomActivities {
+		flex-direction: column;
+	}
+	.randomActivities p {
+		margin-bottom: 40px;
+	}
+	.titleAccessibility h1 {
+		font-size: 30px;
+	}
 }

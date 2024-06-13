@@ -5,7 +5,6 @@ import vrImage from "../assets/vrGames.jpg";
 
 function Activity({ activity }) {
 	return (
-		<div className={ActivityCss.tile}>
 			<Link to={`/activity/${activity.title}`} className={ActivityCss.activityContext}>
 				<div className={ActivityCss.ImageContainer}>
 					<h3 className={ActivityCss.text} style={{ backgroundColor: activity.backgroundColor }}>
@@ -22,7 +21,7 @@ function Activity({ activity }) {
 					<p>{activity.title}</p>
 				</div>
 			</Link>
-		</div>
+
 	);
 }
 

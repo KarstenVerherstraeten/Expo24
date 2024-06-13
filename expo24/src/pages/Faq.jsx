@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FaqCSS from "../styles/Faq.module.css";
+import Footer from "../components/Footer.jsx";
 
 function Faq() {
 	const [activeIndex, setActiveIndex] = useState(null);
@@ -41,6 +42,7 @@ function Faq() {
 	}));
 
 	return (
+		<>
 		<div className={FaqCSS.faqContainer}>
 			<div className={FaqCSS.glassPanel}>
 				<div className={FaqCSS.glass}></div>
@@ -78,23 +80,12 @@ function Faq() {
 							<span>{faq.question}</span>
 							<span
 								className={`${FaqCSS.arrow} ${
-									activeIndex === index ? FaqCSS.active : ""
+									activeIndex === index ? FaqCSS.open : ""
 								}`}
 							>
-								<svg
-									width="46"
-									height="47"
-									viewBox="0 0 46 47"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										fill-rule="evenodd"
-										clip-rule="evenodd"
-										d="M37.4819 17.4137L22.4622 32.5557L7.65629 17.2046L11.4112 13.4191L22.5156 24.9324L33.7804 13.576L37.4819 17.4137Z"
-										fill="black"
-									/>
-								</svg>
+								<span className="material-symbols-outlined">
+									{activeIndex === index ? "expand_less" : "expand_more"}
+								</span>
 							</span>
 						</div>
 						<div
@@ -106,6 +97,7 @@ function Faq() {
 						</div>
 					</div>
 				))}
+				
 			</div>
 
 			{/* Activiteiten call to action */}
@@ -208,6 +200,12 @@ function Faq() {
 				</div>
 			</div>
 		</div>
+		<Footer />
+
+		
+		
+		</>
+		
 	);
 }
 

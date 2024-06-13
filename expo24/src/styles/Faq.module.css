@@ -39,11 +39,9 @@ h1 {
 	align-items: center;
 	justify-content: space-between;
 	padding-bottom: 20vh;
-	
 }
 
-.textActivities
-p {
+.textActivities p {
 	font-family: "Gotham Light";
 }
 
@@ -78,7 +76,7 @@ p {
 }
 
 .icon {
-	transition: transform 0.3s ease-in-out;
+	transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .icon:hover {
@@ -86,7 +84,6 @@ p {
 }
 
 /* ------------------ Glass effect -------------------- */
-
 .glassPanel {
 	background-color: white;
 	background-image: url(../assets/testeffect.gif);
@@ -116,41 +113,49 @@ p {
 }
 
 /* ------------------ Accordion -------------------- */
+/* Accordion styles */
+.accordion {
+	font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+	margin: 0px 100px;
+	padding: 10px 0;
+	margin-bottom: 100px;
+}
+
 .accordionItem {
-	margin-bottom: 10px;
-	/* border-radius: 5px; */
+	border-bottom: 1px solid #ccc;
+}
+
+.accordionContent {
+	max-height: 0px;
 	overflow: hidden;
+	transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
+	padding: 0px 0px;
+}
+
+.accordionContent.active {
+	max-height: 400px;
+	padding-bottom: 20px;
 }
 
 .accordionTitle {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px;
-	background: #f7f7f7;
 	cursor: pointer;
-	font-family: "Gotham Black";
-	font-size: 2.5vh;
-	
+	padding: 10px 0;
 }
 
-.questionText {
-	font-family: "Gotham Black";
+.accordionTitle span {
+	margin: 0;
 }
 
-.accordionContent {
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.3s ease, padding 0.3s ease;
-	padding: 0 15px;
-	font-family: "Gotham Light";
-	line-height: 25px;
-	border-bottom: 5px solid black;
+.arrow {
+	display: inline-block;
+	transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.accordionContent.active {
-	max-height: 200px;
-	padding: 15px;
+.arrow.active {
+	transform: rotate(180deg);
 }
 
 /* ------------------ Tablet -------------------- */
@@ -191,7 +196,6 @@ p {
 
 	.btn {
 		margin-top: 0;
-
 		display: inline-block;
 	}
 
@@ -203,7 +207,7 @@ p {
 /* ------------------ Smartphone -------------------- */
 @media (max-width: 450px) {
 	.faqContainer {
-		margin-top: 45h;
+		margin-top: 45vh;
 		padding: 0 10px;
 	}
 

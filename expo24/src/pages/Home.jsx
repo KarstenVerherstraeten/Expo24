@@ -6,6 +6,9 @@ import Timer2 from "../components/Timer2";
 import Voorbeeld from "../assets/react.svg";
 import Slideshow from "../components/SlideShow";
 import Footer from "../components/Footer";
+import LocationLogo from "../assets/LocationLogo.png";
+import HourLogo from "../assets/HourLogo.png";
+import QuestionLogo from "../assets/QuestionsLogo.png";
 
 function Home() {
 	return (
@@ -25,10 +28,9 @@ function Home() {
 					<div className={homeCss.timer}>
 						<Timer2></Timer2>
 					</div>
-					<div>
-						<h2>Erasmushogeschool Brussel I Multimedia & Creatieve Technologie</h2>
-						<h2 className={homeCss.text}>Nijverheidskaai 170, 1070 Anderlecht </h2>
-						<h2>Tijdens Expo24 presenteren de derdejaarsstudenten van Erasmushogeschool hun eindproeven en worden er verschillende workshops aangeboden.</h2>
+					<div className={homeCss.headerText}>
+						<h2>Studenten Multimedia & Creatieve Technologie nodigen jullie uit op EXPO24: innovatieve afstudeerprojecten, workshops en awards!</h2>
+						<h2>Waar? Erasmushogeschool Brussel I Nijverheidskaai 170, 1070 Anderlecht.</h2>
 					</div>
 				</div>
 			</div>
@@ -91,39 +93,52 @@ function Home() {
 			<div className={homeCss.content3}>
 				<h1>PRAKTISCHE INFO</h1>
 				<div className={homeCss.PracticalInfo}>
-					<div>
-						<div className={homeCss.picture1}>
-							<img src="#" alt="foto" />
+					<div className={homeCss.icons}>
+						<div>
+							<img src={LocationLogo} alt="" />
 						</div>
-						<h4>Adress: Nijverheidskaai 70</h4>
-						<h4>1070 Anderlecht</h4>
-					</div>
-					<div>
-						<div className={homeCss.picture1}>
-							<img src="#" alt="foto" />
+						<div className={homeCss.logoText}>
+							<h4>
+								Erasmushogeschool Brussel <br />
+								Campus Kaai <br /> Nijverheidskaai 70, <br /> Anderlecht 1070{" "}
+							</h4>
+							<a className={homeCss.redbutton}>
+								<Link to="/Accessibility">Bereikbaarheid</Link>
+							</a>
 						</div>
-						<h4>Data: 21 juni 2024</h4>
-						<h4>Uur: vanaf 17u tot 21u</h4>
-						<h4>Gebouw: Erasmushogeschool Brussel</h4>
-						<h4>Campus Kaai</h4>
 					</div>
-					<div>
-						<div className={homeCss.picture1}>
-							<img src="#" alt="foto" />
+					<div className={homeCss.icons}>
+						<div>
+							<img src={HourLogo} alt="" />
 						</div>
-						<h4>Op de expo tonen de 3de jaars hun beste werken. Om 20u is er een award show met een prijs uitreiking. Stem hier op jou favoriet.</h4>
+						<div className={homeCss.logoText}>
+							<h4>
+								Datum: 21 juni 2024 <br />
+								Doorlopens van 17u tot 21u <br />
+								Award show: 20u - 20u30 Programma
+							</h4>
+
+							<a className={homeCss.redbutton}>
+								<Link to="/Activities">Programma</Link>
+							</a>
+						</div>
 					</div>
-				</div>
-				<div className={homeCss.buttonsHome}>
-					<a className={homeCss.redbutton}>
-						<Link to="/Accessibility">BEREIKBAARHEID</Link>
-					</a>
-					<a className={homeCss.redbutton}>
-						<Link to="/Activities">PROGRAMMA</Link>
-					</a>
-					<a className={homeCss.redbutton}>
-						<Link to="/">FAQ</Link>
-					</a>
+
+					<div className={homeCss.icons}>
+						<div>
+							<img src={QuestionLogo} alt="" />
+						</div>
+						<div className={homeCss.logoText}>
+							<h4>
+								Nog verdere vragen? <br />
+								Check even onze <br />
+								veelgestelde vragen
+							</h4>
+							<a className={homeCss.redbutton}>
+								<Link to="/">FAQ</Link>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 			<Footer></Footer>

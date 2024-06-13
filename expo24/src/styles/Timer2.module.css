@@ -51,7 +51,7 @@
 
 /* Add other styles as needed */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
 	.time-block h2 {
 		font-size: 17px;
 	}

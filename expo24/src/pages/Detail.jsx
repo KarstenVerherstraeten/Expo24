@@ -53,7 +53,7 @@ function Detail() {
 					</h1>
 				</div>
 			</div>
-			<div className={detailCss.header} style={{ backgroundColor: activity.backgroundColor }}></div>
+
 			<div className={detailCss.buttonBack}>
 				<Link to="/Activities">Ga terug</Link>
 			</div>

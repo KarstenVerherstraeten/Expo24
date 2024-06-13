@@ -10,6 +10,10 @@ const HamburgerMenu = () => {
 		setIsOpen(!isOpen);
 	};
 
+	const closeMenu = () => {
+		setIsOpen(false);
+	};
+
 	return (
 		<div className={`${hamburgerCSS.hamburgerMenu} ${isOpen ? hamburgerCSS.open : ""}`}>
 			<div className={hamburgerCSS.hamburgerIcon} onClick={toggleMenu}>
@@ -18,11 +22,11 @@ const HamburgerMenu = () => {
 			</div>
 			<div className={hamburgerCSS.menuItems}>
 				<img className={hamburgerCSS.HamburgerImg} src={LogoB} alt="Logo" />
-				<Link to="/">Home</Link>
-				<Link to="/Activities">Activiteiten</Link>
-				<Link to="/Timetable">Timetable</Link>
-				<Link to="/Accessibility">Bereikbaarheid</Link>
-				<Link to="/Practical">Praktische info</Link>
+				<Link to="/" onClick={closeMenu}>Home</Link>
+				<Link to="/Activities" onClick={closeMenu}>Activiteiten</Link>
+				<Link to="/Timetable" onClick={closeMenu}>Timetable</Link>
+				<Link to="/Accessibility" onClick={closeMenu}>Bereikbaarheid</Link>
+				<Link to="/Practical" onClick={closeMenu}>Praktische info</Link>
 			</div>
 		</div>
 	);

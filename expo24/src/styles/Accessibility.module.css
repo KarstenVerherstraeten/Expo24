@@ -142,3 +142,62 @@
 .sectionContent {
 	padding: 10px 0;
 }
+
+
+@media screen and (max-width: 768px) {
+	.glassPanel {
+		height: 100vh;
+	}
+	.AccessibilityContainer {
+		margin-top: 100vh;
+	}
+	.info {
+		flex-direction: column;
+	}
+	.infoWrapper{
+		margin-top: 0px;
+	}
+	.route{
+		width: 200px;
+		height: 40px;
+	}
+	.transport {
+		margin: 0px 20px;
+	}
+	
+}
+
+@media screen and (max-width: 480px) {
+	.glassPanel {
+		height: 50vh;
+	}
+	.AccessibilityContainer {
+		margin-top: 100vh;
+	}
+
+	.AccessibilityContainer .titleAccessibility {
+		font-size: 30px;
+	}
+	.info {
+		flex-direction: column;
+		text-align: center;
+		margin: 40px 0px;
+	}
+	.infoWrapper{
+		margin-top: 0px;
+	}
+	.route{
+		width: auto;
+		height: 40px;
+		display: flex;
+		align-items: center;
+	}
+	.transport {
+		margin: 0px 20px;
+	}
+
+	#marker{
+		margin-right: 0;
+	}
+	
+}

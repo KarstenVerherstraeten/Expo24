@@ -337,6 +337,7 @@ h1 {
 	}
 	.items {
 		width: auto;
+		margin-top: 0;
 	}
 	.rightHeader div {
 		width: auto;

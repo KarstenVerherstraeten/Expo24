@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FaqCSS from "../styles/Faq.module.css";
+import Footer from "../components/Footer.jsx";
 
 function Faq() {
 	const [activeIndex, setActiveIndex] = useState(null);
@@ -197,7 +198,9 @@ function Faq() {
 					</a>
 				</div>
 			</div>
+			<Footer />
 		</div>
+		
 	);
 }
 

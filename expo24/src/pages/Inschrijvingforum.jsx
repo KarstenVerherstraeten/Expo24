@@ -162,7 +162,6 @@ function Inschrijvingforum() {
 								>
 									<option value="">Ik ben...</option>
 									<option value="student">Student</option>
-									<option value="geen-student">Geen student</option>
 									<option value="ouder">Ouder</option>
 									<option value="docent">Docent</option>
 									<option value="ehb-staff">EHB Staff</option>

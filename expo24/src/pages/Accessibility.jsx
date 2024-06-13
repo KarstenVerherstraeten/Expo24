@@ -125,7 +125,7 @@ function Accessibility() {
 					)}
 				</div>
 			</div>
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	);
 }

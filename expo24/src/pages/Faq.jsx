@@ -11,30 +11,50 @@ function Faq() {
 
 	const faqs = [
 		{
-			question: "Wat is de EXPO 24?",
+			question: "Wat is EXPO24?",
 			answer:
-				"Op vrijdag 21 juni organiseren de tweedejaars studenten van onze opleiding een Expo. Dit evenement biedt een unieke gelegenheid om het werk van onze studenten te ontdekken en deel te nemen aan diverse activiteiten. Het is een informele middag en avond vol mini-workshops, live demo's en interactieve sessies. Hoogtepunten zijn een professionele expositie, een showreel van de beste projecten, en een prijsuitreiking voor de topwerken van het jaar. Mis deze kans niet om inzicht te krijgen in de innovatieve projecten en technologieën van onze multimediale talenten. Iedereen is welkom!",
+				"EXPO24 is een evenement dat wordt georganiseerd door tweedejaarsstudenten van Multimedia & Creatieve Technologie. Het evenement biedt de kans om projecten van derdejaarsstudenten te ontdekken en deel te nemen aan verschillende activiteiten.",
+		},
+		{
+			question: "Wat is zijn de openingstijden?",
+			answer: "EXPO24 duurt van 17u tot 21u.",
+		},
+		{
+			question: "Wie kan EXPO24 bijkomen?",
+			answer: "Iedereen is welkom! ",
 		},
 		{
 			question: "Wat is de toegangsprijs?",
-			answer: "Gratis, je kunt je inschrijven via het inschrijvingsformulier.",
+			answer: "De toegang is gratis. ",
 		},
 		{
-			question: "De openingstijden van de expo?",
-			answer: "De openingstijden zijn van 17:00 - 21:00.",
+			question: "Waar vindt EXPO24 plaats?",
+			answer: "Het evenement vindt plaats op de Erasmushogeschool op Campus Kaai in Anderlecht. Adres: 170 Nijverheidskaai, 1070 Anderlecht",
 		},
 		{
-			question: "Kunnen ouders meekomen?",
-			answer: "Ja, ouders kunnen meekomen.",
-		},
-		{
-			question: "Zijn er rondleidingen beschikbaar?",
-			answer: "Ja, er zijn rondleidingen beschikbaar.",
-		},
-		{
-			question: "Kan ik foto's maken tijdens mijn bezoek?",
+			question: "Is er een parkeerplaats beschikbaar?",
 			answer:
-				"Ja, het is toegestaan om foto's te maken tijdens je bezoek aan de expo.",
+				"Ja, er is een gratis beperkte parking mogelijk voor-en achter de campus.",
+		},
+		{
+			question: "Hoe geraak ik aan EXPO24 met het openbaar vervoer ?",
+			answer:
+				"EXPO24 is makkelijk bereikbaar met de metro, tram en bus. Metro 2/6 : halte Delacroix Tram 81: halte Albert I Bus 46 : halte Albert I",
+		},
+		{
+			question: "Welke activiteiten/workshops zijn er beschikbaar?",
+			answer:
+				"Live Coding Demo, Arcade Games, Front-End/ Back-end (workshop), Apple Vision Pro (Workshop), 3D Printing Demo, Lasercut Demo, 3D Games (Workshop)",
+		},
+		{
+			question: "Is er een rondleiding beschikbaar?",
+			answer:
+				"Ja, EXPO24 biedt rondleidingen tussen 17u en 20u door de tweedejaarsstudenten van Multimedia & Creatieve Technologie.",
+		},
+		{
+			question: "Is er eten en drinken bij het evenement?",
+			answer:
+				"Een welkomstdrankje en hapjes worden aangeboden aan de inkom. Er wordt een BBQ georganiseerd door de studentenvereniging Enigma. Schrijf je hier in voor de BBQ:",
 		},
 	].map((faq) => ({
 		question: faq.question.toUpperCase(),

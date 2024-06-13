@@ -116,7 +116,6 @@ h1 {
 /* Accordion styles */
 .accordion {
 	font-family: "Gotham Book", Arial, Helvetica, sans-serif;
-	margin: 0px 100px;
 	padding: 10px 0;
 	margin-bottom: 100px;
 }
@@ -209,6 +208,7 @@ h1 {
 	.faqContainer {
 		margin-top: 45vh;
 		padding: 0 10px;
+
 	}
 
 	.faqContainer h1 {
@@ -253,4 +253,5 @@ h1 {
 	svg {
 		width: 50px;
 	}
+	
 }

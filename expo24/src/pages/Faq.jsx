@@ -131,7 +131,7 @@ function Faq() {
 				</div>
 
 				<div className={FaqCSS.btnActivitiesBtn}>
-					<a className={FaqCSS.btn} href="">
+					<a className={FaqCSS.btn} href="/Activities">
 						PROGRAMMA
 					</a>
 				</div>

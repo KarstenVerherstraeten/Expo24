@@ -115,7 +115,7 @@
 }
 
 @media screen and (max-width: 480px) {
-	body{
+	body {
 		overflow-x: hidden;
 	}
 	.NavContainer img {
@@ -144,5 +144,7 @@
 	.Nav {
 		display: none;
 	}
-	
+	.NavContainer img {
+		margin-left: 30px;
+	}
 }

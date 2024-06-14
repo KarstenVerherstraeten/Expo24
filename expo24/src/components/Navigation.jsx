@@ -12,10 +12,10 @@ function Navigation() {
 				</Link>
 				<div>
 					<ul className={styles.Nav}>
-						<li>
+						{/*   <li>
 							<Link to="/Activities">Programma</Link>
 						</li>
-
+						*/}
 						{/* <li className={styles.dropdown}>
 							<span className={styles.dropdownToggle}>
 								Eindwerken

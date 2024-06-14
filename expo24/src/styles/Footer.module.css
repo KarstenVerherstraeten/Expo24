@@ -95,12 +95,12 @@
 
 @media screen and (max-width: 1050px){
 	.links {
-		align-items: flex-start;
-		flex-direction: column;
+		align-items: center;
+		flex-direction: row;
 	}
 
 	.urlElements{
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.FooterContainer {
 		flex-direction: column;
@@ -118,13 +118,36 @@
 
 }
 
-
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 930px) {
 	.links {
 		flex-direction: column;
 	}
+
+}
+
+
+
+@media screen and (max-width: 560px) {
+	.links {
+		flex-direction: column;
+		align-items: center;
+		margin-right: 0px;
+		margin-bottom: 20px;
+		margin-left: 0px;
+	}
+
+	.links a{
+		margin-left: 0px;
+	}
+
+	.whiteLogo{
+		width: 200px;
+		margin-left: 0px;
+	}
 	.FooterContainer {
+		flex-direction: column;
+	}
+	.urlElements{
 		flex-direction: column;
 	}
 	.logoEhb {
@@ -135,6 +158,10 @@
 		display: none;
 	}
 
+	.socials{
+		margin-left: 0px;
+	
+	}
 	.socials img{
 		margin: 0px 20px;
 		width: 20px;

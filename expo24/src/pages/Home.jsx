@@ -10,6 +10,7 @@ import LocationLogo from "../assets/LocationLogo.png";
 import HourLogo from "../assets/HourLogo.png";
 import QuestionLogo from "../assets/QuestionsLogo.png";
 
+
 function Home() {
 	return (
 		<>

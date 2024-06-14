@@ -4,6 +4,13 @@ import Voorbeeld from "../assets/react.svg";
 import { Link } from "react-router-dom";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+import Eindwerken from "../assets/activityImages/Eindwerken.jpg";
+import ContactLeggen from "../assets/activityImages/ContactLeggen.jpeg";
+import MCT from "../assets/activityImages/Opleiding.jpeg";
+import Workshops from "../assets/activityImages/Workshops.jpg";
+import Drank from "../assets/activityImages/Eten&Drinken.jpeg";
+import BBQ from "../assets/activityImages/bbq.jpeg";
+import Award from "../assets/activityImages/Award.png";
 
 const Slideshow = () => {
   return (
@@ -49,7 +56,7 @@ const Slideshow = () => {
         <Link to="/Activities">
           <div className={slideCSS.imageContainer}>
             <img
-              src={Voorbeeld}
+              src={Workshops}
               alt="Project Background"
               className={slideCSS.backgroundImage}
             />
@@ -74,7 +81,7 @@ const Slideshow = () => {
       <div className={slideCSS.tile}>
         <div className={slideCSS.imageContainer}>
           <img
-            src={Voorbeeld}
+            src={Drank}
             alt="Project Background"
             className={slideCSS.backgroundImage}
           />
@@ -102,7 +109,7 @@ const Slideshow = () => {
         >
           <div className={slideCSS.imageContainer}>
             <img
-              src={Voorbeeld}
+              src={BBQ}
               alt="Project Background"
               className={slideCSS.backgroundImage}
             />
@@ -127,7 +134,7 @@ const Slideshow = () => {
       <div className={slideCSS.tile}>
         <div className={slideCSS.imageContainer}>
           <img
-            src={Voorbeeld}
+            src={Award}
             alt="Project Background"
             className={slideCSS.backgroundImage}
           />
@@ -152,7 +159,7 @@ const Slideshow = () => {
         <Link to="/Activities">
           <div className={slideCSS.imageContainer}>
             <img
-              src={Voorbeeld}
+              src={Eindwerken}
               alt="Project Background"
               className={slideCSS.backgroundImage}
             />
@@ -177,7 +184,7 @@ const Slideshow = () => {
       <div className={slideCSS.tile}>
         <div className={slideCSS.imageContainer}>
           <img
-            src={Voorbeeld}
+            src={ContactLeggen}
             alt="Project Background"
             className={slideCSS.backgroundImage}
           />
@@ -205,7 +212,7 @@ const Slideshow = () => {
         >
           <div className={slideCSS.imageContainer}>
             <img
-              src={Voorbeeld}
+              src={MCT}
               alt="Project Background"
               className={slideCSS.backgroundImage}
             />

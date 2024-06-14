@@ -12,12 +12,13 @@ const Slideshow = () => {
         aria-label="Activities" 
         options={{
           type: 'loop',
-          perPage: 4,
+          gap: '0',
+          perPage: 7,
           perMove: 1,
           pagination: false,
           swipe: true,
           drag: true,
-          focus: 'left',
+          focus: 'center',
           breakpoints: {
             640: {
               perPage: 1,
@@ -29,8 +30,17 @@ const Slideshow = () => {
               perPage: 3,
             },
             1200: {
-              perPage: 4,
+              perPage: 3,
             },
+            1600: {
+              perPage: 4
+            },
+            1850: {
+              perPage: 5
+            },
+            2200: {
+              perPage: 5
+            }
           },
         }}
       >
@@ -101,7 +111,7 @@ const Slideshow = () => {
                 <div
                   className={slideCSS.glass}
                   key={index}
-                  style={{ animationDelay: `${index * 0.1}s` }}
+                  style={{ animationDelay: `${index * 0.1}s`,  width: `${15}%`}}
                 ></div>
               ))}
             </div>

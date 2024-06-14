@@ -110,6 +110,10 @@
 		font-size: 20px;
 	}
 
+	.time-block{
+		max-width: none;
+	}
+
 	.time-blocks h1 {
 		margin: 0 20px;
 		font-size: 20px;
@@ -117,5 +121,6 @@
 
 	.time-block h2 {
 		font-size: 16px;
+		margin-bottom: 2px;
 	}
 }

@@ -22,7 +22,7 @@ function Home() {
 					</div>
 					<div className={homeCss.homeButton}>
 						<img src={logoB} alt="" />
-						<Link to="/InschrijvingForum">SCHRIJF JE IN!</Link>
+						<Link to="/Inschrijving">SCHRIJF JE IN!</Link>
 					</div>
 				</div>
 				<div className={homeCss.rightHeader}>

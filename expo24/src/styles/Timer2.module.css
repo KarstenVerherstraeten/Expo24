@@ -21,6 +21,7 @@
 }
 .time-blocks {
 	display: flex;
+	justify-content: center;
 }
 .time-block h1 {
 	display: flex;
@@ -63,7 +64,37 @@
 		padding: 0;
 	}
 	.time-block h1 {
-		font-size: 20px;
+		font-size: 40px;
+		margin-bottom: 20px;
 		margin: 0px 10px;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 1500px) {
+	.time-blocks h1 {
+		font-size: 50px;
+		margin: 0 20px;
+	}
+	.bold-text {
+		font-size: 40px;
+	}
+	.time-block {
+		margin: 0;
+	}
+	.time-block h2 {
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
+}
+@media screen and (min-width: 830px) and (max-width: 1500px) {
+	.time-blocks h1 {
+		margin: 0 20px;
+	}
+	.time-block {
+		align-items: center;
+	}
+	.time-block h2 {
+		font-size: 16px;
+		margin-top: 26px;
 	}
 }

@@ -50,7 +50,6 @@
 	font-family: "Gotham Light";
 }
 
-/* Add other styles as needed */
 
 @media screen and (max-width: 700px) {
 	.time-block h2 {
@@ -96,5 +95,20 @@
 	.time-block h2 {
 		font-size: 16px;
 		margin-top: 26px;
+	}
+}
+
+@media (max-width: 321px) {
+	.bold-text {
+		font-size: 20px;
+	}
+
+	.time-blocks h1 {
+		margin: 0 20px;
+		font-size: 20px;
+	}
+
+	.time-block h2 {
+		font-size: 16px;
 	}
 }

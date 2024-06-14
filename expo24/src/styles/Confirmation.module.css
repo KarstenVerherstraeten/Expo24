@@ -1,13 +1,19 @@
+/* Top part */
+
 .glassPanel {
-	position: fixed;
+	background-color: white;
+	background-image: url(../assets/testeffect.gif);
+	background-size: cover;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 50vh;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	background: url("../assets/bg-01.webp") center center fixed;
+	margin-top: 80px;
+	transform: scale(1);
+	position: absolute;
 }
 
 .glass {
@@ -18,8 +24,9 @@
 }
 
 .ConfigTitle {
-	font-size: 100px;
+	font-size: 80px;
 	z-index: 3;
+	margin-top: 190px;
 	font-family: "Gotham Black";
 	text-align: center;
 }
@@ -33,7 +40,7 @@
 	display: flex;
 	justify-content: center;
 	font-family: "objektiv-mk1", sans-serif;
-	background-color: rgb(120, 21, 21);
+	color: black;
 	border-radius: 50px;
 	flex-direction: row-reverse;
 }
@@ -44,16 +51,20 @@
 
 .ConfigInfo p {
 	font-size: 30px;
+	font-family: "Gotham Black";
 }
 .ConfigInfo ul p {
 	text-decoration: none;
 	font-size: 16px;
+	font-family: "Gotham light";
 }
 
 .ConfigBottom {
 	text-align: center;
 	font-size: 20px;
-	font-family: "objektiv-mk1", sans-serif;
+	font-family: "Gotham light", sans-serif;
+	margin-top: 140px;
+	color: black;
 }
 
 .ConfigButton {
@@ -71,35 +82,14 @@
 }
 
 .ConfigButton button {
-	position: relative;
-	padding: 10px 20px;
-	font-size: 16px;
-	cursor: pointer;
-	background: white;
-	overflow: hidden;
+	text-decoration: none;
+	color: white;
+	background-color: #ff0000;
+	padding: 10px 30px;
+	font-size: 20px;
+	font-family: "Gotham bold";
 	border: none;
-	outline: none;
-	color: transparent;
-	width: 250px;
-}
-
-.ConfigButton button::before {
-	content: "Ga terug naar Home";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: url("../assets/bg-01.webp") no-repeat center center fixed;
-	background-size: cover;
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	pointer-events: none;
-	z-index: 1;
+	width: 300px;
 }
 
 @media screen and (max-width: 768px) {
@@ -112,7 +102,6 @@
 	}
 	.ConfigInfo div {
 		margin: 20px 0;
-		
 	}
 	.ConfigButton {
 		width: 300px;
@@ -125,12 +114,11 @@
 	.ConfigInfo p {
 		font-size: 16px;
 		display: flex;
-        flex-direction: column;
+		flex-direction: column;
 	}
 
-	.ConfigInfo ul p{
+	.ConfigInfo ul p {
 		font-size: 12px;
-		
 	}
 }
 
@@ -141,16 +129,15 @@
 	.ConfigInfo p {
 		font-size: 16px;
 		display: flex;
-        flex-direction: column;
+		flex-direction: column;
 	}
 
 	.ConfigInfo {
 		flex-direction: column;
 	}
 
-	.ConfigInfo ul p{
+	.ConfigInfo ul p {
 		font-size: 12px;
-		
 	}
 	.ConfigButton {
 		width: 200px;
@@ -167,11 +154,9 @@
 		margin: 0px 30px;
 	}
 
-
-	.ConfigInfo{
+	.ConfigInfo {
 		width: 350px;
 		display: flex;
 		align-items: center;
-	
 	}
 }

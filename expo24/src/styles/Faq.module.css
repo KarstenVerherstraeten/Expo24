@@ -22,6 +22,8 @@
 	margin-right: auto;
 }
 
+
+
 .faqContainer .titleFaq {
 	font-size: 7vh;
 	font-family: "Gotham Black";
@@ -117,7 +119,7 @@ h1 {
 }
 
 .accordionItem {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 4px solid #000000;
 }
 
 .accordionContent {
@@ -125,6 +127,8 @@ h1 {
 	overflow: hidden;
 	transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
 	padding: 0px 0px;
+	font-size: 2.75vh;
+	line-height: 4vh;
 }
 
 .accordionContent.active {
@@ -138,6 +142,11 @@ h1 {
 	align-items: center;
 	cursor: pointer;
 	padding: 10px 0;
+	font-size: 3vh;
+	font-family: "Gotham Black";
+	font-weight: "400";
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 .accordionTitle span {
@@ -151,7 +160,10 @@ h1 {
 
 .arrow.active {
 	transform: rotate(180deg);
+	
 }
+
+
 
 /* ------------------ Tablet -------------------- */
 @media (max-width: 768px) {
@@ -220,7 +232,7 @@ h1 {
 	}
 
 	.accordionTitle {
-		font-size: 1.8vh;
+		font-size: 2.5vh;
 	}
 
 	.arrow svg {
@@ -247,5 +259,14 @@ h1 {
 
 	svg {
 		width: 50px;
+	}
+
+	.accordionContent {
+		max-height: 0px;
+		overflow: hidden;
+		transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
+		padding: 0px 0px;
+		font-size: 2.2vh;
+		line-height: 2.8vh;
 	}
 }

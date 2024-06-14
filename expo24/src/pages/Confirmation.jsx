@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 import ConfirmationCss from "../styles/Confirmation.module.css";
 
 function Confirmation() {
@@ -77,8 +77,9 @@ function Confirmation() {
 				</h2>
 				<div className={ConfirmationCss.ConfigBottom}>
 					<p>
-						U bent succesvol ingeschreven. <br />Er zou binnenkort een e-mail in uw inbox moeten zijn.
-						<br /> Mocht u deze niet ontvangen hebben, <span style={{fontWeight: "700"}}>Controleer uw spammap</span>.
+						U bent succesvol ingeschreven. <br />
+						Er zou binnenkort een e-mail in uw inbox moeten zijn.
+						<br /> Mocht u deze niet ontvangen hebben, <span style={{ fontFamily: "Gotham Medium" }}>Controleer uw spammap</span>.
 					</p>
 				</div>
 				<div className={ConfirmationCss.ConfigInfo}>
@@ -108,15 +109,9 @@ function Confirmation() {
 									{formData?.preferences?.vrGame && <li>VR-game</li>}
 									{formData?.preferences?.threeDGame && <li>3D-game</li>}
 									{formData?.preferences?.liveCoding && <li>Live coderen</li>}
-									{formData?.preferences?.demo3DPrints && (
-										<li>Demo 3D-prints</li>
-									)}
-									{formData?.preferences?.demoLasercut && (
-										<li>Demo LaserSnijden</li>
-									)}
-									{formData?.preferences?.geenIdee && (
-										<li>Geen idee</li>
-									)}
+									{formData?.preferences?.demo3DPrints && <li>Demo 3D-prints</li>}
+									{formData?.preferences?.demoLasercut && <li>Demo LaserSnijden</li>}
+									{formData?.preferences?.geenIdee && <li>Geen idee</li>}
 								</ul>
 							</p>
 						</ul>

@@ -21,7 +21,7 @@ function Detail() {
 
 	const randomActivities = getRandomActivities(title, 3);
 	const glassPanelStyles = {
-		backgroundImage: `url(${foto})`,
+		backgroundImage: `url(${activity.images})`,
 	};
 	return (
 		<>

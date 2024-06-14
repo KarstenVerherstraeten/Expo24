@@ -1,190 +1,195 @@
 [
-    {
-        "locatie": "MAKERSPACE",
-        "title": "Live Coding",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#1281AE",
-        "uren": [
-            {
-                "start": "17u30",
-                "einde": "17u45"
-            },
-            {
-                "start": "18u",
-                "einde": "18u15"
-            },
-            {
-                "start": "18u30",
-                "einde": "18u45"
-            },
-            {
-                "start": "19u",
-                "einde": "19u15"
-            },
-            {
-                "start": "19u30",
-                "einde": "19u45"
-            }
-        ]
-    },
-    {
-        "locatie": "MAKERSPACE",
-        "title": "3D-Printen",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#1281AE",
-        "uren": [
-            {
-                "start": "17u30",
-                "einde": "17u45"
-            },
-            {
-                "start": "18u",
-                "einde": "18u15"
-            },
-            {
-                "start": "18u30",
-                "einde": "18u45"
-            },
-            {
-                "start": "19u",
-                "einde": "19u15"
-            },
-            {
-                "start": "19u30",
-                "einde": "19u45"
-            }
-        ]
-    },
-    {
-        "locatie": "MAKERSPACE",
-        "title": "Apple Vision Pro",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#1281AE",
-        "uren": [
-            {
-                "start": "17u30",
-                "einde": "20u"
-            }
-        ]
-    },
-    {
-        "locatie": "MAKERSPACE",
-        "title": "3D-Games",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#1281AE",
-        "uren": [
-            {
-                "start": "17u30",
-                "einde": "20u"
-            }
-        ]
-    },
-    {
-        "locatie": "MAKERSPACE",
-        "title": "Front-End",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#1281AE",
-        "uren": [
-            {
-                "start": "17u30",
-                "einde": "20u"
-            }
-        ]
-    },
-    {
-        "locatie": "MAKERSPACE",
-        "title": "Back-End",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#1281AE",
-        "uren": [
-            {
-                "start": "17u30",
-                "einde": "20u"
-            }
-        ]
-    },
-    {
-        "locatie": "MAKERSPACE",
-        "title": "Lasercutting",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#1281AE",
-        "uren": [
-            {
-                "start": "17u30",
-                "einde": "20u"
-            }
-        ]
-    },
-    {
-        "locatie": "MEETUP",
-        "title": "Meetup",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#539B24",
-        "uren": [
-            {
-                "start": "17u",
-                "einde": "20u"
-            }
-        ]
-    },
-    {
-        "locatie": "GALLERY",
-        "title": "Eindwerken",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#A70B0B",
-        "uren": [
-            {
-                "start": "17u",
-                "einde": "20u"
-            }
-        ]
-    },
-    {
-        "locatie": "GALLERY",
-        "title": "Rondleiding",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#A70B0B",
-        "uren": [
-            {
-                "start": "17u",
-                "einde": "20u"
-            }
-        ]
-    },
-    {
-        "locatie": "TUIN",
-        "title": "BBQ",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#924AA2",
-        "uren": [
-            {
-                "start": "17u",
-                "einde": "21u"
-            }
-        ]
-    },
-    {
-        "locatie": "TUIN",
-        "title": "Drankje & Muziek",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#924AA2",
-        "uren": [
-            {
-                "start": "17u",
-                "einde": "21u"
-            }
-        ]
-    },
-    {
-        "locatie": "Tuin",
-        "title": "Slotshow",
-        "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-        "backgroundColor": "#924AA2",
-        "uren": [
-            {
-                "start": "20u",
-                "einde": "20u30"
-            }
-        ]
-    }
+	{
+		"locatie": "MAKERSPACE",
+		"title": "Live Coding",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#1281AE",
+		"images": "../src/assets/activityImages/live-coding.jpg",
+		"uren": [
+			{
+				"start": "17u30",
+				"einde": "17u45"
+			},
+			{
+				"start": "18u",
+				"einde": "18u15"
+			},
+			{
+				"start": "18u30",
+				"einde": "18u45"
+			},
+			{
+				"start": "19u",
+				"einde": "19u15"
+			},
+			{
+				"start": "19u30",
+				"einde": "19u45"
+			}
+		]
+	},
+	{
+		"locatie": "MAKERSPACE",
+		"title": "3D-Printen",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#1281AE",
+		"images": "../src/assets/activityImages/3D-print.jpg",
+		"uren": [
+			{
+				"start": "17u30",
+				"einde": "17u45"
+			},
+			{
+				"start": "18u",
+				"einde": "18u15"
+			},
+			{
+				"start": "18u30",
+				"einde": "18u45"
+			},
+			{
+				"start": "19u",
+				"einde": "19u15"
+			},
+			{
+				"start": "19u30",
+				"einde": "19u45"
+			}
+		]
+	},
+	{
+		"locatie": "MAKERSPACE",
+		"title": "Apple Vision Pro",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#1281AE",
+		"images": "../src/assets/activityImages/Apple.jpg",
+		"uren": [
+			{
+				"start": "17u30",
+				"einde": "20u"
+			}
+		]
+	},
+	{
+		"locatie": "MAKERSPACE",
+		"title": "3D-Games",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#1281AE",
+		"images": "../src/assets/activityImages/3D-games.jpg",
+		"uren": [
+			{
+				"start": "17u30",
+				"einde": "20u"
+			}
+		]
+	},
+	{
+		"locatie": "MAKERSPACE",
+		"title": "Front-End",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#1281AE",
+		"uren": [
+			{
+				"start": "17u30",
+				"einde": "20u"
+			}
+		]
+	},
+	{
+		"locatie": "MAKERSPACE",
+		"title": "Back-End",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#1281AE",
+		"uren": [
+			{
+				"start": "17u30",
+				"einde": "20u"
+			}
+		]
+	},
+	{
+		"locatie": "MAKERSPACE",
+		"title": "Lasercutting",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#1281AE",
+		"images": "../src/assets/activityImages/lasercut.jpg",
+		"uren": [
+			{
+				"start": "17u30",
+				"einde": "20u"
+			}
+		]
+	},
+	{
+		"locatie": "MEETUP",
+		"title": "Meetup",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#539B24",
+		"uren": [
+			{
+				"start": "17u",
+				"einde": "20u"
+			}
+		]
+	},
+	{
+		"locatie": "GALLERY",
+		"title": "Eindwerken",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#A70B0B",
+		"uren": [
+			{
+				"start": "17u",
+				"einde": "20u"
+			}
+		]
+	},
+	{
+		"locatie": "GALLERY",
+		"title": "Rondleiding",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#A70B0B",
+		"uren": [
+			{
+				"start": "17u",
+				"einde": "20u"
+			}
+		]
+	},
+	{
+		"locatie": "TUIN",
+		"title": "BBQ",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#924AA2",
+		"uren": [
+			{
+				"start": "17u",
+				"einde": "21u"
+			}
+		]
+	},
+	{
+		"locatie": "TUIN",
+		"title": "Drankje & Muziek",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#924AA2",
+		"uren": [
+			{
+				"start": "17u",
+				"einde": "21u"
+			}
+		]
+	},
+	{
+		"locatie": "Tuin",
+		"title": "Slotshow",
+		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"backgroundColor": "#924AA2",
+		"uren": [
+			{
+				"start": "20u",
+				"einde": "20u30"
+			}
+		]
+	}
 ]

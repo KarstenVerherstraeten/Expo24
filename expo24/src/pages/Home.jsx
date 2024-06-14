@@ -116,12 +116,12 @@ function Home() {
 							<h4>
 								Datum: 21 juni 2024 <br />
 								Doorlopens van 17u tot 21u <br />
-								Award show: 20u - 20u30 Programma
+								Award show: 20u - 20u30
 							</h4>
 
-							<a className={homeCss.redbutton}>
+							{/* <a className={homeCss.redbutton}>
 								<Link to="/Activities">Programma</Link>
-							</a>
+							</a> */}
 						</div>
 					</div>
 
@@ -136,7 +136,7 @@ function Home() {
 								veelgestelde vragen
 							</h4>
 							<a className={homeCss.redbutton}>
-								<Link to="/">FAQ</Link>
+								<Link to="/faq">FAQ</Link>
 							</a>
 						</div>
 					</div>

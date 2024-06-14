@@ -124,9 +124,39 @@ hr {
 	position: absolute;
 	color: #f8f8f8;
 }
+
+@media screen and (max-width: 1100px) {
+	.Containers {
+		flex-direction: column;
+		align-items: center;
+		margin: 0px 30px;
+	}
+	
+	.Containers h1 {
+		margin-bottom: 20px;
+		margin-top: 50px;
+	}
+	.Containers h2 {
+		font-size: 12px;
+	}
+	.randomActivities {
+		flex-direction: column;
+	}
+	.randomActivities p {
+		margin-bottom: 40px;
+	}
+	.titleAccessibility h1 {
+		font-size: 30px;
+	}
+	.buttonBack {
+		margin-top: -54px;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.Containers {
 		flex-direction: column;
+		align-items: flex-start;
 		margin: 0px 30px;
 	}
 	.Containers div {
@@ -151,5 +181,15 @@ hr {
 	.buttonBack {
 		margin-top: -54px;
 	}
+}
+
+
+
+@media screen and (max-width: 323px) {
+
+	.RandomActivity h1{
+		margin-left: 50px;
+	}
+	
 }
 

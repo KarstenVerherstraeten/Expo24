@@ -16,6 +16,10 @@
 	z-index: 1; /* Achtergrond */
 }
 
+hr {
+	border-bottom: 4px solid #000000;
+}
+
 .header h1 {
 	position: absolute;
 	top: 50%;

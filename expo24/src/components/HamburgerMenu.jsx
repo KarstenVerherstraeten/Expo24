@@ -23,10 +23,11 @@ const HamburgerMenu = () => {
 			<div className={hamburgerCSS.menuItems}>
 				<img className={hamburgerCSS.HamburgerImg} src={LogoB} alt="Logo" />
 				<Link to="/" onClick={closeMenu}>Home</Link>
-				<Link to="/Activities" onClick={closeMenu}>Activiteiten</Link>
-				<Link to="/Timetable" onClick={closeMenu}>Timetable</Link>
+				<Link to="/Activities" onClick={closeMenu}>Programma</Link>
+				<Link to="/faq" onClick={closeMenu}>FAQ</Link>
 				<Link to="/Accessibility" onClick={closeMenu}>Bereikbaarheid</Link>
-				<Link to="/Practical" onClick={closeMenu}>Praktische info</Link>
+				{/* <Link to="/Item2" onClick={closeMenu}>Awards</Link>
+				<Link to="/Item3" onClick={closeMenu}>Projecten</Link>	 */}
 			</div>
 		</div>
 	);

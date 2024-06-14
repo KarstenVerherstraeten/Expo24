@@ -23,6 +23,7 @@
 }
 
 
+
 .faqContainer .titleFaq {
 	font-size: 7vh;
 	font-family: "Gotham Black";
@@ -126,6 +127,8 @@ h1 {
 	overflow: hidden;
 	transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
 	padding: 0px 0px;
+	font-size: 2.75vh;
+	line-height: 4vh;
 }
 
 .accordionContent.active {
@@ -256,5 +259,14 @@ h1 {
 
 	svg {
 		width: 50px;
+	}
+
+	.accordionContent {
+		max-height: 0px;
+		overflow: hidden;
+		transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
+		padding: 0px 0px;
+		font-size: 2.2vh;
+		line-height: 2.8vh;
 	}
 }

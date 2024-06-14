@@ -21,7 +21,9 @@
 }
 .time-blocks {
 	display: flex;
-	justify-content: center;
+
+	justify-content: space-around;
+
 }
 .time-block h1 {
 	display: flex;
@@ -49,7 +51,11 @@
 	font-size: 20px;
 	font-family: "Gotham Light";
 }
+.time-block:last-child{
+	width: 0;
+	margin-right: 50px;
 
+}
 
 @media screen and (max-width: 700px) {
 	.time-block h2 {
@@ -61,6 +67,7 @@
 	.time-block {
 		margin: 0;
 		padding: 0;
+		max-width: 30px;
 	}
 	.time-block h1 {
 		font-size: 40px;

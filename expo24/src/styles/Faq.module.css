@@ -255,6 +255,7 @@ h1 {
 
 	.socialIcons {
 		display: inline-block;
+		margin: 0 30px;
 	}
 
 	svg {

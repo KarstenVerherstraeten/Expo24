@@ -13,7 +13,7 @@ a {
 
 .tile {
 	width: 300px;
-	margin: 20px;
+	margin: 20px 0 0 40px;
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
@@ -97,6 +97,12 @@ a {
 	color: #2c2c2c;
 }
 
+@media (max-width: 1025px) {
+	.tile{
+		margin: 20px 0 0 20px;
+	}
+}
+
 @media (max-width: 768px) {
 	.tile {
 		width: 300px;
@@ -109,11 +115,13 @@ a {
 	}
 }
 
-@media (max-width: 480) {
+@media (max-width: 480px) {
 	.tile {
 		width: 300px;
 		max-width: 300px;
 		height: auto;
+		margin: 10px 20px;
+
 	}
 
 	.imageContainer {

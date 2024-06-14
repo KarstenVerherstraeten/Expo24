@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AccessibilityCSS from "../styles/Accessibility.module.css";
 import Footer from "../components/Footer";
 import Location from "../assets/LocationLogo.svg";
+import FloorPlan from "../assets/activityImages/Plattegrond.png";
 
 function Accessibility() {
 	const [openSection, setOpenSection] = useState(null);
@@ -37,11 +38,15 @@ function Accessibility() {
 
 					<h1 className={AccessibilityCSS.titleAccessibility}>BEREIKBAARHEID</h1>
 				</div>
+
+				<div className={AccessibilityCSS.GroundPlanWrapper}>
 				<h2 className={AccessibilityCSS.GroundPlan}>Plattegrond Campus</h2>
-				<div className={AccessibilityCSS.red}>
-					<img src="" alt="Plattegrond" />
-					<p>Plattegrond Campus</p>
+			
+				
+					<img src={FloorPlan} alt="Plattegrond" />
+	
 				</div>
+				
 
 				<div className={AccessibilityCSS.infoWrapper}>
 					<div className={AccessibilityCSS.info}>

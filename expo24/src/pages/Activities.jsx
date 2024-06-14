@@ -27,6 +27,7 @@ function Activities() {
 				<div className={ActivitiesCss.glass}></div>
 				<div className={ActivitiesCss.glass}></div>
 				<div className={ActivitiesCss.glass}></div>
+				<div className={ActivitiesCss.glass}></div>
 				<h1 className={ActivitiesCss.titleActivities}>PROGRAMMA</h1>
 			</div>
 			<div className={ActivitiesCss.switch}>

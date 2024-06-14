@@ -51,7 +51,9 @@ function Accessibility() {
 							Anderlecht 1070
 						</p>
 					</div>
-					<a target="_blank" href="https://maps.app.goo.gl/3ARQ3KRZ7JZYnV9Y6"><button className={AccessibilityCSS.route}>Bereken route</button></a>
+					<a target="_blank" href="https://maps.app.goo.gl/3ARQ3KRZ7JZYnV9Y6">
+						<button className={AccessibilityCSS.route}>BEREKEN ROUTE</button>
+					</a>
 				</div>
 
 				<div className={AccessibilityCSS.transport}>

@@ -30,20 +30,17 @@ function Navigation() {
 								</li>
 							</ul>
 						</li> */}
-
-						<li>
-							<Link to="/Faq">FAQ</Link>
-						</li>
 						<li>
 							<Link to="/Accessibility">Bereikbaarheid</Link>
 						</li>
+						<li>
+							<Link to="/Faq">FAQ</Link>
+						</li>
+
 						<button className={styles.btn}>
-						<Link to="/InschrijvingForum">Schrijf je in!</Link>
-						</button> 
-							
-						
+							<Link to="/InschrijvingForum">SCHRIJF JE IN</Link>
+						</button>
 					</ul>
-					
 				</div>
 				<HamburgerMenu></HamburgerMenu>
 			</nav>

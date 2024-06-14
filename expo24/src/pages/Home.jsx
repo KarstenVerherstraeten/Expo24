@@ -69,7 +69,7 @@ function Home() {
 			<div className={homeCss.content2}>
 				<div className={homeCss.Containers}>
 					<div className={homeCss.items}>
-						<h4>EINDWERKEN</h4>
+						<h4>Eindwerken</h4>
 						<div className={homeCss.picture}>
 							<img src="#" alt="foto" />
 						</div>
@@ -79,7 +79,7 @@ function Home() {
 						</a>
 					</div>
 					<div className={homeCss.items}>
-						<h4>ACTIVITEITEN</h4>
+						<h4>Activiteiten</h4>
 						<div className={homeCss.picture}>
 							<img src="#" alt="foto" />
 						</div>
@@ -91,7 +91,7 @@ function Home() {
 				</div>
 			</div>
 			<div className={homeCss.content3}>
-				<h1>PRAKTISCHE INFO</h1>
+				<h1>Praktische info</h1>
 				<div className={homeCss.PracticalInfo}>
 					<div className={homeCss.icons}>
 						<div>

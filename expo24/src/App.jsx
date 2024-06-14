@@ -21,19 +21,17 @@ function App() {
 		<Router>
 			<Routes>
 				<Route path="/" element={<Navigation />}>
-					<Route index element={<HomePage />} />
+					<Route index element={<Home />} />
 					<Route path="Accessibility" element={<Accessebiltity />} />
-					<Route path="Home" element={<Home />} />
 					<Route path="Activities" element={<Activities />} />
 					<Route path="Practical" element={<Practical />} />
 					<Route path="Timetable" element={<Timetable />} />
-					<Route path="Inschrijvingforum" element={<Inschrijvingforum />} />
+					<Route path="Inschrijving" element={<Inschrijving />} />
 					<Route path="Confirmation" element={<Confirmation />} />
 					<Route path="Programma" element={<Programma />} />
 					<Route path="Faq" element={<Faq />} />
 					<Route path="*" element={<PageNotFound />} />
 					<Route path="activity/:title" element={<Detail />} />
-					<Route path="inschrijving" element={<Inschrijving />} />
 				</Route>
 			</Routes>
 		</Router>

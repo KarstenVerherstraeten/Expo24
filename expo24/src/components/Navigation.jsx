@@ -38,7 +38,7 @@ function Navigation() {
 						</li>
 
 						<button className={styles.btn}>
-							<Link to="/InschrijvingForum">SCHRIJF JE IN</Link>
+							<Link to="/Inschrijving">SCHRIJF JE IN</Link>
 						</button>
 					</ul>
 				</div>

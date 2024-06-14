@@ -1,7 +1,7 @@
 [
     {
-        "locatie": "makerspace",
-        "title": "live coding",
+        "locatie": "MAKERSPACE",
+        "title": "Live Coding",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#1281AE",
         "uren": [
@@ -28,8 +28,8 @@
         ]
     },
     {
-        "locatie": "makerspace",
-        "title": "3D-printing",
+        "locatie": "MAKERSPACE",
+        "title": "3D-Printen",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#1281AE",
         "uren": [
@@ -56,8 +56,8 @@
         ]
     },
     {
-        "locatie": "makerspace",
-        "title": "apple vision pro",
+        "locatie": "MAKERSPACE",
+        "title": "Apple Vision Pro",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#1281AE",
         "uren": [
@@ -68,8 +68,8 @@
         ]
     },
     {
-        "locatie": "makerspace",
-        "title": "3D-games",
+        "locatie": "MAKERSPACE",
+        "title": "3D-Games",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#1281AE",
         "uren": [
@@ -80,8 +80,8 @@
         ]
     },
     {
-        "locatie": "makerspace",
-        "title": "frontend",
+        "locatie": "MAKERSPACE",
+        "title": "Front-End",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#1281AE",
         "uren": [
@@ -92,8 +92,8 @@
         ]
     },
     {
-        "locatie": "makerspace",
-        "title": "backend",
+        "locatie": "MAKERSPACE",
+        "title": "Back-End",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#1281AE",
         "uren": [
@@ -104,8 +104,8 @@
         ]
     },
     {
-        "locatie": "makerspace",
-        "title": "lasercut",
+        "locatie": "MAKERSPACE",
+        "title": "Lasercutting",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#1281AE",
         "uren": [
@@ -116,8 +116,8 @@
         ]
     },
     {
-        "locatie": "meetup",
-        "title": "meetup",
+        "locatie": "MEETUP",
+        "title": "Meetup",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#539B24",
         "uren": [
@@ -128,8 +128,8 @@
         ]
     },
     {
-        "locatie": "gallery",
-        "title": "eindwerken 3e jaars",
+        "locatie": "GALLERY",
+        "title": "Eindwerken",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#A70B0B",
         "uren": [
@@ -140,8 +140,8 @@
         ]
     },
     {
-        "locatie": "gallery",
-        "title": "rondleiding",
+        "locatie": "GALLERY",
+        "title": "Rondleiding",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#A70B0B",
         "uren": [
@@ -152,7 +152,7 @@
         ]
     },
     {
-        "locatie": "tuin",
+        "locatie": "TUIN",
         "title": "BBQ",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#924AA2",
@@ -164,8 +164,8 @@
         ]
     },
     {
-        "locatie": "tuin",
-        "title": "drankje & musiek",
+        "locatie": "TUIN",
+        "title": "Drankje & Muziek",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#924AA2",
         "uren": [
@@ -176,8 +176,8 @@
         ]
     },
     {
-        "locatie": "tuin",
-        "title": "slotshow",
+        "locatie": "Tuin",
+        "title": "Slotshow",
         "description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
         "backgroundColor": "#924AA2",
         "uren": [

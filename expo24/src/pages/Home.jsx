@@ -79,7 +79,7 @@ function Home() {
 						</a>
 					</div>
 					<div className={homeCss.items}>
-						<h4>Activiteiten</h4>
+						<h4>ACTIVITEITEN</h4>
 						<div className={homeCss.picture}>
 							<img src="#" alt="foto" />
 						</div>

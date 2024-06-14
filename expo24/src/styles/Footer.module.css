@@ -158,6 +158,10 @@
 		display: none;
 	}
 
+	.ehbLogo{
+		flex-direction: column;
+	}
+
 	.socials{
 		margin-left: 0px;
 	

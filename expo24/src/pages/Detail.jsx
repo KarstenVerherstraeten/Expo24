@@ -4,6 +4,7 @@ import detailCss from "../styles/Detail.module.css";
 import foto from "../assets/vrGames.jpg";
 import activities from "../../activities.json"; // Importeer de JSON-gegevens
 import Activity from "../components/Activity"; // Importeer de Activity component
+import Footer from "../components/Footer";
 
 function getRandomActivities(currentTitle, num) {
 	const filteredActivities = activities.filter((activity) => activity.title !== currentTitle);
@@ -87,6 +88,8 @@ function Detail() {
 					))}
 				</div>
 			</div>
+
+			<Footer></Footer>
 		</>
 	);
 }

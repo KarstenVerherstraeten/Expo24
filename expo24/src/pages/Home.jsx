@@ -115,7 +115,7 @@ function Home() {
 						<div className={homeCss.logoText}>
 							<h4>
 								Datum: 21 juni 2024 <br />
-								Doorlopens van 17u tot 21u <br />
+								Doorlopend van 17u tot 21u <br />
 								Award show: 20u - 20u30
 							</h4>
 

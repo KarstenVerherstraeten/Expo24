@@ -2,7 +2,7 @@
 	{
 		"locatie": "MAKERSPACE",
 		"title": "Live Coding",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Wil je Multimedia & Creatieve Technologie studeren, maar weet je nog niets over coderen? Kom dan zeker langs tijdens één van onze live codingsessies. Samen met een tweedejaarsstudent doorloop je de basis van HTML, CSS en JavaScript en bouw je samen een eenvoudige website. Vergeet niet je logisch redeneervermogen mee te nemen!",
 		"backgroundColor": "#1281AE",
 		"images": "../src/assets/activityImages/live-coding.jpg",
 		"uren": [
@@ -31,7 +31,7 @@
 	{
 		"locatie": "MAKERSPACE",
 		"title": "3D-Printen",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Voor het vak Makerslab maak je volop gebruik van de 3D-printer. Daarom is het handig als je er al één hebt gezien voordat je met Multimedia & Creatieve Technologie begint. Als extraatje krijg je zelfs een 3D-geprint souvenir mee!",
 		"backgroundColor": "#1281AE",
 		"images": "../src/assets/activityImages/3D-print.jpg",
 		"uren": [
@@ -60,7 +60,7 @@
 	{
 		"locatie": "MAKERSPACE",
 		"title": "Apple Vision Pro",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Multimedia & Creatieve Technologie is altijd up-to-date met de nieuwste technologieën, zelfs voordat ze in Europa beschikbaar zijn. Tijdens deze workshop maak je kennis met de Apple Vision Pro en krijg je de kans om het zelf te testen. Mis deze unieke ervaring niet!",
 		"backgroundColor": "#1281AE",
 		"images": "../src/assets/activityImages/Apple.jpg",
 		"uren": [
@@ -73,7 +73,7 @@
 	{
 		"locatie": "MAKERSPACE",
 		"title": "3D-Games",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "3D Games is een keuzevak dat je in het tweede jaar kunt volgen. Tweedejaarsstudenten hebben tijdens deze lessen een game moeten ontwikkelen. Ben je hierin geïnteresseerd? Bij EXPO24 kun je zeker één of twee projecten uitproberen!",
 		"backgroundColor": "#1281AE",
 		"images": "../src/assets/activityImages/3D-games.jpg",
 		"uren": [
@@ -86,7 +86,7 @@
 	{
 		"locatie": "MAKERSPACE",
 		"title": "Front-End",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Front-End is een keuzevak dat je in het tweede jaar kunt volgen. Tweedejaarsstudenten hebben allemaal een parallax-website gebouwd rond een sprookjesverhaal dat ze zelf mochten kiezen. Je kunt deze websites bekijken met een Oculus Quest 2, zodat je ze op een groter scherm kunt zien. Ben je hierin geïnteresseerd? Kom naar EXPO24 en ervaar sprookjesverhalen op een manier die anders is dan via een film of liedje!",
 		"backgroundColor": "#1281AE",
 		"images": "../src/assets/activityImages/front-end.jpg",
 		"uren": [
@@ -99,7 +99,7 @@
 	{
 		"locatie": "MAKERSPACE",
 		"title": "Back-End",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Het verschil tussen Back-End en Front-End is dat je bij Front-End programmeert wat je ziet, terwijl je bij Back-End de functionaliteit erachter ontwikkelt. Tweedejaarsstudenten moesten een streamingwebsite bouwen met unieke specificaties. Ben je hierin geïnteresseerd? Ontdek alle verschillende en unieke streamingwebsites tijdens EXPO24!",
 		"backgroundColor": "#1281AE",
 		"images": "../src/assets/activityImages/Back-end.jpg",
 		"uren": [
@@ -112,7 +112,7 @@
 	{
 		"locatie": "MAKERSPACE",
 		"title": "Lasercutting",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Je hebt het goed gelezen! Met behulp van een laser kun je houten planken snijden en graveren. Dit zal je veel gebruiken tijdens het vak Makerslab, maar ook tijdens het vak Grow 1. Wil je dit al eens in actie zien voordat je Multimedia & Creatieve Technologie gaat studeren? Kom dan zeker langs. Je kunt zelfs iets lasercutten!",
 		"backgroundColor": "#1281AE",
 		"images": "../src/assets/activityImages/lasercut.jpg",
 		"uren": [
@@ -128,7 +128,6 @@
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#539B24",
 		"images": "../src/assets/activityImages/Meet-ups.jpg",
-
 		"uren": [
 			{
 				"start": "17u",
@@ -142,19 +141,6 @@
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#A70B0B",
 		"images": "../src/assets/activityImages/Eindwerken.jpg",
-		"uren": [
-			{
-				"start": "17u",
-				"einde": "20u"
-			}
-		]
-	},
-	{
-		"locatie": "GALLERY",
-		"title": "Rondleiding",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
-		"backgroundColor": "#A70B0B",
-		"images": "../src/assets/activityImages/Rondleidingen.jpg",
 		"uren": [
 			{
 				"start": "17u",

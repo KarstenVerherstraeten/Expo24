@@ -48,24 +48,29 @@ h3 {
 	flex-direction: row;
 	justify-content: center;
 	margin-bottom: 100px;
-	margin-top: 90px;
+	margin-top: 60px;
 }
 
 .switch {
-	/* display: flex; */
-	display: none;
+	display: flex;
 	justify-content: end;
 }
 
-.switch p {
+.switch a {
 	font-family: "Gotham Black";
 	font-size: 15px;
 	margin-top: 0px;
 	padding: 10px 40px;
+	background-color: #f8f8f8;
+	color: #2c2c2c;
+	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.switch p:last-child {
-	margin-left: 10px;
+.switch a:last-child {
+	font-family: "Gotham Black";
+	font-size: 15px;
+	margin-top: 0px;
+	padding: 10px 40px;
 	background-color: #2c2c2c;
 	color: #f8f8f8;
 	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));

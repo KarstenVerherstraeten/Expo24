@@ -139,7 +139,7 @@ h1 {
 	overflow: hidden;
 	transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
 	padding: 0px 0px;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 3vh;
 }
 

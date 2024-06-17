@@ -9,7 +9,8 @@ import Footer from "../components/Footer";
 import LocationLogo from "../assets/LocationLogo.png";
 import HourLogo from "../assets/HourLogo.png";
 import QuestionLogo from "../assets/QuestionsLogo.png";
-
+import eindwerkenFoto from "../assets/activityImages/Eindwerken.jpg";
+import ActiviteitenFoto from "../assets/activityImages/lasercut.jpg";
 
 function Home() {
 	return (
@@ -72,7 +73,7 @@ function Home() {
 					<div className={homeCss.items}>
 						<h4>Eindwerken</h4>
 						<div className={homeCss.picture}>
-							<img src="#" alt="foto" />
+							<img src={eindwerkenFoto} alt="foto" />
 						</div>
 						<h3>De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden drie awards uitgereikt voor de beste projecten. </h3>
 						<a className={homeCss.button2}>
@@ -82,7 +83,7 @@ function Home() {
 					<div className={homeCss.items}>
 						<h4>Activiteiten</h4>
 						<div className={homeCss.picture}>
-							<img src="#" alt="foto" />
+							<img src={ActiviteitenFoto} alt="foto" />
 						</div>
 						<h3>Tijdens expo24 worden er doorheen de avond met verschillende activiteiten aangeboden. </h3>
 						<a className={homeCss.button2}>

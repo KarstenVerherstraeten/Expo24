@@ -43,11 +43,11 @@ h1 {
 	font-size: 20px;
 }
 .leftHeader a {
-	font-family: "Gotham Medium";
+	font-family: "Gotham bold";
 	font-size: 15px;
 	color: white;
-	padding: 8px 20px;
-	background-color: red;
+	padding: 13px 20px;
+	background-color: #e30613;
 	border: none;
 	text-decoration: none;
 	margin-right: 35px;

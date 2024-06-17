@@ -74,8 +74,12 @@ h1 {
 
 .socialMediaTitle {
 	margin-bottom: 20px;
+
 }
 
+.faqContainer h1 {
+	font-size: 50px;
+}
 .socialIcons {
 	display: flex;
 	justify-content: space-evenly;

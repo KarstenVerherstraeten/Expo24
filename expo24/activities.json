@@ -88,6 +88,7 @@
 		"title": "Front-End",
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#1281AE",
+		"images": "../src/assets/activityImages/front-end.jpg",
 		"uren": [
 			{
 				"start": "17u30",
@@ -100,6 +101,7 @@
 		"title": "Back-End",
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#1281AE",
+		"images": "../src/assets/activityImages/Back-end.jpg",
 		"uren": [
 			{
 				"start": "17u30",
@@ -125,6 +127,8 @@
 		"title": "Meetup",
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#539B24",
+		"images": "../src/assets/activityImages/Meet-ups.jpg",
+
 		"uren": [
 			{
 				"start": "17u",
@@ -137,6 +141,7 @@
 		"title": "Eindwerken",
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#A70B0B",
+		"images": "../src/assets/activityImages/Eindwerken.jpg",
 		"uren": [
 			{
 				"start": "17u",
@@ -149,6 +154,7 @@
 		"title": "Rondleiding",
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#A70B0B",
+		"images": "../src/assets/activityImages/Rondleidingen.jpg",
 		"uren": [
 			{
 				"start": "17u",
@@ -161,6 +167,7 @@
 		"title": "BBQ",
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#924AA2",
+		"images": "../src/assets/activityImages/bbq.jpeg",
 		"uren": [
 			{
 				"start": "17u",
@@ -173,6 +180,7 @@
 		"title": "Drankje & Muziek",
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#924AA2",
+		"images": "../src/assets/activityImages/Eten&Drinken.jpeg",
 		"uren": [
 			{
 				"start": "17u",
@@ -185,6 +193,7 @@
 		"title": "Slotshow",
 		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
 		"backgroundColor": "#924AA2",
+		"images": "../src/assets/activityImages/Award.png",
 		"uren": [
 			{
 				"start": "20u",

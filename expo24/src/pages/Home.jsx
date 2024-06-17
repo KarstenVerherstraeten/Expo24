@@ -119,9 +119,9 @@ function Home() {
 								Award show: 20u - 20u30
 							</h4>
 
-							{/* <a className={homeCss.redbutton}>
+							<a className={homeCss.redbutton}>
 								<Link to="/Activities">Programma</Link>
-							</a> */}
+							</a>
 						</div>
 					</div>
 

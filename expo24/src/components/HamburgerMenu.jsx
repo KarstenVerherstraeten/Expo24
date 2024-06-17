@@ -28,13 +28,13 @@ const HamburgerMenu = () => {
 				<Link to="/Accessibility" onClick={closeMenu}>
 					Bereikbaarheid
 				</Link>
-				{/*<Link to="/Activities" onClick={closeMenu}>Programma</Link>*/}
+				<Link to="/Activities" onClick={closeMenu}>Programma</Link>
 				<Link to="/faq" onClick={closeMenu}>
 					FAQ
 				</Link>
 
-				{/* <Link to="/Item2" onClick={closeMenu}>Awards</Link>
-				<Link to="/Item3" onClick={closeMenu}>Projecten</Link>	 */}
+				<Link to="/Item2" onClick={closeMenu}>Awards</Link>
+				<Link to="/Item3" onClick={closeMenu}>Projecten</Link>	
 			</div>
 		</div>
 	);

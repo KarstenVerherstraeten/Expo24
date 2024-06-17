@@ -14,10 +14,12 @@ import Home from "./pages/Home";
 import Faq from "./pages/Faq";
 import PageNotFound from "./pages/PageNotFound";
 import Detail from "./pages/Detail";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 	return (
 		<Router>
+			<ScrollToTop></ScrollToTop>
 			<Routes>
 				<Route path="/" element={<Navigation />}>
 					<Route index element={<Home />} />

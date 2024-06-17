@@ -3,6 +3,7 @@ import Activity from "../components/Activity";
 import ActivitiesCss from "../styles/Activities.module.css";
 import Footer from "../components/Footer.jsx";
 import activitiesData from "../../activities.json"; // JSON data importeren
+import { Outlet, Link } from "react-router-dom";
 
 function Activities() {
 	return (
@@ -31,8 +32,8 @@ function Activities() {
 				<h1 className={ActivitiesCss.titleActivities}>PROGRAMMA</h1>
 			</div>
 			<div className={ActivitiesCss.switch}>
-				<p>TIMETABLE</p>
-				<p>OVERZICHT</p>
+			<Link to="/Timetable">TIMETABLE</Link>
+			<Link to="/Activities">OVERZICHT</Link>
 			</div>
 			<div className={ActivitiesCss.ActivitiesContainer}>
 				<div className={ActivitiesCss.activitiesWrapper}>

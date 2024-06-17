@@ -1,5 +1,6 @@
 import Timer from "../components/Timer";
 import style from "../styles/Timetable.module.css";
+import { Outlet, Link } from "react-router-dom";
 
 function Timetable() {
 	return (
@@ -25,11 +26,11 @@ function Timetable() {
 				<div className={style.glass}></div>
 				<div className={style.glass}></div>
 				<div className={style.glass}></div>
-				<h1 className={style.titleActivities}>Timetable</h1>
+				<h1 className={style.titleActivities}>TIMETABLE</h1>
 			</div>
 			<div className={style.switch}>
-				<p>TIMETABLE</p>
-				<p>OVERZICHT</p>
+			<Link to="/Timetable">TIMETABLE</Link>
+			<Link to="/Activities">OVERZICHT</Link>
 			</div>
 			<div className={style.timetableWrapper}>
 				<div className={style.list}>

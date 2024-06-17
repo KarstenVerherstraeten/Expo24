@@ -33,7 +33,7 @@ hr {
 .buttonBack {
 	background-color: black;
 	width: 150px;
-	padding: 10px 15px;
+	padding: 10px 20px;
 	display: flex;
 	margin-top: -71px;
 	justify-content: center;
@@ -131,7 +131,7 @@ hr {
 		align-items: center;
 		margin: 0px 30px;
 	}
-	
+
 	.Containers h1 {
 		margin-bottom: 20px;
 		margin-top: 50px;
@@ -141,6 +141,8 @@ hr {
 	}
 	.randomActivities {
 		flex-direction: column;
+		width: auto;
+		align-items: center;
 	}
 	.randomActivities p {
 		margin-bottom: 40px;
@@ -183,13 +185,8 @@ hr {
 	}
 }
 
-
-
 @media screen and (max-width: 323px) {
-
-	.RandomActivity h1{
+	.RandomActivity h1 {
 		margin-left: 50px;
 	}
-	
 }
-

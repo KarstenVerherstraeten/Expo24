@@ -14,26 +14,26 @@
 	margin-left: 20px;
 }
 
-.topRow{
+.topRow {
 	width: 100%;
 }
 
-.urlElements{
+.urlElements {
 	display: flex;
 	flex-direction: row;
 }
 
-.ehbLogo{
+.ehbLogo {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.socials{
+.socials {
 	margin-left: 50px;
 }
 
-.socials img{
+.socials img {
 	margin: 0px 20px;
 	width: 30px;
 }
@@ -84,22 +84,18 @@
 	margin-right: 30px;
 }
 
-.ehbLogo{
+.ehbLogo {
 	display: flex;
 	justify-content: space-between;
 }
 
-
-
-
-
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1050px) {
 	.links {
 		align-items: center;
 		flex-direction: row;
 	}
 
-	.urlElements{
+	.urlElements {
 		flex-direction: row;
 	}
 	.FooterContainer {
@@ -109,23 +105,17 @@
 		margin: 0;
 		width: 200px;
 	}
-	
+
 	.links li::after {
 		display: none;
 	}
-
-
-
 }
 
 @media screen and (max-width: 930px) {
 	.links {
 		flex-direction: column;
 	}
-
 }
-
-
 
 @media screen and (max-width: 560px) {
 	.links {
@@ -136,19 +126,21 @@
 		margin-left: 0px;
 	}
 
-	.links a{
+	.links a {
 		margin-left: 0px;
 	}
 
-	.whiteLogo{
+	.whiteLogo {
 		width: 200px;
 		margin-left: 0px;
 	}
 	.FooterContainer {
 		flex-direction: column;
 	}
-	.urlElements{
+	.urlElements {
 		flex-direction: column;
+		align-items: center;
+		margin-left: 0;
 	}
 	.logoEhb {
 		margin: 0;
@@ -157,16 +149,18 @@
 	.links li::after {
 		display: none;
 	}
+	.links li {
+		margin-left: 0;
+	}
 
-	.ehbLogo{
+	.ehbLogo {
 		flex-direction: column;
 	}
 
-	.socials{
+	.socials {
 		margin-left: 0px;
-	
 	}
-	.socials img{
+	.socials img {
 		margin: 0px 20px;
 		width: 20px;
 	}

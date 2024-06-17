@@ -51,7 +51,7 @@ const Slideshow = () => {
           },
         }}
       >
-    {/* <SplideSlide>
+    <SplideSlide>
       <div className={slideCSS.tile}>
         <Link to="/Activities">
           <div className={slideCSS.imageContainer}>
@@ -75,7 +75,7 @@ const Slideshow = () => {
           </div>
         </Link>
       </div>
-      </SplideSlide> */}
+      </SplideSlide>
 
       <SplideSlide>
       <div className={slideCSS.tile}>
@@ -154,7 +154,7 @@ const Slideshow = () => {
       </div>
       </SplideSlide>
 
-      {/* <SplideSlide>
+      <SplideSlide>
       <div className={slideCSS.tile}>
         <Link to="/Activities">
           <div className={slideCSS.imageContainer}>
@@ -178,7 +178,7 @@ const Slideshow = () => {
           </div>
         </Link>
       </div>
-      </SplideSlide> */}
+      </SplideSlide>
 
       <SplideSlide>
       <div className={slideCSS.tile}>

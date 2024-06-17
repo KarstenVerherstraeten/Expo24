@@ -20,16 +20,16 @@ function Footer() {
 					<li>
 							<Link to="/">Home</Link>
 						</li>
-						{/* <li>
+						<li>
 							<Link to="/Activities">Programma</Link>
-						</li> */}
+						</li>
 						<li>
 							<Link to="/Accessibility">Bereikbaarheid</Link>
 						</li>
 						<li>
 							<Link to="/faq">FAQ</Link>
 						</li>
-						{/* <li>
+						<li>
 							<Link to="/">Portfolio</Link>
 						</li>
 						<li>
@@ -37,7 +37,7 @@ function Footer() {
 						</li>
 						<li>
 							<Link to="/">Projecten</Link>
-						</li> */}
+						</li>
 					</div>
 						
 					</ul>

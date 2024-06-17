@@ -1,3 +1,7 @@
+h3 {
+	font-size: 16px;
+}
+
 .location {
 	position: relative;
 	width: 100%;
@@ -18,11 +22,11 @@
 	font-family: "Gotham Bold";
 	margin: 0;
 	color: #f8f8f8;
-	font-size: 20px;
+	font-size: 16px;
 	background-color: #1281ae;
 	padding: 10px 20px;
 	font-weight: bold;
-	z-index: 2;
+	z-index: 1;
 }
 
 .glassPanel {
@@ -46,21 +50,22 @@
 	animation: blurAnimation 4s infinite;
 }
 
-.activityContext{
+.activityContext {
 	transition: transform 0.7s ease;
 	font-family: "Gotham Bold";
 }
 
 @keyframes blurAnimation {
-	0%, 100% {
-	  /* opacity: 1; */
-	  backdrop-filter: blur(10px);
+	0%,
+	100% {
+		/* opacity: 1; */
+		backdrop-filter: blur(10px);
 	}
 	50% {
-	  /* opacity: 0; */
-	  backdrop-filter: blur(0px);
+		/* opacity: 0; */
+		backdrop-filter: blur(0px);
 	}
-  }
+}
 
 .ImageContainer:hover .glassPanel {
 	opacity: 0;
@@ -80,6 +85,10 @@
 	height: fit-content;
 	margin: 20px 10px;
 }
+.activityContext img {
+	height: 200px;
+	object-fit: cover;
+}
 
 .info {
 	display: flex;
@@ -92,7 +101,7 @@
 .info p {
 	color: #f8f8f8;
 	font-family: "Gotham Bold";
-	font-size: 20px;
+	font-size: 16px;
 	padding-bottom: 10px;
 }
 .activitiesWrapper div {
@@ -119,7 +128,6 @@
 	.title {
 		margin-bottom: 50px;
 	}
-	
 }
 
 @media screen and (max-width: 450px) {
@@ -135,5 +143,4 @@
 	.title {
 		margin-bottom: 50px;
 	}
-	
 }

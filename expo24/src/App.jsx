@@ -10,7 +10,6 @@ import HomePage from "./pages/HomePage";
 import Inschrijvingforum from "./pages/Inschrijvingforum";
 import Inschrijving from "./pages/Inschrijving";
 import Confirmation from "./pages/Confirmation";
-import Programma from "./pages/Programma";
 import Home from "./pages/Home";
 import Faq from "./pages/Faq";
 import PageNotFound from "./pages/PageNotFound";
@@ -28,7 +27,6 @@ function App() {
 					<Route path="Timetable" element={<Timetable />} />
 					<Route path="Inschrijving" element={<Inschrijving />} />
 					<Route path="Confirmation" element={<Confirmation />} />
-					<Route path="Programma" element={<Programma />} />
 					<Route path="Faq" element={<Faq />} />
 					<Route path="*" element={<PageNotFound />} />
 					<Route path="activity/:title" element={<Detail />} />

@@ -16,7 +16,7 @@ function Faq() {
 				"EXPO24 is een evenement dat wordt georganiseerd door tweedejaarsstudenten van Multimedia & Creatieve Technologie. Het evenement biedt de kans om projecten van derdejaarsstudenten te ontdekken en deel te nemen aan verschillende activiteiten.",
 		},
 		{
-			question: "Wat is zijn de openingstijden?",
+			question: "Wat zijn de openingstijden?",
 			answer: "EXPO24 duurt van 17u tot 21u.",
 		},
 		{

@@ -1,3 +1,4 @@
+/*
 @font-face {
 	font-family: "Gotham Black";
 	src: url(../assets/fonts/Gotham-Black.otf);
@@ -13,11 +14,11 @@
 	src: url(../assets/fonts/Gotham-Light.otf);
 }
 
-.wrapper{
+.wrapper {
 	background-repeat: repeat;
 }
 
-.fix{
+.fix {
 	clear: both;
 }
 
@@ -47,12 +48,7 @@
 	width: 10%;
 	height: 100%;
 	backdrop-filter: blur(30px);
-	background: linear-gradient(
-		to right,
-		rgba(64, 64, 73, 0.1) 0%,
-		rgba(0, 0, 0, 0.4) 80%,
-		rgba(14, 14, 17, 0.6) 100%
-	);
+	background: linear-gradient(to right, rgba(64, 64, 73, 0.1) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(14, 14, 17, 0.6) 100%);
 }
 
 .title h1 {
@@ -272,7 +268,6 @@ button:hover {
 		margin-top: 20%;
 	}
 
-	
 	.content {
 		margin-top: 12vh;
 		width: 59%;
@@ -301,6 +296,5 @@ button:hover {
 		margin-top: 15vh;
 		width: 59%;
 	}
-
-	
 }
+*/

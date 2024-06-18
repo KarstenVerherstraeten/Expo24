@@ -31,6 +31,17 @@
     padding: 10px 20px;
 }
 
+.list h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowRotated {
+    transform: rotate(180deg);
+    
+}
+
 .switch {
     display: flex;
     justify-content: end;

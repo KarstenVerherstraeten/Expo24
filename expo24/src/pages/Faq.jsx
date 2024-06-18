@@ -20,7 +20,7 @@ function Faq() {
 			answer: "EXPO24 duurt van 17u tot 21u.",
 		},
 		{
-			question: "Wie kan EXPO24 bijkomen?",
+			question: "Wie kan EXPO24 bijwonen?",
 			answer: "Iedereen is welkom! ",
 		},
 		{

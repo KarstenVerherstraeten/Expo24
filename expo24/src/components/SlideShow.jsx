@@ -4,7 +4,7 @@ import Voorbeeld from "../assets/react.svg";
 import { Link } from "react-router-dom";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
-import "@splidejs/react-splide/css";
+import "@splidejs/react-splide/css/sea-green";
 import Eindwerken from "../assets/activityImages/Eindwerken.jpg";
 import ContactLeggen from "../assets/activityImages/ContactLeggen.jpeg";
 import MCT from "../assets/activityImages/Opleiding.jpeg";

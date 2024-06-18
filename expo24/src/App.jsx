@@ -5,10 +5,7 @@ import ReactGA from 'react-ga4';
 import Navigation from "./components/Navigation";
 import Accessebiltity from "./pages/Accessibility";
 import Activities from "./pages/Activities";
-import Practical from "./pages/Practical";
 import Timetable from "./pages/Timetable";
-import HomePage from "./pages/HomePage";
-import Inschrijvingforum from "./pages/Inschrijvingforum";
 import Inschrijving from "./pages/Inschrijving";
 import Confirmation from "./pages/Confirmation";
 import Home from "./pages/Home";
@@ -27,7 +24,6 @@ function App() {
 					<Route index element={<Home />} />
 					<Route path="Accessibility" element={<Accessebiltity />} />
 					<Route path="Activities" element={<Activities />} />
-					<Route path="Practical" element={<Practical />} />
 					<Route path="Timetable" element={<Timetable />} />
 					<Route path="Inschrijving" element={<Inschrijving />} />
 					<Route path="Confirmation" element={<Confirmation />} />

@@ -114,7 +114,7 @@ const Slideshow = () => {
 
 				<SplideSlide>
 					<div className={slideCSS.tile}>
-						<a href="#">
+						<a href="https://multimedia.brussels/Awards">
 							<div className={slideCSS.imageContainer}>
 								<img src={Award} alt="Project Background" className={slideCSS.backgroundImage} />
 								<div className={slideCSS.glassPanel}>
@@ -133,7 +133,7 @@ const Slideshow = () => {
 
 				<SplideSlide>
 					<div className={slideCSS.tile}>
-						<Link to="/Activities">
+						<Link to="https://multimedia.brussels/">
 							<div className={slideCSS.imageContainer}>
 								<img src={Eindwerken} alt="Project Background" className={slideCSS.backgroundImage} />
 								<div className={slideCSS.glassPanel}>

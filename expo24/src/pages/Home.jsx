@@ -83,7 +83,7 @@ function Home() {
 						</div>
 						<h3>De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden drie awards uitgereikt voor de beste projecten. </h3>
 						<a className={homeCss.button2}>
-							<Link to="/">EINDWERKEN</Link>
+							<Link to="https://multimedia.brussels">EINDWERKEN</Link>
 						</a>
 					</div>
 					<div className={homeCss.items}>

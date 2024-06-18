@@ -39,6 +39,7 @@ p {
 	position: absolute;
 	color: #f8f8f8;
 }
+
 .titleActivities {
 	position: absolute;
 	color: #f8f8f8;
@@ -85,11 +86,17 @@ p {
 	cursor: pointer;
 }
 
+@media (max-width: 600px) {
+	.titleActivities {
+		font-size: 50px;
+	}
+}
+
 @media (max-width: 450px) {
 	.titleActivities {
 		position: absolute;
 		color: #f8f8f8;
-		font-size: 5vh;
+		font-size: 30px;
 		padding: 10px 20px;
 	}
 
@@ -113,5 +120,15 @@ p {
 		height: 100%;
 		backdrop-filter: blur(30px);
 		background: linear-gradient(to right, rgba(64, 64, 73, 0.1) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(14, 14, 17, 0.6) 100%);
+	}
+}
+
+@media (max-width: 450px) {
+	.switch a {
+		padding: 10px 20px;
+	}
+
+	.switch a:last-child {
+		padding: 10px 20px;
 	}
 }

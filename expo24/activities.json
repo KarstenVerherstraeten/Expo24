@@ -166,7 +166,7 @@
 		"title": "Drankje & Muziek",
 		"description": "Kom langs bij het onthaal en kies uit een verfrissend glas water, een heerlijk fruitsap, of een feestelijke cava. Terwijl je geniet van je drankje, zorgen wij voor een leuk muziekje op de achtergrond om de sfeer compleet te maken. Het is de perfecte gelegenheid om even te ontspannen en gezellig bij te praten.",
 		"backgroundColor": "#924AA2",
-		"images": "../src/assets/activityImages/Eten&Drinken.jpeg",
+		"images": "../src/assets/activityImages/Eten&Drinken.jpg",
 		"uren": [
 			{
 				"start": "17u",

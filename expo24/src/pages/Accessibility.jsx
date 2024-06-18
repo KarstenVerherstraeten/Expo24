@@ -69,7 +69,7 @@ function Accessibility() {
 				</div>
 
 				<div className={AccessibilityCSS.transport}>
-					{["Trein", "Fiets", "Bus", "Auto", "Metro"].map((transport, index) => (
+					{["Trein", "Tram", "Bus", "Auto", "Metro"].map((transport, index) => (
 						<div key={index} className={AccessibilityCSS.section}>
 							<div className={AccessibilityCSS.sectionHeader} onClick={() => toggleSection(transport)}>
 								<h3>{transport}</h3>
@@ -81,10 +81,10 @@ function Accessibility() {
 								{openSection === transport && ( // Added condition here
 									<>
 										{transport === "Trein" && <p>Station Brussel-Zuid is het dichtstbijzijnde treinstation. Vanaf hier is het ongeveer 20 minuten lopen naar de campus.</p>}
-										{transport === "Fiets" && <p>Er zijn fietsenstallingen op de campus. Let op: deze zijn niet overdekt.</p>}
-										{transport === "Bus" && <p>Bus 86 stopt op 5 minuten lopen van de campus. Stap uit bij de halte 'Havenlaan'.</p>}
-										{transport === "Auto" && <p>Er is een parkeerplaats op de campus. Let op: deze is niet gratis.</p>}
+										{transport === "Bus" && <p>Bus 46 stopt op 5 minuten lopen van de campus. Stap uit bij de halte 'Albert 1'.</p>}
+										{transport === "Auto" && <p>Ja, er is een gratis, beperkte parkeerplaats beschikbaar voor-en achter de campus.</p>}
 										{transport === "Metro" && <p>Metrostation 'Delacroix' ligt op 10 minuten lopen van de campus.</p>}
+										{transport === "Tram" && <p>Tram 81 stopt op 5 minuten lopen van de campus. Stap uit bij de halte 'Albert 1'.</p>}
 									</>
 								)}
 							</div>

@@ -23,6 +23,9 @@
 	background: linear-gradient(to right, rgba(64, 64, 73, 0.1) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(14, 14, 17, 0.6) 100%);
 }
 
+a {
+	text-decoration: none;
+}
 .AccessibilityContainer {
 	margin-top: 70vh;
 	max-width: 1200px;

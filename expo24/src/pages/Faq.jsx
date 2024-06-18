@@ -23,40 +23,40 @@ function Faq() {
 				"EXPO24 is een evenement dat wordt georganiseerd door tweedejaarsstudenten van Multimedia & Creatieve Technologie. Het evenement biedt de kans om projecten van derdejaarsstudenten te ontdekken en deel te nemen aan verschillende activiteiten.",
 		},
 		{
-			question: "Wat zijn de openingstijden?",
-			answer: "EXPO24 duurt van 17u tot 21u.",
+			question: "Wat is de datum en locatie van het evenement?",
+			answer: "Het evenement vindt plaats op 21 juni 2024 in Erasmushogeschool Brussel Campus Kaai.",
 		},
 		{
-			question: "Wie kan EXPO24 bijkomen?",
-			answer: "Iedereen is welkom! ",
+			question: "Wat zijn de openingstijden van het evenement?",
+			answer: "EXPO24 begint om 17u en eindigt om 21u.",
 		},
 		{
-			question: "Wat is de toegangsprijs?",
-			answer: "De toegang is gratis. ",
+			question: "Wie kan EXPO24 bijwonen?",
+			answer: "Iedereen is welkom!",
 		},
 		{
-			question: "Waar vindt EXPO24 plaats?",
-			answer: "Het evenement vindt plaats op de Erasmushogeschool op Campus Kaai in Anderlecht. Adres: 170 Nijverheidskaai, 1070 Anderlecht",
+			question: "Hoe kan ik me inschrijven voor het evenement?",
+			answer: "Inschrijving gebeurt online en is gratis.",
+		},
+		{
+			question: "Is inschrijving verplicht om het evenement bij te wonen?",
+			answer: "Nee, inschrijving is niet verplicht. Bezoekers zijn welkom om het evenement bij te wonen, zelfs zonder vooraf in te schrijven.",
 		},
 		{
 			question: "Is er een parkeerplaats beschikbaar?",
-			answer: "Ja, er is een gratis beperkte parking mogelijk voor-en achter de campus.",
+			answer: "Ja, er is een gratis, beperkte parkeerplaats beschikbaar voor-en achter de campus.",
 		},
 		{
 			question: "Hoe geraak ik aan EXPO24 met het openbaar vervoer ?",
-			answer: "EXPO24 is makkelijk bereikbaar met de metro, tram en bus. Metro 2/6 : halte Delacroix Tram 81: halte Albert I Bus 46 : halte Albert I",
+			answer: "EXPO24 is makkelijk bereikbaar met de metro, tram en bus. Metro 2/6 : halte Delacroix. Tram 81: halte Albert I. Bus 46 : halte Albert I. Meer info hierover vindt u op de bereikbaarheidspagina.",
 		},
 		{
 			question: "Welke activiteiten/workshops zijn er beschikbaar?",
-			answer: "Live Coding Demo, Arcade Games, Front-End/ Back-end (workshop), Apple Vision Pro (Workshop), 3D Printing Demo, Lasercut Demo, 3D Games (Workshop)",
-		},
-		{
-			question: "Is er een rondleiding beschikbaar?",
-			answer: "Ja, EXPO24 biedt rondleidingen tussen 17u en 20u door de tweedejaarsstudenten van Multimedia & Creatieve Technologie.",
+			answer: "Live Coding Demo, Arcade Games, Front-End/Back-end (Workshop), Apple Vision Pro (Workshop), 3D Printing Demo, Lasercut Demo, 3D Games (Workshop).",
 		},
 		{
 			question: "Is er eten en drinken bij het evenement?",
-			answer: "Een welkomstdrankje en hapjes worden aangeboden aan de inkom. Er wordt een BBQ georganiseerd door de studentenvereniging Enigma. Schrijf je hier in voor de BBQ:",
+			answer: "Een welkomstdrankje en hapjes worden aangeboden bij de ingang. Er wordt een BBQ georganiseerd door de studentenvereniging Enigma. Schrijf je zeker in!",
 		},
 	].map((faq) => ({
 		question: faq.question,

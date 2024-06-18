@@ -22,7 +22,7 @@
 .time-blocks {
 	display: flex;
 
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 .time-block h1 {
 	display: flex;

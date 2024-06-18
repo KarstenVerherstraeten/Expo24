@@ -123,6 +123,9 @@ button .splide__arrow {
 	.imageContainer {
 		height: 200px;
 	}
+	.tile:hover .infoBox {
+		transform: translateY(-65%);
+	}
 }
 
 @media (max-width: 480px) {

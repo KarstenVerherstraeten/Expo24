@@ -26,7 +26,7 @@ const Slideshow = () => {
 					pagination: false,
 					swipe: true,
 					drag: true,
-					height: 500,
+					height: 380,
 					focus: "center",
 					breakpoints: {
 						640: {

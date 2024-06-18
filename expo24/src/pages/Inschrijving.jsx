@@ -2,8 +2,14 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import style from "../styles/Inschrijving.module.css";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
 
 function Inschrijving() {
+
+	useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "/Inschrijving", title: "Inschrijving" });
+    }, []);
 	const [formData, setFormData] = useState({
 		lastName: "",
 		firstName: "",

@@ -12,7 +12,13 @@ import QuestionLogo from "../assets/QuestionsLogo.png";
 import eindwerkenFoto from "../assets/activityImages/Eindwerken.jpg";
 import ActiviteitenFoto from "../assets/activityImages/lasercut.jpg";
 
+import ReactGA from "react-ga4";
+
 function Home() {
+	useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "/", title: "Home" });
+    }, []);
+	
 	return (
 		<>
 			<div className={homeCss.header}>

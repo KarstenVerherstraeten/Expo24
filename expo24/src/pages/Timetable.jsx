@@ -1,8 +1,13 @@
 import Timer from "../components/Timer";
 import style from "../styles/Timetable.module.css";
 import { Outlet, Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 
 function Timetable() {
+	useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "/timetable", title: "TimeTable" });
+    }, []);
 	return (
 		<>
 			<div className={style.glassPanel}>

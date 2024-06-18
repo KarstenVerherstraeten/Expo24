@@ -4,8 +4,14 @@ import ActivitiesCss from "../styles/Activities.module.css";
 import Footer from "../components/Footer.jsx";
 import activitiesData from "../../activities.json"; // JSON data importeren
 import { Outlet, Link } from "react-router-dom";
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
 
 function Activities() {
+
+	useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "/Activities", title: "Activiteiten" });
+    }, []);
 	return (
 		<>
 			<div className={ActivitiesCss.glassPanel}>

@@ -1,0 +1,142 @@
+[
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Live Coding",
+        "hours": [
+            { "start": "17u30", "end": "17u45" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Live Coding",
+        "hours": [
+            { "start": "18u", "end": "18u15" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Live Coding",
+        "hours": [
+            { "start": "18u30", "end": "18u45" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Live Coding",
+        "hours": [
+            { "start": "19u", "end": "19u15" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Live Coding",
+        "hours": [
+            { "start": "19u30", "end": "19u45" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "3D-Printen",
+        "hours": [
+            { "start": "17u30", "end": "17u45" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "3D-Printen",
+        "hours": [
+            { "start": "18u", "end": "18u15" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "3D-Printen",
+        "hours": [
+            { "start": "18u30", "end": "18u45" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "3D-Printen",
+        "hours": [
+            { "start": "19u", "end": "19u15" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "3D-Printen",
+        "hours": [
+            { "start": "19u30", "end": "19u45" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Apple Vision Pro",
+        "hours": [
+            { "start": "17u30", "end": "20u" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "3D-Games",
+        "hours": [
+            { "start": "17u30", "end": "20u" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Front-End",
+        "hours": [
+            { "start": "17u30", "end": "20u" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Back-End",
+        "hours": [
+            { "start": "17u30", "end": "20u" }
+        ]
+    },
+    {
+        "locatie": "MAKERSPACE",
+        "title": "Lasercutting",
+        "hours": [
+            { "start": "17u30", "end": "20u" }
+        ]
+    },
+    {
+        "locatie": "MEETUP",
+        "title": "Meetup",
+        "hours": [
+            { "start": "17u", "end": "20u" }
+        ]
+    },
+    {
+        "locatie": "GALLERY",
+        "title": "Eindwerken",
+        "hours": [
+            { "start": "17u", "end": "20u" }
+        ]
+    },
+    {
+        "locatie": "TUIN",
+        "title": "BBQ",
+        "hours": [
+            { "start": "17u", "end": "21u" }
+        ]
+    },
+    {
+        "locatie": "TUIN",
+        "title": "Drankje & Muziek",
+        "hours": [
+            { "start": "17u", "end": "21u" }
+        ]
+    },
+    {
+        "locatie": "TUIN",
+        "title": "Slotshow",
+        "hours": [
+            { "start": "20u", "end": "20u30" }
+        ]
+    }
+]

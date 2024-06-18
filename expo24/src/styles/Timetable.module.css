@@ -1,3 +1,4 @@
+/* Base desktop styles */
 .glassPanel {
     background-color: white;
     background-image: url(../assets/testeffect.gif);
@@ -26,43 +27,42 @@
 .titleActivities {
     position: absolute;
     color: #F8F8F8;
-    font-size: 10vh;
+    font-size: 80px;
     padding: 10px 20px;
 }
 
 .switch {
-	display: flex;
-	justify-content: end;
+    display: flex;
+    justify-content: end;
     background-color: #f8f8f8;
 }
 
 .switch a {
     font-family: "Gotham Black";
-	font-size: 15px;
-	margin-top: 0px;
-	padding: 10px 40px;
-	background-color: #2c2c2c;
-	color: #f8f8f8;
-	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 15px;
+    margin-top: 0px;
+    padding: 10px 40px;
+    background-color: #2c2c2c;
+    color: #f8f8f8;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .switch a:last-child {
-	font-family: "Gotham Black";
-	font-size: 15px;
-	margin-top: 0px;
-	padding: 10px 40px;
-	background-color: #f8f8f8;
-	color: #2c2c2c;
+    font-family: "Gotham Black";
+    font-size: 15px;
+    margin-top: 0px;
+    padding: 10px 40px;
+    background-color: #f8f8f8;
+    color: #2c2c2c;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .switch p:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
-
-/* start */
-.timetableWrapper{
+/* Timetable styles */
+.timetableWrapper {
     width: 90vw;
     height: fit-content;
     margin: 70px auto 20px;
@@ -70,13 +70,13 @@
     justify-content: space-between;
 }
 
-.timetableWrapper h1{
+.timetableWrapper h1 {
     text-align: center;
     color: #F8F8F8;
     font-size: 25px;
 }
 
-.timetableWrapper p{
+.timetableWrapper p {
     color: #2c2c2c;
     font-family: 'Gotham Medium';
     margin: 20px 10px;
@@ -91,97 +91,94 @@
     row-gap: 10px;
 }
 
-.list p{
+.list p {
     margin: 10px 0;
 }
 
-.makerspaceTitle{
+.makerspaceTitle {
     grid-column: 1/3;
     grid-row: 1/3;
     background-color: #1281AE;
     padding: 11px 0;
 }
 
-.activityLiveCoding{
+.activityLiveCoding {
     grid-column: 1/3;
     grid-row: 3 / 4;
 }
 
-.activityPrinting{
+.activityPrinting {
     grid-column: 1/3;
     grid-row: 4/5;
 }
-.activityApple{
+.activityApple {
     grid-column: 1/3;
     grid-row: 5/6;
 }
-.activityGames{
+.activityGames {
     grid-column: 1/3;
     grid-row: 6/7;
 }
-.activityFrontend{
+.activityFrontend {
     grid-column: 1/3;
     grid-row: 7/8;
 }
-.activityBackend{
+.activityBackend {
     grid-column: 1/3;
     grid-row: 8/9;
 }
-.activityLasercut{
+.activityLasercut {
     grid-column: 1/3;
     grid-row: 9/10;
 }
 
-.meetupTitle{
+.meetupTitle {
     grid-column: 1/3;
     grid-row: 11/13;
     background-color: #539B24;
     padding: 11px 0;
 }
 
-.activityMeetup{
+.activityMeetup {
     grid-column: 1/3;
     grid-row: 13/14;
 }
 
-.galleryTitle{
+.galleryTitle {
     grid-column: 1/3;
     grid-row: 15/17;
     background-color: #A70B0B;
     padding: 11px 0;
 }
 
-.activityEindwerken{
+.activityEindwerken {
     grid-column: 1/3;
     grid-row: 17/18;
 }
 
-.tuinTitle{
+.tuinTitle {
     grid-column: 1/3;
     grid-row: 19/21;
     background-color: #924AA2;
     padding: 11px 0;
 }
 
-.activityBBQ{
+.activityBBQ {
     grid-column: 1/3;
     grid-row: 21/22;
 }
 
-.activityDrankje{
+.activityDrankje {
     grid-column: 1/3;
     grid-row: 22/23;
 }
 
-.activitySlotshow{
+.activitySlotshow {
     grid-column: 1/3;
     grid-row: 23/24;
 }
 
-
-
-/* right side */
-
+/* Right side */
 .timetable {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
@@ -190,7 +187,7 @@
     row-gap: 10px;
 }
 
-.timetable p{
+.timetable p {
     margin: 0;
     padding: 0;
     border-left: 2px solid black;
@@ -203,44 +200,43 @@
     font-family: 'Gotham Medium';
     padding-left: 5px;
     grid-row: 1/28;
-
 }
 
-.timespan{
+.timespan {
     position: relative;
     top: -20px;
     left: -19px;
 }
 
-.hour:nth-child(1){
+.hour:nth-child(1) {
     grid-column: 1/3;
 }
 
-.hour:nth-child(2){
+.hour:nth-child(2) {
     grid-column: 3/5;
 }
 
-.hour:nth-child(3){
+.hour:nth-child(3) {
     grid-column: 5/7;
 }
 
-.hour:nth-child(4){
+.hour:nth-child(4) {
     grid-column: 7/9;
 }
 
-.hour:nth-child(5){
+.hour:nth-child(5) {
     grid-column: 9/11;
 }
 
-.hour:nth-child(6){
+.hour:nth-child(6) {
     grid-column: 11/13;
 }
 
-.hour:nth-child(7){
+.hour:nth-child(7) {
     grid-column: 13/15;
 }
 
-.hour:nth-child(8){
+.hour:nth-child(8) {
     grid-column: 15/17;
 }
 
@@ -249,109 +245,248 @@
     gap: 1px;
 }
 
-.liveCoding, .printing , .apple, .games, .frontend, .backend, .lasercut{
+.liveCoding, .printing , .apple, .games, .frontend, .backend, .lasercut {
     background-color: #1281AE;
     border-left: 2px solid black;
 }
 
-.liveCoding1{
+.liveCoding1 {
     grid-column: 3/4;
     grid-row: 3 / 4;
 }
-.liveCoding2{
+.liveCoding2 {
     grid-column: 5/6;
     grid-row: 3 / 4;
 }
-.liveCoding3{
+.liveCoding3 {
     grid-column: 7/8;
     grid-row: 3 / 4;
 }
-.liveCoding4{
+.liveCoding4 {
     grid-column: 9/10;
     grid-row: 3 / 4;
 }
-.liveCoding5{
+.liveCoding5 {
     grid-column: 11/12;
     grid-row: 3 / 4;
 }
 
-.printing1{
+.printing1 {
     grid-column: 3/4;
     grid-row: 4/5;
 }
-.printing2{
+.printing2 {
     grid-column: 5/6;
     grid-row: 4/5;
 }
-.printing3{
+.printing3 {
     grid-column: 7/8;
     grid-row: 4/5;
 }
-.printing4{
+.printing4 {
     grid-column: 9/10;
     grid-row: 4/5;
 }
-.printing5{
+.printing5 {
     grid-column: 11/12;
     grid-row: 4/5;
 }
 
-.apple{
+.apple {
     grid-column: 3/13;
     grid-row: 5/6;
 }
 
-.games{
+.games {
     grid-column: 3/13;
     grid-row: 6/7;
 }
 
-.frontend{
+.frontend {
     grid-column: 3/13;
     grid-row: 7/8;
 }
 
-.backend{
+.backend {
     grid-column: 3/13;
     grid-row: 8/9;
 }
 
-.lasercut{
+.lasercut {
     grid-column: 3/13;
     grid-row: 9/10;
 }
 
-.meetup{
+.meetup {
     background-color: #539B24;
-    border-left: 2px solid black; 
+    border-left: 2px solid black;
     grid-column: 1/13;
     grid-row: 13/14;
 }
 
-.eindwerken{
+.eindwerken {
     background-color: #A70B0B;
-    border-left: 2px solid black; 
+    border-left: 2px solid black;
     grid-column: 1/13;
     grid-row: 17/18;
 }
 
-.BBQ{
+.BBQ {
     background-color: #924AA2;
-    border-left: 2px solid black; 
+    border-left: 2px solid black;
     grid-column: 1/17;
     grid-row: 21/22;
 }
 
-.Drankje{
+.Drankje {
     background-color: #924AA2;
-    border-left: 2px solid black; 
+    border-left: 2px solid black;
     grid-column: 1/17;
     grid-row: 22/23;
 }
 
-.Slotshow{
+.Slotshow {
     background-color: #924AA2;
-    border-left: 2px solid black; 
+    border-left: 2px solid black;
     grid-column: 13/15;
     grid-row: 23/24;
+}
+
+.mobileActivity{
+    display: none;
+
+}
+
+@media (max-width: 768px) {
+  
+
+    .timetable{
+        display: none
+    }
+
+    .timetableWrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+   
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .makerspaceTitle{
+        grid-column: 1/3;
+        grid-row: 1/3;
+        width: 100%;
+    }
+
+    .activityApple{
+        display: none;
+    }
+
+    .activityPrinting{
+        display: none;
+    }
+
+    .activityGames{
+        display: none;
+    }
+
+    .activityLiveCoding{
+        display: none;
+    }
+
+    .activityFrontend{
+        display: none;
+    }
+
+    .activityBackend{
+        display: none;
+    }
+
+    .activityLasercut{
+        display: none;
+    }
+
+    .meetupTitle{
+        grid-column: 1/3;
+        grid-row: 3/5;
+        width: 100%;
+    }
+
+    .activityMeetup{
+        display: none;
+    }
+
+    .galleryTitle{
+        grid-column: 1/3;
+        grid-row: 5/7;
+        width: 100%;
+    }
+
+    .activityEindwerken{
+        display: none;
+    }
+
+    .tuinTitle{
+        grid-column: 1/3;
+        grid-row: 7/9;
+        width: 100%;
+    }
+
+    .activityBBQ{
+        display: none;
+    }
+
+    .activityDrankje{
+        display: none;
+    }
+
+    .activitySlotshow{
+        display: none;
+    }
+
+   .mobileActivity{
+    display: flex;
+    border-bottom: 3px solid;
+  
+    }
+
+    .mobileActivity p{
+        font-family: "Gotham Light", Arial, Helvetica, sans-serif;
+    }
+   
+    .list .mobileActivity.borderM {
+        border-color: #1281AE; /* Makerspace title color */
+    }
+    
+    .list .mobileActivity.borderMeetup {
+        border-color: #539B24; /* Meetup title color */
+    }
+    
+    .list .mobileActivity.borderGallery {
+        border-color: #A70B0B; /* Gallery title color */
+    }
+    
+    .list .mobileActivity.borderTuin {
+        border-color: #924AA2; /* Tuin title color */
+    }
+
+
+    .list .mobileActivity.hidden{
+        display: none;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 480px){
+    .titleActivities{
+        font-size: 30px;
+    }
 }

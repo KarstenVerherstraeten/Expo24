@@ -1,7 +1,7 @@
 /* General styles for the menu container */
 .hamburgerMenu {
 	position: relative;
-	z-index: 20; /* Ensure the hamburger menu is above other content */
+	z-index: 20;
 }
 
 /* Hamburger icon container */
@@ -15,11 +15,13 @@
 	position: absolute;
 	right: 0;
 	top: 0;
-	margin: -10px 5px;
+	margin: -10px 19px;
 	z-index: 30; /* Ensure the icon is above the menu */
 	margin-right: 50px;
 }
-
+.container {
+	width: 100%;
+}
 /* Styles for each line of the hamburger icon */
 .hamburgerIcon .line {
 	width: 100%;
@@ -47,7 +49,7 @@
 	right: 0;
 	bottom: 0;
 	width: 100%;
-	 height: 100vh; /*tijdens live update to 110vh */
+	height: 100vh; /*tijdens live update to 110vh */
 	background-color: #f8f8f8; /* Updated to match background color for open state */
 	z-index: 10; /* Ensure it covers the main content but below the icon */
 }
@@ -63,9 +65,7 @@
 }
 
 .menuItems img {
-	margin-right: 130px;
-	margin-top: 30px;
-	margin-bottom: 50px;
+	padding-top: 22px;
 }
 .menuItems a:hover {
 	background-color: #575757;
@@ -92,8 +92,10 @@
 	}
 }
 
-@media screen and (max-width: 1200px) {
-	/* Any specific styles for medium screens can go here */
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+	.menuItems img {
+		padding-top: 16px;
+	}
 }
 
 @media screen and (max-width: 480px) {

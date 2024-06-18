@@ -21,20 +21,30 @@ const HamburgerMenu = () => {
 				<div className={hamburgerCSS.halfLine}></div>
 			</div>
 			<div className={hamburgerCSS.menuItems}>
-				<img className={hamburgerCSS.HamburgerImg} src={LogoB} alt="Logo" />
+				<div className={hamburgerCSS.container}>
+					{" "}
+					<img className={hamburgerCSS.HamburgerImg} src={LogoB} alt="Logo" />
+				</div>
+
 				<Link to="/" onClick={closeMenu}>
 					Home
 				</Link>
 				<Link to="/Accessibility" onClick={closeMenu}>
 					Bereikbaarheid
 				</Link>
-				<Link to="/Activities" onClick={closeMenu}>Programma</Link>
+				<Link to="/Activities" onClick={closeMenu}>
+					Programma
+				</Link>
 				<Link to="/faq" onClick={closeMenu}>
 					FAQ
 				</Link>
 
-				<Link to="/Item2" onClick={closeMenu}>Awards</Link>
-				<Link to="/Item3" onClick={closeMenu}>Projecten</Link>	
+				<Link to="/Item2" onClick={closeMenu}>
+					Awards
+				</Link>
+				<Link to="/Item3" onClick={closeMenu}>
+					Projecten
+				</Link>
 			</div>
 		</div>
 	);

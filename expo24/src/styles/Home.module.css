@@ -293,12 +293,13 @@ h1 {
 		margin-top: 30px;
 	}
 	.content1 h1 {
-		font-size: 20px;
-		margin-left: -20px;
+		font-size: 30px;
+		margin-top: 20px;
 	}
 	.content1 {
-		margin: 100px 50px 0px 50px;
+		margin: 0;
 		flex-direction: column;
+		text-align: center;
 	}
 	.scrollContainer {
 		margin-left: 50px;

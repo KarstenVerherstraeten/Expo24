@@ -156,7 +156,7 @@ a {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	font-family: "Gotham Black";
-	font-size: 3vh;
+	font-size: 20px;
 }
 
 .arrow {
@@ -169,12 +169,10 @@ a {
 }
 
 .GroundPlan {
-	
 	font-size: 50px;
-
 }
 
-.route{
+.route {
 	padding: 10px 15px;
 }
 
@@ -243,7 +241,6 @@ a {
 	.AccessibilityContainer {
 		margin-top: 300px;
 	}
-
 	.AccessibilityContainer .titleAccessibility {
 		font-size: 30px;
 	}

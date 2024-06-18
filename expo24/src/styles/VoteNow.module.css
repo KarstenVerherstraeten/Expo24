@@ -1,0 +1,18 @@
+.voteButton {
+    position: fixed;
+    top: -50px; 
+    right: 0%;
+    padding: 10px 20px;
+    background-color: #e30613;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 0;
+    font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    transition: top 0.5s ease-in-out; 
+  }
+  
+
+  

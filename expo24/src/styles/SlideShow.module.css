@@ -59,6 +59,8 @@
 }
 .mainText p {
 	text-decoration: none;
+	color: black;
+	font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
 }
 .tile a {
 	text-decoration: none;
@@ -68,14 +70,13 @@
 
 .infoBox {
 	position: absolute;
-	bottom: 0;
+	height: 200px;
+	bottom: -90px;
 	left: 0;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgb(0, 0, 0);
 	color: white;
-	text-align: center;
-	padding: 90px;
-	margin-bottom: 50px;
+	padding: 50px;
 	box-sizing: border-box;
 	transform: translateY(100%);
 	transition: transform 0.3s ease;
@@ -96,11 +97,7 @@
 }
 
 .tile:hover .infoBox {
-	transform: translateY(0);
-}
-
-.splide__arrow {
-	background: red;
+	transform: translateY(-70%);
 }
 
 @media (max-width: 1025px) {

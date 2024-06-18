@@ -33,13 +33,19 @@
 
 .list h1{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+	margin: 0px 20px;
 }
 
 .arrowRotated {
     transform: rotate(180deg);
+	transition: transform 0.3s;
     
+}
+
+#Arrow{
+	transition: transform 0.3s;
 }
 
 .switch {

@@ -6,10 +6,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 import "@splidejs/react-splide/css";
 import Eindwerken from "../assets/activityImages/Eindwerken.jpg";
-import ContactLeggen from "../assets/activityImages/ContactLeggen.jpeg";
+import ContactLeggen from "../assets/activityImages/ContactLeggen.jpg";
 import MCT from "../assets/activityImages/Opleiding.jpeg";
 import Workshops from "../assets/activityImages/Workshops.jpg";
-import Drank from "../assets/activityImages/Eten&Drinken.jpeg";
+import Drank from "../assets/activityImages/Eten&Drinken.jpg";
 import BBQ from "../assets/activityImages/bbq.jpeg";
 import Award from "../assets/activityImages/Award.png";
 

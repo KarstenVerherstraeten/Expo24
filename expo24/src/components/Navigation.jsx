@@ -23,10 +23,10 @@ function Navigation() {
 							</span>
 							<ul className={styles.dropdownMenu}>
 								<li>
-									<Link to="/Item2">Awards</Link>
+									<Link to="https://multimedia.brussels/awards">Awards</Link>
 								</li>
 								<li>
-									<Link to="/Item3">Projecten</Link>
+									<Link to="https://multimedia.brussels">Projecten</Link>
 								</li>
 							</ul>
 						</li>

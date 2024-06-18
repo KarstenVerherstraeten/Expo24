@@ -43,7 +43,7 @@ h1 {
 }
 
 .textActivities p {
-	font-family: "Gotham Book";
+	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
 }
 
 .btn {
@@ -129,7 +129,7 @@ h1 {
 /* ------------------ Accordion -------------------- */
 /* Accordion styles */
 .accordion {
-	font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
 	padding: 10px 0;
 	margin-bottom: 100px;
 }

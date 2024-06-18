@@ -34,9 +34,6 @@ function Footer() {
 							</div>
 							<div className={css.right}>
 								<li>
-									<Link to="/">Portfolio</Link>
-								</li>
-								<li>
 									<Link to="/">Awards</Link>
 								</li>
 								<li>

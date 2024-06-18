@@ -64,7 +64,7 @@ function Timetable() {
             <div className={style.timetableWrapper}>
                 <div className={style.list}>
                     <div className={style.makerspaceTitle} onClick={() => toggleActivities('makerspace')}>
-                        <h1>MAKERSPACE <span className="material-symbols-outlined">keyboard_arrow_down</span></h1>
+                        <h1>MAKERSPACE <span id={style.Arrow} className="material-symbols-outlined">keyboard_arrow_down</span></h1>
                     </div>
                     {sortedActivities.MAKERSPACE.map((activity, index) => (
                         <div key={index} className={`${style.mobileActivity} ${style.borderM} makerspaceActivity ${style.hidden}`}>
@@ -80,7 +80,7 @@ function Timetable() {
                     <p className={style.activityLasercut}>LASERCUT</p>
 
                     <div className={style.meetupTitle} onClick={() => toggleActivities('meetup')}>
-                        <h1>MEETUP  <span className="material-symbols-outlined">keyboard_arrow_down</span></h1>
+                        <h1>MEETUP  <span id={style.Arrow} className="material-symbols-outlined">keyboard_arrow_down</span></h1>
                     </div>
                     {sortedActivities.MEETUP.map((activity, index) => (
                         <div key={index} className={`${style.mobileActivity} ${style.borderMeetup} meetupActivity ${style.hidden}`}>
@@ -90,7 +90,7 @@ function Timetable() {
                     <p className={style.activityMeetup}>MEETUP</p>
 
                     <div className={style.galleryTitle} onClick={() => toggleActivities('gallery')}>
-                        <h1>GALLERY  <span className="material-symbols-outlined">keyboard_arrow_down</span></h1>
+                        <h1>GALLERY  <span id={style.Arrow} className="material-symbols-outlined">keyboard_arrow_down</span></h1>
                     </div>
                     {sortedActivities.GALLERY.map((activity, index) => (
                         <div key={index} className={`${style.mobileActivity} ${style.borderGallery} galleryActivity ${style.hidden}`}>
@@ -100,7 +100,7 @@ function Timetable() {
                     <p className={style.activityEindwerken}>EINDWERKEN</p>
 
                     <div className={style.tuinTitle} onClick={() => toggleActivities('tuin')}>
-                        <h1>TUIN  <span className="material-symbols-outlined">keyboard_arrow_down</span></h1>
+                        <h1>TUIN  <span id={style.Arrow} className="material-symbols-outlined">keyboard_arrow_down</span></h1>
                     </div>
                     {sortedActivities.TUIN.map((activity, index) => (
                         <div key={index} className={`${style.mobileActivity} ${style.borderTuin} tuinActivity ${style.hidden}`}>

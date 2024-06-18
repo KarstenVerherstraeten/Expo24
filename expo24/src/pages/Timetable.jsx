@@ -3,11 +3,12 @@ import style from "../styles/Timetable.module.css";
 import { Outlet, Link } from "react-router-dom";
 import React, { useEffect } from "react";
 import ReactGA from "react-ga4";
+import Footer from "../components/Footer";
 
 function Timetable() {
 	useEffect(() => {
-        ReactGA.send({ hitType: "pageview", page: "/timetable", title: "TimeTable" });
-    }, []);
+		ReactGA.send({ hitType: "pageview", page: "/timetable", title: "TimeTable" });
+	}, []);
 	return (
 		<>
 			<div className={style.glassPanel}>
@@ -34,8 +35,8 @@ function Timetable() {
 				<h1 className={style.titleActivities}>TIMETABLE</h1>
 			</div>
 			<div className={style.switch}>
-			<Link to="/Timetable">TIMETABLE</Link>
-			<Link to="/Activities">OVERZICHT</Link>
+				<Link to="/Timetable">TIMETABLE</Link>
+				<Link to="/Activities">OVERZICHT</Link>
 			</div>
 			<div className={style.timetableWrapper}>
 				<div className={style.list}>
@@ -123,6 +124,7 @@ function Timetable() {
 					<div className={style.Slotshow}></div>
 				</div>
 			</div>
+			<Footer></Footer>
 		</>
 	);
 }

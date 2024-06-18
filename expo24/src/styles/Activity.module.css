@@ -84,6 +84,7 @@ h3 {
 	width: 30%;
 	height: fit-content;
 	margin: 20px 10px;
+	text-decoration: none;
 }
 .activityContext img {
 	height: 200px;

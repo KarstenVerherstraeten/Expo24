@@ -27,7 +27,7 @@ const VoteNow = () => {
 	};
 
 	return (
-		<a
+		<a 
 			className={`${styles.voteButton} ${showButton ? styles.show : ""}`}
 			onClick={scrollToTop}
 		>

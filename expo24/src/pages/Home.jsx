@@ -12,6 +12,8 @@ import QuestionLogo from "../assets/QuestionsLogo.png";
 import eindwerkenFoto from "../assets/activityImages/Eindwerken.jpg";
 import ActiviteitenFoto from "../assets/activityImages/lasercut.jpg";
 
+import VoteNow from "../components/VoteNow"; 
+
 import ReactGA from "react-ga4";
 
 function Home() {
@@ -148,6 +150,7 @@ function Home() {
 						</div>
 					</div>
 				</div>
+				<Link to="/Inschrijving"> <VoteNow /></Link>
 			</div>
 			<Footer></Footer>
 		</>

@@ -2,6 +2,10 @@ h3 {
 	font-size: 16px;
 }
 
+p {
+	text-decoration: none;
+}
+
 .glassPanel {
 	background-color: white;
 	background-image: url(../assets/testeffect.gif);
@@ -64,6 +68,7 @@ h3 {
 	background-color: #f8f8f8;
 	color: #2c2c2c;
 	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+	text-decoration: none;
 }
 
 .switch a:last-child {

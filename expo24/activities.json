@@ -125,7 +125,7 @@
 	{
 		"locatie": "MEETUP",
 		"title": "Meetup",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Ben je geïnteresseerd in Multimedia & Creatieve Technologie, maar heb je nog vragen of wil je meer weten over de opleiding? Kom dan zeker langs bij onze meet-up! Hier krijg je de kans om te praten met onze docenten, vragen te stellen en alles te weten over de opleiding. Ontdek wat onze richting uniek maakt en hoe het jou kan helpen jouw creatieve en technologische vaardigheden te ontwikkelen. Vergeet niet je nieuwsgierigheid mee te nemen!",
 		"backgroundColor": "#539B24",
 		"images": "../src/assets/activityImages/Meet-ups.jpg",
 		"uren": [
@@ -151,7 +151,7 @@
 	{
 		"locatie": "TUIN",
 		"title": "BBQ",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Kom naar onze BBQ en geniet van een heerlijke avond vol eten en drinken! We serveren sappige brochettes, vers van de grill, en een uitgebreide saladebar waar je naar hartenlust kunt kiezen. Er zijn ook verfrissende drankjes beschikbaar om je dorst te lessen. Mis deze kans niet om te ontspannen, lekker te eten en gezellig bij te praten. Vergeet niet je goede humeur mee te nemen!",
 		"backgroundColor": "#924AA2",
 		"images": "../src/assets/activityImages/bbq.jpeg",
 		"uren": [
@@ -164,7 +164,7 @@
 	{
 		"locatie": "TUIN",
 		"title": "Drankje & Muziek",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Kom langs bij het onthaal en kies uit een verfrissend glas water, een heerlijk fruitsap, of een feestelijke cava. Terwijl je geniet van je drankje, zorgen wij voor een leuk muziekje op de achtergrond om de sfeer compleet te maken. Het is de perfecte gelegenheid om even te ontspannen en gezellig bij te praten.",
 		"backgroundColor": "#924AA2",
 		"images": "../src/assets/activityImages/Eten&Drinken.jpeg",
 		"uren": [
@@ -177,7 +177,7 @@
 	{
 		"locatie": "Tuin",
 		"title": "Slotshow",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Mis de spannende slotshow niet! Tijdens deze show worden drie prestigieuze prijzen uitgereikt aan de beste derdejaars eindprojecten van Multimedia & Creatieve Technologie. De prijzen zijn de Juryprijs, de Impactprijs en de Publieksprijs. De show begint om 20:00 uur, dus zorg dat je op tijd bent om te zien welke projecten in de prijzen vallen en om de winnaars te feliciteren. Het belooft een avond vol innovatie en inspiratie te worden!",
 		"backgroundColor": "#924AA2",
 		"images": "../src/assets/activityImages/Award.png",
 		"uren": [

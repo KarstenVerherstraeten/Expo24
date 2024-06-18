@@ -138,7 +138,7 @@
 	{
 		"locatie": "GALLERY",
 		"title": "Eindwerken",
-		"description": "Maecenas sed mi sollicitudin, elementum nunc eu, mollis sem. Donec imperdiet, mi nec iaculis feugiat, nulla mauris tempor urna, ac lacinia ligula sapien ac urna. Etiam nec lectus ultricies purus bibendum congue. Suspendisse sed nibh erat. Ut ac egestas nisi, quis pharetra sapien. Sed convallis suscipit euismod. Morbi tellus libero, sodales quis laoreet at, facilisis pretium arcu. Sed eget aliquam nunc, id congue leo.",
+		"description": "Ontdek de fantastische werken van de derdejaars Multimedia & Creatieve Technologie in onze Gallery! Van apps tot innovatieve installaties... Kom ontdekken wat onze derdejaars hebben gecreëerd om een positieve impact op de wereld te maken!",
 		"backgroundColor": "#A70B0B",
 		"images": "../src/assets/activityImages/Eindwerken.jpg",
 		"uren": [

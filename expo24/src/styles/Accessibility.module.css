@@ -55,7 +55,7 @@
 	flex-direction: row;
 	align-items: center;
 	text-align: left;
-	font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
 	width: 430px;
 }
 
@@ -133,6 +133,7 @@
 .sectionContent p {
 	font-size: 16px;
 	line-height: 4vh;
+	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
 }
 
 .sectionContent.open {

@@ -1,13 +1,36 @@
 import Timer from "../components/Timer";
 import style from "../styles/Timetable.module.css";
 import { Outlet, Link } from "react-router-dom";
+import activitiesData from "../../tametable.json";
 import React, { useEffect } from "react";
 import ReactGA from "react-ga4";
+import Footer from "../components/Footer";
 
 function Timetable() {
 	useEffect(() => {
         ReactGA.send({ hitType: "pageview", page: "/timetable", title: "TimeTable" });
     }, []);
+
+	const sortedActivities = {
+        MAKERSPACE: activitiesData.filter(activity => activity.locatie === "MAKERSPACE").sort((a, b) => {
+            const aStartTime = parseFloat(a.hours[0].start.replace("u", "").replace(":", "."));
+            const bStartTime = parseFloat(b.hours[0].start.replace("u", "").replace(":", "."));
+            return aStartTime - bStartTime;
+        }),
+
+        MEETUP: activitiesData.filter(activity => activity.locatie === "MEETUP"),
+        GALLERY: activitiesData.filter(activity => activity.locatie === "GALLERY"),
+        TUIN: activitiesData.filter(activity => activity.locatie === "TUIN")
+    };
+
+	function toggleActivities(section) {
+        const sectionActivities = document.querySelectorAll(`.${section}Activity`);
+        sectionActivities.forEach(activity => {
+            activity.classList.toggle(style.hidden);
+        });
+    }
+
+
 	return (
 		<>
 			<div className={style.glassPanel}>
@@ -34,14 +57,19 @@ function Timetable() {
 				<h1 className={style.titleActivities}>TIMETABLE</h1>
 			</div>
 			<div className={style.switch}>
-			<Link to="/Timetable">TIMETABLE</Link>
-			<Link to="/Activities">OVERZICHT</Link>
+				<Link to="/Timetable">TIMETABLE</Link>
+				<Link to="/Activities">OVERZICHT</Link>
 			</div>
 			<div className={style.timetableWrapper}>
 				<div className={style.list}>
-					<div className={style.makerspaceTitle}>
-						<h1>MAKERSPACE</h1>
-					</div>
+				<div className={style.makerspaceTitle} onClick={() => toggleActivities('makerspace')}>
+                        <h1>MAKERSPACE</h1>
+                    </div>
+                    {sortedActivities.MAKERSPACE.map((activity, index) => (
+                        <div key={index} className={`${style.mobileActivity} ${style.borderM} makerspaceActivity ${style.hidden}`}>
+                            <p className={style.activity}>{activity.title}, <br /> {activity.hours[0].start} - {activity.hours[0].end}</p>
+                        </div>
+                    ))}
 					<p className={style.activityLiveCoding}>LIVE CODING</p>
 					<p className={style.activityPrinting}>3D PRINTING</p>
 					<p className={style.activityApple}>APPLE VISION PRO</p>
@@ -50,19 +78,34 @@ function Timetable() {
 					<p className={style.activityBackend}>BACKEND</p>
 					<p className={style.activityLasercut}>LASERCUT</p>
 
-					<div className={style.meetupTitle}>
+					<div className={style.meetupTitle} onClick={() => toggleActivities('meetup')}>
 						<h1>MEETUP</h1>
 					</div>
+					{sortedActivities.MEETUP.map((activity, index) => (
+						  <div className={`${style.mobileActivity} ${style.borderMeetup} meetupActivity ${style.hidden}`}> 
+						  <p key={index} className={style.activity}>{activity.title}, <br /> {activity.hours[0].start} - {activity.hours[0].end}</p>
+					  </div>
+                    ))}
 					<p className={style.activityMeetup}>MEETUP</p>
 
-					<div className={style.galleryTitle}>
+					<div className={style.galleryTitle} onClick={() => toggleActivities('gallery')}>
 						<h1>GALLERY</h1>
 					</div>
+					{sortedActivities.GALLERY.map((activity, index) => (
+						 <div className={`${style.mobileActivity} ${style.borderGallery} galleryActivity ${style.hidden}`}> 
+						 <p key={index} className={style.activity}>{activity.title},  <br /> {activity.hours[0].start} - {activity.hours[0].end}</p>
+					 </div>
+                    ))}
 					<p className={style.activityEindwerken}>EINDWERKEN</p>
 
-					<div className={style.tuinTitle}>
+					<div className={style.tuinTitle} onClick={() => toggleActivities('tuin')}>
 						<h1>TUIN</h1>
 					</div>
+					{sortedActivities.TUIN.map((activity, index) => (
+						<div className={`${style.mobileActivity} ${style.borderTuin} tuinActivity ${style.hidden}`} key={index}> 
+						<p className={style.activity}>{activity.title},  <br /> {activity.hours[0].start} - {activity.hours[0].end}</p>
+					</div>
+                    ))}
 					<p className={style.activityBBQ}>BBQ</p>
 					<p className={style.activityDrankje}>DRANKJE + MUZIEK</p>
 					<p className={style.activitySlotshow}>SLOTSHOW</p>
@@ -123,6 +166,7 @@ function Timetable() {
 					<div className={style.Slotshow}></div>
 				</div>
 			</div>
+			<Footer></Footer>
 		</>
 	);
 }

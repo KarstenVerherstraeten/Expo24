@@ -1,68 +1,68 @@
+/* Base desktop styles */
 .glassPanel {
-    background-color: white;
-    background-image: url(../assets/testeffect.gif);
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 80px;
-    transform: scale(1);
+	background-color: white;
+	background-image: url(../assets/testeffect.gif);
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 80px;
+	transform: scale(1);
+}
+.switch a {
+	text-decoration: none;
 }
 
 .glass {
-    width: 10%;
-    height: 100%;
-    backdrop-filter: blur(30px);
-    background: linear-gradient(to right,
-            rgba(64, 64, 73, 0.1) 0%,
-            rgba(0, 0, 0, 0.4) 80%,
-            rgba(14, 14, 17, 0.6) 100%);
+	width: 10%;
+	height: 100%;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(to right, rgba(64, 64, 73, 0.1) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(14, 14, 17, 0.6) 100%);
 }
 
 .titleActivities {
     position: absolute;
     color: #F8F8F8;
-    font-size: 10vh;
+    font-size: 80px;
     padding: 10px 20px;
 }
 
 .switch {
-	display: flex;
-	justify-content: end;
+    display: flex;
+    justify-content: end;
     background-color: #f8f8f8;
 }
 
 .switch a {
     font-family: "Gotham Black";
-	font-size: 15px;
-	margin-top: 0px;
-	padding: 10px 40px;
-	background-color: #2c2c2c;
-	color: #f8f8f8;
-	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 15px;
+    margin-top: 0px;
+    padding: 10px 40px;
+    background-color: #2c2c2c;
+    color: #f8f8f8;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .switch a:last-child {
-	font-family: "Gotham Black";
-	font-size: 15px;
-	margin-top: 0px;
-	padding: 10px 40px;
-	background-color: #f8f8f8;
-	color: #2c2c2c;
+    font-family: "Gotham Black";
+    font-size: 15px;
+    margin-top: 0px;
+    padding: 10px 40px;
+    background-color: #f8f8f8;
+    color: #2c2c2c;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .switch p:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
-
-/* start */
-.timetableWrapper{
+/* Timetable styles */
+.timetableWrapper {
     width: 90vw;
     height: fit-content;
     margin: 70px auto 20px;
@@ -70,288 +70,448 @@
     justify-content: space-between;
 }
 
-.timetableWrapper h1{
+.timetableWrapper h1 {
     text-align: center;
     color: #F8F8F8;
     font-size: 25px;
 }
 
-.timetableWrapper p{
-    color: #2c2c2c;
-    font-family: 'Gotham Medium';
-    margin: 20px 10px;
+.timetableWrapper p {
+	color: #2c2c2c;
+	font-family: "Gotham Medium";
+	margin: 20px 10px;
 }
 
 .list {
-    width: 20%;
-    height: fit-content;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(28, 20px);
-    row-gap: 10px;
+	width: 20%;
+	height: fit-content;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(28, 20px);
+	row-gap: 10px;
 }
 
-.list p{
-    margin: 10px 0;
+.list p {
+	margin: 10px 0;
 }
 
-.makerspaceTitle{
-    grid-column: 1/3;
-    grid-row: 1/3;
-    background-color: #1281AE;
-    padding: 11px 0;
+.makerspaceTitle {
+	grid-column: 1/3;
+	grid-row: 1/3;
+	background-color: #1281ae;
+	padding: 11px 0;
 }
 
-.activityLiveCoding{
-    grid-column: 1/3;
-    grid-row: 3 / 4;
+.activityLiveCoding {
+	grid-column: 1/3;
+	grid-row: 3 / 4;
 }
 
-.activityPrinting{
-    grid-column: 1/3;
-    grid-row: 4/5;
+.activityPrinting {
+	grid-column: 1/3;
+	grid-row: 4/5;
 }
-.activityApple{
-    grid-column: 1/3;
-    grid-row: 5/6;
+.activityApple {
+	grid-column: 1/3;
+	grid-row: 5/6;
 }
-.activityGames{
-    grid-column: 1/3;
-    grid-row: 6/7;
+.activityGames {
+	grid-column: 1/3;
+	grid-row: 6/7;
 }
-.activityFrontend{
-    grid-column: 1/3;
-    grid-row: 7/8;
+.activityFrontend {
+	grid-column: 1/3;
+	grid-row: 7/8;
 }
-.activityBackend{
-    grid-column: 1/3;
-    grid-row: 8/9;
+.activityBackend {
+	grid-column: 1/3;
+	grid-row: 8/9;
 }
-.activityLasercut{
-    grid-column: 1/3;
-    grid-row: 9/10;
-}
-
-.meetupTitle{
-    grid-column: 1/3;
-    grid-row: 11/13;
-    background-color: #539B24;
-    padding: 11px 0;
+.activityLasercut {
+	grid-column: 1/3;
+	grid-row: 9/10;
 }
 
-.activityMeetup{
-    grid-column: 1/3;
-    grid-row: 13/14;
+.meetupTitle {
+	grid-column: 1/3;
+	grid-row: 11/13;
+	background-color: #539b24;
+	padding: 11px 0;
 }
 
-.galleryTitle{
-    grid-column: 1/3;
-    grid-row: 15/17;
-    background-color: #A70B0B;
-    padding: 11px 0;
+.activityMeetup {
+	grid-column: 1/3;
+	grid-row: 13/14;
 }
 
-.activityEindwerken{
-    grid-column: 1/3;
-    grid-row: 17/18;
+.galleryTitle {
+	grid-column: 1/3;
+	grid-row: 15/17;
+	background-color: #a70b0b;
+	padding: 11px 0;
 }
 
-.tuinTitle{
-    grid-column: 1/3;
-    grid-row: 19/21;
-    background-color: #924AA2;
-    padding: 11px 0;
+.activityEindwerken {
+	grid-column: 1/3;
+	grid-row: 17/18;
 }
 
-.activityBBQ{
-    grid-column: 1/3;
-    grid-row: 21/22;
+.tuinTitle {
+	grid-column: 1/3;
+	grid-row: 19/21;
+	background-color: #924aa2;
+	padding: 11px 0;
 }
 
-.activityDrankje{
-    grid-column: 1/3;
-    grid-row: 22/23;
+.activityBBQ {
+	grid-column: 1/3;
+	grid-row: 21/22;
 }
 
-.activitySlotshow{
-    grid-column: 1/3;
-    grid-row: 23/24;
+.activityDrankje {
+	grid-column: 1/3;
+	grid-row: 22/23;
 }
 
+.activitySlotshow {
+	grid-column: 1/3;
+	grid-row: 23/24;
+}
 
-
-/* right side */
-
+/* Right side */
 .timetable {
-    display: grid;
-    grid-template-columns: repeat(18, 1fr);
-    grid-template-rows: repeat(25, 20px);
-    width: 75%;
-    row-gap: 10px;
+	display: grid;
+	grid-template-columns: repeat(18, 1fr);
+	grid-template-rows: repeat(25, 20px);
+	width: 75%;
+	row-gap: 10px;
 }
 
-.timetable p{
-    margin: 0;
-    padding: 0;
-    border-left: 2px solid black;
+.timetable p {
+	margin: 0;
+	padding: 0;
+	border-left: 2px solid black;
 }
 
 .hour {
-    text-align: left;
-    background-color: #f8f8f8;
-    color: #2c2c2c;
-    font-family: 'Gotham Medium';
-    padding-left: 5px;
-    grid-row: 1/28;
-
+	text-align: left;
+	background-color: #f8f8f8;
+	color: #2c2c2c;
+	font-family: "Gotham Medium";
+	padding-left: 5px;
+	grid-row: 1/28;
 }
 
-.timespan{
-    position: relative;
-    top: -20px;
-    left: -19px;
+.timespan {
+	position: relative;
+	top: -20px;
+	left: -19px;
 }
 
-.hour:nth-child(1){
-    grid-column: 1/3;
+.hour:nth-child(1) {
+	grid-column: 1/3;
 }
 
-.hour:nth-child(2){
-    grid-column: 3/5;
+.hour:nth-child(2) {
+	grid-column: 3/5;
 }
 
-.hour:nth-child(3){
-    grid-column: 5/7;
+.hour:nth-child(3) {
+	grid-column: 5/7;
 }
 
-.hour:nth-child(4){
-    grid-column: 7/9;
+.hour:nth-child(4) {
+	grid-column: 7/9;
 }
 
-.hour:nth-child(5){
-    grid-column: 9/11;
+.hour:nth-child(5) {
+	grid-column: 9/11;
 }
 
-.hour:nth-child(6){
-    grid-column: 11/13;
+.hour:nth-child(6) {
+	grid-column: 11/13;
 }
 
-.hour:nth-child(7){
-    grid-column: 13/15;
+.hour:nth-child(7) {
+	grid-column: 13/15;
 }
 
-.hour:nth-child(8){
-    grid-column: 15/17;
+.hour:nth-child(8) {
+	grid-column: 15/17;
 }
 
 .table {
-    background-color: green;
-    gap: 1px;
+	background-color: green;
+	gap: 1px;
 }
 
-.liveCoding, .printing , .apple, .games, .frontend, .backend, .lasercut{
-    background-color: #1281AE;
-    border-left: 2px solid black;
+.liveCoding,
+.printing,
+.apple,
+.games,
+.frontend,
+.backend,
+.lasercut {
+	background-color: #1281ae;
+	border-left: 2px solid black;
 }
 
-.liveCoding1{
-    grid-column: 3/4;
-    grid-row: 3 / 4;
+.liveCoding1 {
+	grid-column: 3/4;
+	grid-row: 3 / 4;
 }
-.liveCoding2{
-    grid-column: 5/6;
-    grid-row: 3 / 4;
+.liveCoding2 {
+	grid-column: 5/6;
+	grid-row: 3 / 4;
 }
-.liveCoding3{
-    grid-column: 7/8;
-    grid-row: 3 / 4;
+.liveCoding3 {
+	grid-column: 7/8;
+	grid-row: 3 / 4;
 }
-.liveCoding4{
-    grid-column: 9/10;
-    grid-row: 3 / 4;
+.liveCoding4 {
+	grid-column: 9/10;
+	grid-row: 3 / 4;
 }
-.liveCoding5{
-    grid-column: 11/12;
-    grid-row: 3 / 4;
-}
-
-.printing1{
-    grid-column: 3/4;
-    grid-row: 4/5;
-}
-.printing2{
-    grid-column: 5/6;
-    grid-row: 4/5;
-}
-.printing3{
-    grid-column: 7/8;
-    grid-row: 4/5;
-}
-.printing4{
-    grid-column: 9/10;
-    grid-row: 4/5;
-}
-.printing5{
-    grid-column: 11/12;
-    grid-row: 4/5;
+.liveCoding5 {
+	grid-column: 11/12;
+	grid-row: 3 / 4;
 }
 
-.apple{
-    grid-column: 3/13;
-    grid-row: 5/6;
+.printing1 {
+	grid-column: 3/4;
+	grid-row: 4/5;
+}
+.printing2 {
+	grid-column: 5/6;
+	grid-row: 4/5;
+}
+.printing3 {
+	grid-column: 7/8;
+	grid-row: 4/5;
+}
+.printing4 {
+	grid-column: 9/10;
+	grid-row: 4/5;
+}
+.printing5 {
+	grid-column: 11/12;
+	grid-row: 4/5;
 }
 
-.games{
-    grid-column: 3/13;
-    grid-row: 6/7;
+.apple {
+	grid-column: 3/13;
+	grid-row: 5/6;
 }
 
-.frontend{
-    grid-column: 3/13;
-    grid-row: 7/8;
+.games {
+	grid-column: 3/13;
+	grid-row: 6/7;
 }
 
-.backend{
-    grid-column: 3/13;
-    grid-row: 8/9;
+.frontend  {
+	grid-column: 3/13;
+	grid-row: 7/8;
 }
 
-.lasercut{
-    grid-column: 3/13;
-    grid-row: 9/10;
+.backend  {
+	grid-column: 3/13;
+	grid-row: 8/9;
 }
 
-.meetup{
+.lasercut  {
+	grid-column: 3/13;
+	grid-row: 9/10;
+}
+
+.meetup {
+	background-color: #539b24;
+	border-left: 2px solid black;
+	grid-column: 1/13;
+	grid-row: 13/14;
+}
+.meetup {
     background-color: #539B24;
-    border-left: 2px solid black; 
+    border-left: 2px solid black;
     grid-column: 1/13;
     grid-row: 13/14;
 }
 
-.eindwerken{
+.eindwerken {
+	background-color: #a70b0b;
+	border-left: 2px solid black;
+	grid-column: 1/13;
+	grid-row: 17/18;
+}
+
+.eindwerken {
     background-color: #A70B0B;
-    border-left: 2px solid black; 
+    border-left: 2px solid black;
     grid-column: 1/13;
     grid-row: 17/18;
 }
 
-.BBQ{
+.BBQ {
+	background-color: #924aa2;
+	border-left: 2px solid black;
+	grid-column: 1/17;
+	grid-row: 21/22;
+}
+.BBQ {
     background-color: #924AA2;
-    border-left: 2px solid black; 
+    border-left: 2px solid black;
     grid-column: 1/17;
     grid-row: 21/22;
 }
 
-.Drankje{
-    background-color: #924AA2;
-    border-left: 2px solid black; 
-    grid-column: 1/17;
-    grid-row: 22/23;
+.Drankje {
+	background-color: #924aa2;
+	border-left: 2px solid black;
+	grid-column: 1/17;
+	grid-row: 22/23;
 }
 
-.Slotshow{
-    background-color: #924AA2;
-    border-left: 2px solid black; 
-    grid-column: 13/15;
-    grid-row: 23/24;
+.Slotshow {
+	background-color: #924aa2;
+	border-left: 2px solid black;
+	grid-column: 13/15;
+	grid-row: 23/24;
+}
+
+.mobileActivity{
+    display: none;
+
+}
+
+@media (max-width: 768px) {
+  
+
+    .timetable{
+        display: none
+    }
+
+    .timetableWrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+   
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .makerspaceTitle{
+        grid-column: 1/3;
+        grid-row: 1/3;
+        width: 100%;
+    }
+
+    .activityApple{
+        display: none;
+    }
+
+    .activityPrinting{
+        display: none;
+    }
+
+    .activityGames{
+        display: none;
+    }
+
+    .activityLiveCoding{
+        display: none;
+    }
+
+    .activityFrontend{
+        display: none;
+    }
+
+    .activityBackend{
+        display: none;
+    }
+
+    .activityLasercut{
+        display: none;
+    }
+
+    .meetupTitle{
+        grid-column: 1/3;
+        grid-row: 3/5;
+        width: 100%;
+    }
+
+    .activityMeetup{
+        display: none;
+    }
+
+    .galleryTitle{
+        grid-column: 1/3;
+        grid-row: 5/7;
+        width: 100%;
+    }
+
+    .activityEindwerken{
+        display: none;
+    }
+
+    .tuinTitle{
+        grid-column: 1/3;
+        grid-row: 7/9;
+        width: 100%;
+    }
+
+    .activityBBQ{
+        display: none;
+    }
+
+    .activityDrankje{
+        display: none;
+    }
+
+    .activitySlotshow{
+        display: none;
+    }
+
+   .mobileActivity{
+    display: flex;
+    border-bottom: 3px solid;
+  
+    }
+
+    .mobileActivity p{
+        font-family: "Gotham Light", Arial, Helvetica, sans-serif;
+    }
+   
+    .list .mobileActivity.borderM {
+        border-color: #1281AE; /* Makerspace title color */
+    }
+    
+    .list .mobileActivity.borderMeetup {
+        border-color: #539B24; /* Meetup title color */
+    }
+    
+    .list .mobileActivity.borderGallery {
+        border-color: #A70B0B; /* Gallery title color */
+    }
+    
+    .list .mobileActivity.borderTuin {
+        border-color: #924AA2; /* Tuin title color */
+    }
+
+
+    .list .mobileActivity.hidden{
+        display: none;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 480px){
+    .titleActivities{
+        font-size: 30px;
+    }
 }

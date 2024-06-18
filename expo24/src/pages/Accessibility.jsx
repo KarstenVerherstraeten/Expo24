@@ -3,6 +3,8 @@ import AccessibilityCSS from "../styles/Accessibility.module.css";
 import Footer from "../components/Footer";
 import Location from "../assets/LocationLogo.svg";
 import FloorPlan from "../assets/activityImages/Plattegrond.png";
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
 
 function Accessibility() {
 	const [openSection, setOpenSection] = useState(null);
@@ -10,6 +12,11 @@ function Accessibility() {
 	const toggleSection = (section) => {
 		setOpenSection(openSection === section ? null : section);
 	};
+
+	useEffect(() => {
+		ReactGA.send({ hitType: "pageview", page: "/Accessibility", title: "Bereikbaarheid" });
+	}
+	, []);
 
 	return (
 		<>

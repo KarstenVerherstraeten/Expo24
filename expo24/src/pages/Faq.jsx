@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import FaqCSS from "../styles/Faq.module.css";
 import Footer from "../components/Footer.jsx";
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
 
 function Faq() {
+
+	useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "/Faq", title: "FAQ" });
+    }, []);
+
 	const [activeIndex, setActiveIndex] = useState(null);
 
 	const handleToggle = (index) => {

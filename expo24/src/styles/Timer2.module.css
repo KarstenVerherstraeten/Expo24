@@ -51,9 +51,23 @@
 	font-family: "Gotham Light";
 }
 .time-block:last-child {
-	width: 0;
 	margin-right: 50px;
 }
+
+.vote-button{
+    font-family: "Gotham bold";
+    font-size: 16px;
+    color: white;
+	padding: 15px 20px;
+    background-color: #e30613;
+    border: none;
+    text-decoration: none;
+	font-size: 40px;
+	width: 200px;
+	text-align: center;
+}
+
+
 
 @media screen and (max-width: 700px) {
 	.time-block h2 {

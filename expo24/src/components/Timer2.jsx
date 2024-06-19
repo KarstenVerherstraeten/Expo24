@@ -1,12 +1,9 @@
-// code combined from https://www.w3schools.com/howto/howto_js_countdown.asp
-// and https://www.w3schools.com/js/js_date_methods.asp
-// and Github Copilot
-
 import React, { useEffect, useState } from "react";
 import TimerCss from "../styles/Timer2.module.css";
 
-const Timer2 = () => {
+const Timer2 = ({ onTimeUp }) => {
 	const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+	const [isTimeUp, setIsTimeUp] = useState(false);
 
 	useEffect(() => {
 		const countDownDate = new Date("Jun 21, 2024 17:00:00").getTime();
@@ -16,7 +13,10 @@ const Timer2 = () => {
 			const distance = countDownDate - now;
 
 			if (distance < 0) {
-				setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+				setIsTimeUp(true);
+				if (onTimeUp) {
+					onTimeUp();
+				}
 				clearInterval(intervalId);
 				return;
 			}
@@ -34,29 +34,37 @@ const Timer2 = () => {
 		updateTimer(); // Initial call to update right away
 
 		return () => clearInterval(intervalId);
-	}, []);
+	}, [onTimeUp]);
 
 	return (
 		<div className={TimerCss["time-blocks"]}>
-			<div className={TimerCss["time-block"]}>
-				<span className={TimerCss["bold-text"]}>{timeLeft.days}</span>
-				<h2>D</h2>
-				<h1>I</h1>
-			</div>
-			<div className={TimerCss["time-block"]}>
-				<span className={TimerCss["bold-text"]}>{timeLeft.hours}</span>
-				<h2>U</h2>
-				<h1>I</h1>
-			</div>
-			<div className={TimerCss["time-block"]}>
-				<span className={TimerCss["bold-text"]}>{timeLeft.minutes}</span>
-				<h2>M</h2>
-				<h1>I</h1>
-			</div>
-			<div className={TimerCss["time-block"]}>
-				<span className={TimerCss["bold-text"]}>{timeLeft.seconds}</span>
-				<h2>S</h2>
-			</div>
+			{isTimeUp ? (
+				<div className={TimerCss["time-block"]}>
+					<a href="/vote" className={TimerCss["vote-button"]}>Stem nu!</a>
+				</div>
+			) : (
+				<>
+					<div className={TimerCss["time-block"]}>
+						<span className={TimerCss["bold-text"]}>{timeLeft.days}</span>
+						<h2>D</h2>
+						<h1>I</h1>
+					</div>
+					<div className={TimerCss["time-block"]}>
+						<span className={TimerCss["bold-text"]}>{timeLeft.hours}</span>
+						<h2>U</h2>
+						<h1>I</h1>
+					</div>
+					<div className={TimerCss["time-block"]}>
+						<span className={TimerCss["bold-text"]}>{timeLeft.minutes}</span>
+						<h2>M</h2>
+						<h1>I</h1>
+					</div>
+					<div className={TimerCss["time-block"]}>
+						<span className={TimerCss["bold-text"]}>{timeLeft.seconds}</span>
+						<h2>S</h2>
+					</div>
+				</>
+			)}
 		</div>
 	);
 };

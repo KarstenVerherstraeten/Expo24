@@ -34,7 +34,7 @@ function Footer() {
 							</div>
 							<div className={css.right}>
 								<li>
-									<Link to="https://multimedia.brussels/awards">Awards</Link>
+									<Link to="https://multimedia.brussels/awards">PRIJSUITREIKING</Link>
 								</li>
 								<li>
 									<Link to="https://multimedia.brussels">Projecten</Link>

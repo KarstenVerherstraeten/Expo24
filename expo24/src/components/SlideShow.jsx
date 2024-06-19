@@ -31,11 +31,11 @@ const Slideshow = () => {
 					breakpoints: {
 						640: {
 							perPage: 1,
-							height: '250px',
+							height: "250px",
 						},
 						769: {
 							perPage: 2,
-							height: '275px',
+							height: "275px",
 						},
 						925: {
 							perPage: 2,
@@ -128,9 +128,9 @@ const Slideshow = () => {
 									))}
 								</div>
 							</div>
-							<p className={slideCSS.mainText}>AWARD SHOW</p>
+							<p className={slideCSS.mainText}>PRIJSUITREIKING</p>
 							<div className={slideCSS.infoBox}>
-								<p className={slideCSS.infoText}>De awardshow met de werken van de derdejaars vindt plaats om 20u30.</p>
+								<p className={slideCSS.infoText}>De prijsuitreiking met de werken van de derdejaars vindt plaats om 20u30.</p>
 							</div>
 						</a>
 					</div>

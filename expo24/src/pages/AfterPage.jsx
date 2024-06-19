@@ -1,11 +1,12 @@
 import afterCss from "../styles/AfterPage.module.css";
-import React, { useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import logoB from "../assets/LogoB.svg";
 import Footer from "../components/Footer";
-import awards from "/Award.png";
+import awards from "/Award.jpg";
 import Infodag from "../assets/vrGames.jpg";
 import AfterFooter from "../components/AfterFooter.jsx";
+import Showreel from "/works_compilation_draft.mp4";
 
 function AfterPage() {
 	return (
@@ -24,25 +25,32 @@ function AfterPage() {
 				<div>
 					<h2>
 						Bekijk hier de <br />
-						gewonnen awarts
+						gewonnen awards
 					</h2>
+
+					<img src={awards} alt="Awards" />
 					<Link className={afterCss.button} to="https://multimedia.brussels">
 						Awards
 					</Link>
-					<img src={awards} alt="" />
 				</div>
 				<div>
 					<h2>
 						Opendeurdag 29 juni <br />
 						bekijk hier al de details
 					</h2>
-					<a className={afterCss.button} target="_blank" href="https://www.erasmushogeschool.be/nl/opleidingen/multimedia-creatieve-technologie">
+
+					<img src={Infodag} alt="Infodag" />
+					<a className={afterCss.button} target="_blank" href="https://www.erasmushogeschool.be/nl/opleidingen/multimedia-creatieve-technologie" rel="noreferrer">
 						MCT website
 					</a>
-					<img src={Infodag} alt="" />
 				</div>
 			</div>
-			<AfterFooter></AfterFooter>
+			<div className={afterCss.container}>
+				<video className={afterCss.video} src={Showreel} type="video/mp4" controls>
+					Jouw browser ondersteunt de video tag niet.
+				</video>
+			</div>
+			<AfterFooter />
 			<div className={afterCss.glassPanel}>
 				<div className={afterCss.glass}></div>
 				<div className={afterCss.glass}></div>

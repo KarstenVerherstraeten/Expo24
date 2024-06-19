@@ -153,7 +153,7 @@
 		"title": "BBQ",
 		"description": "Kom naar onze BBQ en geniet van een heerlijke avond vol eten en drinken! We serveren sappige brochettes, vers van de grill, en een uitgebreide saladebar waar je naar hartenlust kunt kiezen. Er zijn ook verfrissende drankjes beschikbaar om je dorst te lessen. Mis deze kans niet om te ontspannen, lekker te eten en gezellig bij te praten. Vergeet niet je goede humeur mee te nemen!",
 		"backgroundColor": "#924AA2",
-		"images": "/bbq.jpeg",
+		"images": "/bbq.jpg",
 		"uren": [
 			{
 				"start": "17u",
@@ -179,7 +179,7 @@
 		"title": "SLOTSHOW",
 		"description": "Mis de spannende slotshow niet! Tijdens deze show worden drie prestigieuze prijzen uitgereikt aan de beste derdejaars eindprojecten van Multimedia & Creatieve Technologie. De prijzen zijn de Juryprijs, de Impactprijs en de Publieksprijs. De show begint om 20:00 uur, dus zorg dat je op tijd bent om te zien welke projecten in de prijzen vallen en om de winnaars te feliciteren. Het belooft een avond vol innovatie en inspiratie te worden!",
 		"backgroundColor": "#924AA2",
-		"images": "/Award.png",
+		"images": "/Award.jpg",
 		"uren": [
 			{
 				"start": "20u",

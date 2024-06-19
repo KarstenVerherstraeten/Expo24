@@ -1,31 +1,32 @@
+
 .voteButton {
-  position: fixed;
-  top: -50px; 
-  right: 0%;
-  padding: 10px 20px;
-  background-color: #e30613;
-  color: white;
-  border: none;
-  font-size: 13px;
-  cursor: pointer;
-  z-index: 2;
-  font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  transition: top 0.5s ease-in-out; 
-  text-decoration: none;
+position: fixed;
+top: -50px; 
+right: 0%;
+padding: 10px 20px;
+background-color: #e30613;
+color: white !important; 
+border: none;
+font-size: 13px;
+cursor: pointer;
+z-index: 2;
+font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+transition: top 0.5s ease-in-out; 
+text-decoration: none !important; 
 }
 
 .voteButton.show {
-  top: 80px; 
-  text-decoration: none; 
-  color: white; 
+top: 80px; 
+text-decoration: none !important; 
+color: white !important;
 }
 
 .voteButton:hover {
-  background-color: #e30613;
-  color: white;
-  cursor: pointer;
-  box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
-  transition-duration: 0.5s;
-  text-decoration: none; 
+background-color: #e30613;
+color: white !important; 
+cursor: pointer;
+box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
+transition-duration: 0.5s;
+text-decoration: none !important; 
 }

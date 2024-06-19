@@ -68,6 +68,14 @@
 }
 
 
+.time-block a:hover {
+	background-color: #e30613;
+	color: white;
+	cursor: pointer;
+	box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
+	transition-duration: 0.5s;
+}
+
 
 @media screen and (max-width: 700px) {
 	.time-block h2 {

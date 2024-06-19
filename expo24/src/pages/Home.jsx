@@ -45,22 +45,15 @@ function Home() {
 					</div>
 					{showSignUp && (
 						<div className={homeCss.headerText}>
-							<h2>
-								Studenten Multimedia & Creatieve Technologie nodigen jullie uit
-								op EXPO24: innovatieve afstudeerprojecten, workshops en awards!
-							</h2>
-							<h2>
-								Waar? Erasmushogeschool Brussel I Nijverheidskaai 170, 1070
-								Anderlecht.
-							</h2>
+							<h2>Studenten Multimedia & Creatieve Technologie nodigen jullie uit op EXPO24: innovatieve afstudeerprojecten, workshops en awards!</h2>
+							<h2>Waar? Erasmushogeschool Brussel I Nijverheidskaai 170, 1070 Anderlecht.</h2>
 						</div>
 					)}
 					{!showSignUp && (
 						<div className={homeCss.headerText}>
 							<h2>Stem nu op de eindejaarswerken van de 3e jaars!</h2>
 							<h2>
-								Geen code? <br /> Vraag er eentje aan op onze campus tijdens
-								EXPO24
+								Geen code? <br /> Vraag er eentje aan op onze campus tijdens EXPO24
 							</h2>
 						</div>
 					)}
@@ -99,31 +92,29 @@ function Home() {
 			</div>
 			<div className={homeCss.content2}>
 				<div className={homeCss.Containers}>
-					<div className={homeCss.items}>
-						<h4>Eindwerken</h4>
-						<div className={homeCss.picture}>
-							<img src={eindwerkenFoto} alt="foto" />
+					<div className={homeCss.een}>
+						<div className={homeCss.items}>
+							<h4>Eindwerken</h4>
+							<div className={homeCss.picture}>
+								<img src={eindwerkenFoto} alt="foto" />
+							</div>
+							<h3>De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden drie awards uitgereikt voor de beste projecten.</h3>
+							<a className={homeCss.button2}>
+								<Link to="https://multimedia.brussels">EINDWERKEN</Link>
+							</a>
 						</div>
-						<h3>
-							De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden
-							drie awards uitgereikt voor de beste projecten.
-						</h3>
-						<a className={homeCss.button2}>
-							<Link to="https://multimedia.brussels">EINDWERKEN</Link>
-						</a>
 					</div>
-					<div className={homeCss.items}>
-						<h4>Activiteiten</h4>
-						<div className={homeCss.picture}>
-							<img src={ActiviteitenFoto} alt="foto" />
+					<div className={homeCss.twee}>
+						<div className={homeCss.items}>
+							<h4>Activiteiten</h4>
+							<div className={homeCss.picture}>
+								<img src={ActiviteitenFoto} alt="foto" />
+							</div>
+							<h3>Tijdens expo24 worden er doorheen de avond met verschillende activiteiten aangeboden.</h3>
+							<a className={homeCss.button2}>
+								<Link to="/Activities">ACTIVITEITEN</Link>
+							</a>
 						</div>
-						<h3>
-							Tijdens expo24 worden er doorheen de avond met verschillende
-							activiteiten aangeboden.
-						</h3>
-						<a className={homeCss.button2}>
-							<Link to="/Activities">ACTIVITEITEN</Link>
-						</a>
 					</div>
 				</div>
 			</div>

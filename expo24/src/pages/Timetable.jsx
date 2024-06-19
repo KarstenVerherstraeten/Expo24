@@ -11,17 +11,20 @@ function Timetable() {
         ReactGA.send({ hitType: "pageview", page: "/timetable", title: "TimeTable" });
     }, []);
 
-    const sortedActivities = {
-        MAKERSPACE: activitiesData.filter(activity => activity.locatie === "MAKERSPACE").sort((a, b) => {
-            const aStartTime = parseFloat(a.hours[0].start.replace("u", "").replace(":", "."));
-            const bStartTime = parseFloat(b.hours[0].start.replace("u", "").replace(":", "."));
+   const sortedActivities = {
+    MAKERSPACE: activitiesData
+        .filter(activity => activity.locatie.toUpperCase() === "MAKERSPACE")
+        .sort((a, b) => {
+            if (!a.uren || !a.uren.length) return 1;
+            if (!b.uren || !b.uren.length) return -1;
+            const aStartTime = parseFloat(a.uren[0].start.replace("u", "").replace(":", "."));
+            const bStartTime = parseFloat(b.uren[0].start.replace("u", "").replace(":", "."));
             return aStartTime - bStartTime;
         }),
-        MEETUP: activitiesData.filter(activity => activity.locatie === "MEETUP"),
-        GALLERY: activitiesData.filter(activity => activity.locatie === "GALLERY"),
-        TUIN: activitiesData.filter(activity => activity.locatie === "TUIN")
-    };
-
+    MEETUP: activitiesData.filter(activity => activity.locatie.toUpperCase() === "MEETUP"),
+    GALLERY: activitiesData.filter(activity => activity.locatie.toUpperCase() === "GALLERY"),
+    TUIN: activitiesData.filter(activity => activity.locatie.toUpperCase() === "TUIN")
+};
     function toggleActivities(section) {
         const sectionActivities = document.querySelectorAll(`.${section}Activity`);
         sectionActivities.forEach(activity => {

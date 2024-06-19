@@ -10,8 +10,8 @@ import ContactLeggen from "../assets/activityImages/ContactLeggen.jpg";
 import MCT from "../assets/activityImages/Opleiding.jpeg";
 import Workshops from "../assets/activityImages/Workshops.jpg";
 import Drank from "/Eten&Drinken.jpg";
-import BBQ from "/bbq.jpeg";
-import Award from "/Award.png";
+import BBQ from "/bbq.jpg";
+import Award from "/Award.jpg";
 
 const Slideshow = () => {
 	return (
@@ -31,6 +31,11 @@ const Slideshow = () => {
 					breakpoints: {
 						640: {
 							perPage: 1,
+							height: '250px',
+						},
+						769: {
+							perPage: 2,
+							height: '275px',
 						},
 						925: {
 							perPage: 2,

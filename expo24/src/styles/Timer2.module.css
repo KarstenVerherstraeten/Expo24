@@ -95,7 +95,6 @@
 		margin: 0px 10px;
 	}
 	.time-block:last-child {
-		width: 0;
 		margin-right: 10px;
 	}
 }
@@ -132,10 +131,6 @@
 @media (max-width: 500px) {
 	.bold-text {
 		font-size: 20px;
-	}
-
-	.time-block {
-		max-width: none;
 	}
 
 	.time-blocks h1 {

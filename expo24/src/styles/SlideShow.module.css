@@ -136,6 +136,11 @@ button .splide__arrow {
 		margin: 10px 20px;
 	}
 
+	.infoText{
+		font-size: 13px;
+		margin: 15px 15px;
+	}
+
 	.imageContainer {
 		height: 200px;
 	}

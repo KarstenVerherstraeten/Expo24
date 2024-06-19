@@ -156,6 +156,7 @@ hr {
 		flex-direction: column;
 		width: auto;
 		align-items: center;
+		width: 100%;
 	}
 	.randomActivities p {
 		margin-bottom: 40px;
@@ -186,6 +187,7 @@ hr {
 	}
 	.randomActivities {
 		flex-direction: column;
+		width: 80%;
 	}
 	.randomActivities p {
 		margin-bottom: 40px;

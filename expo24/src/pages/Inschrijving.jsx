@@ -268,7 +268,7 @@ function Inschrijving() {
 							</div>
 						</div>
 						<button type="submit" id="Continue" className={style.continue}>
-							Inschrijven
+							INSCHRIJVEN
 						</button>
 					</form>
 				</div>

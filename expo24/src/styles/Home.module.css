@@ -217,7 +217,7 @@ h1 {
 }
 
 .content3 {
-	margin: 200px 100px 0px 100px;
+	margin: 250px 100px 0px 100px;
 	font-family: "Gotham light";
 	margin-bottom: 130px;
 }
@@ -295,7 +295,7 @@ h1 {
 	}
 	.content3 {
 		text-align: center;
-		margin-top: 50px;
+		margin-top: 70px;
 	}
 	.logoText {
 		margin: 0;
@@ -312,7 +312,12 @@ h1 {
 	}
 	.items {
 		width: auto;
-		margin-top: 70px;
+	}
+	.een {
+		margin-top: 40px;
+	}
+	.een {
+		margin-bottom: 50px;
 	}
 }
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -322,8 +327,7 @@ h1 {
 }
 
 @media screen and (max-width: 780px) {
-
-	.content1{
+	.content1 {
 		margin: 50px 80px 0px;
 	}
 
@@ -334,8 +338,7 @@ h1 {
 }
 
 @media screen and (max-width: 743px) {
-
-	.content1{
+	.content1 {
 		margin: 50px 55px 0px;
 	}
 
@@ -353,11 +356,17 @@ h1 {
 	.leftHeader img {
 		width: 300px;
 	}
+	.items h4 {
+		font-size: 20px;
+	}
 
 	.header {
 		margin: 100px 50px 0px 50px;
 		flex-direction: column;
-		margin-top: 20px;
+		margin-top: 90px;
+	}
+	.homeButton {
+		margin-top: -30px;
 	}
 	.headerText {
 		display: flex;
@@ -431,6 +440,12 @@ h1 {
 	.items h4 {
 		margin-top: 20px;
 	}
+	.een {
+		margin-top: 40px;
+	}
+	.een {
+		margin-bottom: 50px;
+	}
 
 	.picture {
 		width: 100%;
@@ -492,9 +507,6 @@ h1 {
 	.redbutton {
 		justify-content: center;
 	}
-	.icons img {
-		width: 100%;
-	}
 }
 
 @media screen and (max-width: 400px) {
@@ -502,7 +514,7 @@ h1 {
 		margin-top: 20px;
 	}
 
-	.items h3{
+	.items h3 {
 		padding: 0 20px;
 	}
 
@@ -512,12 +524,11 @@ h1 {
 }
 
 @media screen and (max-width: 365px) {
-
-	.content1{
+	.content1 {
 		margin: 50px 0px 0px;
 	}
 
 	.content1 h1 {
-		margin-top: 20px;
+		margin-top: 40px;
 	}
 }

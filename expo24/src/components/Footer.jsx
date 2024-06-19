@@ -25,7 +25,7 @@ function Footer() {
 									<Link to="/Activities">Programma</Link>
 								</li>
 								<li>
-									<Link to="https://multimedia.brussels/awards">Awards</Link>
+									<Link to="https://multimedia.brussels/awards">Prijzen</Link>
 								</li>
 								<li>
 									<Link to="https://multimedia.brussels">Projecten</Link>

@@ -31,6 +31,11 @@ const Slideshow = () => {
 					breakpoints: {
 						640: {
 							perPage: 1,
+							height: '250px',
+						},
+						769: {
+							perPage: 2,
+							height: '275px',
 						},
 						925: {
 							perPage: 2,

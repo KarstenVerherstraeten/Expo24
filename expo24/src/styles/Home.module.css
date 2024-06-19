@@ -244,159 +244,7 @@ h1 {
 	height: 200px;
 	margin-bottom: 20px;
 }
-@media screen and (max-width: 400px) {
-	.button2 {
-		margin-top: 20px;
-	}
-}
-@media screen and (max-width: 700px) {
-	.leftHeader h1 {
-		font-size: 20px;
-		margin: 0;
-	}
-	.leftHeader img {
-		width: 300px;
-	}
 
-	.header {
-		margin: 100px 50px 0px 50px;
-		flex-direction: column;
-		margin-top: 20px;
-	}
-	.headerText {
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-		margin-top: 30px;
-	}
-	.leftHeader {
-		align-items: center;
-		width: auto;
-	}
-	.homeButton {
-		align-items: center;
-	}
-	.leftHeader a {
-		margin-right: 0;
-		margin-top: 20px;
-	}
-	.headerDate {
-		margin-top: 20px;
-		margin-bottom: -30px;
-	}
-	.bold-text {
-		font-size: 20px;
-	}
-	.rightHeader {
-		margin: 0px;
-		margin-top: 30px;
-		align-items: center;
-	}
-	.rightHeader h2 {
-		font-size: 12px;
-	}
-	.glassPanel {
-		height: 30vh;
-		margin-top: 30px;
-	}
-	.content1 h1 {
-		font-size: 30px;
-		margin-top: 20px;
-	}
-	.content1 {
-		margin: 0;
-		flex-direction: column;
-		text-align: center;
-	}
-	.scrollContainer {
-		margin-left: 50px;
-		margin-right: 50px;
-	}
-	.item {
-		height: 200px;
-		width: 100px;
-		min-width: 200px;
-	}
-	.item img {
-		width: 100px;
-		margin: 0;
-	}
-	.Containers h3 {
-		font-size: 13px;
-	}
-	.Containers h4 {
-		margin-bottom: 40px;
-		margin-top: -30px;
-	}
-	.item h2,
-	.item p {
-		margin: 70px 0;
-		font-size: 22px;
-	}
-	.items h4 {
-		margin-top: 20px;
-	}
-
-	.picture {
-		width: 100%;
-	}
-	.Containers {
-		flex-direction: column;
-		margin-top: -240px;
-	}
-	.content2 {
-		margin: 50px 50px 0px 50px;
-		height: auto;
-	}
-	.content3 h1 {
-		font-size: 30px;
-	}
-	.content3 {
-		margin: 50px 50px 0px 50px;
-	}
-	.PracticalInfo {
-		flex-direction: column;
-		margin-top: 0;
-		margin-bottom: 70px;
-		align-items: center;
-	}
-	.PracticalInfo div {
-		width: auto;
-		align-items: center;
-	}
-	.buttonsHome {
-		align-items: center;
-		flex-direction: column;
-	}
-	.items {
-		width: auto;
-		margin-top: 0;
-		margin: 0;
-	}
-	.rightHeader div {
-		width: 100%;
-	}
-
-	.content3 {
-		text-align: center;
-	}
-	.logoText {
-		margin: 0;
-	}
-	.icons {
-		flex-direction: column;
-		margin-top: 40px;
-		align-items: center;
-		width: auto;
-		text-align: center;
-	}
-	.redbutton {
-		justify-content: center;
-	}
-	.icons img {
-		width: 100%;
-	}
-}
 @media screen and (max-width: 1200px) {
 	.header {
 		flex-direction: column;
@@ -470,5 +318,198 @@ h1 {
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
 	.rightHeader div {
 		width: 400px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+
+	.content1{
+		margin: 50px 80px 0px;
+	}
+
+	.content1 h1 {
+		font-size: 50px;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 743px) {
+
+	.content1{
+		margin: 50px 55px 0px;
+	}
+
+	.content1 h1 {
+		font-size: 50px;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.leftHeader h1 {
+		font-size: 20px;
+		margin: 0;
+	}
+	.leftHeader img {
+		width: 300px;
+	}
+
+	.header {
+		margin: 100px 50px 0px 50px;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	.headerText {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.leftHeader {
+		align-items: center;
+		width: auto;
+	}
+	.homeButton {
+		align-items: center;
+	}
+	.leftHeader a {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+	.headerDate {
+		margin-top: 20px;
+	}
+	.bold-text {
+		font-size: 20px;
+	}
+	.rightHeader {
+		margin: 0px;
+		margin-top: 30px;
+		align-items: center;
+	}
+	.rightHeader h2 {
+		font-size: 12px;
+	}
+	.glassPanel {
+		height: 30vh;
+		margin-top: 30px;
+	}
+	.content1 h1 {
+		font-size: 30px;
+		margin-top: 20px;
+	}
+	.content1 {
+		margin: 0;
+		flex-direction: column;
+		text-align: center;
+	}
+	.scrollContainer {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.item {
+		height: 200px;
+		width: 100px;
+		min-width: 200px;
+	}
+	.item img {
+		width: 100px;
+		margin: 0;
+	}
+	.Containers h3 {
+		font-size: 13px;
+	}
+	.Containers h4 {
+		margin-bottom: 40px;
+		margin-top: -30px;
+	}
+	.item h2,
+	.item p {
+		margin: 70px 0;
+		font-size: 22px;
+	}
+	.items h4 {
+		margin-top: 20px;
+	}
+
+	.picture {
+		width: 100%;
+	}
+	.Containers {
+		flex-direction: column;
+		margin-top: -240px;
+	}
+	.content2 {
+		margin: 200px 50px 0px 50px;
+		height: auto;
+	}
+	.content3 h1 {
+		font-size: 30px;
+	}
+	.content3 {
+		margin: 50px 50px 0px 50px;
+	}
+	.PracticalInfo {
+		flex-direction: column;
+		margin-top: 0;
+		margin-bottom: 70px;
+		align-items: center;
+	}
+	.PracticalInfo div {
+		width: auto;
+		align-items: center;
+	}
+	.buttonsHome {
+		align-items: center;
+		flex-direction: column;
+	}
+	.items {
+		width: auto;
+		margin-top: 0;
+		margin: 0;
+	}
+	.rightHeader div {
+		width: 100%;
+	}
+
+	.content3 {
+		text-align: center;
+	}
+	.logoText {
+		margin: 0;
+	}
+	.icons {
+		flex-direction: column;
+		margin-top: 40px;
+		align-items: center;
+		width: auto;
+		text-align: center;
+	}
+	.redbutton {
+		justify-content: center;
+	}
+	.icons img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.button2 {
+		margin-top: 20px;
+	}
+
+	.items h3{
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 365px) {
+
+	.content1{
+		margin: 50px 0px 0px;
+	}
+
+	.content1 h1 {
+		margin-top: 20px;
 	}
 }

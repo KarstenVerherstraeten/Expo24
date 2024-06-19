@@ -107,7 +107,7 @@ function Faq() {
 				</div>
 
 				{/* Activiteiten call to action */}
-				<div className={FaqCSS.activities}>
+				{/* <div className={FaqCSS.activities}>
 					<div className={FaqCSS.textActivities}>
 						<h1>Bekijk het programma</h1>
 						<p>
@@ -121,10 +121,10 @@ function Faq() {
 							PROGRAMMA
 						</a>
 					</div>
-				</div>
+				</div> */}
 
 				{/* Sociale media links */}
-				<div className={FaqCSS.socialMedia}>
+				{/* <div className={FaqCSS.socialMedia}>
 					<h1 className={FaqCSS.socialMediaTitle}>
 						Volg onze <br /> sociale media!
 					</h1>
@@ -168,7 +168,7 @@ function Faq() {
 							</svg>
 						</a>
 					</div>
-				</div>
+				</div> */}
 			</div>
 			<Footer />
 		</>

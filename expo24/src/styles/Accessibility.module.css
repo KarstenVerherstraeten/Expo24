@@ -55,11 +55,11 @@ a {
 
 .info {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	text-align: left;
 	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
-	width: 430px;
+	width: 300px;
 }
 
 #marker {
@@ -69,7 +69,8 @@ a {
 
 .infoWrapper {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: center;
 	align-items: center;
 	width: 100%;
 	margin-top: 50px;
@@ -127,11 +128,16 @@ a {
 	border-bottom: 4px solid #000000;
 }
 
+
 .sectionContent {
-	max-height: 0px;
-	overflow: hidden;
-	transition: max-height 1s ease;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
+    padding: 0 0;
+    font-size: 16px;
+    line-height: 3vh;
 }
+
 
 .sectionContent p {
 	font-size: 16px;
@@ -140,15 +146,20 @@ a {
 }
 
 .sectionContent.open {
-	max-height: 200px;
+    max-height: 400px; /* Adjust as needed */
+    padding-bottom: 20px;
 }
 
 .sectionHeader {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	cursor: pointer;
-	padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: "Gotham Black";
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .sectionHeader h3 {
@@ -160,12 +171,12 @@ a {
 }
 
 .arrow {
-	display: inline-block;
-	transition: transform 0.3s ease;
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .arrow.open {
-	transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .GroundPlan {
@@ -203,6 +214,7 @@ a {
 		width: 50px;
 	}
 	.infoWrapper {
+		flex-direction: column;
 		margin-top: 40px;
 	}
 	.route {
@@ -254,6 +266,7 @@ a {
 		width: 30px;
 	}
 	.infoWrapper {
+		flex-direction: column;
 		margin-top: 0px;
 	}
 	.route {

@@ -4,7 +4,7 @@
 		"title": "LIVE CODING",
 		"description": "Wil je Multimedia & Creatieve Technologie studeren, maar weet je nog niets over coderen? Kom dan zeker langs tijdens één van onze live codingsessies. Samen met een tweedejaarsstudent doorloop je de basis van HTML, CSS en JavaScript en bouw je samen een eenvoudige website. Vergeet niet je logisch redeneervermogen mee te nemen!",
 		"backgroundColor": "#1281AE",
-		"images": "../src/assets/activityImages/live-coding.jpg",
+		"images": "live-coding.jpg",
 		"uren": [
 			{
 				"start": "17u30",

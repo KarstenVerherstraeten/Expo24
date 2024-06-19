@@ -1,9 +1,8 @@
 import homeCss from "../styles/Home.module.css";
-import { Link, useNavigate } from "react-router-dom";
-import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import logoB from "../assets/LogoB.svg";
 import Timer2 from "../components/Timer2";
-import Voorbeeld from "../assets/react.svg";
 import Slideshow from "../components/SlideShow";
 import Footer from "../components/Footer";
 import LocationLogo from "../assets/LocationLogo.png";
@@ -11,15 +10,21 @@ import HourLogo from "../assets/HourLogo.png";
 import QuestionLogo from "../assets/QuestionsLogo.png";
 import eindwerkenFoto from "/Eindwerken.jpg";
 import ActiviteitenFoto from "/lasercut.jpg";
-
 import VoteNow from "../components/VoteNow";
-
 import ReactGA from "react-ga4";
 
 function Home() {
+	const [showSignUp, setShowSignUp] = useState(true);
+	const [timerText, setTimerText] = useState("Schrijf je in!");
+
 	useEffect(() => {
 		ReactGA.send({ hitType: "pageview", page: "/", title: "Home" });
 	}, []);
+
+	const handleTimeUp = () => {
+		setShowSignUp(false);
+		setTimerText("Stem nu op de eindejaarswerken van de 3e jaars!");
+	};
 
 	return (
 		<>
@@ -27,26 +32,42 @@ function Home() {
 				<div className={homeCss.leftHeader}>
 					<div className={homeCss.headerDate}>
 						<h1>21 I 06 I 24</h1>
-						<h3>Vanaf 17u </h3>
+						<h3>Vanaf 17u</h3>
 					</div>
 					<div className={homeCss.homeButton}>
 						<img src={logoB} alt="" />
-						<Link to="/Inschrijving">SCHRIJF JE IN!</Link>
+						{showSignUp && <Link to="/Inschrijving">SCHRIJF JE IN!</Link>}
 					</div>
 				</div>
 				<div className={homeCss.rightHeader}>
 					<div className={homeCss.timer}>
-						<Timer2></Timer2>
+						<Timer2 onTimeUp={handleTimeUp} />
 					</div>
-					<div className={homeCss.headerText}>
-						<h2>Studenten Multimedia & Creatieve Technologie nodigen jullie uit op EXPO24: innovatieve afstudeerprojecten, workshops en awards!</h2>
-						<h2>Waar? Erasmushogeschool Brussel I Nijverheidskaai 170, 1070 Anderlecht.</h2>
-					</div>
+					{showSignUp && (
+						<div className={homeCss.headerText}>
+							<h2>
+								Studenten Multimedia & Creatieve Technologie nodigen jullie uit
+								op EXPO24: innovatieve afstudeerprojecten, workshops en awards!
+							</h2>
+							<h2>
+								Waar? Erasmushogeschool Brussel I Nijverheidskaai 170, 1070
+								Anderlecht.
+							</h2>
+						</div>
+					)}
+					{!showSignUp && (
+						<div className={homeCss.headerText}>
+							<h2>Stem nu op de eindejaarswerken van de 3e jaars!</h2>
+							<h2>
+								Geen code? <br /> Vraag er eentje aan op onze campus tijdens
+								EXPO24
+							</h2>
+						</div>
+					)}
 				</div>
 			</div>
 			<div>
 				<div className={homeCss.glassPanel}>
-					<div className={homeCss.glass}></div>
 					<div className={homeCss.glass}></div>
 					<div className={homeCss.glass}></div>
 					<div className={homeCss.glass}></div>
@@ -74,7 +95,7 @@ function Home() {
 				<h1>Ontdek het evenement</h1>
 			</div>
 			<div>
-				<Slideshow></Slideshow>
+				<Slideshow />
 			</div>
 			<div className={homeCss.content2}>
 				<div className={homeCss.Containers}>
@@ -83,7 +104,10 @@ function Home() {
 						<div className={homeCss.picture}>
 							<img src={eindwerkenFoto} alt="foto" />
 						</div>
-						<h3>De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden drie awards uitgereikt voor de beste projecten. </h3>
+						<h3>
+							De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden
+							drie awards uitgereikt voor de beste projecten.
+						</h3>
 						<a className={homeCss.button2}>
 							<Link to="https://multimedia.brussels">EINDWERKEN</Link>
 						</a>
@@ -93,7 +117,10 @@ function Home() {
 						<div className={homeCss.picture}>
 							<img src={ActiviteitenFoto} alt="foto" />
 						</div>
-						<h3>Tijdens expo24 worden er doorheen de avond met verschillende activiteiten aangeboden. </h3>
+						<h3>
+							Tijdens expo24 worden er doorheen de avond met verschillende
+							activiteiten aangeboden.
+						</h3>
 						<a className={homeCss.button2}>
 							<Link to="/Activities">ACTIVITEITEN</Link>
 						</a>
@@ -110,7 +137,7 @@ function Home() {
 						<div className={homeCss.logoText}>
 							<h4>
 								Erasmushogeschool Brussel <br />
-								Campus Kaai <br /> Nijverheidskaai 70, <br /> Anderlecht 1070{" "}
+								Campus Kaai <br /> Nijverheidskaai 70, <br /> Anderlecht 1070
 							</h4>
 							<a className={homeCss.redbutton}>
 								<Link to="/Accessibility">Bereikbaarheid</Link>
@@ -151,11 +178,16 @@ function Home() {
 					</div>
 				</div>
 				<Link to="/Inschrijving">
-					{" "}
 					<VoteNow />
 				</Link>
+				{!showSignUp && (
+					<div className={homeCss.voteText}>
+						<p>Stem nu op de eindejaarswerken van de 3e jaars!</p>
+						<p>Geen code? Vraag er eentje aan op onze campus tijdens EXPO24</p>
+					</div>
+				)}
 			</div>
-			<Footer></Footer>
+			<Footer />
 		</>
 	);
 }

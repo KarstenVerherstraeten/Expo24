@@ -25,19 +25,20 @@ function Footer() {
 									<Link to="/Activities">Programma</Link>
 								</li>
 								<li>
-									<Link to="/Accessibility">Bereikbaarheid</Link>
-								</li>
-								<li className={css.after}>
-									<Link to="/faq">FAQ</Link>
-								</li>
-								<li className="afterNiet"></li>
-							</div>
-							<div className={css.right}>
-								<li>
 									<Link to="https://multimedia.brussels/awards">Awards</Link>
 								</li>
 								<li>
 									<Link to="https://multimedia.brussels">Projecten</Link>
+								</li>
+								
+								<li className="afterNiet"></li>
+							</div>
+							<div className={css.right}>
+							<li>
+									<Link to="/Accessibility">Bereikbaarheid</Link>
+								</li>
+								<li className={css.after}>
+									<Link to="/faq">FAQ</Link>
 								</li>
 							</div>
 						</div>

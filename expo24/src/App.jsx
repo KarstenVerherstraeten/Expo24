@@ -16,7 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import AfterPage from "./pages/AfterPage";
 
 function App() {
-	const eventEndDate = new Date("Jun 18, 2024 23:59:59").getTime(); // Replace with your event end date
+	const eventEndDate = new Date("Jun 28, 2024 23:59:59").getTime(); // Replace with your event end date
 
 	const [isEventOngoing, setIsEventOngoing] = useState(true);
 

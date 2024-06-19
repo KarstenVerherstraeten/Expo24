@@ -25,7 +25,7 @@ function AfterPage() {
 				<div>
 					<h2>
 						Bekijk hier de <br />
-						gewonnen awards
+						gewonnen werken
 					</h2>
 
 					<img src={awards} alt="Awards" />
@@ -35,7 +35,7 @@ function AfterPage() {
 				</div>
 				<div>
 					<h2>
-						Opendeurdag 29 juni <br />
+						Opendeurdag vind plaats op 29 juni <br />
 						bekijk hier al de details
 					</h2>
 

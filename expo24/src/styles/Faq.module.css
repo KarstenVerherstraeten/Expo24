@@ -20,6 +20,7 @@
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
 }
 
 .faqContainer .titleFaq {
@@ -132,6 +133,7 @@ h1 {
 	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
 	padding: 10px 0;
 	margin-bottom: 100px;
+	margin: 0 100px;
 }
 
 .accordionItem {

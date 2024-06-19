@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 import "@splidejs/react-splide/css/sea-green";
-import Eindwerken from "../assets/activityImages/Eindwerken.jpg";
+import Eindwerken from "/Eindwerken.jpg";
 import ContactLeggen from "../assets/activityImages/ContactLeggen.jpg";
 import MCT from "../assets/activityImages/Opleiding.jpeg";
 import Workshops from "../assets/activityImages/Workshops.jpg";
-import Drank from "../assets/activityImages/Eten&Drinken.jpg";
-import BBQ from "../assets/activityImages/bbq.jpeg";
-import Award from "../assets/activityImages/Award.png";
+import Drank from "/Eten&Drinken.jpg";
+import BBQ from "/bbq.jpeg";
+import Award from "/Award.png";
 
 const Slideshow = () => {
 	return (

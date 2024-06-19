@@ -39,10 +39,10 @@ const HamburgerMenu = () => {
 					FAQ
 				</Link>
 
-				<Link to="/Item2" onClick={closeMenu}>
+				<Link to="https://multimedia.brussels/awards" onClick={closeMenu}>
 					Awards
 				</Link>
-				<Link to="/Item3" onClick={closeMenu}>
+				<Link to="https://multimedia.brussels" onClick={closeMenu}>
 					Projecten
 				</Link>
 			</div>

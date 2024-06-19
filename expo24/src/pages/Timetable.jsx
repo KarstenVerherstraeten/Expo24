@@ -13,8 +13,8 @@ function Timetable() {
 
     const sortedActivities = {
         MAKERSPACE: activitiesData.filter(activity => activity.locatie === "MAKERSPACE").sort((a, b) => {
-            const aStartTime = parseFloat(a.hours[0].start.replace("u", "").replace(":", "."));
-            const bStartTime = parseFloat(b.hours[0].start.replace("u", "").replace(":", "."));
+            const aStartTime = parseFloat(a.uren[0].start.replace("u", "").replace(":", "."));
+            const bStartTime = parseFloat(b.uren[0].start.replace("u", "").replace(":", "."));
             return aStartTime - bStartTime;
         }),
         MEETUP: activitiesData.filter(activity => activity.locatie === "MEETUP"),

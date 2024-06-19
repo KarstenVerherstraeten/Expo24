@@ -87,7 +87,7 @@ const Slideshow = () => {
 							</div>
 							<p className={slideCSS.mainText}>ETEN EN DRINKEN</p>
 							<div className={slideCSS.infoBox}>
-								<p className={slideCSS.infoText}>Er wordt een gratis welkomstdrankje uitgedeeld en er zijn enkele snacks beschikbaar.</p>
+								<p className={slideCSS.infoText}>Een gratis welkomstdrankje word uitgedeeld en er staan snacks beschikbaar.</p>
 							</div>
 						</a>
 					</div>
@@ -144,7 +144,7 @@ const Slideshow = () => {
 							</div>
 							<p className={slideCSS.mainText}>EINDWERKEN</p>
 							<div className={slideCSS.infoBox}>
-								<p className={slideCSS.infoText}>Tijdens de expo worden de werken van de derdejaars getoond waarop je ook kunt stemmen.</p>
+								<p className={slideCSS.infoText}>Eindwerken van de derdejaars worden getoond waarop je ook kunt stemmen tijdens de expo.</p>
 							</div>
 						</Link>
 					</div>
@@ -163,7 +163,7 @@ const Slideshow = () => {
 							</div>
 							<p className={slideCSS.mainText}>CONTACTEN LEGGEN</p>
 							<div className={slideCSS.infoBox}>
-								<p className={slideCSS.infoText}>Er komen veel bedrijven en studenten, dus je kunt goede connecties maken met iedereen.</p>
+								<p className={slideCSS.infoText}>Er komen veel bedrijven en studenten, dus je hebt de kans om waardevolle connecties maken met iedereen.</p>
 							</div>
 						</a>
 					</div>
@@ -182,7 +182,7 @@ const Slideshow = () => {
 							</div>
 							<p className={slideCSS.mainText}>OPLEIDING: MCT</p>
 							<div className={slideCSS.infoBox}>
-								<p className={slideCSS.infoText}>De expo wordt georganiseerd door de multimedia studenten. Klik hier om een kijkje te nemen op de website van EHB.</p>
+								<p className={slideCSS.infoText}>De expo wordt georganiseerd door de tweedejaarsstudenten van Multimedia & Creatieve Technologie. Klik hier om een kijkje te nemen op de website van EHB.</p>
 							</div>
 						</a>
 					</div>

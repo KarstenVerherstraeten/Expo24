@@ -15,14 +15,20 @@ function Timetable() {
 		MAKERSPACE: activitiesData
 			.filter((activity) => activity.locatie === "MAKERSPACE")
 			.sort((a, b) => {
-				const aStartTime = parseFloat(a.hours[0].start.replace("u", "").replace(":", "."));
-				const bStartTime = parseFloat(b.hours[0].start.replace("u", "").replace(":", "."));
+				const parseTime = (timeStr) => {
+					const [hours, minutes] = timeStr.replace("u", ":").split(":").map(Number);
+					return new Date(1970, 0, 1, hours, minutes || 0); // Use a base date
+				};
+	
+				const aStartTime = parseTime(a.hours[0].start);
+				const bStartTime = parseTime(b.hours[0].start);
 				return aStartTime - bStartTime;
 			}),
 		MEETUP: activitiesData.filter((activity) => activity.locatie === "MEETUP"),
 		GALLERY: activitiesData.filter((activity) => activity.locatie === "GALLERY"),
 		TUIN: activitiesData.filter((activity) => activity.locatie === "TUIN"),
 	};
+	
 
 	function toggleActivities(section) {
 		const sectionActivities = document.querySelectorAll(`.${section}Activity`);

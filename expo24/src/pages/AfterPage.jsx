@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 import awards from "/Award.jpg";
 import Infodag from "../assets/vrGames.jpg";
 import AfterFooter from "../components/AfterFooter.jsx";
-import Showreel from "/works_compilation_draft.mp4";
 
 function AfterPage() {
 	return (
@@ -45,11 +44,7 @@ function AfterPage() {
 					</a>
 				</div>
 			</div>
-			<div className={afterCss.container}>
-				<video className={afterCss.video} src={Showreel} type="video/mp4" controls>
-					Jouw browser ondersteunt de video tag niet.
-				</video>
-			</div>
+
 			<AfterFooter />
 			<div className={afterCss.glassPanel}>
 				<div className={afterCss.glass}></div>

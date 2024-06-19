@@ -6,7 +6,7 @@ const Timer2 = ({ onTimeUp }) => {
 	const [isTimeUp, setIsTimeUp] = useState(false);
 
 	useEffect(() => {
-		const countDownDate = new Date("Jun 21, 2024 17:00:00").getTime();
+		const countDownDate = new Date("Jun 11, 2024 17:00:00").getTime();
 
 		const updateTimer = () => {
 			const now = new Date().getTime();
@@ -40,7 +40,9 @@ const Timer2 = ({ onTimeUp }) => {
 		<div className={TimerCss["time-blocks"]}>
 			{isTimeUp ? (
 				<div className={TimerCss["time-block"]}>
-					<a href="/vote" className={TimerCss["vote-button"]}>Stem nu!</a>
+					<a href="/vote" className={TimerCss["vote-button"]}>
+						Stem nu!
+					</a>
 				</div>
 			) : (
 				<>

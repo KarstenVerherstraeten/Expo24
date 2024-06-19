@@ -158,7 +158,7 @@ h1 {
 	align-items: center;
 	cursor: pointer;
 	padding: 10px 0;
-	font-size: 3vh;
+	font-size: 20px;
 	font-family: "Gotham Black";
 	font-weight: "400";
 	margin-bottom: 15px;
@@ -204,7 +204,7 @@ h1 {
 	}
 
 	.accordionTitle {
-		font-size: 2vh;
+		font-size: 20px;
 	}
 
 	.arrow svg {

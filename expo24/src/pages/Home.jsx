@@ -9,18 +9,18 @@ import Footer from "../components/Footer";
 import LocationLogo from "../assets/LocationLogo.png";
 import HourLogo from "../assets/HourLogo.png";
 import QuestionLogo from "../assets/QuestionsLogo.png";
-import eindwerkenFoto from "../assets/activityImages/Eindwerken.jpg";
-import ActiviteitenFoto from "../assets/activityImages/lasercut.jpg";
+import eindwerkenFoto from "/Eindwerken.jpg";
+import ActiviteitenFoto from "/lasercut.jpg";
 
-import VoteNow from "../components/VoteNow"; 
+import VoteNow from "../components/VoteNow";
 
 import ReactGA from "react-ga4";
 
 function Home() {
 	useEffect(() => {
-        ReactGA.send({ hitType: "pageview", page: "/", title: "Home" });
-    }, []);
-	
+		ReactGA.send({ hitType: "pageview", page: "/", title: "Home" });
+	}, []);
+
 	return (
 		<>
 			<div className={homeCss.header}>
@@ -150,7 +150,10 @@ function Home() {
 						</div>
 					</div>
 				</div>
-				<Link to="/Inschrijving"> <VoteNow /></Link>
+				<Link to="/Inschrijving">
+					{" "}
+					<VoteNow />
+				</Link>
 			</div>
 			<Footer></Footer>
 		</>

@@ -137,7 +137,7 @@ function Home() {
 						<div className={homeCss.logoText}>
 							<h4>
 								Erasmushogeschool Brussel <br />
-								Campus Kaai <br /> Nijverheidskaai 70, <br /> Anderlecht 1070
+								Campus Kaai <br /> Nijverheidskaai 170, <br /> Anderlecht 1070
 							</h4>
 							<a className={homeCss.redbutton}>
 								<Link to="/Accessibility">Bereikbaarheid</Link>

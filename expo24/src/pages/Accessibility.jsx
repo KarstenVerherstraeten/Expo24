@@ -57,7 +57,7 @@ function Accessibility() {
                     <img id={AccessibilityCSS.marker} src={Location} alt="Location Marker" />
                     <div className={AccessibilityCSS.info}>
                         <h4>
-                            Erasmushogeschool Brussel <br /> Campus Kaai <br /> Nijverheidskaai 70, <br />
+                            Erasmushogeschool Brussel <br /> Campus Kaai <br /> Nijverheidskaai 170, <br />
                             Anderlecht 1070
                         </h4>
                         <a target="_blank" href="https://maps.app.goo.gl/3ARQ3KRZ7JZYnV9Y6" rel="noopener noreferrer">

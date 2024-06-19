@@ -65,8 +65,7 @@
 
 .form-3 {
     flex-direction: column;
-    margin-bottom: 30px;
-    margin-top: 2%;
+    margin-bottom: 5vh;
     gap: 20px;
 }
 
@@ -186,9 +185,8 @@
 
 .continue {
     position: relative;
-    width: 150px;
     border-radius: 0;
-    font-size: 20px;
+    font-size: 16px;
     overflow: hidden;
     background-color: #e30613;
 	color: white;

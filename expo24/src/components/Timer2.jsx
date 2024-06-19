@@ -40,7 +40,9 @@ const Timer2 = ({ onTimeUp }) => {
 		<div className={TimerCss["time-blocks"]}>
 			{isTimeUp ? (
 				<div className={TimerCss["time-block"]}>
-					<a href="/vote" className={TimerCss["vote-button"]}>Stem nu!</a>
+					<a href="/vote" className={TimerCss["vote-button"]}>
+						Stem nu!
+					</a>
 				</div>
 			) : (
 				<>

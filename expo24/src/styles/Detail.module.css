@@ -98,6 +98,9 @@ hr {
 .Containers {
 	margin-bottom: 150px;
 }
+.Containers p {
+	font-family: "Gotham light";
+}
 
 /* Top part */
 

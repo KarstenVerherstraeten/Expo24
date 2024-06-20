@@ -14,6 +14,8 @@ import PageNotFound from "./pages/PageNotFound";
 import Detail from "./pages/Detail";
 import ScrollToTop from "./components/ScrollToTop";
 import AfterPage from "./pages/AfterPage";
+import Privacy from "./pages/Privacy";
+import CookieConsent from "./components/Cookie";
 
 function App() {
 	const eventEndDate = new Date("Jun 28, 2024 23:59:59").getTime(); // Replace with your event end date
@@ -32,6 +34,7 @@ function App() {
 	return (
 		<Router>
 			<ScrollToTop />
+			<CookieConsent />
 			<Routes>
 				{isEventOngoing ? (
 					<Route path="/" element={<Navigation />}>
@@ -44,6 +47,7 @@ function App() {
 						<Route path="Faq" element={<Faq />} />
 						<Route path="*" element={<PageNotFound />} />
 						<Route path="activity/:title" element={<Detail />} />
+						<Route path="privacy" element={<Privacy />} />
 					</Route>
 				) : (
 					<Route path="/" element={<AfterPage />} />
@@ -53,4 +57,4 @@ function App() {
 	);
 }
 
-export default App;
+export default App; // Wrap App with the HOC

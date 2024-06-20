@@ -68,9 +68,6 @@
 .menuItems img {
 	padding-top: 22px;
 }
-.menuItems a:hover {
-	background-color: #575757;
-}
 
 /* Show menu items when the menu is open */
 .hamburgerMenu.open .menuItems {

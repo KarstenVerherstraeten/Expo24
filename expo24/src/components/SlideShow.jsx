@@ -164,7 +164,8 @@ const Slideshow = () => {
 
 				<SplideSlide>
 					<div className={slideCSS.tile}>
-						<a href="">
+						<a title="midden" name="midden"></a>
+						<a href="#midden">
 							<div className={slideCSS.imageContainer}>
 								<img src={ContactLeggen} alt="Project Background" className={slideCSS.backgroundImage} />
 								<div className={slideCSS.glassPanel}>

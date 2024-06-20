@@ -21,7 +21,7 @@
 }
 .time-blocks {
 	display: flex;
-
+	line-height: normal;
 	justify-content: space-evenly;
 }
 .time-block h1 {

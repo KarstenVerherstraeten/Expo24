@@ -82,6 +82,7 @@ For any questions or suggestions, feel free to open an issue or contact us via T
 - [Email.js](https://www.emailjs.com/) - Email sending service.
 - [Render.com](https://render.com/) - Hosting service.
 - [SplideJS.com](https://splidejs.com/) - Slider Library
+- [React-Cookie](https://www.npmjs.com/package/react-cookie) - Cookie Library
 
 ## Framework
 

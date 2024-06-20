@@ -158,9 +158,7 @@ hr {
 		align-items: center;
 		width: 100%;
 	}
-	.randomActivities p {
-		margin-bottom: 40px;
-	}
+
 	.titleAccessibility h1 {
 		font-size: 30px;
 	}
@@ -189,9 +187,7 @@ hr {
 		flex-direction: column;
 		width: 80%;
 	}
-	.randomActivities p {
-		margin-bottom: 40px;
-	}
+	
 	.titleAccessibility h1 {
 		font-size: 30px;
 	}

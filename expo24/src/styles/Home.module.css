@@ -140,6 +140,7 @@ h1 {
 .Containers {
 	display: flex;
 	justify-content: space-around;
+	width: 100%;
 }
 
 .items {
@@ -148,8 +149,8 @@ h1 {
 	align-items: center;
 	color: black;
 	font-family: "Gotham light";
-	width: 700px;
 	margin: 0 30px;
+	width: 500px;
 }
 .items h4 {
 	color: black;
@@ -162,8 +163,8 @@ h1 {
 	text-align: center;
 }
 .picture {
-	width: 100%;
-	height: 350px;
+	width: 500px;
+	height: 100%;
 	margin: 0 40px;
 }
 .picture img {
@@ -487,7 +488,7 @@ h1 {
 		width: 100%;
 	}
 
-	.rightHeader h2{
+	.rightHeader h2 {
 		width: 100%;
 	}
 
@@ -518,7 +519,7 @@ h1 {
 		padding: 0 20px;
 	}
 
-	.rightHeader div{
+	.rightHeader div {
 		width: 90vw;
 	}
 }

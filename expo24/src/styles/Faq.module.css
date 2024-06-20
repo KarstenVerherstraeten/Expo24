@@ -20,7 +20,6 @@
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 100px;
 }
 
 .faqContainer .titleFaq {
@@ -133,7 +132,7 @@ h1 {
 	font-family: "Gotham Light", Arial, Helvetica, sans-serif;
 	padding: 10px 0;
 	margin-bottom: 100px;
-	margin: 0 100px;
+	margin: 0 100px 100px;
 }
 
 .accordionItem {
@@ -187,7 +186,7 @@ h1 {
 @media (max-width: 768px) {
 	.faqContainer {
 		margin-top: 50vh;
-		padding: 0 20px;
+		margin-bottom: 5vh;
 	}
 
 	.faqContainer h1 {
@@ -207,6 +206,11 @@ h1 {
 
 	.accordionTitle {
 		font-size: 20px;
+	}
+
+	.accordion{
+		margin: 0 20px;
+		padding: 0;
 	}
 
 	.arrow svg {
@@ -229,11 +233,16 @@ h1 {
 	}
 }
 
+@media screen and (max-width: 480px) {
+    .accordion {
+        margin: 40px 20px;
+    }
+}
+
 /* ------------------ Smartphone -------------------- */
 @media (max-width: 450px) {
 	.faqContainer {
 		margin-top: 45vh;
-		padding: 0 10px;
 	}
 
 	.faqContainer h1 {

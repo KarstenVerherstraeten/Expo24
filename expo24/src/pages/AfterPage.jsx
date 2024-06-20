@@ -58,7 +58,7 @@ function AfterPage() {
 				<div className={afterCss.glass}></div>
 			</div>
 			<div className={afterCss.videoContainer}>
-			<iframe src="https://www.youtube.com/embed/nPWbtaNguhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/bqjlRVzLZcs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 			</div>
 

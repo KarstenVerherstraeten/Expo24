@@ -1,0 +1,48 @@
+.privacyWrapper{
+    margin: 0px 100px;
+}
+
+.privacyWrapper h2{
+    font-size: 24px;
+    margin: 20px 0px;
+    font-family: "Gotham bold", Arial, Helvetica, sans-serif;
+
+}
+
+.privacyWrapper h3{
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: "Gotham bold", Arial, Helvetica, sans-serif;
+}
+
+.privacyWrapper h4{
+    font-size: 18px;
+    margin: 20px 0px;
+    font-family: "Gotham bold", Arial, Helvetica, sans-serif;
+}
+
+.privacyWrapper strong{
+    font-size: 16px;
+    font-family: "Gotham bold", Arial, Helvetica, sans-serif;
+}
+
+.privacyWrapper li{
+    font-size: 16px;
+    margin: 20px 0px;
+    font-family: "Gotham Light", Arial, Helvetica, sans-serif;
+
+}
+
+.privacyWrapper li strong{
+    font-size: 16px;
+    font-family: "Gotham bold", Arial, Helvetica, sans-serif;
+
+}
+.privacyWrapper p{
+    font-size: 16px;
+    font-family: "Gotham Light", Arial, Helvetica, sans-serif;
+}
+.title {
+    margin-top: 100px;
+    font-family: "Gotham bold", Arial, Helvetica, sans-serif;
+}

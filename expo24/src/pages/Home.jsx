@@ -111,7 +111,7 @@ function Home() {
 							<div className={homeCss.picture}>
 								<img src={ActiviteitenFoto} alt="foto" />
 							</div>
-							<h3>Tijdens expo24 worden er doorheen de avond met verschillende activiteiten aangeboden.</h3>
+							<h3>Tijdens expo24 worden er doorheen de avond verschillende activiteiten aangeboden.</h3>
 							<a className={homeCss.button2}>
 								<Link to="/Activities">ACTIVITEITEN</Link>
 							</a>

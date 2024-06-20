@@ -1,3 +1,88 @@
+/* header  */
+h1 {
+	margin: 0px;
+}
+.header {
+	margin-top: 100px;
+	color: black;
+	margin: 100px 100px 0px 100px;
+	display: flex;
+}
+.header h1 {
+	margin-left: 40px;
+	margin-bottom: -15px;
+	font-size: 50px;
+	font-family: "Gotham Medium";
+}
+.headerDate {
+	display: flex;
+	height: 60px;
+	align-items: baseline;
+	justify-content: space-between;
+}
+.headerDate h3 {
+	margin: 0;
+}
+.header img {
+	width: 500px;
+}
+
+.headerText h2 a{
+	text-decoration: underline;
+}
+
+.leftHeader {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+.leftHeader a:hover {
+	background-color: #e30613;
+	color: white;
+	cursor: pointer;
+	box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
+	transition-duration: 0.5s;
+}
+.leftHeader h3 {
+	font-family: "Gotham Medium";
+	margin-left: 10px;
+	font-size: 20px;
+}
+.leftHeader a{
+	font-family: "Gotham bold";
+	font-size: 16px;
+	color: white;
+	padding: 13px 20px;
+	background-color: #e30613;
+	border: none;
+	text-decoration: none;
+	margin-right: 35px;
+}
+.homeButton {
+	display: flex;
+	flex-direction: column;
+}
+.homeButton h3 {
+	font-family: "Gotham light";
+	margin-top: -10px;
+	margin-left: 30px;
+}
+.text {
+	margin-top: -10px;
+}
+.rightHeader {
+	display: flex;
+	margin-left: 10%;
+	margin-right: 5%;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.rightHeader h2 {
+	font-family: "Gotham Light";
+	font-size: 16px;
+}
+
 .glassPanel {
 	background-color: white;
 	background-image: url(../assets/testeffect.gif);
@@ -5,13 +90,12 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 30vh;
+	height: 50vh;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	margin-top: 1200px;
+	margin-top: 100px;
 	transform: scale(1);
-	position: absolute;
 }
 
 .glass {
@@ -41,9 +125,8 @@
 	font-size: 16px;
 }
 .buttons div {
-	margin-top: 50px;
+	margin-top: 10vh;
 	text-align: center;
-	margin-bottom: 900px;
 	width: 600px;
 }
 .buttons img {
@@ -57,24 +140,164 @@
 }
 .button {
 	background-color: red;
-	padding: 15px 20px;
+	padding: 10px 15px;
 	color: white;
 	font-family: "Gotham Bold";
 	font-size: 20px;
 }
 .buttons h2 {
 	margin-bottom: 30px;
+	font-size: 30px;
 }
-.NavContainer {
-	display: none;
+
+.buttons a:hover{
+	background-color: #e30613;
+	color: white;
+	cursor: pointer;
+	box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
+	transition-duration: 0.5s;
 }
-.video {
-	width: 80%;
-	margin-top: -300px;
-}
-.container {
-	align-items: center;
+
+.videoContainer{
 	display: flex;
 	justify-content: center;
-	margin-bottom: 200px;
+	height: fit-content;
+	margin-top: 5vh;
+}
+
+.videoContainer iframe{
+	width: 1024px;
+	height: 576px;
+}
+
+.activities {
+	margin: 15vh 200px 20vh;
+	display: flex;
+	align-items: center;
+	width: auto;
+	justify-content: center;
+}
+
+.textActivities {
+	margin-right: 10vw;
+}
+
+.textActivities p {
+	font-family: "Gotham Light";
+}
+
+.btn {
+	position: relative;
+	background-color: #e30613;
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+	font-family: "Gotham Black";
+	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.4);
+    transition-duration: 0.5s;
+	overflow: hidden;
+}
+
+
+.btn:hover {
+    background-color: #e30613;
+    color: white;
+    cursor: pointer;
+    box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 1024px){
+	.header{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.videoContainer iframe{
+		width: 640px;
+		height: 360px;
+	}
+
+	.activities{
+		flex-direction: column;
+	}
+
+	.textActivities{
+		margin-right: 0;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 768px){
+
+	.leftHeader img{
+		width: 100%;
+	}
+
+	.activities{
+		margin: 15vh auto 20vh;
+		padding: 0 10px;
+	}
+
+	.buttons div{
+		width: 400px;
+	}
+	
+
+}
+
+@media (max-width: 500px){
+
+	.leftHeader{
+		width: 300px;
+	}
+
+	.leftHeader a{
+		margin-right: 0;
+	}
+
+	.leftHeader h3{
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+
+	.header{
+		margin: 100px auto 0;
+	}
+
+	.headerDate{
+		margin-top: 10px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.rightHeader{
+		margin-top: 10px;
+	}
+
+	.glassPanel{
+		margin-top: 50px;
+	}
+
+	.videoContainer iframe{
+		width: 426px;
+		height: 240px;
+	}
+
+}
+
+
+@media (max-width: 425px){
+	.rightHeader h2{
+		font-size: 13px;
+	}
+
+	.glassPanel{
+		margin-top: 50px;
+	}
+
+	.buttons div{
+		width: 300px;
+	}
 }

@@ -108,8 +108,13 @@
 }
 
 .ehbLogo a{
-	color: rgb(47, 47, 47);
+	color: rgb(255, 255, 255);
+	margin-bottom: 20px;
 
+}
+
+.ehbLogo img{
+	margin-bottom: -10px;
 }
 
 @media screen and (max-width: 1050px) {

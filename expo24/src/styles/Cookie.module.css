@@ -8,7 +8,14 @@
     padding: 10px;
     text-align: center;
     z-index: 1000; /* Ensure it appears above other content */
+    font-family: "Gotham Light", Arial, Helvetica, sans-serif;
 }
+
+.giveCookieConsent a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .giveCookieConsent p {
     margin: 0;
     display: inline;

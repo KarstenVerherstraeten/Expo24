@@ -55,9 +55,9 @@ function Detail() {
 				</div>
 			</div>
 
-			<div className={detailCss.buttonBack}>
+			<a href="/Activities" className={detailCss.buttonBack}>
 				<Link to="/Activities">Ga terug</Link>
-			</div>
+			</a>
 
 			<div className={detailCss.Containers}>
 				<div className={detailCss.leftContainer}>

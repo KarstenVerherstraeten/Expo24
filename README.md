@@ -75,6 +75,7 @@ For any questions or suggestions, feel free to open an issue or contact us via T
 - [GitHub Copilot](https://github.com/features/copilot) - Code hinting and suggestions.
 - Other Students
 - Exercises/Lessons
+- [W3Schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) - Hamburgermenu op mobile.
 
 ## Services
 

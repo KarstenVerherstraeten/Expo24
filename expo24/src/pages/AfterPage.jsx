@@ -16,8 +16,8 @@ function AfterPage() {
 					<div className={afterCss.homeButton}>
 						<img src={logoB} alt="" />
 						<div className={afterCss.headerDate}>
-							<h3>Bekijk de winnaars</h3>
-							<Link to="https://www.erasmushogeschool.be/nl/opleidingen/multimedia-creatieve-technologie#infodagen">PRIJZEN</Link>
+							<h3>De projecten kregen <br></br> erkenning ...</h3>
+							<Link to="https://www.erasmushogeschool.be/nl/opleidingen/multimedia-creatieve-technologie#infodagen">DE WINNAARS</Link>
 						</div>
 					</div>
 				</div>

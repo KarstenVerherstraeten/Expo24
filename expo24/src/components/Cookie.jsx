@@ -13,7 +13,7 @@ const CookieConsent = () => {
       <p>
         We use cookies to enhance your user experience. By using our website,
         you agree to our use of cookies.{" "}
-        <a href={"/privacy-policy"}>Learn more.</a>
+        <a href={"/privacy"}>Learn more.</a>
       </p>
       <button onClick={giveCookieConsent}>
         Accept

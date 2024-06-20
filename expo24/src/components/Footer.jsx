@@ -59,6 +59,7 @@ function Footer() {
 								<img src={Tiktok} alt="Tiktok" />
 							</a>
 						</div>
+						<a className={css.privacy} href="/privacy">Privacy</a>
 						<a target="_blank" href="https://www.erasmushogeschool.be/nl/opleidingen/multimedia-creatieve-technologie">
 							<img className={css.logoEhb} src={LogoEHB} alt="EHB"></img>
 						</a>

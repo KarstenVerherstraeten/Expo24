@@ -107,6 +107,11 @@
 	margin-left: -30px;
 }
 
+.ehbLogo a{
+	color: rgb(47, 47, 47);
+
+}
+
 @media screen and (max-width: 1050px) {
 	.links {
 		align-items: center;

@@ -62,7 +62,7 @@ function Detail() {
 			<div className={detailCss.Containers}>
 				<div className={detailCss.leftContainer}>
 					<h1>Wat is er te doen?</h1>
-					<h2>{activity.description}</h2>
+					<p>{activity.description}</p>
 				</div>
 				<div className={detailCss.rightContainer}>
 					<h1>Wanneer?</h1>

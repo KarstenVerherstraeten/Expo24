@@ -1,53 +1,38 @@
 /* Existing styles from the user */
 
-
-
 @font-face {
-    font-family: 'Gotham Light';
-    src: url('./assets/fonts/gotham-light-webfont.woff2') format('woff2'),
-         url('./assets/fonts/gotham-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'Gotham Bold';
-    src: url('./assets/fonts/gothambold-webfont.woff2') format('woff2'),
-         url('./assets/fonts/gothambold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'Gotham Black';
-    src: url('./assets/fonts/gotham-black-webfont.woff2') format('woff2'),
-         url('./assets/fonts/gotham-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'Gotham Medium';
-    src: url('./assets/fonts/gothammedium-webfont.woff2') format('woff2'),
-         url('./assets/fonts/gothammedium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: "Gotham Light";
+	src: url("./assets/fonts/gotham-light-webfont.woff2") format("woff2"), url("./assets/fonts/gotham-light-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Gotham Book';
-    src: url('./assets/fonts/gothambook-webfont.woff2') format('woff2'),
-         url('./assets/fonts/gothambook-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: "Gotham Bold";
+	src: url("./assets/fonts/gothambold-webfont.woff2") format("woff2"), url("./assets/fonts/gothambold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: "Gotham Black";
+	src: url("./assets/fonts/gotham-black-webfont.woff2") format("woff2"), url("./assets/fonts/gotham-black-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham Medium";
+	src: url("./assets/fonts/gothammedium-webfont.woff2") format("woff2"), url("./assets/fonts/gothammedium-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham Book";
+	src: url("./assets/fonts/gothambook-webfont.woff2") format("woff2"), url("./assets/fonts/gothambook-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 ::-webkit-scrollbar {
@@ -97,4 +82,7 @@ body {
 
 #SignIn:hover {
 	cursor: pointer;
+}
+:root {
+	line-height: 1.5;
 }

@@ -29,7 +29,6 @@ function Home() {
 
 	return (
 		<>
-	
 			<div className={homeCss.header}>
 				<div className={homeCss.leftHeader}>
 					<div className={homeCss.headerDate}>
@@ -98,7 +97,7 @@ function Home() {
 						<div className={homeCss.items}>
 							<h4>Eindwerken</h4>
 							<div className={homeCss.picture}>
-								<img src={eindwerkenFoto} alt="foto" />
+								<iframe src="https://www.youtube.com/embed/nPWbtaNguhk" height="auto" width="400px" title="Iframe Example"></iframe>
 							</div>
 							<h3>De derdejaar presenteren tijdens expo24 hun eindwerken. Er worden drie awards uitgereikt voor de beste projecten.</h3>
 							<a className={homeCss.button2}>

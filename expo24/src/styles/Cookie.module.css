@@ -1,0 +1,24 @@
+/* Cookie.module.css */
+.giveCookieConsent {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+.giveCookieConsent p {
+    margin: 0;
+    display: inline;
+}
+
+.giveCookieConsent button {
+    margin-left: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

@@ -12,6 +12,7 @@ import eindwerkenFoto from "/Eindwerken.jpg";
 import ActiviteitenFoto from "/lasercut.jpg";
 import VoteNow from "../components/VoteNow";
 import ReactGA from "react-ga4";
+import Cookie from "../components/Cookie";
 
 function Home() {
 	const [showSignUp, setShowSignUp] = useState(true);
@@ -28,6 +29,7 @@ function Home() {
 
 	return (
 		<>
+	
 			<div className={homeCss.header}>
 				<div className={homeCss.leftHeader}>
 					<div className={homeCss.headerDate}>

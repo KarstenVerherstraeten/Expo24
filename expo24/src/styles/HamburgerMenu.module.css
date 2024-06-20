@@ -52,6 +52,7 @@
 	height: 100vh; /*tijdens live update to 110vh */
 	background-color: #f8f8f8; /* Updated to match background color for open state */
 	z-index: 10; /* Ensure it covers the main content but below the icon */
+	overflow-y: auto;
 }
 
 /* Styles for each link in the menu */

@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Expo.24 is a web application for showcasing the final year projects of the third-year students at Erasmushogeschool. The application provides information about the event, including general details, reasons to attend, and an interactive section where users can sign in to participate.
+EXPO24 is a web application for showcasing the final year projects of the third-year students at Erasmushogeschool. The application provides information about the event, including general details, reasons to attend, and an interactive section where users can sign in to participate.
 
 ## Installation
 
@@ -88,4 +88,4 @@ For any questions or suggestions, feel free to open an issue or contact us via T
 
 ---
 
-Thank you for checking out Expo.24! We hope to see you at the event.
+Thank you for checking out EXPO24! We hope to see you at the event.

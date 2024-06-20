@@ -1,300 +1,295 @@
 .glassPanel {
-    background-color: white;
-    background-image: url(../assets/testeffect.gif);
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 80px;
-    transform: scale(1);
+	background-color: white;
+	background-image: url(../assets/testeffect.gif);
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 80px;
+	transform: scale(1);
 }
 
 .glass {
-    width: 10%;
-    height: 100%;
-    backdrop-filter: blur(30px);
-    background: linear-gradient(to right,
-            rgba(64, 64, 73, 0.1) 0%,
-            rgba(0, 0, 0, 0.4) 80%,
-            rgba(14, 14, 17, 0.6) 100%);
+	width: 10%;
+	height: 100%;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(to right, rgba(64, 64, 73, 0.1) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(14, 14, 17, 0.6) 100%);
 }
 
 .titleActivities {
-    position: absolute;
-    color: #F8F8F8;
-    font-size: 10vh;
-    padding: 10px 20px;
+	position: absolute;
+	color: #f8f8f8;
+	font-size: 10vh;
+	padding: 10px 20px;
 }
 
-
 .form-section-1 input {
-    width: 230px;
-    height: 30px;
-    padding: 0.5em;
-    margin-bottom: 16px;
-    border: 2px #E50000 solid;
-    box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.4);
+	width: 230px;
+	height: 30px;
+	padding: 0.5em;
+	margin-bottom: 16px;
+	border: 2px #e50000 solid;
+	box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.4);
 }
 
 .select-2 select {
-    width: 450px;
-    height: 30px;
-    padding: 0.5em;
-    margin-bottom: 16px;
+	width: 450px;
+	height: 30px;
+	padding: 0.5em;
+	margin-bottom: 16px;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    color: white;
-    margin-top: 5vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	color: white;
+	margin-top: 5vh;
 }
 
 .svg-form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 }
 
 .form-3 {
-    flex-direction: column;
-    margin-bottom: 5vh;
-    gap: 20px;
+	flex-direction: column;
+	margin-bottom: 5vh;
+	gap: 20px;
 }
 
 .section-1,
 .section-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 @media (min-width: 600px) {
-
-    .section-1,
-    .section-2 {
-        flex-direction: row;
-    }
+	.section-1,
+	.section-2 {
+		flex-direction: row;
+	}
 }
 
 .section-1 input,
 .section-2 input {
-    flex: 1;
-    font-family: "Gotham Light";
-    font-size: 14px;
-    border: 2px #E50000 solid;
-    box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.4);
+	flex: 1;
+	font-family: "Gotham Light";
+	font-size: 14px;
+	border: 2px #e50000 solid;
+	box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.4);
 }
 
 .occupation-3,
 .project-checkbox-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 20px;
 }
 
 @media (min-width: 600px) {
-
-    .occupation-3,
-    .project-checkbox-container {
-        flex-direction: row;
-    }
+	.occupation-3,
+	.project-checkbox-container {
+		flex-direction: row;
+	}
 }
 
 .occupation-3 select {
-    width: 248px;
-    height: 49px;
-    padding: 0.5em;
-    margin-bottom: 16px;
-    font-family: "Gotham Light";
-    font-size: 14px;
-    border: 2px #E50000 solid;
-    box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.4);
+	width: 248px;
+	height: 49px;
+	padding: 0.5em;
+	margin-bottom: 16px;
+	font-family: "Gotham Light";
+	font-size: 14px;
+	border: 2px #e50000 solid;
+	box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.4);
 }
 
 .project-checkbox {
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 228px;
-    height: 30px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 228px;
+	height: 30px;
 }
 
 .project-checkbox input[type="checkbox"] {
-    appearance: none;
-    width: 30px;
-    height: 30px;
-    border: 2px solid #E50000;
-    border-radius: 4px;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    cursor: pointer;
-    outline: none;
-    background-color: white;
-    /* Add background color for better contrast */
+	appearance: none;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #e50000;
+	border-radius: 4px;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	background-color: white;
+	/* Add background color for better contrast */
 }
 
 .project-checkbox input[type="checkbox"]::after {
-    content: "";
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 10px;
-    height: 19px;
-    border: solid #E50000;
-    border-width: 0 6px 6px 0;
-    transform: translate(-50%, -50%) rotate(45deg);
-    opacity: 0;
-    transition: opacity 0.2s ease-in-out;
+	content: "";
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 10px;
+	height: 19px;
+	border: solid #e50000;
+	border-width: 0 6px 6px 0;
+	transform: translate(-50%, -50%) rotate(45deg);
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
 }
 
 .project-checkbox input[type="checkbox"]:checked::after {
-    opacity: 1;
+	opacity: 1;
 }
 
 .project-checkbox label {
-    font-family: "Gotham Light";
-    font-size: 14px;
-    color: #333333;
-    cursor: pointer;
+	font-family: "Gotham Light";
+	font-size: 14px;
+	color: #333333;
+	cursor: pointer;
 }
 
 .project-checkbox-container {
-    display: flex;
-    gap: 10px;
+	display: flex;
+	gap: 10px;
 }
 
 .bedrijf::placeholder {
-    color: black;
-    font-family: "Gotham Light";
-    font-weight: 400;
+	color: black;
+	font-family: "Gotham Light";
+	font-weight: 400;
 }
 
 .continue {
-    position: relative;
-    border-radius: 0;
-    font-size: 16px;
-    overflow: hidden;
-    background-color: #e30613;
+	position: relative;
+	border-radius: 0;
+	font-size: 16px;
+	overflow: hidden;
+	background-color: #e30613;
 	color: white;
 	padding: 10px 15px;
 	font-family: "Gotham bold";
 	border-style: none;
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.4);
-    transition-duration: 0.5s;
+	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.4);
+	transition-duration: 0.5s;
 }
 
 .continue:hover {
-    background-color: #e30613;
-    color: white;
-    cursor: pointer;
-    box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
-    transition-duration: 0.5s;
+	background-color: #e30613;
+	color: white;
+	cursor: pointer;
+	box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
+	transition-duration: 0.5s;
 }
 
 .continue::before {
-    content: "Continue";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("./assets/BlueBackground.png") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    pointer-events: none;
+	content: "Continue";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("./assets/BlueBackground.png") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	pointer-events: none;
 }
 
 .loadingScreen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.8);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
 }
 
 .spinner {
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    border-top: 4px solid #3498db;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
+	border: 4px solid rgba(0, 0, 0, 0.1);
+	border-top: 4px solid #3498db;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	animation: spin 1s linear infinite;
 }
 .project-text .text-p {
-    font-family: "Gotham Book";
-    font-weight: 400;
-    color: #000000;
-    margin: 0 20px;
+	font-family: "Gotham Book";
+	font-weight: 400;
+	color: #000000;
+	margin: 0 20px;
 }
-
+@media (max-width: 420px) {
+	.titleActivities {
+		font-size: 4vh;
+	}
+}
 @media (max-width: 600px) {
+	.section-1,
+	.section-2 {
+		align-items: center;
+	}
 
-    .section-1,
-    .section-2 {
-        align-items: center;
-    }
+	.occupation-3 {
+		align-items: center;
+	}
 
-    .occupation-3 {
-        align-items: center;
-    }
+	.project-checkbox-container {
+		justify-content: center;
+		flex-direction: row;
+	}
 
-    .project-checkbox-container {
-        justify-content: center;
-        flex-direction: row;
-    }
+	.project-checkbox {
+		width: auto;
+	}
 
-    .project-checkbox {
-        width: auto;
-    }
-
-    .continue {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	.continue {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
-
-
-@media (max-width: 552px) {
-    .titleActivities{
-        font-size: 8vh;
-    }
+@media (max-width: 680px) {
+	.titleActivities {
+		font-size: 6vh;
+	}
 }
 
 @media (max-width: 452px) {
-    .titleActivities{
-        font-size: 6vh;
-    }
+	.titleActivities {
+		font-size: 40px;
+	}
 }
 
 @media (max-width: 349px) {
-    .titleActivities{
-        font-size: 4vh;
-    }
+	.titleActivities {
+		font-size: 4vh;
+	}
 }

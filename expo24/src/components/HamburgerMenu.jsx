@@ -40,7 +40,7 @@ const HamburgerMenu = () => {
 				</Link>
 
 				<Link to="https://multimedia.brussels/awards" onClick={closeMenu}>
-					Awards
+					Prijzen
 				</Link>
 				<Link to="https://multimedia.brussels" onClick={closeMenu}>
 					Projecten

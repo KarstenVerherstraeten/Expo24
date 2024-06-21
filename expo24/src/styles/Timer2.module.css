@@ -97,6 +97,22 @@
 	.time-block:last-child {
 		margin-right: 10px;
 	}
+
+
+	 /* Deze code voor tijdens */
+	 
+	/* .time-block{
+		max-width: 400px;
+	}
+
+	.time-block:last-child{
+		justify-content: center;
+		margin-right: 0px;
+	}
+	.time-block a{
+		align-items: center;
+		
+	} */
 }
 
 @media screen and (min-width: 700px) and (max-width: 1500px) {

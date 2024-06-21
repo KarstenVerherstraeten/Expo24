@@ -172,12 +172,6 @@ function Home() {
 				<Link to="/Inschrijving">
 					<VoteNow />
 				</Link>
-				{!showSignUp && (
-					<div className={homeCss.voteText}>
-						<p>Stem nu op de eindejaarswerken van de 3e jaars!</p>
-						<p>Geen code? Vraag er eentje aan op onze campus tijdens EXPO24</p>
-					</div>
-				)}
 			</div>
 			<Footer />
 		</>

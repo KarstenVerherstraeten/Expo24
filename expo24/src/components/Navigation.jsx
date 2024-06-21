@@ -38,7 +38,7 @@ function Navigation() {
 						</li>
 
 						<button className={styles.btn}>
-							<Link to="/Inschrijving">SCHRIJF JE IN</Link>
+							<Link to="https://multimedia.brussels/stem">STEM NU</Link>
 						</button>
 					</ul>
 				</div>

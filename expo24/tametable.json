@@ -133,7 +133,7 @@
         ]
     },
     {
-        "locatie": "TUIN",
+        "locatie": "MAKERSPACE",
         "title": "Slotshow",
         "hours": [
             { "start": "20u", "end": "20u30" }

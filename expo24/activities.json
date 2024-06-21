@@ -175,10 +175,10 @@
 		]
 	},
 	{
-		"locatie": "Tuin",
+		"locatie": "Makerspace",
 		"title": "SLOTSHOW",
 		"description": "Mis de spannende slotshow niet! Tijdens deze show worden drie prestigieuze prijzen uitgereikt aan de beste derdejaars eindprojecten van Multimedia & Creatieve Technologie. De prijzen zijn de Juryprijs, de Impactprijs en de Publieksprijs. De show begint om 20:00 uur, dus zorg dat je op tijd bent om te zien welke projecten in de prijzen vallen en om de winnaars te feliciteren. Het belooft een avond vol innovatie en inspiratie te worden!",
-		"backgroundColor": "#924AA2",
+		"backgroundColor": "#1281AE",
 		"images": "/Award.jpg",
 		"uren": [
 			{

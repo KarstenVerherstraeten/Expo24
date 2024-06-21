@@ -93,6 +93,7 @@ function Timetable() {
 					<p className={style.activityFrontend}>FRONTEND</p>
 					<p className={style.activityBackend}>BACKEND</p>
 					<p className={style.activityLasercut}>LASERCUT</p>
+					<p className={style.activitySlotshow}>SLOTSHOW</p>
 
 					<div className={style.meetupTitle} onClick={() => toggleActivities("meetup")}>
 						<h1>
@@ -145,7 +146,6 @@ function Timetable() {
 					))}
 					<p className={style.activityBBQ}>BBQ</p>
 					<p className={style.activityDrankje}>DRANKJE + MUZIEK</p>
-					<p className={style.activitySlotshow}>SLOTSHOW</p>
 				</div>
 				<div className={style.timetable}>
 					<p className={style.hour}>
